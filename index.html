@@ -83,14 +83,14 @@ const origem=m=>({pagina:'',api:' (interface oficial)',claude:' (rodada do Claud
 function leitura(c){
   const u=[];
   if(c.lido_em)u.push(`script ${dataBR(c.lido_em)} (${quando(c.lido_em)})`);
-  if(c.claude)u.push(`Claude ${dataBR(c.claude.em)}`);
+  if(c.claude)u.push(`Chrome ${dataBR(c.claude.em)} (${quando(c.claude.em)})`);
   return u.join(' · ')||'nunca lida';
 }
-function lendo(c){return c.itens>0||!!c.claude;}
+function lendo(c){return c.itens>0||!!c.claude?.itens;}
 function quadro(){
   const q=D.cobertura||[];if(!q.length){$('cob').innerHTML='<summary>Cobertura por loja: sem dado ainda</summary>';return;}
   const ob=q.filter(c=>c.obrigatoria),sem=ob.filter(c=>!lendo(c));
-  const linha=c=>{const s=c.estado+(c.motivo?' · '+c.motivo:'');return `<tr><td>${esc(c.loja)}</td><td>${c.itens}${c.claude?` <span class="sub">+ ${c.claude.itens} pelo Claude</span>`:''}</td><td>${esc(leitura(c))}</td><td class="${lendo(c)?'':'ruim'}">${esc(s)}${c.link&&!c.itens?` · <a href="${seguro(c.link)}" rel="noopener noreferrer" target="_blank">abrir a loja</a>`:''}</td></tr>`;};
+  const linha=c=>{const s=c.claude?.itens?`lida pelo Chrome${c.claude.motivo?' · '+c.claude.motivo:''}${c.itens?'':' · script barrado'}`:c.estado+(c.motivo?' · '+c.motivo:'')+(c.claude?.motivo?' · Chrome: '+c.claude.motivo:'');const l=c.claude&&!c.claude.itens&&c.claude.link||c.link;return `<tr><td>${esc(c.loja)}</td><td>${c.itens}${c.claude?` <span class="sub">+ ${c.claude.itens} pelo Chrome</span>`:''}</td><td>${esc(leitura(c))}</td><td class="${lendo(c)?'':'ruim'}">${esc(s)}${l&&!lendo(c)?` · <a href="${seguro(l)}" rel="noopener noreferrer" target="_blank">abrir a loja</a>`:''}</td></tr>`;};
   $('cob').innerHTML=`<summary>Cobertura: ${ob.length-sem.length} de ${ob.length} lojas obrigatórias com leitura${sem.length?' · sem leitura: '+esc(sem.map(c=>c.loja).join(', ')):''}</summary><div class="rolar"><table><tr><th>Loja</th><th>Itens lidos</th><th>Última leitura</th><th>Situação</th></tr>${q.map(linha).join('')}</table></div>`;
   $('cob').open=sem.length>0;
 }
