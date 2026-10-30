@@ -37,6 +37,9 @@ a{color:var(--marca)}
 .ana{background:var(--cartao);border:1px solid var(--linha);border-radius:10px;padding:4px 16px 16px;max-width:820px}
 table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--linha);vertical-align:top}
 .rolar{overflow-x:auto}
+.velho{color:var(--aviso);font-weight:600}
+.cob{background:var(--cartao);border:1px solid var(--linha);border-radius:10px;padding:10px 12px;margin-bottom:12px}
+.cob summary{color:var(--texto);font-weight:600}.cob .ruim{color:var(--ruim);font-weight:600}
 #tabela{display:none}
 #tabela td,#tabela th{font-size:.82rem}
 @media (min-width:1000px){#cartoes{display:none}#tabela{display:block}}
@@ -52,6 +55,7 @@ table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left
     <button role="tab" id="b-ana" aria-selected="false">Análise</button>
   </div>
   <section id="lista">
+    <details class="cob" id="cob"></details>
     <div class="filtros">
       <label>Preço final até<select id="f-preco"><option value="">qualquer</option><option>7000</option><option>7500</option><option>8000</option><option>8500</option></select></label>
       <label>Memória<select id="f-ram"><option value="">todas</option><option value="32">32 GB</option><option value="16">16 GB</option></select></label>
@@ -73,6 +77,23 @@ const us=v=>v==null?'—':'US$ '+v.toLocaleString('pt-BR',{minimumFractionDigits
 const rs=v=>v==null?'—':'R$ '+v.toLocaleString('pt-BR');
 function quando(iso){if(!iso)return'data desconhecida';const h=(Date.now()-new Date(iso))/36e5;if(h<1)return'há menos de 1 hora';if(h<36)return'há '+Math.round(h)+' h';return'há '+Math.round(h/24)+' dias';}
 function dataBR(s){const[a,m,d]=String(s).slice(0,10).split('-');return d+'/'+m+'/'+a;}
+const velho=iso=>!iso||(Date.now()-new Date(iso))/36e5>=36;
+const idade=iso=>velho(iso)?`<span class="velho">preço ${iso?'de '+dataBR(iso):'sem data'}, não é de hoje</span>`:'preço visto '+quando(iso);
+const origem=m=>({pagina:'',api:' (interface oficial)',claude:' (rodada do Claude)'}[m.fonte]??' (só na busca)');
+function leitura(c){
+  const u=[];
+  if(c.lido_em)u.push(`script ${dataBR(c.lido_em)} (${quando(c.lido_em)})`);
+  if(c.claude)u.push(`Claude ${dataBR(c.claude.em)}`);
+  return u.join(' · ')||'nunca lida';
+}
+function lendo(c){return c.itens>0||!!c.claude;}
+function quadro(){
+  const q=D.cobertura||[];if(!q.length){$('cob').innerHTML='<summary>Cobertura por loja: sem dado ainda</summary>';return;}
+  const ob=q.filter(c=>c.obrigatoria),sem=ob.filter(c=>!lendo(c));
+  const linha=c=>{const s=c.estado+(c.motivo?' · '+c.motivo:'');return `<tr><td>${esc(c.loja)}</td><td>${c.itens}${c.claude?` <span class="sub">+ ${c.claude.itens} pelo Claude</span>`:''}</td><td>${esc(leitura(c))}</td><td class="${lendo(c)?'':'ruim'}">${esc(s)}${c.link&&!c.itens?` · <a href="${seguro(c.link)}" rel="noopener noreferrer" target="_blank">abrir a loja</a>`:''}</td></tr>`;};
+  $('cob').innerHTML=`<summary>Cobertura: ${ob.length-sem.length} de ${ob.length} lojas obrigatórias com leitura${sem.length?' · sem leitura: '+esc(sem.map(c=>c.loja).join(', ')):''}</summary><div class="rolar"><table><tr><th>Loja</th><th>Itens lidos</th><th>Última leitura</th><th>Situação</th></tr>${q.map(linha).join('')}</table></div>`;
+  $('cob').open=sem.length>0;
+}
 let D;
 function cartao(m){
   const et=[...m.etiquetas.map(e=>`<span class="${e==='acima do teto'?'ruim':''}" title="${esc(e==='conferir'?(m.conferir||[]).join('; '):'')}">${esc(e)}</span>`)];
@@ -80,14 +101,14 @@ function cartao(m){
   else if(m.usd<=m.menor_visto&&D.bf)et.unshift('<span class="bom">menor já visto</span>');
   if(m.estoque===false)et.unshift('<span class="ruim">esgotado</span>');
   const antes=m.antes?`<div class="sub">"Antes" segundo a loja: ${us(m.antes)} · menor que já vimos: ${us(m.menor_visto)}</div>`:`<div class="sub">Menor que já vimos: ${us(m.menor_visto)}</div>`;
-  const out=(m.outras||[]).map(o=>`<li><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)}${o.vendedor?' · '+esc(o.vendedor):''} · visto ${quando(o.visto)}</li>`).join('');
+  const out=(m.outras||[]).map(o=>`<li><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)}${o.vendedor?' · '+esc(o.vendedor):''} · ${idade(o.visto)}</li>`).join('');
   return `<article class="c"><h3>${m.pos}. ${esc(m.nome)}</h3>
   <div class="et">${et.join('')}</div>
   <div class="preco">${rs(m.rs)} <small>${us(m.usd)} na etiqueta</small></div>
   ${m.rs_com_pente?`<div class="sub">Com pente de memória até 32 GB: cerca de ${rs(m.rs_com_pente)}</div>`:''}
   ${antes}
   <a class="botao" href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">Ver na ${esc(m.loja)}</a>
-  <div class="sub">${m.direto?'Venda direta':'Vendedor: '+esc(m.vendedor||'não lido')} · preço visto ${quando(m.visto)}${m.fonte==='pagina'?'':' (só na busca)'}</div>
+  <div class="sub">${m.direto?'Venda direta':'Vendedor: '+esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>
   <dl>
    <dt>Processador</dt><dd>${esc(m.cpu||'não lido')}${m.cinebench?` · ${m.cinebench.um.toLocaleString('pt-BR')} / ${m.cinebench.varios.toLocaleString('pt-BR')}`:''}</dd>
    <dt>Placa</dt><dd>${esc(m.placa||'RTX '+(m.gpu||'?'))}</dd>
@@ -102,7 +123,7 @@ function cartao(m){
   </article>`;
 }
 function etq(m){return m.etiquetas.concat(m.estoque===false?['esgotado']:[],m.promo?['caiu '+m.promo.queda_pct+'%']:[]).join(' · ');}
-function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div></td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${quando(m.visto)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td><td>${esc(m.peso||'não levantado')}</td></tr>`;}
+function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div></td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)} · ${idade(o.visto)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td><td>${esc(m.peso||'não levantado')}</td></tr>`;}
 function desenhar(){
   const p=+$('f-preco').value,r=$('f-ram').value,g=$('f-gpu').value,t=$('f-tam').value,e=$('f-est').value;
   const v=D.modelos.filter(m=>(!p||m.rs<=p)&&(!r||String(m.ram)===r)&&(!g||(g==='5060'?/^5060/.test(m.gpu):!/^5060/.test(m.gpu)))&&
@@ -116,7 +137,6 @@ function analise(a){
   $('ana-c').innerHTML=`<p class="sub">Escrita em ${dataBR(a.data)}. Os preços daqui podem estar mais velhos que os da Lista.</p>`+a.secoes.map(s=>`<h2>${esc(s.titulo)}</h2>`+(s.paragrafos||[]).map(t=>`<p>${esc(t)}</p>`).join('')+
    (s.itens?`<ul>${s.itens.map(i=>`<li>${i.url?`<a href="${seguro(i.url)}" rel="noopener noreferrer" target="_blank">${esc(i.nome)}</a>`:esc(i.nome)}${i.texto?': '+esc(i.texto):''}</li>`).join('')}</ul>`:'')+
    (s.tabela?`<div class="rolar"><table><tr>${s.tabela[0].map(c=>`<th>${esc(c)}</th>`).join('')}</tr>${s.tabela.slice(1).map(l=>`<tr>${l.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</table></div>`:'')).join('');
-  if(D.cobertura&&D.cobertura.length)$('ana-c').innerHTML+=`<h2>Cobertura da última varredura (${quando(D.varredura_em)})</h2><div class="rolar"><table><tr><th>Loja</th><th>Itens lidos</th><th>Situação</th></tr>${D.cobertura.map(c=>`<tr><td>${esc(c.loja)}</td><td>${c.itens}</td><td>${esc(c.estado)}${c.motivo?' · '+esc(c.motivo):''}</td></tr>`).join('')}</table></div>`;
 }
 function aba(q){const l=q==='lista';$('lista').hidden=!l;$('ana').hidden=l;$('b-lista').setAttribute('aria-selected',l);$('b-ana').setAttribute('aria-selected',!l);}
 $('b-lista').onclick=()=>aba('lista');$('b-ana').onclick=()=>aba('ana');
@@ -126,7 +146,7 @@ $('b-lista').onclick=()=>aba('lista');$('b-ana').onclick=()=>aba('ana');
   $('idade').textContent='atualizado '+quando(D.gerado);
   $('cambio').textContent=`Câmbio ${D.cambio.valor.toLocaleString('pt-BR',{minimumFractionDigits:4})} (${D.cambio.fonte}, ${dataBR(D.cambio.data)}). Preço final = etiqueta × 1,095 × câmbio. Teto: US$ ${D.teto_usd.toLocaleString('pt-BR')}. A página da loja é sempre a palavra final.`;
   if((Date.now()-new Date(D.gerado))/36e5>36)$('alerta').innerHTML='<div class="alerta">Dados com mais de 36 horas. Os preços podem estar velhos.</div>';
-  desenhar();
+  quadro();desenhar();
   analise(await fetch('analise.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>null));
 })();
 </script>
