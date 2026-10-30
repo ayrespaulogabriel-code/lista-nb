@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-30T21:30:05.750Z",
+ "gerado": "2026-10-30T21:30:23.252Z",
  "modo": "monitor",
  "bf": false,
  "cambio": {
@@ -1705,96 +1705,6 @@
    "pos": 37
   },
   {
-   "chave": "solo:https://www.amazon.com/dp/B0GM7S7RY2",
-   "nome": "MSI · RTX 5060 · 16 GB · 1TB",
-   "titulo": "msi Cyborg A15 AI 15.6\" FHD 144Hz Gaming, R9 270, 16GB,1TB, RTX 5060,",
-   "marca": "MSI",
-   "cpu": null,
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 15.6,
-   "tela": "fhd",
-   "usd": 1329.49,
-   "com_imposto": 1455.79,
-   "rs": 7892,
-   "rs_com_pente": 9317,
-   "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0GM7S7RY2",
-   "vendedor": "BatzmaruEbiz",
-   "direto": false,
-   "estoque": true,
-   "visto": "2026-10-30T13:01:10.694Z",
-   "fonte": "pagina",
-   "antes": null,
-   "outras": [],
-   "menor_visto": 1329.49,
-   "promo": null,
-   "etiquetas": [
-    "em avaliação",
-    "conferir",
-    "não confirmado"
-   ],
-   "conferir": [
-    "junção entre lojas não confirmada"
-   ],
-   "ssd2": "não confirmado",
-   "memoria": null,
-   "placa": null,
-   "watts": null,
-   "ruido": null,
-   "topo": null,
-   "tela_ficha": null,
-   "peso": null,
-   "cinebench": null,
-   "pos": 38
-  },
-  {
-   "chave": "pn:B2HWFKG-006US:16gb",
-   "nome": "MSI · RTX 5060 · 16 GB · 1TB",
-   "titulo": "MSI Cyborg A15 AI B2HWFKG-006US 15.6\" FHD Gaming Laptop - MSI-US Official Store",
-   "marca": "MSI",
-   "cpu": null,
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 15.6,
-   "tela": "fhd",
-   "usd": 1349.99,
-   "com_imposto": 1478.24,
-   "rs": 8014,
-   "rs_com_pente": 9439,
-   "loja": "Lojas oficiais e AliExpress",
-   "url": "https://us-store.msi.com/Laptops/Gaming-Series/Cyborg-A15-AI-B2HWFKG-006US",
-   "vendedor": null,
-   "direto": false,
-   "estoque": null,
-   "visto": "2026-10-30T12:57:43.223Z",
-   "fonte": "pagina",
-   "antes": null,
-   "outras": [],
-   "menor_visto": 1349.99,
-   "promo": null,
-   "etiquetas": [
-    "em avaliação",
-    "conferir",
-    "não confirmado"
-   ],
-   "conferir": [
-    "vendedor não lido"
-   ],
-   "ssd2": "não confirmado",
-   "memoria": null,
-   "placa": null,
-   "watts": null,
-   "ruido": null,
-   "topo": null,
-   "tela_ficha": null,
-   "peso": null,
-   "cinebench": null,
-   "pos": 39
-  },
-  {
    "chave": "pn:B2RWFKG-074US:16gb",
    "nome": "MSI · RTX 5060 · 16 GB · 1TB",
    "titulo": "msi Cyborg 17 17.3\" FHD 144Hz Gaming Laptop: Intel Core 7-240H, NVIDIA Geforce RTX 5060, 16GB DDR5, 1TB NVMe SSD, Type C, Wi-Fi 6E, Win 11 Home: Translucent Black B2RWFKG-074US",
@@ -1834,7 +1744,7 @@
    "tela_ficha": null,
    "peso": null,
    "cinebench": null,
-   "pos": 40
+   "pos": 38
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0HMGYKX26",
@@ -1879,7 +1789,7 @@
    "tela_ficha": null,
    "peso": null,
    "cinebench": null,
-   "pos": 41
+   "pos": 39
   },
   {
    "chave": "pn:ANV17-41-R8ML:16gb",
@@ -1925,7 +1835,7 @@
    "tela_ficha": null,
    "peso": null,
    "cinebench": null,
-   "pos": 42
+   "pos": 40
   },
   {
    "chave": "sp:hp|omen 16|ryzen 9 8940hx|5060|16gb|512gb|fhd",
@@ -1969,7 +1879,7 @@
     "um": 1917,
     "varios": 32521
    },
-   "pos": 43
+   "pos": 41
   },
   {
    "chave": "sp:lenovo|legion 5i|i7-14700hx|5060|16gb|1tb|alta",
@@ -2013,7 +1923,7 @@
     "um": 2103,
     "varios": 24595
    },
-   "pos": 44
+   "pos": 42
   },
   {
    "chave": "sp:asus|tuf f16|i7-14650hx|5060|16gb|512gb|fhd",
@@ -2059,7 +1969,7 @@
     "um": 1963,
     "varios": 24455
    },
-   "pos": 45
+   "pos": 43
   },
   {
    "chave": "sp:gigabyte|gaming a16|i7-13620h|5070|16gb|1tb|fhd",
@@ -2103,7 +2013,7 @@
     "um": 1833,
     "varios": 15176
    },
-   "pos": 46
+   "pos": 44
   },
   {
    "chave": "sp:gigabyte|gaming a16|ryzen 7 260|5060|16gb|1tb|fhd",
@@ -2147,7 +2057,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 47
+   "pos": 45
   },
   {
    "chave": "sp:dell|alienware 15|ryzen 7 260|5060|16gb|1tb|fhd",
@@ -2193,7 +2103,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 48
+   "pos": 46
   },
   {
    "chave": "sp:asus|tuf a18|ryzen 7 260|5060|16gb|1tb|fhd",
@@ -2239,7 +2149,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 49
+   "pos": 47
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0H992GJ6X",
@@ -2288,7 +2198,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 50
+   "pos": 48
   },
   {
    "chave": "sp:asus|tuf gaming a18|ryzen 7 260|5060|16gb|1tb|fhd",
@@ -2334,7 +2244,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 51
+   "pos": 49
   },
   {
    "chave": "sp:lenovo|legion 5|ryzen 7 260|5060|16gb|512gb|alta",
@@ -2397,7 +2307,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 52
+   "pos": 50
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0HKVZ7WBZ",
@@ -2446,7 +2356,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 53
+   "pos": 51
   },
   {
    "chave": "sp:lenovo|legion 5|ryzen 7 250|5060|16gb|512gb|alta",
@@ -2501,7 +2411,7 @@
     "um": 1715,
     "varios": 14676
    },
-   "pos": 54
+   "pos": 52
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0FRNMC7G1",
@@ -2545,7 +2455,7 @@
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
    "peso": "não levantado",
    "cinebench": null,
-   "pos": 55
+   "pos": 53
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0FRNL6NQ7",
@@ -2589,7 +2499,7 @@
    "tela_ficha": "1920×1200 180 Hz, brilho não medido; versão 2,5K 425 nits, 93% sRGB, sem PWM",
    "peso": "não levantado",
    "cinebench": null,
-   "pos": 56
+   "pos": 54
   },
   {
    "chave": "solo:https://www.walmart.com/ip/20785416889",
@@ -2635,7 +2545,7 @@
    "tela_ficha": null,
    "peso": null,
    "cinebench": null,
-   "pos": 57
+   "pos": 55
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0FRNMJGJR",
@@ -2681,7 +2591,7 @@
    "tela_ficha": null,
    "peso": null,
    "cinebench": null,
-   "pos": 58
+   "pos": 56
   }
  ],
  "varredura_em": "2026-10-30T12:53:57.670Z"
