@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-30T23:03:48.093Z",
+ "gerado": "2026-10-30T23:24:03.141Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -28,11 +28,19 @@
    "loja": "Best Buy",
    "itens": 7,
    "paginas": 2,
-   "motivo": "resposta 403, bloqueio",
-   "link": "https://www.bestbuy.com/site/searchpage.jsp?st=gaming+laptop&intl=nosplash&qp=currentprice_facet%3DPrice~700%20to%201700&sp=%2Bcurrentprice%20skuidsaas&cp=2",
    "estado": "parcial",
+   "motivo": "resposta 403, bloqueio",
    "lido_em": "2026-10-30T23:03:48.093Z",
    "ok_em": "2026-10-30T23:03:48.093Z",
+   "link": "https://www.bestbuy.com/site/searchpage.jsp?st=gaming+laptop&intl=nosplash&qp=currentprice_facet%3DPrice~700%20to%201700&sp=%2Bcurrentprice%20skuidsaas&cp=2",
+   "claude": {
+    "itens": 4,
+    "paginas": 3,
+    "estado": "ok",
+    "motivo": "só a ficha do Aero e 1 busca sem preço na lista",
+    "link": "script barrado",
+    "em": "2026-10-30T23:35:00.000Z"
+   },
    "obrigatoria": true
   },
   {
@@ -172,44 +180,6 @@
    "obrigatoria": false
   },
   {
-   "loja": "Office Depot",
-   "itens": 0,
-   "paginas": 1,
-   "estado": "não verificado",
-   "motivo": "resposta 200, bloqueio por país",
-   "lido_em": "2026-10-30T23:03:48.093Z",
-   "ok_em": null,
-   "link": "https://www.officedepot.com/a/search/?q=rtx%205060%20laptop",
-   "claude": {
-    "itens": 0,
-    "paginas": 1,
-    "estado": "não verificado",
-    "motivo": "a loja diz não estar disponível no Brasil",
-    "link": "https://www.officedepot.com/a/search/?q=rtx%205060%20laptop",
-    "em": "2026-10-30T23:05:00.000Z"
-   },
-   "obrigatoria": false
-  },
-  {
-   "loja": "Micro Center",
-   "itens": 0,
-   "paginas": 1,
-   "estado": "não verificado",
-   "motivo": "resposta 403, Cloudflare 403",
-   "lido_em": "2026-10-30T23:03:48.093Z",
-   "ok_em": null,
-   "link": "https://www.microcenter.com/search/search_results.aspx?Ntt=rtx+laptop",
-   "claude": {
-    "itens": 0,
-    "paginas": 1,
-    "estado": "não verificado",
-    "motivo": "Cloudflare bloqueou também o Chrome real",
-    "link": "https://www.microcenter.com/search/search_results.aspx?Ntt=rtx+laptop",
-    "em": "2026-10-30T23:05:00.000Z"
-   },
-   "obrigatoria": false
-  },
-  {
    "loja": "Lojas oficiais",
    "itens": 53,
    "paginas": 8,
@@ -238,19 +208,29 @@
     "em": "2026-10-30T23:05:00.000Z"
    },
    "obrigatoria": false
+  },
+  {
+   "loja": "GamingLaptop.Deals",
+   "itens": 15,
+   "paginas": 1,
+   "motivo": null,
+   "estado": "ok",
+   "lido_em": "2026-10-30T23:24:03.141Z",
+   "ok_em": "2026-10-30T23:24:03.141Z",
+   "obrigatoria": false
   }
  ],
  "modelos": [
   {
-   "chave": "pn:1VH93USC64AH:32gb",
+   "chave": "sp:gigabyte|aero x16|ryzen ai 7 350|5060|32gb|1tb|alta",
    "nome": "Gigabyte Aero X16 · Ryzen AI 7 350 · RTX 5060 · 32 GB · 1TB",
-   "titulo": "Gigabyte Aero X16 RTX 5060 32 GB (1VH93USC64AH) laptop",
+   "titulo": "Gigabyte Aero X16 Copilot+ PC 16\" 2560x1600 WQXGA Ryzen AI 7 350 1TB SSD 32GB DDR5 RTX RTX 5060 laptop laptop",
    "marca": "Gigabyte",
    "cpu": "Ryzen AI 7 350",
    "gpu": "5060",
    "ram": 32,
    "ssd": "1TB",
-   "polegadas": null,
+   "polegadas": 16,
    "tela": "alta",
    "usd": 1299.99,
    "com_imposto": 1423.49,
@@ -261,8 +241,8 @@
    "vendedor": "Best Buy",
    "direto": true,
    "estoque": true,
-   "visto": "2026-10-30T12:00:00.000Z",
-   "fonte": "pagina",
+   "visto": "2026-10-30T23:35:00.000Z",
+   "fonte": "claude",
    "antes": null,
    "suspeito": false,
    "outras": [
@@ -271,13 +251,25 @@
      "usd": 1497.98,
      "url": "https://www.walmart.com/ip/18371266890",
      "vendedor": "Velztorm PC",
-     "visto": "2026-10-30T22:47:50.557Z"
+     "visto": "2026-10-30T23:05:00.000Z"
+    },
+    {
+     "loja": "Amazon",
+     "usd": 1564.99,
+     "url": "https://www.amazon.com/dp/B0G2H9WPGH",
+     "vendedor": "REFPCKing",
+     "visto": "2026-10-30T23:00:25.093Z",
+     "estoque": true
     }
    ],
    "menor_visto": 1299.99,
    "promo": null,
-   "etiquetas": [],
-   "conferir": [],
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "preço lido pelo Claude no Chrome, com data; o script não abre esta loja"
+   ],
    "ssd2": "sim",
    "memoria": "2 entradas, até 64 GB, nada soldado (Gigabyte)",
    "placa": "limitada: 85 W medidos na versão RTX 5070 (NBC 1022304); para a 5060, valor não provado por essa fonte (Gigabyte não publica)",
@@ -291,58 +283,6 @@
     "varios": 16014
    },
    "pos": 1
-  },
-  {
-   "chave": "pn:ANV16-72-73C7:32gb",
-   "nome": "Acer Nitro V16 · Core 7 240H · RTX 5060 · 32 GB · 512GB",
-   "titulo": "Acer Nitro V16 16.0\" WUXGA 180Hz Gaming Laptop, Intel Core 7 240H, GeForce RTX 5060, 32GB DDR5, 512GB PCIe Gen 4 SSD, Windows 11 Home ANV16-72-73C7 - Newegg.com",
-   "marca": "Acer",
-   "cpu": "Core 7 240H",
-   "gpu": "5060",
-   "ram": 32,
-   "ssd": "512GB",
-   "polegadas": 16,
-   "tela": "fhd",
-   "usd": 1349.99,
-   "com_imposto": 1478.24,
-   "rs": 8014,
-   "rs_com_pente": null,
-   "loja": "Newegg",
-   "url": "https://www.newegg.com/p/N82E16834360411",
-   "vendedor": "Newegg",
-   "direto": true,
-   "estoque": true,
-   "visto": "2026-10-30T12:50:09.157Z",
-   "fonte": "pagina",
-   "antes": null,
-   "suspeito": false,
-   "outras": [
-    {
-     "loja": "Walmart",
-     "usd": 1349.99,
-     "url": "https://www.walmart.com/ip/17815365872",
-     "vendedor": "Newegg Inc.",
-     "visto": "2026-10-30T22:47:50.557Z",
-     "estoque": true
-    }
-   ],
-   "menor_visto": 1349.99,
-   "promo": null,
-   "etiquetas": [],
-   "conferir": [],
-   "ssd2": "sim",
-   "memoria": "2 pentes, máx. oficial 32 GB",
-   "placa": "limitada, 85 W (ficha do modelo; tabela da família diz 95 W)",
-   "watts": 85,
-   "ruido": "sem números; LM: processador ~100 °C (versão i9)",
-   "topo": "sem medição",
-   "tela_ficha": "1920×1200 180 Hz, brilho não medido; versão 2,5K 425 nits, 93% sRGB, sem PWM",
-   "peso": "não levantado",
-   "cinebench": {
-    "um": 1715,
-    "varios": 15225
-   },
-   "pos": 2
   },
   {
    "chave": "sp:acer|nitro v 16|core 7 240h|5060|32gb|512gb|fhd",
@@ -360,9 +300,10 @@
    "rs": 8014,
    "rs_com_pente": null,
    "loja": "Newegg",
-   "url": "https://www.newegg.com/acer-america-nitro-v-16-0-geforce-rtx-5060-laptop-gpu-up-to-5-20-ghz-wuxga-32gb-memory-512gb-pcie-gen-4-ssd-ssd/p/N82E16834360411",
+   "url": "https://www.newegg.com/p/N82E16834360411",
    "vendedor": "Newegg",
    "direto": true,
+   "estoque": true,
    "visto": "2026-10-30T23:05:00.000Z",
    "fonte": "claude",
    "antes": null,
@@ -388,7 +329,7 @@
     "um": 1715,
     "varios": 15225
    },
-   "pos": 3
+   "pos": 2
   },
   {
    "chave": "pn:ANV16S-41-R2AJ:32gb",
@@ -430,6 +371,55 @@
    "cinebench": {
     "um": 1770,
     "varios": 17211
+   },
+   "pos": 3
+  },
+  {
+   "chave": "pn:ANV16-72-73C7:32gb",
+   "nome": "Acer · Core 7 240H · RTX 5060 · 32 GB · 512GB",
+   "titulo": "Acer Nitro V ANV16-72-73C7 16\" WUXGA Core 7 240H GeForce RTX RTX 5060 32GB 512GB SSD Gaming Laptop laptop",
+   "marca": "Acer",
+   "cpu": "Core 7 240H",
+   "gpu": "5060",
+   "ram": 32,
+   "ssd": "512GB",
+   "polegadas": 16,
+   "tela": "fhd",
+   "usd": 1349.99,
+   "com_imposto": 1478.24,
+   "rs": 8014,
+   "rs_com_pente": null,
+   "loja": "Walmart",
+   "url": "https://www.walmart.com/ip/17815365872",
+   "vendedor": "Newegg Inc.",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-30T23:05:00.000Z",
+   "fonte": "claude",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1349.99,
+   "promo": null,
+   "etiquetas": [
+    "em avaliação",
+    "conferir",
+    "não confirmado"
+   ],
+   "conferir": [
+    "preço lido pelo Claude no Chrome, com data; o script não abre esta loja"
+   ],
+   "ssd2": "não confirmado",
+   "memoria": null,
+   "placa": null,
+   "watts": null,
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "peso": null,
+   "cinebench": {
+    "um": 1715,
+    "varios": 15225
    },
    "pos": 4
   },
@@ -1051,7 +1041,7 @@
   {
    "chave": "sp:asus|tuf f16|i7-14650hx|5060|16gb|512gb|fhd",
    "nome": "ASUS Tuf F16 · i7-14650HX · RTX 5060 · 16 GB · 512GB",
-   "titulo": "ASUS TUF F16 Gaming Laptop | 16\" FHD+ 165Hz 1 | Intel® Core™ i7-14650HX | NVIDIA® GeForce RTX™ 5060 | 16GB DDR5 RAM | 512GB SSD | Windows 11 Home - Samsclub.com",
+   "titulo": "ASUS TUF F16 Gaming Laptop 16\" FHD+ Core i7-14650HX GeForce RTX RTX 5060 16GB DDR5 512GB SSD laptop",
    "marca": "ASUS",
    "cpu": "i7-14650HX",
    "gpu": "5060",
@@ -1068,8 +1058,8 @@
    "vendedor": "Sam's Club",
    "direto": true,
    "estoque": true,
-   "visto": "2026-10-30T23:03:34.028Z",
-   "fonte": "pagina",
+   "visto": "2026-10-30T23:05:00.000Z",
+   "fonte": "claude",
    "antes": null,
    "suspeito": false,
    "outras": [
@@ -1083,8 +1073,12 @@
    ],
    "menor_visto": 1399,
    "promo": null,
-   "etiquetas": [],
-   "conferir": [],
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "preço lido pelo Claude no Chrome, com data; o script não abre esta loja"
+   ],
    "ssd2": "sim",
    "memoria": "2 pentes, até 64 GB",
    "placa": "não levantado",
@@ -1452,11 +1446,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1424,
-   "promo": {
-    "queda_usd": 1,
-    "queda_pct": 0.1,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "não confirmado"
@@ -1479,7 +1469,7 @@
   {
    "chave": "sp:lenovo|loq 15|ryzen 7 250|5060|16gb|512gb|fhd",
    "nome": "Lenovo Loq 15 · Ryzen 7 250 · RTX 5060 · 16 GB · 512GB",
-   "titulo": "Lenovo LOQ 15.3\" WUXGA IPS 165Hz AI-Powered Gaming Notebook AMD Ryzen 7 250 16GB RAM 512GB SSD NVIDIA GeForce RTX 5060 Luna Grey",
+   "titulo": "Lenovo LOQ 15 (2026) AMD Ryzen 7 250 NVIDIA RTX 5060 - 8GB 16GB DDR5-5600 512GB PCIe Gen 4 SSD 15.3\" 1920 x 1200 165Hz gaming laptop",
    "marca": "Lenovo",
    "cpu": "Ryzen 7 250",
    "gpu": "5060",
@@ -1487,19 +1477,27 @@
    "ssd": "512GB",
    "polegadas": 15.3,
    "tela": "fhd",
-   "usd": 1299.99,
-   "com_imposto": 1423.49,
-   "rs": 7717,
-   "rs_com_pente": 9142,
-   "loja": "Walmart",
-   "url": "https://www.walmart.com/ip/5335805068",
-   "vendedor": "antonline.com",
+   "usd": 1199.99,
+   "com_imposto": 1313.99,
+   "rs": 7123,
+   "rs_com_pente": 8548,
+   "loja": "Best Buy",
+   "url": "https://www.bestbuy.com/product/lenovo-loq-15-3-wuxga-ips-165hz-ai-powered-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd-nvidia-geforce-rtx-5060-luna-grey/JJGH3RXTSH",
+   "vendedor": "antonline",
    "direto": false,
-   "visto": "2026-10-30T22:47:50.557Z",
-   "fonte": "busca",
-   "antes": null,
+   "estoque": true,
+   "visto": "2026-10-30T23:16:42.759Z",
+   "fonte": "gamingdeals",
+   "antes": 1349.99,
    "suspeito": false,
    "outras": [
+    {
+     "loja": "Walmart",
+     "usd": 1299.99,
+     "url": "https://www.walmart.com/ip/5335805068",
+     "vendedor": "antonline.com",
+     "visto": "2026-10-30T22:47:50.557Z"
+    },
     {
      "loja": "Amazon",
      "usd": 1299.99,
@@ -1516,13 +1514,13 @@
      "estoque": null
     }
    ],
-   "menor_visto": 1249.99,
+   "menor_visto": 1199.99,
    "promo": null,
    "etiquetas": [
     "conferir"
    ],
    "conferir": [
-    "preço visto só na busca"
+    "preço do GamingLaptop.Deals, com data; conferir na loja antes de comprar"
    ],
    "ssd2": "sim",
    "memoria": "2 pentes, máx. oficial 32 GB (de fábrica 16 GB)",
@@ -1629,50 +1627,6 @@
    "pos": 29
   },
   {
-   "chave": "solo:https://www.bestbuy.com/product/lenovo-loq-15-3-wuxga-ips-165hz-ai-powered-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd-nvidia-geforce-rtx-5060-luna-grey/JJGH3RXTSH",
-   "nome": "Lenovo Loq 15 · RTX 5060 · 16 GB · 512GB",
-   "titulo": "Lenovo LOQ 15,3\" R7 250/RTX 5060/16 GB/512 GB laptop",
-   "marca": "Lenovo",
-   "cpu": null,
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "512GB",
-   "polegadas": null,
-   "tela": null,
-   "usd": 1199.99,
-   "com_imposto": 1313.99,
-   "rs": 7123,
-   "rs_com_pente": 8548,
-   "loja": "Best Buy",
-   "url": "https://www.bestbuy.com/product/lenovo-loq-15-3-wuxga-ips-165hz-ai-powered-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd-nvidia-geforce-rtx-5060-luna-grey/JJGH3RXTSH",
-   "vendedor": "antonline",
-   "direto": false,
-   "estoque": true,
-   "visto": "2026-10-30T12:00:00.000Z",
-   "fonte": "pagina",
-   "antes": null,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1199.99,
-   "promo": null,
-   "etiquetas": [
-    "conferir"
-   ],
-   "conferir": [
-    "junção entre lojas não confirmada"
-   ],
-   "ssd2": "sim",
-   "memoria": "2 pentes, máx. oficial 32 GB (de fábrica 16 GB)",
-   "placa": "máxima, 115 W",
-   "watts": 115,
-   "ruido": "43–48 (modo Desempenho) / até 53 dB",
-   "topo": "29,8 °C / até 49 °C",
-   "tela_ficha": "1920×1080, 300 nits, ~100% sRGB, sem PWM",
-   "peso": "2,4 kg",
-   "cinebench": null,
-   "pos": 30
-  },
-  {
    "chave": "solo:https://www.walmart.com/ip/20106954575",
    "nome": "HP Hyperx Omen 15 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 1TB",
    "titulo": "HyperX OMEN 15.3\" Gaming Laptop, 2K IPS 165Hz, AMD Ryzen 7 8745HX, NVIDIA GeForce RTX 5060, 16GB, 1TB SSD, Windows 11, Iridescent Black",
@@ -1705,6 +1659,52 @@
    ],
    "conferir": [
     "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não confirmado",
+   "memoria": "SO-DIMM (anúncios europeus: 1×24 GB \"expansível\"); nº de entradas não confirmado",
+   "placa": "115 W segundo rgl.deals (não conferido no fabricante)",
+   "watts": 115,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1200 165 Hz neste modelo, brilho não medido",
+   "peso": "2,42 kg (rgl.deals)",
+   "cinebench": null,
+   "pos": 30
+  },
+  {
+   "chave": "sp:hp|hyperx omen 15|ryzen 7 8745hx|5060|16gb|1tb|fhd",
+   "nome": "HP Hyperx Omen 15 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 1TB",
+   "titulo": "HP HyperX Omen 15 (2026) AMD Ryzen 7 8745HX NVIDIA RTX 5060 - 8GB 16GB DDR5 1TB PCIe Gen 4 SSD 15.3\" 1920 x 1200 165Hz gaming laptop",
+   "marca": "HP",
+   "cpu": "Ryzen 7 8745HX",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.3,
+   "tela": "fhd",
+   "usd": 1199,
+   "com_imposto": 1312.9,
+   "rs": 7118,
+   "rs_com_pente": 8542,
+   "loja": "Walmart",
+   "url": "https://www.walmart.com/ip/HyperX-OMEN-15-inch-Gaming-Laptop-PC-15-gb0070wm/20106954575",
+   "vendedor": null,
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-30T23:16:10.401Z",
+   "fonte": "gamingdeals",
+   "antes": 1899,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1199,
+   "promo": null,
+   "etiquetas": [
+    "conferir",
+    "não confirmado"
+   ],
+   "conferir": [
+    "preço do GamingLaptop.Deals, com data; conferir na loja antes de comprar",
+    "vendedor não lido"
    ],
    "ssd2": "não confirmado",
    "memoria": "SO-DIMM (anúncios europeus: 1×24 GB \"expansível\"); nº de entradas não confirmado",
@@ -2745,11 +2745,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1479.99,
-   "promo": {
-    "queda_usd": 9.01,
-    "queda_pct": 0.6,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto",
     "em avaliação",
@@ -2773,7 +2769,7 @@
   {
    "chave": "solo:https://www.costco.com/p/-/msi-cyborg-173-gaming-laptop--amd-ryzen-7-260--nvidia-geforce-rtx-5060--1920x1080-fhd-display--16gb-ram--1tb-ssd--windows-11/4201008289",
    "nome": "MSI · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
-   "titulo": "MSI Cyborg 17.3\" Gaming Laptop — AMD Ryzen 7 260 — NVIDIA GeForce RTX 5060 — 1920x1080 FHD Display — 16GB RAM — 1TB SSD — Windows 11 . | Costco",
+   "titulo": "MSI Cyborg 17.3\" Gaming Laptop Ryzen 7 260 RTX RTX 5060 FHD 16GB 1TB SSD laptop",
    "marca": "MSI",
    "cpu": "Ryzen 7 260",
    "gpu": "5060",
@@ -2822,5 +2818,5 @@
    "pos": 55
   }
  ],
- "varredura_em": "2026-10-30T23:03:48.093Z"
+ "varredura_em": "2026-10-30T23:24:03.141Z"
 }

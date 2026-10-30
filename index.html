@@ -79,7 +79,7 @@ function quando(iso){if(!iso)return'data desconhecida';const h=(Date.now()-new D
 function dataBR(s){const[a,m,d]=String(s).slice(0,10).split('-');return d+'/'+m+'/'+a;}
 const velho=iso=>!iso||(Date.now()-new Date(iso))/36e5>=36;
 const idade=iso=>velho(iso)?`<span class="velho">preço ${iso?'de '+dataBR(iso):'sem data'}, não é de hoje</span>`:'preço visto '+quando(iso);
-const origem=m=>({pagina:'',api:' (interface oficial)',claude:' (rodada do Claude)'}[m.fonte]??' (só na busca)');
+const origem=m=>({pagina:'',api:' (interface oficial)',claude:' (lido no Chrome)',gamingdeals:' (GamingLaptop.Deals)'}[m.fonte]??' (só na busca)');
 function leitura(c){
   const u=[];
   if(c.lido_em)u.push(`script ${dataBR(c.lido_em)} (${quando(c.lido_em)})`);
