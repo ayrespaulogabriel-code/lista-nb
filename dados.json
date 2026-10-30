@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-30T21:33:57.038Z",
+ "gerado": "2026-10-30T21:42:20.023Z",
  "modo": "monitor",
  "bf": false,
  "cambio": {
@@ -162,7 +162,7 @@
    "obrigatoria": false
   },
   {
-   "loja": "Lojas oficiais e AliExpress",
+   "loja": "Lojas oficiais",
    "itens": 121,
    "paginas": 10,
    "motivo": "resposta 200, bloqueio",
