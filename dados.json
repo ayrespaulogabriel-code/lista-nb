@@ -1,6 +1,6 @@
 {
- "gerado": "2026-10-30T12:53:57.670Z",
- "modo": "varredura",
+ "gerado": "2026-10-30T13:05:07.591Z",
+ "modo": "monitor",
  "bf": false,
  "cambio": {
   "valor": 5.3744,
@@ -135,7 +135,7 @@
    "vendedor": "Amazon.com",
    "direto": true,
    "estoque": true,
-   "visto": "2026-10-30T12:47:32.935Z",
+   "visto": "2026-10-30T12:58:04.139Z",
    "fonte": "pagina",
    "antes": 1399.99,
    "outras": [],
@@ -574,7 +574,7 @@
    "vendedor": "CyberGamers",
    "direto": false,
    "estoque": true,
-   "visto": "2026-10-30T12:48:18.283Z",
+   "visto": "2026-10-30T12:58:45.662Z",
    "fonte": "pagina",
    "antes": null,
    "outras": [],
@@ -622,7 +622,7 @@
    "vendedor": "CyberGamers",
    "direto": false,
    "estoque": true,
-   "visto": "2026-10-30T12:49:23.100Z",
+   "visto": "2026-10-30T12:58:53.031Z",
    "fonte": "pagina",
    "antes": null,
    "outras": [],
@@ -670,7 +670,7 @@
    "vendedor": "GS Electronics",
    "direto": false,
    "estoque": true,
-   "visto": "2026-10-30T12:48:02.934Z",
+   "visto": "2026-10-30T12:58:32.657Z",
    "fonte": "pagina",
    "antes": 1289.99,
    "outras": [],
@@ -717,7 +717,7 @@
    "vendedor": "Snow Bell",
    "direto": false,
    "estoque": true,
-   "visto": "2026-10-30T12:49:31.271Z",
+   "visto": "2026-10-30T12:58:59.944Z",
    "fonte": "pagina",
    "antes": null,
    "outras": [],
@@ -912,8 +912,9 @@
      "loja": "Amazon",
      "usd": 1559.99,
      "url": "https://www.amazon.com/dp/B0HN8V5XTK",
-     "vendedor": null,
-     "visto": "2026-10-30T12:40:32.088Z"
+     "vendedor": "Tech 210 Outlet",
+     "visto": "2026-10-30T12:59:07.041Z",
+     "estoque": true
     }
    ],
    "menor_visto": 1249,
@@ -1007,8 +1008,9 @@
      "loja": "Amazon",
      "usd": 1349.99,
      "url": "https://www.amazon.com/dp/B0H4G559VC",
-     "vendedor": null,
-     "visto": "2026-10-30T12:29:23.588Z"
+     "vendedor": "Super Prime Shop",
+     "visto": "2026-10-30T12:59:14.742Z",
+     "estoque": true
     }
    ],
    "menor_visto": 1215,
@@ -1053,7 +1055,7 @@
    "vendedor": "New Sun Mart",
    "direto": false,
    "estoque": true,
-   "visto": "2026-10-30T12:49:38.370Z",
+   "visto": "2026-10-30T12:59:22.100Z",
    "fonte": "pagina",
    "antes": null,
    "outras": [],
@@ -1106,8 +1108,9 @@
      "loja": "Sam's Club",
      "usd": 1399,
      "url": "https://www.samsclub.com/ip/MSI-Cyborg-15-6-144Hz-FHD-Gaming-Laptop-Intel-Core-7-240H-16GB-RAM-512GB-SSD-NVIDIA-RTX-5060-Windows-11-Home/20183904257",
-     "vendedor": null,
-     "visto": "2026-10-30T12:32:09.120Z"
+     "vendedor": "Sam's Club",
+     "visto": "2026-10-30T13:04:20.490Z",
+     "estoque": true
     }
    ],
    "menor_visto": 1224.98,
@@ -1154,7 +1157,7 @@
    "vendedor": "TrueSpec",
    "direto": false,
    "estoque": true,
-   "visto": "2026-10-30T12:49:45.296Z",
+   "visto": "2026-10-30T12:59:29.375Z",
    "fonte": "pagina",
    "antes": null,
    "outras": [],
@@ -1292,10 +1295,10 @@
    "rs_com_pente": 9645,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H2Z6G5ZF",
-   "vendedor": "Cardinal Pro Electronic",
+   "vendedor": "Cardinal Pro Electronics",
    "direto": false,
    "estoque": true,
-   "visto": "2026-10-30T12:49:52.533Z",
+   "visto": "2026-10-30T12:59:36.424Z",
    "fonte": "pagina",
    "antes": null,
    "outras": [],
@@ -1340,7 +1343,7 @@
    "vendedor": "Emma's Market",
    "direto": false,
    "estoque": true,
-   "visto": "2026-10-30T12:49:59.577Z",
+   "visto": "2026-10-30T12:59:43.320Z",
    "fonte": "pagina",
    "antes": 1499.99,
    "outras": [],
@@ -1392,15 +1395,17 @@
      "loja": "Amazon",
      "usd": 1249.99,
      "url": "https://www.amazon.com/dp/B0GX76D54R",
-     "vendedor": null,
-     "visto": "2026-10-30T12:40:32.088Z"
+     "vendedor": "antonline",
+     "visto": "2026-10-30T12:59:49.967Z",
+     "estoque": true
     },
     {
      "loja": "Target",
      "usd": 1249.99,
      "url": "https://www.target.com/p/lenovo-loq-15-3-wuxga-ips-165hz-ai-powered-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd-nvidia-geforce-rtx-5060-luna-grey/-/A-1011009371",
      "vendedor": null,
-     "visto": "2026-10-30T12:33:03.971Z"
+     "visto": "2026-10-30T13:04:28.825Z",
+     "estoque": null
     }
    ],
    "menor_visto": 1249.99,
@@ -1445,7 +1450,7 @@
    "vendedor": "Walmart.com",
    "direto": true,
    "estoque": true,
-   "visto": "2026-10-30T12:47:23.086Z",
+   "visto": "2026-10-30T12:57:52.870Z",
    "fonte": "pagina",
    "antes": 1999,
    "outras": [],
@@ -1654,21 +1659,17 @@
    "rs_com_pente": 8751,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FTGC4JT4",
-   "vendedor": null,
+   "vendedor": "Emma's Market",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T12:59:57.366Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1247,
    "promo": null,
-   "etiquetas": [
-    "conferir"
-   ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "etiquetas": [],
+   "conferir": [],
    "ssd2": "sim",
    "memoria": "2 pentes, até 64 GB",
    "placa": "limitada, até 95 W",
@@ -1740,10 +1741,11 @@
    "rs_com_pente": 9063,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0G6KCV7ZX",
-   "vendedor": null,
+   "vendedor": "Bright Spot",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:00:05.073Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1300,
@@ -1752,8 +1754,6 @@
     "conferir"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "sim",
@@ -1768,9 +1768,9 @@
    "pos": 38
   },
   {
-   "chave": "pn:ANV17-41-R8ML:16gb",
+   "chave": "solo:https://www.amazon.com/dp/B0FRNHHLZ5",
    "nome": "Acer Nitro V 17 · RTX 5060 · 16 GB · 512GB",
-   "titulo": "Acer Nitro V 17.3in Gaming Laptop 16GB RAM 512GB SSD RTX 5060 FHD ANV17-41-R8ML, Black, IPS display, NVIDIA GeForce RTX 5060 graphics, WiFi 6, Windows 11 Home, dual fan cooling",
+   "titulo": "Acer Nitro V 17.3in Gaming Laptop 16GB RAM 512GB SSD RTX 5060 FHD",
    "marca": "Acer",
    "cpu": null,
    "gpu": "5060",
@@ -1784,20 +1784,13 @@
    "rs_com_pente": 7886,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNHHLZ5",
-   "vendedor": null,
+   "vendedor": "Acer_Authorized",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:00:12.914Z",
+   "fonte": "pagina",
    "antes": 1199.99,
-   "outras": [
-    {
-     "loja": "Target",
-     "usd": 1099.99,
-     "url": "https://www.target.com/p/acer-nitro-v-17-3-fhd-ips-gaming-laptop-anv17-41-r8ml-nvidia-geforce-rtx-5060-16gb-ram-512gb-storage/-/A-1006150952",
-     "vendedor": null,
-     "visto": "2026-10-30T12:33:03.971Z"
-    }
-   ],
+   "outras": [],
    "menor_visto": 1099.99,
    "promo": null,
    "etiquetas": [
@@ -1806,8 +1799,7 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
+    "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
    "memoria": null,
@@ -1837,23 +1829,20 @@
    "rs_com_pente": 8292,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HFX2KPFB",
-   "vendedor": null,
+   "vendedor": "Cardinal Pro Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:00:19.542Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1169,
    "promo": null,
    "etiquetas": [
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -1927,23 +1916,20 @@
    "rs_com_pente": 8357,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0CLHSG3D7",
-   "vendedor": null,
+   "vendedor": "GS Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:00:26.845Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1180,
    "promo": null,
    "etiquetas": [
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -1972,23 +1958,20 @@
    "rs_com_pente": 8474,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDN1GDRY",
-   "vendedor": null,
-   "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "vendedor": "Amazon.com",
+   "direto": true,
+   "estoque": true,
+   "visto": "2026-10-30T13:00:34.253Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1199.99,
    "promo": null,
    "etiquetas": [
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -2017,23 +2000,20 @@
    "rs_com_pente": 9004,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FS8BZDQ9",
-   "vendedor": null,
+   "vendedor": "GS Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:00:42.235Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1289.99,
    "promo": null,
    "etiquetas": [
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -2062,11 +2042,12 @@
    "rs_com_pente": 9063,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0F11447PL",
-   "vendedor": null,
-   "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
-   "antes": null,
+   "vendedor": "Amazon.com",
+   "direto": true,
+   "estoque": true,
+   "visto": "2026-10-30T13:00:49.398Z",
+   "fonte": "pagina",
+   "antes": 1299.99,
    "outras": [],
    "menor_visto": 1299.99,
    "promo": null,
@@ -2076,8 +2057,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
@@ -2108,10 +2087,11 @@
    "rs_com_pente": 9063,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0GMZPV4YJ",
-   "vendedor": null,
+   "vendedor": "Best Tech Deal Corp",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:00:56.912Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1299.99,
@@ -2122,8 +2102,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
@@ -2154,23 +2132,20 @@
    "rs_com_pente": 9116,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HJYKSN97",
-   "vendedor": null,
+   "vendedor": "Cardinal Pro Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:01:04.148Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1309,
    "promo": null,
    "etiquetas": [
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -2199,10 +2174,11 @@
    "rs_com_pente": 9236,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0GM7S7RY2",
-   "vendedor": null,
+   "vendedor": "BatzmaruEbiz",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:01:10.694Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1329.49,
@@ -2213,8 +2189,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
@@ -2231,7 +2205,7 @@
   {
    "chave": "pn:B2HWFKG-006US:16gb",
    "nome": "MSI · RTX 5060 · 16 GB · 1TB",
-   "titulo": "Cyborg A15 AI B2HWFKG-006US 15.6\" FHD Gaming Laptop",
+   "titulo": "MSI Cyborg A15 AI B2HWFKG-006US 15.6\" FHD Gaming Laptop - MSI-US Official Store",
    "marca": "MSI",
    "cpu": null,
    "gpu": "5060",
@@ -2247,8 +2221,9 @@
    "url": "https://us-store.msi.com/Laptops/Gaming-Series/Cyborg-A15-AI-B2HWFKG-006US",
    "vendedor": null,
    "direto": false,
-   "visto": "2026-10-30T12:36:54.730Z",
-   "fonte": "busca",
+   "estoque": null,
+   "visto": "2026-10-30T12:57:43.223Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1349.99,
@@ -2259,7 +2234,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
     "vendedor não lido"
    ],
    "ssd2": "não confirmado",
@@ -2290,23 +2264,20 @@
    "rs_com_pente": 9469,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSGJZDNT",
-   "vendedor": null,
+   "vendedor": "AME Electronics Pro",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:01:17.891Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1369,
    "promo": null,
    "etiquetas": [
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -2321,7 +2292,7 @@
   {
    "chave": "solo:https://www.amazon.com/dp/B0HMGYKX26",
    "nome": "HP · Ryzen 7 8745HX · RTX 5060 · 16 GB · 512GB",
-   "titulo": "HP HyperX OMEN Gaming Laptop 2026, Ryzen 7 8745HX, NVIDIA GeForce RTX 5060 15.3\" 2K WUXGA Display 165Hz, Wi-Fi 7, 4-Zone RGB Backlit, Tempest Cooling,CyberGeek Customized 16GB-32GB DDR5, 512GB-1TB SSD",
+   "titulo": "HP HyperX OMEN Gaming Laptop 2026, Ryzen 7 8745HX, NVIDIA GeForce RTX 5060",
    "marca": "HP",
    "cpu": "Ryzen 7 8745HX",
    "gpu": "5060",
@@ -2335,10 +2306,11 @@
    "rs_com_pente": 9651,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HMGYKX26",
-   "vendedor": null,
+   "vendedor": "Prime Distributor Global",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:01:24.752Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1399.99,
@@ -2349,8 +2321,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
@@ -2381,13 +2351,56 @@
    "rs_com_pente": 9651,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H4Q9CXTD",
-   "vendedor": null,
+   "vendedor": "FutureTech Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:01:31.788Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1399.99,
+   "promo": null,
+   "etiquetas": [
+    "em avaliação",
+    "não confirmado"
+   ],
+   "conferir": [],
+   "ssd2": "não confirmado",
+   "memoria": null,
+   "placa": null,
+   "watts": null,
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "peso": null,
+   "cinebench": null,
+   "pos": 52
+  },
+  {
+   "chave": "pn:ANV17-41-R8ML:16gb",
+   "nome": "Acer Nitro V 17 · RTX 5060 · 16 GB · 512GB",
+   "titulo": "Acer Nitro V 17.3\" FHD IPS Gaming Laptop ANV17-41-R8ML AMD Ryzen 5 NVIDIA GeForce RTX 5060 16GB RAM 512GB SSD : Target",
+   "marca": "Acer",
+   "cpu": null,
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "512GB",
+   "polegadas": 17.3,
+   "tela": "fhd",
+   "usd": 1099.99,
+   "com_imposto": 1204.49,
+   "rs": 6473,
+   "rs_com_pente": 7886,
+   "loja": "Target",
+   "url": "https://www.target.com/p/acer-nitro-v-17-3-fhd-ips-gaming-laptop-anv17-41-r8ml-nvidia-geforce-rtx-5060-16gb-ram-512gb-storage/-/A-1006150952",
+   "vendedor": null,
+   "direto": false,
+   "estoque": false,
+   "visto": "2026-10-30T13:04:36.616Z",
+   "fonte": "busca",
+   "antes": null,
+   "outras": [],
+   "menor_visto": 1099.99,
    "promo": null,
    "etiquetas": [
     "em avaliação",
@@ -2407,7 +2420,7 @@
    "tela_ficha": null,
    "peso": null,
    "cinebench": null,
-   "pos": 52
+   "pos": 53
   },
   {
    "chave": "sp:hp|omen 16|ryzen 9 8940hx|5060|16gb|512gb|fhd",
@@ -2426,22 +2439,19 @@
    "rs_com_pente": 10240,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSS4VX72",
-   "vendedor": null,
+   "vendedor": "Bright Spot",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:01:39.392Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1499.99,
    "promo": null,
    "etiquetas": [
-    "acima do teto",
-    "conferir"
+    "acima do teto"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "sim",
    "memoria": "2 pentes, máx. oficial 32 GB",
    "placa": "máxima, 115 W (~113 W medido)",
@@ -2454,7 +2464,7 @@
     "um": 1917,
     "varios": 32521
    },
-   "pos": 53
+   "pos": 54
   },
   {
    "chave": "sp:lenovo|legion 5i|i7-14700hx|5060|16gb|1tb|alta",
@@ -2498,7 +2508,7 @@
     "um": 2103,
     "varios": 24595
    },
-   "pos": 54
+   "pos": 55
   },
   {
    "chave": "sp:asus|tuf f16|i7-14650hx|5060|16gb|512gb|fhd",
@@ -2544,7 +2554,7 @@
     "um": 1963,
     "varios": 24455
    },
-   "pos": 55
+   "pos": 56
   },
   {
    "chave": "pn:B14WFK-810US:16gb",
@@ -2563,10 +2573,11 @@
    "rs_com_pente": 10357,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRVZ7CLY",
-   "vendedor": null,
+   "vendedor": "GS Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:01:46.180Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1519.99,
@@ -2574,13 +2585,9 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -2593,7 +2600,7 @@
     "um": 1963,
     "varios": 24455
    },
-   "pos": 56
+   "pos": 57
   },
   {
    "chave": "sp:gigabyte|gaming a16|i7-13620h|5070|16gb|1tb|fhd",
@@ -2612,22 +2619,19 @@
    "rs_com_pente": 9940,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDMF1CVP",
-   "vendedor": null,
+   "vendedor": "Snow Bell",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:01:53.137Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1449,
    "promo": null,
    "etiquetas": [
-    "acima do teto",
-    "conferir"
+    "acima do teto"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "provável",
    "memoria": "2 SO-DIMM",
    "placa": "limitada, 85 W na versão 5070; 5060 \"TGP baixo\" (PC Gamer)",
@@ -2640,12 +2644,12 @@
     "um": 1833,
     "varios": 15176
    },
-   "pos": 57
+   "pos": 58
   },
   {
    "chave": "sp:gigabyte|gaming a16|ryzen 7 260|5060|16gb|1tb|fhd",
    "nome": "Gigabyte Gaming A16 · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
-   "titulo": "GIGABYTE Gaming A16 - AMD Ryzen 7 260 GeForce RTX 5060 16\" Laptop 165Hz, 1920x1200 WUXGA, 1TB SSD, 16GB DDR5 RAM, Windows 11 Home, Black Steel",
+   "titulo": "GIGABYTE Gaming A16 - AMD Ryzen 7 260 GeForce RTX 5060 16\" Laptop",
    "marca": "Gigabyte",
    "cpu": "Ryzen 7 260",
    "gpu": "5060",
@@ -2659,22 +2663,19 @@
    "rs_com_pente": 9946,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FH5W7X4L",
-   "vendedor": null,
+   "vendedor": "Tech 210 Outlet",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:01:59.997Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1449.99,
    "promo": null,
    "etiquetas": [
-    "acima do teto",
-    "conferir"
+    "acima do teto"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "provável",
    "memoria": "2 SO-DIMM",
    "placa": "limitada, 85 W na versão 5070; 5060 \"TGP baixo\" (PC Gamer)",
@@ -2686,53 +2687,6 @@
    "cinebench": {
     "um": 1770,
     "varios": 17211
-   },
-   "pos": 58
-  },
-  {
-   "chave": "pn:ANV16-72-72ZY:16gb",
-   "nome": "Acer Nitro V 16 · Core 7 240H · RTX 5070 · 16 GB · 512GB",
-   "titulo": "Acer Nitro V 16in Gaming Laptop 16GB RAM 512GB SSD RTX 5070 180Hz ANV16-72-72ZY, WUXGA IPS display, Intel Core 7 240H, WiFi 6E, backlit keyboard, Windows 11 Home",
-   "marca": "Acer",
-   "cpu": "Core 7 240H",
-   "gpu": "5070",
-   "ram": 16,
-   "ssd": "512GB",
-   "polegadas": 16,
-   "tela": "fhd",
-   "usd": 1499.99,
-   "com_imposto": 1642.49,
-   "rs": 8827,
-   "rs_com_pente": 10240,
-   "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0FRNL6NQ7",
-   "vendedor": null,
-   "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
-   "antes": null,
-   "outras": [],
-   "menor_visto": 1499.99,
-   "promo": null,
-   "etiquetas": [
-    "acima do teto",
-    "conferir"
-   ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
-   "ssd2": "sim",
-   "memoria": "2 pentes, máx. oficial 32 GB",
-   "placa": "limitada, 85 W (ficha do modelo; tabela da família diz 95 W)",
-   "watts": 85,
-   "ruido": "sem números; LM: processador ~100 °C (versão i9)",
-   "topo": "sem medição",
-   "tela_ficha": "1920×1200 180 Hz, brilho não medido; versão 2,5K 425 nits, 93% sRGB, sem PWM",
-   "peso": "não levantado",
-   "cinebench": {
-    "um": 1715,
-    "varios": 15225
    },
    "pos": 59
   },
@@ -2753,10 +2707,11 @@
    "rs_com_pente": 9940,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HJZDPGT4",
-   "vendedor": null,
+   "vendedor": "Cardinal Pro Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:02:15.049Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1449,
@@ -2764,13 +2719,9 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -2802,10 +2753,11 @@
    "rs_com_pente": 10057,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H1M6HN9F",
-   "vendedor": null,
+   "vendedor": "FutureTech Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:02:22.847Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1469,
@@ -2813,13 +2765,9 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -2851,10 +2799,11 @@
    "rs_com_pente": 10116,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0GPVLLTF9",
-   "vendedor": null,
+   "vendedor": "FutureTech Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:02:30.771Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1479,
@@ -2862,13 +2811,9 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -2900,10 +2845,11 @@
    "rs_com_pente": 10116,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H992GJ6X",
-   "vendedor": null,
+   "vendedor": "EA Tech LLC",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:02:37.410Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1479,
@@ -2915,8 +2861,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
@@ -2950,10 +2894,11 @@
    "rs_com_pente": 10122,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B084JF4BFG",
-   "vendedor": null,
+   "vendedor": "Prime Distributor Global",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:02:44.526Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1479.99,
@@ -2965,8 +2910,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
@@ -2982,55 +2925,6 @@
     "varios": 15225
    },
    "pos": 64
-  },
-  {
-   "chave": "pn:ANV15-52-73D8:16gb",
-   "nome": "Acer Nitro V 15 · i7-13620H · RTX 5060 · 16 GB · 1TB",
-   "titulo": "Acer Nitro V 15.6in Gaming Laptop 16GB RAM 1TB SSD RTX 5060 165Hz ANV15-52-73D8, Black, Intel Core i7-13620H, FHD IPS display, Windows 11, backlit keyboard, WiFi 6",
-   "marca": "Acer",
-   "cpu": "i7-13620H",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 15.6,
-   "tela": "fhd",
-   "usd": 1489,
-   "com_imposto": 1630.45,
-   "rs": 8763,
-   "rs_com_pente": 10175,
-   "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0FRNMJGJR",
-   "vendedor": null,
-   "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
-   "antes": null,
-   "outras": [],
-   "menor_visto": 1489,
-   "promo": null,
-   "etiquetas": [
-    "acima do teto",
-    "em avaliação",
-    "conferir",
-    "não confirmado"
-   ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
-   "ssd2": "não confirmado",
-   "memoria": null,
-   "placa": null,
-   "watts": null,
-   "ruido": null,
-   "topo": null,
-   "tela_ficha": null,
-   "peso": null,
-   "cinebench": {
-    "um": 1833,
-    "varios": 15176
-   },
-   "pos": 65
   },
   {
    "chave": "sp:asus|tuf gaming a18|ryzen 7 260|5060|16gb|1tb|fhd",
@@ -3049,10 +2943,11 @@
    "rs_com_pente": 10175,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0G6Z22LWN",
-   "vendedor": null,
+   "vendedor": "FutureTech Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:02:59.246Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1489,
@@ -3060,13 +2955,9 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -3079,7 +2970,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 66
+   "pos": 65
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B084JTFYFT",
@@ -3098,10 +2989,11 @@
    "rs_com_pente": 10181,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B084JTFYFT",
-   "vendedor": null,
+   "vendedor": "Prime Distributor Global",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:03:07.125Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1489.99,
@@ -3113,8 +3005,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
@@ -3129,7 +3019,7 @@
     "um": 1715,
     "varios": 15225
    },
-   "pos": 67
+   "pos": 66
   },
   {
    "chave": "sp:msi|cyborg 15|core 7 240h|5070|16gb|1tb|fhd",
@@ -3148,10 +3038,11 @@
    "rs_com_pente": 10234,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H6VG2L69",
-   "vendedor": null,
+   "vendedor": "Cardinal Pro Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:03:14.670Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1499,
@@ -3159,13 +3050,9 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -3178,7 +3065,7 @@
     "um": 1715,
     "varios": 15225
    },
-   "pos": 68
+   "pos": 67
   },
   {
    "chave": "sp:lenovo|legion 5|ryzen 7 260|5060|16gb|512gb|alta",
@@ -3207,15 +3094,17 @@
      "loja": "Amazon",
      "usd": 1499.99,
      "url": "https://www.amazon.com/dp/B0FGGBBYK7",
-     "vendedor": null,
-     "visto": "2026-10-30T12:40:32.088Z"
+     "vendedor": "antonline",
+     "visto": "2026-10-30T13:03:21.966Z",
+     "estoque": true
     },
     {
      "loja": "Target",
      "usd": 1499.99,
      "url": "https://www.target.com/p/lenovo-legion-5-15-1-oled-wqxga-165hz-gaming-notebook-amd-ryzen-7-260-16gb-ram-512gb-ssd-nvidia-geforce-rtx-5060-eclipse-black/-/A-1004661132",
      "vendedor": null,
-     "visto": "2026-10-30T12:33:03.971Z"
+     "visto": "2026-10-30T13:04:44.289Z",
+     "estoque": false
     }
    ],
    "menor_visto": 1499.99,
@@ -3239,12 +3128,12 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 69
+   "pos": 68
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0HKVZ7WBZ",
    "nome": "Gigabyte · Ryzen 7 260 · RTX 5070 · 16 GB · 512GB",
-   "titulo": "GIGABYTE A18 Gaming Laptop, AMD Ryzen 7 260, RTX 5070, WQXGA 165HZ Display 150W TGP, WINDFORCE Cooling, RGB Backlit KB, Customized 16GB-64GB DDR5 RAM 512GB-2TB SSD, Facial Recognition, WiFi 6E, RJ-45",
+   "titulo": "GIGABYTE A18 Gaming Laptop, AMD Ryzen 7 260, RTX 5070, WQXGA 165HZ Display",
    "marca": "Gigabyte",
    "cpu": "Ryzen 7 260",
    "gpu": "5070",
@@ -3258,10 +3147,11 @@
    "rs_com_pente": 10240,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HKVZ7WBZ",
-   "vendedor": null,
+   "vendedor": "Prime Distributor Global",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:03:28.820Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1499.99,
@@ -3273,8 +3163,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
@@ -3289,7 +3177,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 70
+   "pos": 69
   },
   {
    "chave": "sp:lenovo|legion 5|ryzen 7 250|5060|16gb|512gb|alta",
@@ -3319,7 +3207,8 @@
      "usd": 1479.99,
      "url": "https://www.target.com/p/lenovo-legion-5a-15-3-oled-wqxga-165hz-copilot-pc-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd-nvidia-geforce-rtx-5060-eclipse-black/-/A-1011707316",
      "vendedor": null,
-     "visto": "2026-10-30T12:33:03.971Z"
+     "visto": "2026-10-30T13:04:52.424Z",
+     "estoque": false
     }
    ],
    "menor_visto": 1479.99,
@@ -3343,7 +3232,7 @@
     "um": 1715,
     "varios": 14676
    },
-   "pos": 71
+   "pos": 70
   },
   {
    "chave": "pn:83Q70003US:16gb",
@@ -3362,22 +3251,19 @@
    "rs_com_pente": 10357,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HDQ2WV2F",
-   "vendedor": null,
+   "vendedor": "MichaelElectronics2",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:03:36.692Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1519.99,
    "promo": null,
    "etiquetas": [
-    "acima do teto",
-    "conferir"
+    "acima do teto"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "sim",
    "memoria": "2 pentes, até 64 GB",
    "placa": "não levantado",
@@ -3390,7 +3276,7 @@
     "um": 1715,
     "varios": 14676
    },
-   "pos": 72
+   "pos": 71
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0FRNMC7G1",
@@ -3409,10 +3295,11 @@
    "rs_com_pente": 9946,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNMC7G1",
-   "vendedor": null,
+   "vendedor": "Best Tech Deal Corp",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:03:44.001Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1449.99,
@@ -3422,8 +3309,6 @@
     "conferir"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "sim",
@@ -3433,6 +3318,50 @@
    "ruido": "\"silencioso no escritório\"; 62 dBA em estresse",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
+   "peso": "não levantado",
+   "cinebench": null,
+   "pos": 72
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B0FRNL6NQ7",
+   "nome": "Acer Nitro V 16 · RTX 5070 · 16 GB · 512GB",
+   "titulo": "Acer Nitro V 16in Gaming Laptop 16GB RAM 512GB SSD RTX 5070 180Hz",
+   "marca": "Acer",
+   "cpu": null,
+   "gpu": "5070",
+   "ram": 16,
+   "ssd": "512GB",
+   "polegadas": 16,
+   "tela": "fhd",
+   "usd": 1499.99,
+   "com_imposto": 1642.49,
+   "rs": 8827,
+   "rs_com_pente": 10240,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FRNL6NQ7",
+   "vendedor": "Acer_Authorized",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-30T13:02:07.233Z",
+   "fonte": "pagina",
+   "antes": null,
+   "outras": [],
+   "menor_visto": 1499.99,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto",
+    "conferir"
+   ],
+   "conferir": [
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "sim",
+   "memoria": "2 pentes, máx. oficial 32 GB",
+   "placa": "limitada, 85 W (ficha do modelo; tabela da família diz 95 W)",
+   "watts": 85,
+   "ruido": "sem números; LM: processador ~100 °C (versão i9)",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1200 180 Hz, brilho não medido; versão 2,5K 425 nits, 93% sRGB, sem PWM",
    "peso": "não levantado",
    "cinebench": null,
    "pos": 73
@@ -3454,10 +3383,11 @@
    "rs_com_pente": 9946,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H4VKFF2S",
-   "vendedor": null,
+   "vendedor": "FutureTech Electronics",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:03:51.798Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1449.99,
@@ -3465,13 +3395,9 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
     "não confirmado"
    ],
-   "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido"
-   ],
+   "conferir": [],
    "ssd2": "não confirmado",
    "memoria": null,
    "placa": null,
@@ -3530,48 +3456,48 @@
    "pos": 75
   },
   {
-   "chave": "solo:https://www.amazon.com/dp/B0HF15H3QB",
-   "nome": "Thunderobot Storm 17 · RTX 5070 · 16 GB · 1TB",
-   "titulo": "Thunderobot Storm 17.3\" RTX 5070 Ryzen 7-255 16GB DDR5 1TB Gaming Laptop QHD IPS 165Hz 2K Display, HDMI, Type-C, RGB Backlit Keyboard, Long Battery Life, Wi-Fi 6, Windows 11 Home",
-   "marca": "Thunderobot",
+   "chave": "solo:https://www.amazon.com/dp/B0FRNMJGJR",
+   "nome": "Acer Nitro V 15 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "Acer Nitro V 15.6in Gaming Laptop 16GB RAM 1TB SSD RTX 5060 165Hz",
+   "marca": "Acer",
    "cpu": null,
-   "gpu": "5070",
+   "gpu": "5060",
    "ram": 16,
    "ssd": "1TB",
-   "polegadas": 17.3,
-   "tela": "alta",
-   "usd": 1499,
-   "com_imposto": 1641.4,
-   "rs": 8822,
-   "rs_com_pente": 10234,
+   "polegadas": 15.6,
+   "tela": "fhd",
+   "usd": 1489,
+   "com_imposto": 1630.45,
+   "rs": 8763,
+   "rs_com_pente": 10175,
    "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0HF15H3QB",
-   "vendedor": null,
+   "url": "https://www.amazon.com/dp/B0FRNMJGJR",
+   "vendedor": "HotDeal Express",
    "direto": false,
-   "visto": "2026-10-30T12:29:23.588Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:02:52.011Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
-   "menor_visto": 1499,
+   "menor_visto": 1489,
    "promo": null,
    "etiquetas": [
     "acima do teto",
+    "em avaliação",
     "conferir",
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
-   "memoria": "não confirmado",
-   "placa": "não informado",
+   "memoria": null,
+   "placa": null,
    "watts": null,
-   "ruido": "sem medição",
-   "topo": "sem medição",
-   "tela_ficha": "—",
-   "peso": "—",
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "peso": null,
    "cinebench": null,
    "pos": 76
   },
@@ -3592,10 +3518,11 @@
    "rs_com_pente": 10381,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0G1P1B2TG",
-   "vendedor": null,
+   "vendedor": "SAVEABIZ",
    "direto": false,
-   "visto": "2026-10-30T12:40:32.088Z",
-   "fonte": "busca",
+   "estoque": true,
+   "visto": "2026-10-30T13:04:06.926Z",
+   "fonte": "pagina",
    "antes": null,
    "outras": [],
    "menor_visto": 1524,
@@ -3607,8 +3534,6 @@
     "não confirmado"
    ],
    "conferir": [
-    "preço visto só na busca",
-    "vendedor não lido",
     "junção entre lojas não confirmada"
    ],
    "ssd2": "não confirmado",
