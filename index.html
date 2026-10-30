@@ -37,6 +37,9 @@ a{color:var(--marca)}
 .ana{background:var(--cartao);border:1px solid var(--linha);border-radius:10px;padding:4px 16px 16px;max-width:820px}
 table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--linha);vertical-align:top}
 .rolar{overflow-x:auto}
+#tabela{display:none}
+#tabela td,#tabela th{font-size:.82rem}
+@media (min-width:1000px){#cartoes{display:none}#tabela{display:block}}
 </style>
 </head>
 <body>
@@ -58,6 +61,7 @@ table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left
     </div>
     <p class="cont" id="cont"></p>
     <div class="cartoes" id="cartoes"></div>
+    <div class="rolar" id="tabela"></div>
   </section>
   <section id="ana" hidden><div class="ana" id="ana-c"></div></section>
 </div>
@@ -97,12 +101,15 @@ function cartao(m){
   <details><summary>Descrição da loja</summary>${esc(m.titulo)}</details>
   </article>`;
 }
+function etq(m){return m.etiquetas.concat(m.estoque===false?['esgotado']:[],m.promo?['caiu '+m.promo.queda_pct+'%']:[]).join(' · ');}
+function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div></td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${quando(m.visto)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td><td>${esc(m.peso||'não levantado')}</td></tr>`;}
 function desenhar(){
   const p=+$('f-preco').value,r=$('f-ram').value,g=$('f-gpu').value,t=$('f-tam').value,e=$('f-est').value;
   const v=D.modelos.filter(m=>(!p||m.rs<=p)&&(!r||String(m.ram)===r)&&(!g||(g==='5060'?/^5060/.test(m.gpu):!/^5060/.test(m.gpu)))&&
     (!t||(t==='15'?m.polegadas&&m.polegadas<16:t==='16'?m.polegadas>=16&&m.polegadas<17:m.polegadas>=17))&&(!e||m.estoque!==false));
   $('cont').textContent=v.length+' de '+D.modelos.length+' notebooks. Ordem do ranking: 32 GB primeiro.';
   $('cartoes').innerHTML=v.map(cartao).join('')||'<p>Nenhum notebook com esses filtros.</p>';
+  $('tabela').innerHTML=v.length?`<table><tr><th>#</th><th>Notebook</th><th>Preço</th><th>Loja</th><th>Processador (1 núcleo / vários)</th><th>Placa de vídeo</th><th>Ampliar</th><th>Ruído</th><th>Teclado</th><th>Tela</th><th>Peso</th></tr>${v.map(linhaT).join('')}</table>`:'<p>Nenhum notebook com esses filtros.</p>';
 }
 function analise(a){
   if(!a){$('ana-c').innerHTML='<p>Análise ainda não escrita.</p>';return;}
