@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-31T21:16:26.679Z",
+ "gerado": "2026-10-31T21:16:44.917Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -2545,7 +2545,7 @@
    "usd": 1469,
    "com_imposto": 1608.56,
    "rs": 8720,
-   "excecao16": true,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H1M6HN9F",
    "vendedor": "FutureTech Electronics",
@@ -2589,7 +2589,7 @@
    "usd": 1479.99,
    "com_imposto": 1620.59,
    "rs": 8786,
-   "excecao16": true,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B084JF4BFG",
    "vendedor": "Prime Distributor Global",
@@ -2636,7 +2636,7 @@
    "usd": 1489.99,
    "com_imposto": 1631.54,
    "rs": 8845,
-   "excecao16": true,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B084JTFYFT",
    "vendedor": "Prime Distributor Global",
@@ -2683,7 +2683,7 @@
    "usd": 1499,
    "com_imposto": 1641.4,
    "rs": 8898,
-   "excecao16": true,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H6VG2L69",
    "vendedor": "Cardinal Pro Electronics",
@@ -3286,5 +3286,5 @@
    "pos": 66
   }
  ],
- "varredura_em": "2026-10-31T21:16:26.679Z"
+ "varredura_em": "2026-10-31T21:16:44.917Z"
 }
