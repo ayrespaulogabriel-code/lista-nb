@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-31T21:16:44.917Z",
+ "gerado": "2026-10-31T21:19:54.214Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -1137,7 +1137,7 @@
    "usd": 1424,
    "com_imposto": 1559.28,
    "rs": 8453,
-   "excecao16": false,
+   "excecao16": true,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FS861DH8",
    "vendedor": "Emma's Market",
@@ -3286,5 +3286,5 @@
    "pos": 66
   }
  ],
- "varredura_em": "2026-10-31T21:16:44.917Z"
+ "varredura_em": "2026-10-31T21:19:54.214Z"
 }
