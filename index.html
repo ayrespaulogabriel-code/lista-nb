@@ -84,8 +84,8 @@ function lendo(c){return c.itens>0||!!c.claude?.itens;}
 function quadro(){
   const q=D.cobertura||[];if(!q.length){$('cob').innerHTML='<summary>Cobertura por loja: sem dado ainda</summary>';return;}
   const ob=q.filter(c=>c.obrigatoria),sem=ob.filter(c=>!lendo(c));
-  const script=c=>c.lido_em?`${c.itens} itens · ${c.estado}${c.motivo?': '+c.motivo:''}<div class="sub">${dataBR(c.lido_em)} (${quando(c.lido_em)})</div>`:'não usado';
-  const chrome=x=>x?`${x.itens} itens em ${x.paginas||'?'} página(s) · ${esc(x.estado||'lida')}${x.motivo?': '+esc(x.motivo):''}<div class="sub">${dataBR(x.em)} (${quando(x.em)})</div>`:'não usado';
+  const script=c=>c.lido_em?`${esc(c.itens)} itens · ${esc(c.estado)}${c.motivo?': '+esc(c.motivo):''}<div class="sub">${esc(dataBR(c.lido_em))} (${esc(quando(c.lido_em))})</div>`:'não usado';
+  const chrome=x=>x?`${esc(x.itens)} itens em ${esc(x.paginas||'?')} página(s) · ${esc(x.estado||'lida')}${x.motivo?': '+esc(x.motivo):''}<div class="sub">${esc(dataBR(x.em))} (${esc(quando(x.em))})</div>`:'não usado';
   const linha=c=>{const l=c.claude&&!c.claude.itens&&c.claude.link||c.link;return `<tr><td>${esc(c.loja)}</td><td class="${c.lido_em&&!c.itens?'ruim':''}">${script(c)}</td><td>${chrome(c.claude)}</td><td class="${lendo(c)?'':'ruim'}">${lendo(c)?'lida':'não verificado'}${l&&!lendo(c)?` · <a href="${seguro(l)}" rel="noopener noreferrer" target="_blank">abrir a loja</a>`:''}</td></tr>`;};
   $('cob').innerHTML=`<summary>Cobertura: ${ob.length-sem.length} de ${ob.length} lojas obrigatórias com leitura${sem.length?' · sem leitura: '+esc(sem.map(c=>c.loja).join(', ')):''}</summary><div class="rolar"><table><tr><th>Loja</th><th>Script</th><th>Chrome</th><th>Situação</th></tr>${q.map(linha).join('')}</table></div>`;
   $('cob').open=sem.length>0;
