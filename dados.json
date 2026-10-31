@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-31T13:28:06.124Z",
+ "gerado": "2026-10-31T13:46:53.630Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -236,6 +236,7 @@
    "com_imposto": 1423.49,
    "rs": 7717,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Best Buy",
    "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT",
@@ -299,6 +300,7 @@
    "com_imposto": 1478.24,
    "rs": 8014,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/p/N82E16834360411",
@@ -355,6 +357,7 @@
    "com_imposto": 1532.99,
    "rs": 8311,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0F195W823",
@@ -407,6 +410,7 @@
    "com_imposto": 1587.74,
    "rs": 8607,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/hasee-t8pro-16-0-geforce-rtx-5060-laptop-gpu-i7-14700hx-qhd-32gb-memory-1-tb-ssd/p/2WC-004U-00065",
@@ -455,6 +459,7 @@
    "com_imposto": 1642.5,
    "rs": 8904,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/21288504227",
@@ -503,6 +508,7 @@
    "com_imposto": 1596.5,
    "rs": 8655,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Best Buy",
    "url": "https://www.bestbuy.com/product/acer-nitro-v-16-16-inch-180hz-gaming-laptop-core-7-240h-rtx-5060-32gb-512gb-ssd-obsidian-black/JJ8V8HGP24",
@@ -551,6 +557,7 @@
    "com_imposto": 1576.79,
    "rs": 8548,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/hasee-s8-15-6-nvidia-geforce-rtx-5070-laptop-gpu-intel-core-i7-13620h-fhd-32gb-memory-1tb-ssd/p/2WC-004U-00064",
@@ -597,6 +604,7 @@
    "com_imposto": 1620.59,
    "rs": 8786,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20457558355",
@@ -645,6 +653,7 @@
    "com_imposto": 1554.89,
    "rs": 8429,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/21140362103",
@@ -692,6 +701,7 @@
    "com_imposto": 1622.79,
    "rs": 8797,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/msi-16/p/2WC-000C-0JUC1",
@@ -739,6 +749,7 @@
    "com_imposto": 1641.4,
    "rs": 8898,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Adorama",
    "url": "https://www.adorama.com/msi-katana-15-hx-b14wgk-293us-gaming-laptop/p/msikhxb14293",
@@ -786,6 +797,7 @@
    "com_imposto": 1641.4,
    "rs": 8898,
    "rs_com_pente": null,
+   "ampliar": null,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/16625005777",
@@ -832,8 +844,13 @@
    "usd": 1249,
    "com_imposto": 1367.65,
    "rs": 7414,
-   "rs_com_pente": 8839,
-   "excecao16": true,
+   "rs_com_pente": 10264,
+   "ampliar": {
+    "usd": 479.99,
+    "peca": "kit 2×16 GB",
+    "confirmado": true
+   },
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20587468399",
    "vendedor": "Walmart.com",
@@ -885,6 +902,11 @@
    "com_imposto": 1531.9,
    "rs": 8305,
    "rs_com_pente": 9729,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Sam's Club",
    "url": "https://www.samsclub.com/ip/ASUS-TUF-F16-Gaming-Laptop-16-FHD-165Hz-1-Intel-Core-i7-14650HX-NVIDIA-GeForce-RTX-5060-16GB-DDR5-RAM-512GB-SSD-Windows-11-Home/17831471448",
@@ -936,6 +958,11 @@
    "com_imposto": 1368.74,
    "rs": 7420,
    "rs_com_pente": 8845,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H7BJW482",
@@ -981,6 +1008,11 @@
    "com_imposto": 1478.24,
    "rs": 8014,
    "rs_com_pente": 9439,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H7BBK1LC",
@@ -1024,6 +1056,11 @@
    "com_imposto": 1412.54,
    "rs": 7658,
    "rs_com_pente": 9082,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDM8D8HQ",
@@ -1067,6 +1104,11 @@
    "com_imposto": 1401.59,
    "rs": 7598,
    "rs_com_pente": 9023,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/17456357218",
@@ -1114,6 +1156,11 @@
    "com_imposto": 1445.38,
    "rs": 7836,
    "rs_com_pente": 9260,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDMN25CZ",
@@ -1157,6 +1204,11 @@
    "com_imposto": 1330.42,
    "rs": 7213,
    "rs_com_pente": 8637,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20414803986",
@@ -1212,6 +1264,11 @@
    "com_imposto": 1478.24,
    "rs": 8014,
    "rs_com_pente": 9439,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSMKGKVH",
@@ -1259,6 +1316,11 @@
    "com_imposto": 1454.15,
    "rs": 7883,
    "rs_com_pente": 9308,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/21074302857",
@@ -1306,6 +1368,11 @@
    "com_imposto": 1455.25,
    "rs": 7889,
    "rs_com_pente": 9314,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20566065108",
@@ -1353,6 +1420,11 @@
    "com_imposto": 1423.46,
    "rs": 7717,
    "rs_com_pente": 9142,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FLRWF779",
@@ -1398,6 +1470,11 @@
    "com_imposto": 1477.15,
    "rs": 8008,
    "rs_com_pente": 9433,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HLCYXNT5",
@@ -1444,6 +1521,11 @@
    "com_imposto": 1559.28,
    "rs": 8453,
    "rs_com_pente": 9878,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FS861DH8",
@@ -1489,6 +1571,11 @@
    "com_imposto": 1313.99,
    "rs": 7123,
    "rs_com_pente": 8548,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Best Buy",
    "url": "https://www.bestbuy.com/product/lenovo-loq-15-3-wuxga-ips-165hz-ai-powered-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd-nvidia-geforce-rtx-5060-luna-grey/JJGH3RXTSH",
@@ -1560,6 +1647,11 @@
    "com_imposto": 1531.9,
    "rs": 8305,
    "rs_com_pente": 9729,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "B&H",
    "url": "https://www.bhphotovideo.com/c/product/1985625-REG/lenovo_83q70068us_legion_5a_r7_250_16gb_512gb_rtx_5060_wifi7_w11h_15_3.html",
@@ -1623,6 +1715,11 @@
    "com_imposto": 1368.74,
    "rs": 7420,
    "rs_com_pente": 8845,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/21194467153",
@@ -1666,6 +1763,11 @@
    "com_imposto": 1312.9,
    "rs": 7118,
    "rs_com_pente": 8542,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20106954575",
@@ -1710,6 +1812,11 @@
    "com_imposto": 1312.9,
    "rs": 7118,
    "rs_com_pente": 8542,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/HyperX-OMEN-15-inch-Gaming-Laptop-PC-15-gb0070wm/20106954575",
@@ -1755,6 +1862,11 @@
    "com_imposto": 1367.65,
    "rs": 7414,
    "rs_com_pente": 8839,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20054074481",
@@ -1799,6 +1911,11 @@
    "com_imposto": 1365.46,
    "rs": 7402,
    "rs_com_pente": 8827,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FTGC4JT4",
@@ -1839,6 +1956,11 @@
    "com_imposto": 1367.65,
    "rs": 7414,
    "rs_com_pente": 8839,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/18804722370",
@@ -1883,6 +2005,11 @@
    "com_imposto": 1423.5,
    "rs": 7717,
    "rs_com_pente": 9142,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0G6KCV7ZX",
@@ -1927,6 +2054,11 @@
    "com_imposto": 1423.5,
    "rs": 7717,
    "rs_com_pente": 9142,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0G4V6ZFP2",
@@ -1971,6 +2103,11 @@
    "com_imposto": 1422.4,
    "rs": 7711,
    "rs_com_pente": 9136,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HJYKSN97",
@@ -2015,6 +2152,11 @@
    "com_imposto": 1423.49,
    "rs": 7717,
    "rs_com_pente": 9142,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0GMZPV4YJ",
@@ -2059,6 +2201,11 @@
    "com_imposto": 1454.23,
    "rs": 7884,
    "rs_com_pente": 9308,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0GM7S7RY2",
@@ -2104,6 +2251,11 @@
    "com_imposto": 1478.24,
    "rs": 8014,
    "rs_com_pente": 9439,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Lojas oficiais",
    "url": "https://us-store.msi.com/Laptops/Gaming-Series/Cyborg-A15-AI-B2HWFKG-006US",
@@ -2148,6 +2300,11 @@
    "com_imposto": 1204.49,
    "rs": 6530,
    "rs_com_pente": 7954,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNHHLZ5",
@@ -2200,6 +2357,11 @@
    "com_imposto": 1313.99,
    "rs": 7123,
    "rs_com_pente": 8548,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDN1GDRY",
@@ -2242,6 +2404,11 @@
    "com_imposto": 1412.54,
    "rs": 7658,
    "rs_com_pente": 9082,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FS8BZDQ9",
@@ -2285,6 +2452,11 @@
    "com_imposto": 1499.06,
    "rs": 8127,
    "rs_com_pente": 9551,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSGJZDNT",
@@ -2327,6 +2499,11 @@
    "com_imposto": 1532.99,
    "rs": 8311,
    "rs_com_pente": 9735,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HMGYKX26",
@@ -2373,6 +2550,11 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSS4VX72",
@@ -2418,6 +2600,11 @@
    "com_imposto": 1641.4,
    "rs": 8898,
    "rs_com_pente": 10323,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/14618706354",
@@ -2463,6 +2650,11 @@
    "com_imposto": 1586.65,
    "rs": 8602,
    "rs_com_pente": 10026,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDMF1CVP",
@@ -2508,6 +2700,11 @@
    "com_imposto": 1587.74,
    "rs": 8607,
    "rs_com_pente": 10032,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FH5W7X4L",
@@ -2553,6 +2750,11 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNL6NQ7",
@@ -2598,6 +2800,11 @@
    "com_imposto": 1608.56,
    "rs": 8720,
    "rs_com_pente": 10145,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H1M6HN9F",
@@ -2643,6 +2850,11 @@
    "com_imposto": 1620.59,
    "rs": 8786,
    "rs_com_pente": 10210,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B084JF4BFG",
@@ -2691,6 +2903,11 @@
    "com_imposto": 1631.54,
    "rs": 8845,
    "rs_com_pente": 10270,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B084JTFYFT",
@@ -2739,6 +2956,11 @@
    "com_imposto": 1641.4,
    "rs": 8898,
    "rs_com_pente": 10323,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H6VG2L69",
@@ -2784,6 +3006,11 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/17103273135",
@@ -2848,6 +3075,11 @@
    "com_imposto": 1586.65,
    "rs": 8602,
    "rs_com_pente": 10026,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HJZDPGT4",
@@ -2894,6 +3126,11 @@
    "com_imposto": 1615.13,
    "rs": 8756,
    "rs_com_pente": 10181,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H8R7TBRX",
@@ -2940,6 +3177,11 @@
    "com_imposto": 1619.5,
    "rs": 8780,
    "rs_com_pente": 10204,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0GPVLLTF9",
@@ -2986,6 +3228,11 @@
    "com_imposto": 1619.5,
    "rs": 8780,
    "rs_com_pente": 10204,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H992GJ6X",
@@ -3035,6 +3282,11 @@
    "com_imposto": 1620.59,
    "rs": 8786,
    "rs_com_pente": 10210,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNMJGJR",
@@ -3081,6 +3333,11 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HKVZ7WBZ",
@@ -3131,6 +3388,11 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Target",
    "url": "https://www.target.com/p/lenovo-legion-5i-15-3-oled-wqxga-165hz-gaming-notebook-intel-core-ultra-7-251hx-16gb-ram-1tb-ssd-nvidia-geforce-rtx-5060-eclipse-black/-/A-1012761040",
@@ -3184,6 +3446,11 @@
    "com_imposto": 1620.59,
    "rs": 8786,
    "rs_com_pente": 10210,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNMC7G1",
@@ -3229,6 +3496,11 @@
    "com_imposto": 1587.74,
    "rs": 8607,
    "rs_com_pente": 10032,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H4VKFF2S",
@@ -3271,6 +3543,11 @@
    "com_imposto": 1593.22,
    "rs": 8637,
    "rs_com_pente": 10062,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20785416889",
@@ -3318,6 +3595,11 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
    "excecao16": false,
    "loja": "Costco",
    "url": "https://www.costco.com/p/-/msi-cyborg-173-gaming-laptop--amd-ryzen-7-260--nvidia-geforce-rtx-5060--1920x1080-fhd-display--16gb-ram--1tb-ssd--windows-11/4201008289",
@@ -3354,5 +3636,5 @@
    "pos": 66
   }
  ],
- "varredura_em": "2026-10-31T13:28:06.124Z"
+ "varredura_em": "2026-10-31T13:46:53.630Z"
 }

@@ -106,7 +106,7 @@ function cartao(m){
   return `<article class="c"><h3>${m.pos}. ${esc(m.nome)}</h3>
   <div class="et">${et.join('')}</div>
   <div class="preco">${rs(m.rs)} <small>${us(m.usd)} na etiqueta</small></div>
-  ${m.sem_pente?`<div class="sub">Já soma o pente de 16 GB (US$ 240). Sem ele: ${rs(m.sem_pente)}</div>`:''}
+  ${m.sem_pente?`<div class="sub">Já soma ${esc(m.ampliar.peca)} (${us(m.ampliar.usd)})${m.ampliar.confirmado?'':'; memória de fábrica não confirmada'}. Sem isso: ${rs(m.sem_pente)}</div>`:''}
   ${antes}
   <a class="botao" href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">Ver na ${esc(m.loja)}</a>
   <div class="sub">${m.direto?'Venda direta':'Vendedor: '+esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>
@@ -123,7 +123,7 @@ function cartao(m){
   </article>`;
 }
 function etq(m){return m.etiquetas.concat(m.estoque===false?['esgotado']:[],m.promo?['caiu '+m.promo.queda_pct+'%']:[]).join(' · ');}
-function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div></td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}${m.sem_pente?' · já soma o pente; sem ele '+rs(m.sem_pente):''}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)} · ${idade(o.visto)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td></tr>`;}
+function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div></td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}${m.sem_pente?' · já soma '+esc(m.ampliar.peca)+'; sem isso '+rs(m.sem_pente):''}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)} · ${idade(o.visto)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td></tr>`;}
 function desenhar(){
   const p=+$('f-preco').value,g=$('f-gpu').value,t=$('f-tam').value,e=$('f-est').value;
   const bate=m=>(!p||m.rs<=p)&&(!g||(g==='5060'?/^5060/.test(m.gpu):!/^5060/.test(m.gpu)))&&
@@ -133,7 +133,7 @@ function desenhar(){
   $('cartoes').innerHTML=v.map(cartao).join('')||'<p>Nenhum notebook com esses filtros.</p>';
   const cab=`<tr><th>#</th><th>Notebook</th><th>Preço</th><th>Loja</th><th>Processador (1 núcleo / vários)</th><th>Placa de vídeo</th><th>Ampliar</th><th>Ruído</th><th>Teclado</th><th>Tela</th></tr>`;
   $('tabela').innerHTML=v.length?`<table>${cab}${v.map(linhaT).join('')}</table>`:'<p>Nenhum notebook com esses filtros.</p>';
-  $('exc').hidden=!x.length;$('exc-sub').textContent='16 GB só entra aqui se a máquina for muito superior: RTX 5070 ou acima, ou processador bem mais forte com placa na potência máxima, e total com o pente até R$ 9.000. Preço já com o pente.';
+  $('exc').hidden=!x.length;$('exc-sub').textContent='16 GB só entra aqui se a máquina for muito superior: RTX 5070 ou acima, ou processador bem mais forte com placa na potência máxima, e total com a memória até R$ 9.000. Preço já com a memória.';
   $('exc-c').innerHTML=x.map(cartao).join('');$('exc-t').innerHTML=x.length?`<table>${cab}${x.map(linhaT).join('')}</table>`:'';
 }
 function analise(a){
