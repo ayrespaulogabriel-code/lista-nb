@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-31T00:14:01.610Z",
+ "gerado": "2026-10-31T00:14:12.997Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -37,8 +37,8 @@
     "itens": 4,
     "paginas": 4,
     "estado": "ok",
-    "motivo": "só fichas no Chrome",
-    "link": "busca fica com o script",
+    "motivo": "só fichas no Chrome, a busca fica com o script",
+    "link": null,
     "em": "2026-10-31T00:10:00.000Z"
    },
    "obrigatoria": true
@@ -2818,5 +2818,5 @@
    "pos": 55
   }
  ],
- "varredura_em": "2026-10-31T00:14:01.610Z"
+ "varredura_em": "2026-10-31T00:14:12.997Z"
 }
