@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-31T00:05:34.095Z",
+ "gerado": "2026-10-31T00:13:11.134Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -35,11 +35,11 @@
    "link": "https://www.bestbuy.com/site/searchpage.jsp?st=gaming+laptop&intl=nosplash&qp=currentprice_facet%3DPrice~700%20to%201700&sp=%2Bcurrentprice%20skuidsaas&cp=2",
    "claude": {
     "itens": 4,
-    "paginas": 3,
+    "paginas": 4,
     "estado": "ok",
-    "motivo": "só a ficha do Aero e 1 busca sem preço na lista",
-    "link": "script barrado",
-    "em": "2026-10-30T23:35:00.000Z"
+    "motivo": "só fichas no Chrome",
+    "link": "busca fica com o script",
+    "em": "2026-10-31T00:10:00.000Z"
    },
    "obrigatoria": true
   },
@@ -72,12 +72,12 @@
    "ok_em": "2026-10-30T23:03:48.093Z",
    "link": "https://www.walmart.com/search?q=rtx%205060%20laptop&min_price=700&max_price=1700&page=2",
    "claude": {
-    "itens": 98,
-    "paginas": 2,
-    "estado": "ok",
-    "motivo": "só a 1ª página de RTX 5060 e RTX 5070",
-    "link": null,
-    "em": "2026-10-30T23:05:00.000Z"
+    "itens": 137,
+    "paginas": 3,
+    "estado": "parcial",
+    "motivo": "pediu verificação de robô na 4ª busca",
+    "link": "parei",
+    "em": "2026-10-31T00:10:00.000Z"
    },
    "obrigatoria": true
   },
@@ -110,12 +110,12 @@
    "ok_em": null,
    "link": "https://www.newegg.com/p/pl?d=rtx%205060%20laptop&LeftPriceRange=700+1700&page=1",
    "claude": {
-    "itens": 85,
-    "paginas": 2,
+    "itens": 208,
+    "paginas": 7,
     "estado": "ok",
-    "motivo": "só a 1ª página de RTX 5060 e RTX 5070",
-    "link": null,
-    "em": "2026-10-30T23:05:00.000Z"
+    "motivo": "5 páginas de busca e 2 fichas",
+    "link": "a 3ª página só trouxe caixa aberta",
+    "em": "2026-10-31T00:10:00.000Z"
    },
    "obrigatoria": true
   },
@@ -161,10 +161,10 @@
    "claude": {
     "itens": 5,
     "paginas": 1,
-    "estado": "ok",
-    "motivo": "só a 1ª página de RTX 5060",
-    "link": null,
-    "em": "2026-10-30T23:05:00.000Z"
+    "estado": "parcial",
+    "motivo": "só a 1ª busca",
+    "link": "a 2ª barrada, parei",
+    "em": "2026-10-31T00:10:00.000Z"
    },
    "obrigatoria": false
   },
@@ -2818,5 +2818,5 @@
    "pos": 55
   }
  ],
- "varredura_em": "2026-10-31T00:05:34.095Z"
+ "varredura_em": "2026-10-31T00:13:11.134Z"
 }
