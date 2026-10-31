@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-31T13:46:53.630Z",
+ "gerado": "2026-10-31T14:40:07.296Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -1749,154 +1749,6 @@
    "pos": 29
   },
   {
-   "chave": "solo:https://www.walmart.com/ip/20106954575",
-   "nome": "HP Hyperx Omen 15 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 1TB",
-   "titulo": "HyperX OMEN 15.3\" Gaming Laptop, 2K IPS 165Hz, AMD Ryzen 7 8745HX, NVIDIA GeForce RTX 5060, 16GB, 1TB SSD, Windows 11, Iridescent Black",
-   "marca": "HP",
-   "cpu": "Ryzen 7 8745HX",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 15.3,
-   "tela": null,
-   "usd": 1199,
-   "com_imposto": 1312.9,
-   "rs": 7118,
-   "rs_com_pente": 8542,
-   "ampliar": {
-    "usd": 240,
-    "peca": "pente de 16 GB",
-    "confirmado": false
-   },
-   "excecao16": false,
-   "loja": "Walmart",
-   "url": "https://www.walmart.com/ip/20106954575",
-   "vendedor": "Walmart.com",
-   "direto": true,
-   "estoque": true,
-   "visto": "2026-10-31T12:45:31.259Z",
-   "fonte": "pagina",
-   "antes": null,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1199,
-   "promo": null,
-   "etiquetas": [
-    "conferir"
-   ],
-   "conferir": [
-    "junção entre lojas não confirmada"
-   ],
-   "ssd2": "não confirmado",
-   "memoria": "SO-DIMM (anúncios europeus: 1×24 GB \"expansível\"); nº de entradas não confirmado",
-   "placa": "115 W segundo rgl.deals (não conferido no fabricante)",
-   "watts": 115,
-   "ruido": "sem medição",
-   "topo": "sem medição",
-   "tela_ficha": "1920×1200 165 Hz neste modelo, brilho não medido",
-   "cinebench": null,
-   "pos": 30
-  },
-  {
-   "chave": "sp:hp|hyperx omen 15|ryzen 7 8745hx|5060|16gb|1tb|fhd",
-   "nome": "HP Hyperx Omen 15 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 1TB",
-   "titulo": "HP HyperX Omen 15 (2026) AMD Ryzen 7 8745HX NVIDIA RTX 5060 - 8GB 16GB DDR5 1TB PCIe Gen 4 SSD 15.3\" 1920 x 1200 165Hz gaming laptop",
-   "marca": "HP",
-   "cpu": "Ryzen 7 8745HX",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 15.3,
-   "tela": "fhd",
-   "usd": 1199,
-   "com_imposto": 1312.9,
-   "rs": 7118,
-   "rs_com_pente": 8542,
-   "ampliar": {
-    "usd": 240,
-    "peca": "pente de 16 GB",
-    "confirmado": false
-   },
-   "excecao16": false,
-   "loja": "Walmart",
-   "url": "https://www.walmart.com/ip/HyperX-OMEN-15-inch-Gaming-Laptop-PC-15-gb0070wm/20106954575",
-   "vendedor": null,
-   "direto": false,
-   "estoque": true,
-   "visto": "2026-10-31T12:16:07.771Z",
-   "fonte": "gamingdeals",
-   "antes": 1899,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1199,
-   "promo": null,
-   "etiquetas": [
-    "conferir"
-   ],
-   "conferir": [
-    "preço do GamingLaptop.Deals, com data; conferir na loja antes de comprar",
-    "vendedor não lido"
-   ],
-   "ssd2": "não confirmado",
-   "memoria": "SO-DIMM (anúncios europeus: 1×24 GB \"expansível\"); nº de entradas não confirmado",
-   "placa": "115 W segundo rgl.deals (não conferido no fabricante)",
-   "watts": 115,
-   "ruido": "sem medição",
-   "topo": "sem medição",
-   "tela_ficha": "1920×1200 165 Hz neste modelo, brilho não medido",
-   "cinebench": null,
-   "pos": 31
-  },
-  {
-   "chave": "solo:https://www.walmart.com/ip/20054074481",
-   "nome": "HP Hyperx Omen 15 · Ultra 7 255H · RTX 5060 · 16 GB · 1TB",
-   "titulo": "HyperX OMEN 15\" Gaming Laptop PC 2K IPS 165Hz, Intel Core Ultra 7 255H, NVIDIA GeForce RTX 5060, 16GB, 1TB SSD, Windows 11, Iridescent Black",
-   "marca": "HP",
-   "cpu": "Ultra 7 255H",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 15,
-   "tela": null,
-   "usd": 1249,
-   "com_imposto": 1367.65,
-   "rs": 7414,
-   "rs_com_pente": 8839,
-   "ampliar": {
-    "usd": 240,
-    "peca": "pente de 16 GB",
-    "confirmado": false
-   },
-   "excecao16": false,
-   "loja": "Walmart",
-   "url": "https://www.walmart.com/ip/20054074481",
-   "vendedor": "Walmart.com",
-   "direto": true,
-   "visto": "2026-10-31T12:57:36.977Z",
-   "fonte": "busca",
-   "antes": null,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1249,
-   "promo": null,
-   "etiquetas": [
-    "conferir"
-   ],
-   "conferir": [
-    "preço visto só na busca",
-    "junção entre lojas não confirmada"
-   ],
-   "ssd2": "não confirmado",
-   "memoria": "SO-DIMM (anúncios europeus: 1×24 GB \"expansível\"); nº de entradas não confirmado",
-   "placa": "115 W segundo rgl.deals (não conferido no fabricante)",
-   "watts": 115,
-   "ruido": "sem medição",
-   "topo": "sem medição",
-   "tela_ficha": "1920×1200 165 Hz neste modelo, brilho não medido",
-   "cinebench": null,
-   "pos": 32
-  },
-  {
    "chave": "pn:ANV16-61-R2QY:16gb",
    "nome": "Acer Nitro V 16 · Ryzen AI 5 340 · RTX 5060 · 16 GB · 512GB",
    "titulo": "Acer Nitro V 16 AI Copilot+ PC Gaming Laptop | AMD Ryzen AI 5 340 Processor | NVIDIA GeForce RTX 5060 Laptop GPU | 16\" WUXGA IPS 180Hz Display | 16GB DDR5 | 512GB Gen 4 SSD | Wi-Fi 6E | ANV16-61-R2QY",
@@ -1939,7 +1791,7 @@
    "topo": "<30 °C / até ~45 °C",
    "tela_ficha": "~370 nits, ~60% sRGB, sem PWM",
    "cinebench": null,
-   "pos": 33
+   "pos": 30
   },
   {
    "chave": "solo:https://www.walmart.com/ip/18804722370",
@@ -1988,7 +1840,7 @@
    "topo": "<30 °C / até ~45 °C",
    "tela_ficha": "~370 nits, ~60% sRGB, sem PWM",
    "cinebench": null,
-   "pos": 34
+   "pos": 31
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0G6KCV7ZX",
@@ -2037,7 +1889,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
    "cinebench": null,
-   "pos": 35
+   "pos": 32
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0G4V6ZFP2",
@@ -2086,7 +1938,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
    "cinebench": null,
-   "pos": 36
+   "pos": 33
   },
   {
    "chave": "sp:msi|cyborg 15|core 5 210h|5060|16gb|1tb|fhd",
@@ -2135,7 +1987,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
    "cinebench": null,
-   "pos": 37
+   "pos": 34
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0GMZPV4YJ",
@@ -2184,7 +2036,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
    "cinebench": null,
-   "pos": 38
+   "pos": 35
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0GM7S7RY2",
@@ -2234,7 +2086,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
    "cinebench": null,
-   "pos": 39
+   "pos": 36
   },
   {
    "chave": "pn:B2HWFKG-006US:16gb",
@@ -2282,6 +2134,154 @@
    "ruido": "sem medição",
    "topo": "sem medição",
    "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": null,
+   "pos": 37
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/20106954575",
+   "nome": "HP Hyperx Omen 15 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 1TB",
+   "titulo": "HyperX OMEN 15.3\" Gaming Laptop, 2K IPS 165Hz, AMD Ryzen 7 8745HX, NVIDIA GeForce RTX 5060, 16GB, 1TB SSD, Windows 11, Iridescent Black",
+   "marca": "HP",
+   "cpu": "Ryzen 7 8745HX",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.3,
+   "tela": null,
+   "usd": 1199,
+   "com_imposto": 1312.9,
+   "rs": 7118,
+   "rs_com_pente": 8542,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
+   "excecao16": false,
+   "loja": "Walmart",
+   "url": "https://www.walmart.com/ip/20106954575",
+   "vendedor": "Walmart.com",
+   "direto": true,
+   "estoque": true,
+   "visto": "2026-10-31T12:45:31.259Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1199,
+   "promo": null,
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "sim",
+   "memoria": "2 entradas SO-DIMM (análises de outras configurações); memória de fábrica destes modelos não confirmada",
+   "placa": "não confirmada nestes modelos (ver nota)",
+   "watts": null,
+   "ruido": "sem medição nestes modelos",
+   "topo": "sem medição nestes modelos",
+   "tela_ficha": "1920×1200 165 Hz (Walmart); brilho e cobertura de cor do painel não confirmados (ver nota)",
+   "cinebench": null,
+   "pos": 38
+  },
+  {
+   "chave": "sp:hp|hyperx omen 15|ryzen 7 8745hx|5060|16gb|1tb|fhd",
+   "nome": "HP Hyperx Omen 15 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 1TB",
+   "titulo": "HP HyperX Omen 15 (2026) AMD Ryzen 7 8745HX NVIDIA RTX 5060 - 8GB 16GB DDR5 1TB PCIe Gen 4 SSD 15.3\" 1920 x 1200 165Hz gaming laptop",
+   "marca": "HP",
+   "cpu": "Ryzen 7 8745HX",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.3,
+   "tela": "fhd",
+   "usd": 1199,
+   "com_imposto": 1312.9,
+   "rs": 7118,
+   "rs_com_pente": 8542,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
+   "excecao16": false,
+   "loja": "Walmart",
+   "url": "https://www.walmart.com/ip/HyperX-OMEN-15-inch-Gaming-Laptop-PC-15-gb0070wm/20106954575",
+   "vendedor": null,
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:16:07.771Z",
+   "fonte": "gamingdeals",
+   "antes": 1899,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1199,
+   "promo": null,
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "preço do GamingLaptop.Deals, com data; conferir na loja antes de comprar",
+    "vendedor não lido"
+   ],
+   "ssd2": "sim",
+   "memoria": "2 entradas SO-DIMM (análises de outras configurações); memória de fábrica destes modelos não confirmada",
+   "placa": "não confirmada nestes modelos (ver nota)",
+   "watts": null,
+   "ruido": "sem medição nestes modelos",
+   "topo": "sem medição nestes modelos",
+   "tela_ficha": "1920×1200 165 Hz (Walmart); brilho e cobertura de cor do painel não confirmados (ver nota)",
+   "cinebench": null,
+   "pos": 39
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/20054074481",
+   "nome": "HP Hyperx Omen 15 · Ultra 7 255H · RTX 5060 · 16 GB · 1TB",
+   "titulo": "HyperX OMEN 15\" Gaming Laptop PC 2K IPS 165Hz, Intel Core Ultra 7 255H, NVIDIA GeForce RTX 5060, 16GB, 1TB SSD, Windows 11, Iridescent Black",
+   "marca": "HP",
+   "cpu": "Ultra 7 255H",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15,
+   "tela": null,
+   "usd": 1249,
+   "com_imposto": 1367.65,
+   "rs": 7414,
+   "rs_com_pente": 8839,
+   "ampliar": {
+    "usd": 240,
+    "peca": "pente de 16 GB",
+    "confirmado": false
+   },
+   "excecao16": false,
+   "loja": "Walmart",
+   "url": "https://www.walmart.com/ip/20054074481",
+   "vendedor": "Walmart.com",
+   "direto": true,
+   "visto": "2026-10-31T12:57:36.977Z",
+   "fonte": "busca",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1249,
+   "promo": null,
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "preço visto só na busca",
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "sim",
+   "memoria": "2 entradas SO-DIMM (análises de outras configurações); memória de fábrica destes modelos não confirmada",
+   "placa": "não confirmada nestes modelos (ver nota)",
+   "watts": null,
+   "ruido": "sem medição nestes modelos",
+   "topo": "sem medição nestes modelos",
+   "tela_ficha": "1920×1200 165 Hz (Walmart); brilho e cobertura de cor do painel não confirmados (ver nota)",
    "cinebench": null,
    "pos": 40
   },
@@ -3636,5 +3636,5 @@
    "pos": 66
   }
  ],
- "varredura_em": "2026-10-31T13:46:53.630Z"
+ "varredura_em": "2026-10-31T14:40:07.296Z"
 }
