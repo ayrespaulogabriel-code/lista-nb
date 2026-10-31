@@ -135,7 +135,7 @@ function desenhar(){
   const p=+$('f-preco').value,g=$('f-gpu').value,t=$('f-tam').value,e=$('f-est').value;
   const bate=m=>(!p||m.rs<=p)&&(!g||(g==='5060'?/^5060/.test(m.gpu):!/^5060/.test(m.gpu)))&&
     (!t||(t==='15'?m.polegadas&&m.polegadas<16:t==='16'?m.polegadas>=16&&m.polegadas<17:m.polegadas>=17))&&(!e||m.estoque!==false);
-  const num=(m,i)=>({...m,pos:i+1}),base=D.modelos.filter(m=>m.ram!==16),v=base.filter(bate).map(num),x=D.modelos.filter(m=>m.excecao16).filter(bate).sort((a,b)=>a.rs-b.rs).map(num);
+  const num=(m,i)=>({...m,pos:i+1}),base=D.modelos.filter(m=>m.ram!==16),v=base.filter(bate).sort((a,b)=>(AV[a.chave]?.ordem||99)-(AV[b.chave]?.ordem||99)).map(num),x=D.modelos.filter(m=>m.excecao16).filter(bate).sort((a,b)=>a.rs-b.rs).map(num);
   $('cont').textContent=v.length+' de '+base.length+' notebooks de 32 GB. SSD de 512 GB precisa de 2ª entrada; com 1 TB ou mais ela é só ponto a favor.';
   $('cartoes').innerHTML=v.map(cartao).join('')||'<p>Nenhum notebook com esses filtros.</p>';
   const cab=`<tr><th>#</th><th>Notebook</th><th>Preço</th><th>Loja</th><th>Processador (1 núcleo / vários)</th><th>Placa de vídeo</th><th>Ampliar</th><th>Ruído</th><th>Teclado</th><th>Tela</th></tr>`;

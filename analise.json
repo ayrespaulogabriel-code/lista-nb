@@ -122,7 +122,8 @@
     "Processador forte no dia a dia, mas mediano em trabalho pesado",
     "2ª entrada de SSD mais lenta",
     "Você não é fã do modelo"
-   ]
+   ],
+   "ordem": 1
   },
   "pn:ANV16S-41-R2AJ:32gb": {
    "veredito": "Melhor Nitro de 32 GB",
@@ -137,7 +138,8 @@
     "Tela 1920×1200 sem brilho medido",
     "Sem medição de ruído em uso leve nem de teclado",
     "Carregador de 135 W; comentários relatam gasto de bateria em jogo, sem medição"
-   ]
+   ],
+   "ordem": 2
   },
   "sp:hasee|hasee t8 pro|i7-14700hx|5060|32gb|1tb|alta": {
    "veredito": "Mais potência com 32 GB",
@@ -152,7 +154,8 @@
     "Sem teste independente de ruído, teclado ou tela",
     "2,6 kg",
     "R$ 107 acima do teto"
-   ]
+   ],
+   "ordem": 4
   },
   "solo:https://www.newegg.com/hasee-s8-15-6-nvidia-geforce-rtx-5070-laptop-gpu-intel-core-i7-13620h-fhd-32gb-memory-1tb-ssd/p/2WC-004U-00064": {
    "veredito": "Única 5070 de 32 GB perto do teto",
@@ -167,22 +170,27 @@
     "Tela 1920×1080, 15,6\"",
     "Processador comum (15.176 pontos)",
     "R$ 48 acima do teto"
-   ]
+   ],
+   "ordem": 5
   },
   "solo:https://www.newegg.com/msi-16/p/2WC-000C-0JUC1": {
    "veredito": "Crosshair já com 32 GB",
    "por_que": "É o visual que você gostou, sem comprar memória. O preço só existe porque um revendedor trocou a memória.",
    "fortes": [
-    "i7-14650HX e RTX 5060 a 115 W",
+    "i7-14650HX: 24.455 pontos, contra 16.014 do Aero",
+    "RTX 5060 a 115 W, contra 85 W do Aero",
     "Tela 2560×1600 240 Hz",
     "32 GB e 1 TB"
    ],
    "fracos": [
     "Provável upgrade do revendedor: pode afetar a garantia de fábrica",
-    "Vendedor de terceiros",
-    "Ventoinha alta nas análises, sem medição",
+    "Hubitx Tech, vendedor de terceiros com só 5 avaliações",
+    "Ventoinha alta nas análises, sem medição de ruído ou teclado",
+    "Tela sem medição de brilho e cor",
+    "2,3 kg, contra 1,97 kg do Aero",
     "R$ 297 acima do teto"
-   ]
+   ],
+   "ordem": 3
   },
   "pn:E14WFK-036US:16gb": {
    "veredito": "Melhor preço entre os 16 GB",
@@ -215,24 +223,6 @@
     "O menor preço é de vendedor de terceiros"
    ]
   },
-  "solo:https://www.adorama.com/msi-katana-15-hx-b14wgk-293us-gaming-laptop/p/msikhxb14293": {
-   "veredito": "Melhor placa entre os 16 GB",
-   "por_que": "Nenhuma outra opção junta RTX 5070 a 115 W, processador forte e tela 2,5K sem piscar neste preço. Estava marcada errado como 32 GB.",
-   "fortes": [
-    "RTX 5070 a 115 W (Notebookcheck)",
-    "i7-14650HX: 24.455 pontos",
-    "Tela 2560×1440 165 Hz, 100% DCI-P3, sem piscar (LaptopMedia)",
-    "1 TB, venda direta da Adorama"
-   ],
-   "fracos": [
-    "16 GB",
-    "Só 1 entrada de SSD; com 1 TB, atende ao critério",
-    "15,6\" e 2,4 kg",
-    "Sem medição de ruído ou teclado achada",
-    "R$ 398 acima do teto"
-   ],
-   "ram": 16
-  },
   "sp:lenovo|legion 5i|i7-14700hx|5060|16gb|1tb|alta": {
    "veredito": "Mais equilibrado entre os 16 GB",
    "por_que": "É o de 16 GB com mais medições boas, e venda direta. Tirou o OMEN 16 da lista pelo mesmo preço.",
@@ -251,7 +241,7 @@
   },
   "solo:https://www.amazon.com/dp/B0FRNMC7G1": {
    "veredito": "5070 mais barata em tela 2,5K",
-   "por_que": "Está aqui pela tela 2560×1600 e pela RTX 5070, mas perde em potência para o Katana.",
+   "por_que": "Está aqui pela tela 2560×1600 e pela RTX 5070, mas com placa limitada a 85 W.",
    "fortes": [
     "RTX 5070",
     "Tela 2560×1600 180 Hz pelo título",
@@ -282,7 +272,7 @@
    "chave": "pn:ANV16-72-72ZY:16gb",
    "nome": "Acer Nitro V 16 · Core 7 240H · RTX 5070 · 16 GB · 512GB",
    "url": "https://www.amazon.com/dp/B0FRNL6NQ7",
-   "motivo": "Nitro V 16 com RTX 5070, 16 GB e 512 GB: o Katana entrega placa no máximo pelo mesmo preço."
+   "motivo": "Nitro V 16 com RTX 5070, 16 GB e 512 GB, processador comum e R$ 404 acima do teto: não compensa frente ao Nitro 16S AI."
   },
   {
    "chave": "sp:gigabyte|gaming a16|i7-13620h|5060|32gb|1tb|fhd",
@@ -309,12 +299,6 @@
    "motivo": "Provável Nitro V 16 com upgrade do revendedor; o Nitro V 16S é melhor."
   },
   {
-   "chave": "solo:https://www.walmart.com/ip/16625005777",
-   "nome": "MSI Katana 15 · RTX 5070 · 1TB",
-   "url": "https://www.walmart.com/ip/16625005777",
-   "motivo": "Mesmo Katana: esgotado no Walmart, disponível na Adorama."
-  },
-  {
    "chave": "sp:hp|omen 16|ryzen 9 8940hx|5060|16gb|512gb|fhd",
    "nome": "HP Omen 16 · Ryzen 9 8940HX · RTX 5060 · 16 GB · 512GB",
    "url": "https://www.amazon.com/dp/B0FSS4VX72",
@@ -325,6 +309,18 @@
    "nome": "Gigabyte · Ryzen 7 260 · RTX 5070 · 16 GB · 512GB",
    "url": "https://www.amazon.com/dp/B0HKVZ7WBZ",
    "motivo": "É um A18 sem ficha nem teste, vendido por terceiros."
+  },
+  {
+   "chave": "solo:https://www.adorama.com/msi-katana-15-hx-b14wgk-293us-gaming-laptop/p/msikhxb14293",
+   "nome": "MSI Katana 15 HX · RTX 5070 · 16 GB · 1 TB",
+   "url": "https://www.adorama.com/msi-katana-15-hx-b14wgk-293us-gaming-laptop/p/msikhxb14293",
+   "motivo": "Encomenda: Adorama prevê 12/2026, depois da Black Friday. A versão RTX 5060 de 32 GB custa US$ 1.749 (R$ 10.383), também em encomenda, e passa do limite."
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/16625005777",
+   "nome": "MSI Katana 15 · RTX 5070 · 1 TB (Walmart)",
+   "url": "https://www.walmart.com/ip/16625005777",
+   "motivo": "Esgotado no Walmart."
   }
  ]
 }
