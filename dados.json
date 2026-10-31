@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-31T13:05:52.769Z",
+ "gerado": "2026-10-31T13:08:19.369Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -236,6 +236,7 @@
    "com_imposto": 1423.49,
    "rs": 7717,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Best Buy",
    "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT",
    "vendedor": "Best Buy",
@@ -277,7 +278,6 @@
    "ruido": "23,9 / 33–50 dB (aprox., 5070)",
    "topo": "26,6 °C / \"relativamente frio\"",
    "tela_ficha": "2560×1600, 403 nits, 96% sRGB, sem PWM (unidade 5070 testada)",
-   "peso": "1,97 kg",
    "cinebench": {
     "um": 1958,
     "varios": 16014
@@ -299,6 +299,7 @@
    "com_imposto": 1478.24,
    "rs": 8014,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/p/N82E16834360411",
    "vendedor": "Newegg",
@@ -324,7 +325,6 @@
    "ruido": "sem números; LM: processador ~100 °C (versão i9)",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não medido; versão 2,5K 425 nits, 93% sRGB, sem PWM",
-   "peso": "não levantado",
    "cinebench": {
     "um": 1715,
     "varios": 15225
@@ -346,6 +346,7 @@
    "com_imposto": 1478.24,
    "rs": 8014,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/acer-america-nitro-v-16-0-geforce-rtx-5060-laptop-gpu-up-to-5-20-ghz-wuxga-32gb-memory-512gb-pcie-gen-4-ssd-ssd/p/N82E16834360411",
    "vendedor": "Newegg",
@@ -370,7 +371,6 @@
    "ruido": "sem números; LM: processador ~100 °C (versão i9)",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não medido; versão 2,5K 425 nits, 93% sRGB, sem PWM",
-   "peso": "não levantado",
    "cinebench": {
     "um": 1715,
     "varios": 15225
@@ -392,6 +392,7 @@
    "com_imposto": 1532.99,
    "rs": 8311,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0F195W823",
    "vendedor": "Amazon.com",
@@ -422,7 +423,6 @@
    "ruido": "\"silencioso no escritório\"; 62 dBA em estresse",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
-   "peso": "não levantado",
    "cinebench": {
     "um": 1770,
     "varios": 17211
@@ -444,6 +444,7 @@
    "com_imposto": 1478.24,
    "rs": 8014,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/17815365872",
    "vendedor": "Newegg Inc.",
@@ -471,7 +472,6 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
    "pos": 5
   },
@@ -490,6 +490,7 @@
    "com_imposto": 1587.74,
    "rs": 8607,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/hasee-t8pro-16-0-geforce-rtx-5060-laptop-gpu-i7-14700hx-qhd-32gb-memory-1-tb-ssd/p/2WC-004U-00065",
    "vendedor": "Shinelon",
@@ -516,7 +517,6 @@
    "ruido": "sem medição",
    "topo": "sem medição",
    "tela_ficha": "2560×1600 180 Hz, 100% sRGB (título)",
-   "peso": "~2,6 kg",
    "cinebench": {
     "um": 2103,
     "varios": 24595
@@ -538,6 +538,7 @@
    "com_imposto": 1642.5,
    "rs": 8904,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/21288504227",
    "vendedor": "TechZone",
@@ -564,7 +565,6 @@
    "ruido": "25–27 / 54–55 dB (aprox., 5070)",
    "topo": "31,2 °C / até 50 °C",
    "tela_ficha": "1920×1200, ~300 nits",
-   "peso": "2,26 kg",
    "cinebench": {
     "um": 1833,
     "varios": 15176
@@ -586,6 +586,7 @@
    "com_imposto": 1596.5,
    "rs": 8655,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Best Buy",
    "url": "https://www.bestbuy.com/product/acer-nitro-v-16-16-inch-180hz-gaming-laptop-core-7-240h-rtx-5060-32gb-512gb-ssd-obsidian-black/JJ8V8HGP24",
    "vendedor": "Newegg Official",
@@ -612,7 +613,6 @@
    "ruido": "sem números; LM: processador ~100 °C (versão i9)",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não medido; versão 2,5K 425 nits, 93% sRGB, sem PWM",
-   "peso": "não levantado",
    "cinebench": {
     "um": 1715,
     "varios": 15225
@@ -634,6 +634,7 @@
    "com_imposto": 1576.79,
    "rs": 8548,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/hasee-s8-15-6-nvidia-geforce-rtx-5070-laptop-gpu-intel-core-i7-13620h-fhd-32gb-memory-1tb-ssd/p/2WC-004U-00064",
    "vendedor": "marketplace",
@@ -661,7 +662,6 @@
    "ruido": "sem medição",
    "topo": "sem medição",
    "tela_ficha": "1920×1080 165 Hz IPS (anúncio)",
-   "peso": "não levantado",
    "cinebench": null,
    "pos": 9
   },
@@ -680,6 +680,7 @@
    "com_imposto": 1620.59,
    "rs": 8786,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20457558355",
    "vendedor": "Hubitx",
@@ -706,7 +707,6 @@
    "ruido": "43–48 (modo Desempenho) / até 53 dB",
    "topo": "29,8 °C / até 49 °C",
    "tela_ficha": "1920×1080, 300 nits, ~100% sRGB, sem PWM",
-   "peso": "2,4 kg",
    "cinebench": {
     "um": 1715,
     "varios": 14676
@@ -728,6 +728,7 @@
    "com_imposto": 1554.89,
    "rs": 8429,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/21140362103",
    "vendedor": "CR20 Electronics",
@@ -756,7 +757,6 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
    "pos": 11
   },
@@ -775,6 +775,7 @@
    "com_imposto": 1622.79,
    "rs": 8797,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/msi-16/p/2WC-000C-0JUC1",
    "vendedor": "marketplace",
@@ -803,7 +804,6 @@
    "ruido": "sem números; análises: ventoinha alta",
    "topo": "sem medição",
    "tela_ficha": "2560×1600 240 Hz, não medida",
-   "peso": "2,3 kg",
    "cinebench": null,
    "pos": 12
   },
@@ -822,6 +822,7 @@
    "com_imposto": 1641.4,
    "rs": 8898,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Adorama",
    "url": "https://www.adorama.com/msi-katana-15-hx-b14wgk-293us-gaming-laptop/p/msikhxb14293",
    "vendedor": "Adorama",
@@ -836,8 +837,7 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
-    "não confirmado"
+    "conferir"
    ],
    "conferir": [
     "preço lido pelo Claude no Chrome, com data; o script não abre esta loja",
@@ -851,7 +851,6 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
    "pos": 13
   },
@@ -870,6 +869,7 @@
    "com_imposto": 1641.4,
    "rs": 8898,
    "rs_com_pente": null,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/16625005777",
    "vendedor": "Walmart",
@@ -884,8 +884,7 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
-    "não confirmado"
+    "conferir"
    ],
    "conferir": [
     "preço lido pelo Claude no Chrome, com data; o script não abre esta loja",
@@ -899,7 +898,6 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
    "pos": 14
   },
@@ -918,6 +916,7 @@
    "com_imposto": 1367.65,
    "rs": 7414,
    "rs_com_pente": 8839,
+   "excecao16": true,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20587468399",
    "vendedor": "Walmart.com",
@@ -948,102 +947,11 @@
    "ruido": "sem números; análises: ventoinha alta",
    "topo": "sem medição",
    "tela_ficha": "2560×1600 240 Hz, não medida",
-   "peso": "2,3 kg",
    "cinebench": {
     "um": 1963,
     "varios": 24455
    },
    "pos": 15
-  },
-  {
-   "chave": "sp:mechrevo|aurora 16x|i7-14650hx|5060|16gb|512gb|alta",
-   "nome": "MECHREVO Aurora 16x · i7-14650HX · RTX 5060 · 16 GB · 512GB",
-   "titulo": "Aurora 16X Gaming Laptop, i7-14650HX, RTX 5060, 16'' 2.5K 180Hz",
-   "marca": "MECHREVO",
-   "cpu": "i7-14650HX",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "512GB",
-   "polegadas": 16,
-   "tela": "alta",
-   "usd": 1249.99,
-   "com_imposto": 1368.74,
-   "rs": 7420,
-   "rs_com_pente": 8845,
-   "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0H7BJW482",
-   "vendedor": "CyberGamers",
-   "direto": false,
-   "estoque": true,
-   "visto": "2026-10-31T13:02:26.734Z",
-   "fonte": "pagina",
-   "antes": null,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1249.99,
-   "promo": null,
-   "etiquetas": [
-    "não confirmado"
-   ],
-   "conferir": [],
-   "ssd2": "não confirmado",
-   "memoria": "não confirmado",
-   "placa": "não informado",
-   "watts": null,
-   "ruido": "sem medição",
-   "topo": "sem medição",
-   "tela_ficha": "—",
-   "peso": "—",
-   "cinebench": {
-    "um": 1963,
-    "varios": 24455
-   },
-   "pos": 16
-  },
-  {
-   "chave": "sp:mechrevo|aurora 16x|i7-14650hx|5060|16gb|1tb|alta",
-   "nome": "MECHREVO Aurora 16x · i7-14650HX · RTX 5060 · 16 GB · 1TB",
-   "titulo": "Aurora 16X Gaming Laptop, i7-14650HX, RTX 5060, 16'' 2.5K 180Hz 16:10 IPS, 100% sRGB, 16GB DRR5 RAM, 1 TB SSD, RGB Keyboard, Ice Shark Cooling, Windows 11 Home",
-   "marca": "MECHREVO",
-   "cpu": "i7-14650HX",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 16,
-   "tela": "alta",
-   "usd": 1349.99,
-   "com_imposto": 1478.24,
-   "rs": 8014,
-   "rs_com_pente": 9439,
-   "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0H7BBK1LC",
-   "vendedor": "CyberGamers",
-   "direto": false,
-   "estoque": true,
-   "visto": "2026-10-31T12:47:11.842Z",
-   "fonte": "pagina",
-   "antes": null,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1349.99,
-   "promo": null,
-   "etiquetas": [
-    "não confirmado"
-   ],
-   "conferir": [],
-   "ssd2": "não confirmado",
-   "memoria": "não confirmado",
-   "placa": "não informado",
-   "watts": null,
-   "ruido": "sem medição",
-   "topo": "sem medição",
-   "tela_ficha": "—",
-   "peso": "—",
-   "cinebench": {
-    "um": 1963,
-    "varios": 24455
-   },
-   "pos": 17
   },
   {
    "chave": "sp:asus|tuf f16|i7-14650hx|5060|16gb|512gb|fhd",
@@ -1060,6 +968,7 @@
    "com_imposto": 1531.9,
    "rs": 8305,
    "rs_com_pente": 9729,
+   "excecao16": false,
    "loja": "Sam's Club",
    "url": "https://www.samsclub.com/ip/ASUS-TUF-F16-Gaming-Laptop-16-FHD-165Hz-1-Intel-Core-i7-14650HX-NVIDIA-GeForce-RTX-5060-16GB-DDR5-RAM-512GB-SSD-Windows-11-Home/17831471448",
    "vendedor": "Sam's Club",
@@ -1089,7 +998,94 @@
    "ruido": "sem medição",
    "topo": "sem medição",
    "tela_ficha": "—",
-   "peso": "não levantado",
+   "cinebench": {
+    "um": 1963,
+    "varios": 24455
+   },
+   "pos": 16
+  },
+  {
+   "chave": "sp:mechrevo|aurora 16x|i7-14650hx|5060|16gb|512gb|alta",
+   "nome": "MECHREVO Aurora 16x · i7-14650HX · RTX 5060 · 16 GB · 512GB",
+   "titulo": "Aurora 16X Gaming Laptop, i7-14650HX, RTX 5060, 16'' 2.5K 180Hz",
+   "marca": "MECHREVO",
+   "cpu": "i7-14650HX",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "512GB",
+   "polegadas": 16,
+   "tela": "alta",
+   "usd": 1249.99,
+   "com_imposto": 1368.74,
+   "rs": 7420,
+   "rs_com_pente": 8845,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H7BJW482",
+   "vendedor": "CyberGamers",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T13:02:26.734Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1249.99,
+   "promo": null,
+   "etiquetas": [
+    "não confirmado"
+   ],
+   "conferir": [],
+   "ssd2": "não confirmado",
+   "memoria": "não confirmado",
+   "placa": "não informado",
+   "watts": null,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "—",
+   "cinebench": {
+    "um": 1963,
+    "varios": 24455
+   },
+   "pos": 17
+  },
+  {
+   "chave": "sp:mechrevo|aurora 16x|i7-14650hx|5060|16gb|1tb|alta",
+   "nome": "MECHREVO Aurora 16x · i7-14650HX · RTX 5060 · 16 GB · 1TB",
+   "titulo": "Aurora 16X Gaming Laptop, i7-14650HX, RTX 5060, 16'' 2.5K 180Hz 16:10 IPS, 100% sRGB, 16GB DRR5 RAM, 1 TB SSD, RGB Keyboard, Ice Shark Cooling, Windows 11 Home",
+   "marca": "MECHREVO",
+   "cpu": "i7-14650HX",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 16,
+   "tela": "alta",
+   "usd": 1349.99,
+   "com_imposto": 1478.24,
+   "rs": 8014,
+   "rs_com_pente": 9439,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H7BBK1LC",
+   "vendedor": "CyberGamers",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:47:11.842Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1349.99,
+   "promo": null,
+   "etiquetas": [],
+   "conferir": [],
+   "ssd2": "não confirmado",
+   "memoria": "não confirmado",
+   "placa": "não informado",
+   "watts": null,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "—",
    "cinebench": {
     "um": 1963,
     "varios": 24455
@@ -1111,6 +1107,7 @@
    "com_imposto": 1412.54,
    "rs": 7658,
    "rs_com_pente": 9082,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDM8D8HQ",
    "vendedor": "GS Electronics",
@@ -1132,7 +1129,6 @@
    "ruido": "23,9 / 33–50 dB (aprox., 5070)",
    "topo": "26,6 °C / \"relativamente frio\"",
    "tela_ficha": "2560×1600, 403 nits, 96% sRGB, sem PWM (unidade 5070 testada)",
-   "peso": "1,97 kg",
    "cinebench": {
     "um": 1958,
     "varios": 16014
@@ -1154,6 +1150,7 @@
    "com_imposto": 1401.59,
    "rs": 7598,
    "rs_com_pente": 9023,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/17456357218",
    "vendedor": "Value Tech",
@@ -1179,7 +1176,6 @@
    "ruido": "25–27 / 54–55 dB (aprox., 5070)",
    "topo": "31,2 °C / até 50 °C",
    "tela_ficha": "1920×1200, ~300 nits",
-   "peso": "2,26 kg",
    "cinebench": {
     "um": 1770,
     "varios": 17211
@@ -1201,6 +1197,7 @@
    "com_imposto": 1445.38,
    "rs": 7836,
    "rs_com_pente": 9260,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDMN25CZ",
    "vendedor": "Amazon.com",
@@ -1222,7 +1219,6 @@
    "ruido": "25–27 / 54–55 dB (aprox., 5070)",
    "topo": "31,2 °C / até 50 °C",
    "tela_ficha": "1920×1200, ~300 nits",
-   "peso": "2,26 kg",
    "cinebench": {
     "um": 1833,
     "varios": 15176
@@ -1244,6 +1240,7 @@
    "com_imposto": 1330.42,
    "rs": 7213,
    "rs_com_pente": 8637,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20414803986",
    "vendedor": "HyperTech",
@@ -1277,7 +1274,6 @@
    "ruido": "\"em geral silencioso\" parado",
    "topo": "<30 °C / até ~45 °C",
    "tela_ficha": "~370 nits, ~60% sRGB, sem PWM",
-   "peso": "2,4 kg",
    "cinebench": {
     "um": 1958,
     "varios": 16014
@@ -1299,6 +1295,7 @@
    "com_imposto": 1478.24,
    "rs": 8014,
    "rs_com_pente": 9439,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSMKGKVH",
    "vendedor": "New Sun Mart",
@@ -1324,12 +1321,105 @@
    "ruido": "\"silencioso no escritório\"; 62 dBA em estresse",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
-   "peso": "não levantado",
    "cinebench": {
     "um": 1958,
     "varios": 16014
    },
    "pos": 23
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/21074302857",
+   "nome": "MSI Cyborg 15 · Core 7 240H · RTX 5060 · 16 GB · 1TB",
+   "titulo": "MSI, Cyborg 15.6\" Gaming Laptop, Intel Core 7 240H, NVIDIA RTX 5060, 16GB RAM, 1TB SSD, Windows 11",
+   "marca": "MSI",
+   "cpu": "Core 7 240H",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": null,
+   "usd": 1327.99,
+   "com_imposto": 1454.15,
+   "rs": 7883,
+   "rs_com_pente": 9308,
+   "excecao16": false,
+   "loja": "Walmart",
+   "url": "https://www.walmart.com/ip/21074302857",
+   "vendedor": "Velztorm PC",
+   "direto": false,
+   "visto": "2026-10-31T12:57:36.977Z",
+   "fonte": "busca",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1327.99,
+   "promo": null,
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "preço visto só na busca",
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": {
+    "um": 1715,
+    "varios": 15225
+   },
+   "pos": 24
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/20566065108",
+   "nome": "MSI Cyborg 15 · Core 7 240H · RTX 5060 · 16 GB · 1TB",
+   "titulo": "MSI Cyborg 15.6\" 144Hz Gaming Laptop, Intel Core 7 240H, NVIDIA GeForce RTX 5060, 16GB RAM, 1TB SSD (2026)",
+   "marca": "MSI",
+   "cpu": "Core 7 240H",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": null,
+   "usd": 1329,
+   "com_imposto": 1455.25,
+   "rs": 7889,
+   "rs_com_pente": 9314,
+   "excecao16": false,
+   "loja": "Walmart",
+   "url": "https://www.walmart.com/ip/20566065108",
+   "vendedor": "Best Electronics",
+   "direto": false,
+   "visto": "2026-10-31T12:45:31.259Z",
+   "fonte": "busca",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1329,
+   "promo": null,
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "preço visto só na busca",
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": {
+    "um": 1715,
+    "varios": 15225
+   },
+   "pos": 25
   },
   {
    "chave": "sp:hp|victus 15|ryzen ai 7 350|5060|16gb|1tb|fhd",
@@ -1346,6 +1436,7 @@
    "com_imposto": 1423.46,
    "rs": 7717,
    "rs_com_pente": 9142,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FLRWF779",
    "vendedor": "TrueSpec",
@@ -1359,8 +1450,7 @@
    "menor_visto": 1299.96,
    "promo": null,
    "etiquetas": [
-    "em avaliação",
-    "não confirmado"
+    "em avaliação"
    ],
    "conferir": [],
    "ssd2": "não confirmado",
@@ -1370,12 +1460,11 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": {
     "um": 1958,
     "varios": 16014
    },
-   "pos": 24
+   "pos": 26
   },
   {
    "chave": "sp:dell|alienware 15|ryzen 7 260|5060|16gb|512gb|fhd",
@@ -1392,6 +1481,7 @@
    "com_imposto": 1477.15,
    "rs": 8008,
    "rs_com_pente": 9433,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HLCYXNT5",
    "vendedor": "Cardinal Pro Electronics",
@@ -1416,12 +1506,11 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": {
     "um": 1770,
     "varios": 17211
    },
-   "pos": 25
+   "pos": 27
   },
   {
    "chave": "sp:acer|nitro 16s|ryzen ai 7 350|5060|16gb|1tb|fhd",
@@ -1438,6 +1527,7 @@
    "com_imposto": 1559.28,
    "rs": 8453,
    "rs_com_pente": 9878,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FS861DH8",
    "vendedor": "Emma's Market",
@@ -1451,8 +1541,7 @@
    "menor_visto": 1424,
    "promo": null,
    "etiquetas": [
-    "em avaliação",
-    "não confirmado"
+    "em avaliação"
    ],
    "conferir": [],
    "ssd2": "não confirmado",
@@ -1462,12 +1551,11 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": {
     "um": 1958,
     "varios": 16014
    },
-   "pos": 26
+   "pos": 28
   },
   {
    "chave": "sp:lenovo|loq 15|ryzen 7 250|5060|16gb|512gb|fhd",
@@ -1484,6 +1572,7 @@
    "com_imposto": 1313.99,
    "rs": 7123,
    "rs_com_pente": 8548,
+   "excecao16": false,
    "loja": "Best Buy",
    "url": "https://www.bestbuy.com/product/lenovo-loq-15-3-wuxga-ips-165hz-ai-powered-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd-nvidia-geforce-rtx-5060-luna-grey/JJGH3RXTSH",
    "vendedor": "antonline",
@@ -1533,12 +1622,11 @@
    "ruido": "43–48 (modo Desempenho) / até 53 dB",
    "topo": "29,8 °C / até 49 °C",
    "tela_ficha": "1920×1080, 300 nits, ~100% sRGB, sem PWM",
-   "peso": "2,4 kg",
    "cinebench": {
     "um": 1715,
     "varios": 14676
    },
-   "pos": 27
+   "pos": 29
   },
   {
    "chave": "sp:lenovo|legion 5|ryzen 7 250|5060|16gb|512gb|alta",
@@ -1555,6 +1643,7 @@
    "com_imposto": 1531.9,
    "rs": 8305,
    "rs_com_pente": 9729,
+   "excecao16": false,
    "loja": "B&H",
    "url": "https://www.bhphotovideo.com/c/product/1985625-REG/lenovo_83q70068us_legion_5a_r7_250_16gb_512gb_rtx_5060_wifi7_w11h_15_3.html",
    "vendedor": "B&H",
@@ -1596,12 +1685,11 @@
    "ruido": "sem medição",
    "topo": "sem medição",
    "tela_ficha": "sem PWM (LM)",
-   "peso": "não levantado",
    "cinebench": {
     "um": 1715,
     "varios": 14676
    },
-   "pos": 28
+   "pos": 30
   },
   {
    "chave": "sp:gigabyte|gaming a16|ryzen 7 170|5060|16gb|512gb|fhd",
@@ -1618,6 +1706,7 @@
    "com_imposto": 1368.74,
    "rs": 7420,
    "rs_com_pente": 8845,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/21194467153",
    "vendedor": "Newegg Inc.",
@@ -1642,9 +1731,8 @@
    "ruido": "25–27 / 54–55 dB (aprox., 5070)",
    "topo": "31,2 °C / até 50 °C",
    "tela_ficha": "1920×1200, ~300 nits",
-   "peso": "2,26 kg",
    "cinebench": null,
-   "pos": 29
+   "pos": 31
   },
   {
    "chave": "solo:https://www.walmart.com/ip/20106954575",
@@ -1661,6 +1749,7 @@
    "com_imposto": 1312.9,
    "rs": 7118,
    "rs_com_pente": 8542,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20106954575",
    "vendedor": "Walmart.com",
@@ -1674,8 +1763,7 @@
    "menor_visto": 1199,
    "promo": null,
    "etiquetas": [
-    "conferir",
-    "não confirmado"
+    "conferir"
    ],
    "conferir": [
     "junção entre lojas não confirmada"
@@ -1687,9 +1775,8 @@
    "ruido": "sem medição",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 165 Hz neste modelo, brilho não medido",
-   "peso": "2,42 kg (rgl.deals)",
    "cinebench": null,
-   "pos": 30
+   "pos": 32
   },
   {
    "chave": "sp:hp|hyperx omen 15|ryzen 7 8745hx|5060|16gb|1tb|fhd",
@@ -1706,6 +1793,7 @@
    "com_imposto": 1312.9,
    "rs": 7118,
    "rs_com_pente": 8542,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/HyperX-OMEN-15-inch-Gaming-Laptop-PC-15-gb0070wm/20106954575",
    "vendedor": null,
@@ -1719,8 +1807,7 @@
    "menor_visto": 1199,
    "promo": null,
    "etiquetas": [
-    "conferir",
-    "não confirmado"
+    "conferir"
    ],
    "conferir": [
     "preço do GamingLaptop.Deals, com data; conferir na loja antes de comprar",
@@ -1733,9 +1820,8 @@
    "ruido": "sem medição",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 165 Hz neste modelo, brilho não medido",
-   "peso": "2,42 kg (rgl.deals)",
    "cinebench": null,
-   "pos": 31
+   "pos": 33
   },
   {
    "chave": "solo:https://www.walmart.com/ip/20054074481",
@@ -1752,6 +1838,7 @@
    "com_imposto": 1367.65,
    "rs": 7414,
    "rs_com_pente": 8839,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20054074481",
    "vendedor": "Walmart.com",
@@ -1764,8 +1851,7 @@
    "menor_visto": 1249,
    "promo": null,
    "etiquetas": [
-    "conferir",
-    "não confirmado"
+    "conferir"
    ],
    "conferir": [
     "preço visto só na busca",
@@ -1778,9 +1864,8 @@
    "ruido": "sem medição",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 165 Hz neste modelo, brilho não medido",
-   "peso": "2,42 kg (rgl.deals)",
    "cinebench": null,
-   "pos": 32
+   "pos": 34
   },
   {
    "chave": "pn:ANV16-61-R2QY:16gb",
@@ -1797,6 +1882,7 @@
    "com_imposto": 1365.46,
    "rs": 7402,
    "rs_com_pente": 8827,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FTGC4JT4",
    "vendedor": "Emma's Market",
@@ -1818,9 +1904,8 @@
    "ruido": "\"em geral silencioso\" parado",
    "topo": "<30 °C / até ~45 °C",
    "tela_ficha": "~370 nits, ~60% sRGB, sem PWM",
-   "peso": "2,4 kg",
    "cinebench": null,
-   "pos": 33
+   "pos": 35
   },
   {
    "chave": "solo:https://www.walmart.com/ip/18804722370",
@@ -1837,6 +1922,7 @@
    "com_imposto": 1367.65,
    "rs": 7414,
    "rs_com_pente": 8839,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/18804722370",
    "vendedor": "Walmart.com",
@@ -1862,9 +1948,8 @@
    "ruido": "\"em geral silencioso\" parado",
    "topo": "<30 °C / até ~45 °C",
    "tela_ficha": "~370 nits, ~60% sRGB, sem PWM",
-   "peso": "2,4 kg",
    "cinebench": null,
-   "pos": 34
+   "pos": 36
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0G6KCV7ZX",
@@ -1881,6 +1966,7 @@
    "com_imposto": 1423.5,
    "rs": 7717,
    "rs_com_pente": 9142,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0G6KCV7ZX",
    "vendedor": "Bright Spot",
@@ -1906,9 +1992,8 @@
    "ruido": "\"silencioso no escritório\"; 62 dBA em estresse",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
-   "peso": "não levantado",
    "cinebench": null,
-   "pos": 35
+   "pos": 37
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0G4V6ZFP2",
@@ -1925,6 +2010,7 @@
    "com_imposto": 1423.5,
    "rs": 7717,
    "rs_com_pente": 9142,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0G4V6ZFP2",
    "vendedor": "Bright Spot",
@@ -1950,9 +2036,185 @@
    "ruido": "\"silencioso no escritório\"; 62 dBA em estresse",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
-   "peso": "não levantado",
    "cinebench": null,
-   "pos": 36
+   "pos": 38
+  },
+  {
+   "chave": "sp:msi|cyborg 15|core 5 210h|5060|16gb|1tb|fhd",
+   "nome": "MSI Cyborg 15 · Core 5 210H · RTX 5060 · 16 GB · 1TB",
+   "titulo": "msi Cyborg 15 AI Gaming Laptop 15.6\" FHD IPS 144Hz Intel 8-core Core 5 210H 16GB DDR5 1TB SSD GeForce RTX 5060 8GB GDDR7 (Up to 572 AI Tops) RGB Backlit Wi-Fi 6E Win11 ICP Accessory",
+   "marca": "MSI",
+   "cpu": "Core 5 210H",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": "fhd",
+   "usd": 1299,
+   "com_imposto": 1422.4,
+   "rs": 7711,
+   "rs_com_pente": 9136,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HJYKSN97",
+   "vendedor": "Cardinal Pro Electronics",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:47:11.842Z",
+   "fonte": "busca",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1299,
+   "promo": null,
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "preço visto só na busca"
+   ],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": null,
+   "pos": 39
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B0GMZPV4YJ",
+   "nome": "MSI Cyborg 15 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "msi Cyborg 15 Thin & Light Gaming Laptop 15.6” FHD 144Hz – RTX 5060, Intel Core 7-240H, 16GB DDR5, 1TB SSD, Wi-Fi 6E, Windows 11 Pro",
+   "marca": "MSI",
+   "cpu": null,
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": "fhd",
+   "usd": 1299.99,
+   "com_imposto": 1423.49,
+   "rs": 7717,
+   "rs_com_pente": 9142,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0GMZPV4YJ",
+   "vendedor": "Best Tech Deal Corp",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:57:21.332Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1299.99,
+   "promo": null,
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": null,
+   "pos": 40
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B0GM7S7RY2",
+   "nome": "MSI Cyborg A15 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "msi Cyborg A15 AI 15.6\" FHD 144Hz Gaming, R9 270, 16GB,1TB, RTX 5060,",
+   "marca": "MSI",
+   "cpu": null,
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": "fhd",
+   "usd": 1328.06,
+   "com_imposto": 1454.23,
+   "rs": 7884,
+   "rs_com_pente": 9308,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0GM7S7RY2",
+   "vendedor": "BatzmaruEbiz",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:57:21.332Z",
+   "fonte": "busca",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1328.06,
+   "promo": null,
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "preço visto só na busca",
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": null,
+   "pos": 41
+  },
+  {
+   "chave": "pn:B2HWFKG-006US:16gb",
+   "nome": "MSI Cyborg A15 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "Cyborg A15 AI B2HWFKG-006US 15.6\" FHD Gaming Laptop",
+   "marca": "MSI",
+   "cpu": null,
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": "fhd",
+   "usd": 1349.99,
+   "com_imposto": 1478.24,
+   "rs": 8014,
+   "rs_com_pente": 9439,
+   "excecao16": false,
+   "loja": "Lojas oficiais",
+   "url": "https://us-store.msi.com/Laptops/Gaming-Series/Cyborg-A15-AI-B2HWFKG-006US",
+   "vendedor": null,
+   "direto": false,
+   "estoque": null,
+   "visto": "2026-10-31T12:53:14.438Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1349.99,
+   "promo": null,
+   "etiquetas": [
+    "conferir"
+   ],
+   "conferir": [
+    "vendedor não lido"
+   ],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": null,
+   "pos": 42
   },
   {
    "chave": "pn:ANV17-41-R8ML:16gb",
@@ -1969,6 +2231,7 @@
    "com_imposto": 1204.49,
    "rs": 6530,
    "rs_com_pente": 7954,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNHHLZ5",
    "vendedor": "Acer_Authorized",
@@ -2002,9 +2265,8 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
-   "pos": 37
+   "pos": 43
   },
   {
    "chave": "pn:ANV15-52-98KV:16gb",
@@ -2021,6 +2283,7 @@
    "com_imposto": 1313.99,
    "rs": 7123,
    "rs_com_pente": 8548,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDN1GDRY",
    "vendedor": "Amazon.com",
@@ -2034,8 +2297,7 @@
    "menor_visto": 1199.99,
    "promo": null,
    "etiquetas": [
-    "em avaliação",
-    "não confirmado"
+    "em avaliação"
    ],
    "conferir": [],
    "ssd2": "não confirmado",
@@ -2045,9 +2307,8 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
-   "pos": 38
+   "pos": 44
   },
   {
    "chave": "pn:ANV16-72-70F4:16gb",
@@ -2064,6 +2325,7 @@
    "com_imposto": 1412.54,
    "rs": 7658,
    "rs_com_pente": 9082,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FS8BZDQ9",
    "vendedor": "GS Electronics",
@@ -2088,9 +2350,8 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
-   "pos": 39
+   "pos": 45
   },
   {
    "chave": "pn:B2RWFKG-074US:16gb",
@@ -2107,6 +2368,7 @@
    "com_imposto": 1499.06,
    "rs": 8127,
    "rs_com_pente": 9551,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSGJZDNT",
    "vendedor": "AME Electronics Pro",
@@ -2120,8 +2382,7 @@
    "menor_visto": 1369,
    "promo": null,
    "etiquetas": [
-    "em avaliação",
-    "não confirmado"
+    "em avaliação"
    ],
    "conferir": [],
    "ssd2": "não confirmado",
@@ -2131,9 +2392,8 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
-   "pos": 40
+   "pos": 46
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0HMGYKX26",
@@ -2150,6 +2410,7 @@
    "com_imposto": 1532.99,
    "rs": 8311,
    "rs_com_pente": 9735,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HMGYKX26",
    "vendedor": "Prime Distributor Global",
@@ -2177,9 +2438,8 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
-   "pos": 41
+   "pos": 47
   },
   {
    "chave": "sp:hp|omen 16|ryzen 9 8940hx|5060|16gb|512gb|fhd",
@@ -2196,6 +2456,7 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSS4VX72",
    "vendedor": "Bright Spot",
@@ -2219,12 +2480,11 @@
    "ruido": "23–27,6 / 49,5–52,7 dB",
    "topo": "27,7 °C / até 36 °C",
    "tela_ficha": "1920×1200, ~300 nits, 62% sRGB",
-   "peso": "2,4 kg",
    "cinebench": {
     "um": 1917,
     "varios": 32521
    },
-   "pos": 42
+   "pos": 48
   },
   {
    "chave": "sp:lenovo|legion 5i|i7-14700hx|5060|16gb|1tb|alta",
@@ -2241,6 +2501,7 @@
    "com_imposto": 1641.4,
    "rs": 8898,
    "rs_com_pente": 10323,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/14618706354",
    "vendedor": "Walmart.com",
@@ -2264,12 +2525,11 @@
    "ruido": "24–28,3 / 39,6–50,1 dB (aprox., 5070)",
    "topo": "29,4 °C / até 41,6 °C",
    "tela_ficha": "2560×1600, sem PWM (LM)",
-   "peso": "1,9 kg",
    "cinebench": {
     "um": 2103,
     "varios": 24595
    },
-   "pos": 43
+   "pos": 49
   },
   {
    "chave": "sp:gigabyte|gaming a16|i7-13620h|5070|16gb|1tb|fhd",
@@ -2286,6 +2546,7 @@
    "com_imposto": 1586.65,
    "rs": 8602,
    "rs_com_pente": 10026,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDMF1CVP",
    "vendedor": "Snow Bell",
@@ -2309,12 +2570,11 @@
    "ruido": "25–27 / 54–55 dB (aprox., 5070)",
    "topo": "31,2 °C / até 50 °C",
    "tela_ficha": "1920×1200, ~300 nits",
-   "peso": "2,26 kg",
    "cinebench": {
     "um": 1833,
     "varios": 15176
    },
-   "pos": 44
+   "pos": 50
   },
   {
    "chave": "sp:gigabyte|gaming a16|ryzen 7 260|5060|16gb|1tb|fhd",
@@ -2331,6 +2591,7 @@
    "com_imposto": 1587.74,
    "rs": 8607,
    "rs_com_pente": 10032,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FH5W7X4L",
    "vendedor": "Tech 210 Outlet",
@@ -2354,12 +2615,11 @@
    "ruido": "25–27 / 54–55 dB (aprox., 5070)",
    "topo": "31,2 °C / até 50 °C",
    "tela_ficha": "1920×1200, ~300 nits",
-   "peso": "2,26 kg",
    "cinebench": {
     "um": 1770,
     "varios": 17211
    },
-   "pos": 45
+   "pos": 51
   },
   {
    "chave": "pn:ANV16-72-72ZY:16gb",
@@ -2376,6 +2636,7 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNL6NQ7",
    "vendedor": "Acer_Authorized",
@@ -2399,225 +2660,79 @@
    "ruido": "sem números; LM: processador ~100 °C (versão i9)",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não medido; versão 2,5K 425 nits, 93% sRGB, sem PWM",
-   "peso": "não levantado",
    "cinebench": {
     "um": 1715,
     "varios": 15225
    },
-   "pos": 46
+   "pos": 52
   },
   {
-   "chave": "sp:dell|alienware 15|ryzen 7 260|5060|16gb|1tb|fhd",
-   "nome": "Dell Alienware 15 · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
-   "titulo": "Dell Alienware 15 AI Gaming Laptop 15.3\" WUXGA 165Hz FreeSync AMD 8-core Ryzen 7 260 16GB DDR5 1TB SSD GeForce RTX 5060 8GB GDDR7 (572 AI Tops) Backlit WiFi 6 Win11 Pro",
-   "marca": "Dell",
-   "cpu": "Ryzen 7 260",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 15.3,
-   "tela": "fhd",
-   "usd": 1449,
-   "com_imposto": 1586.65,
-   "rs": 8602,
-   "rs_com_pente": 10026,
-   "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0HJZDPGT4",
-   "vendedor": "Cardinal Pro Electronics",
-   "direto": false,
-   "estoque": true,
-   "visto": "2026-10-31T12:57:21.332Z",
-   "fonte": "pagina",
-   "antes": null,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1449,
-   "promo": null,
-   "etiquetas": [
-    "acima do teto",
-    "em avaliação",
-    "não confirmado"
-   ],
-   "conferir": [],
-   "ssd2": "não confirmado",
-   "memoria": null,
-   "placa": null,
-   "watts": null,
-   "ruido": null,
-   "topo": null,
-   "tela_ficha": null,
-   "peso": null,
-   "cinebench": {
-    "um": 1770,
-    "varios": 17211
-   },
-   "pos": 47
-  },
-  {
-   "chave": "sp:asus|tuf gaming a18|ryzen 7 260|5060|16gb|1tb|fhd",
-   "nome": "ASUS Tuf Gaming A18 · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
-   "titulo": "ASUS TUF Gaming A18 AI Laptop 18\" WUXGA IPS 144Hz (100% sRGB, GSYNC) AMD 8-core Ryzen 7 260 16GB RAM 1TB SSD GeForce RTX 5060 GDDR7 (Up to 572 AI Tops) RGB Backlit USB4 Win11 ICP Acc",
-   "marca": "ASUS",
-   "cpu": "Ryzen 7 260",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 18,
-   "tela": "fhd",
-   "usd": 1475,
-   "com_imposto": 1615.13,
-   "rs": 8756,
-   "rs_com_pente": 10181,
-   "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0H8R7TBRX",
-   "vendedor": "Cardinal Pro Electronics",
-   "direto": false,
-   "estoque": true,
-   "visto": "2026-10-31T13:04:44.219Z",
-   "fonte": "pagina",
-   "antes": null,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1475,
-   "promo": null,
-   "etiquetas": [
-    "acima do teto",
-    "em avaliação",
-    "não confirmado"
-   ],
-   "conferir": [],
-   "ssd2": "não confirmado",
-   "memoria": null,
-   "placa": null,
-   "watts": null,
-   "ruido": null,
-   "topo": null,
-   "tela_ficha": null,
-   "peso": null,
-   "cinebench": {
-    "um": 1770,
-    "varios": 17211
-   },
-   "pos": 48
-  },
-  {
-   "chave": "sp:asus|tuf a18|ryzen 7 260|5060|16gb|1tb|fhd",
-   "nome": "ASUS Tuf A18 · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
-   "titulo": "ASUS TUF A18 Gaming Laptop, 18\" FHD+ 144Hz Display, AMD Ryzen 7 260(>i7-14650HX), NVIDIA GeForce RTX 5060, 16GB D5 RAM, 1TB SSD, Backlit Keyboard, Wi-Fi 6E, FHD Camera, Win 11 Pro, w/BWE Accessories",
-   "marca": "ASUS",
-   "cpu": "Ryzen 7 260",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 18,
-   "tela": "fhd",
-   "usd": 1479,
-   "com_imposto": 1619.5,
-   "rs": 8780,
-   "rs_com_pente": 10204,
-   "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0GPVLLTF9",
-   "vendedor": "FutureTech Electronics",
-   "direto": false,
-   "estoque": true,
-   "visto": "2026-10-30T22:58:47.115Z",
-   "fonte": "pagina",
-   "antes": null,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1479,
-   "promo": null,
-   "etiquetas": [
-    "acima do teto",
-    "em avaliação",
-    "não confirmado"
-   ],
-   "conferir": [],
-   "ssd2": "não confirmado",
-   "memoria": null,
-   "placa": null,
-   "watts": null,
-   "ruido": null,
-   "topo": null,
-   "tela_ficha": null,
-   "peso": null,
-   "cinebench": {
-    "um": 1770,
-    "varios": 17211
-   },
-   "pos": 49
-  },
-  {
-   "chave": "solo:https://www.amazon.com/dp/B0H992GJ6X",
-   "nome": "HP · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
-   "titulo": "HP HyperX OMEN Gaming Laptop, 15.3\" 2.5K WQXGA Display 180Hz, AMD Ryzen 7 260, AMD Radeon 780M Graphics, NVIDIA GeForce RTX 5060, 16GB DDR5 RAM, 1TB SSD, Wi-Fi 7, Backlit Keyboard, Win 11 Home, Cloth",
-   "marca": "HP",
-   "cpu": "Ryzen 7 260",
-   "gpu": "5060",
-   "ram": 16,
-   "ssd": "1TB",
-   "polegadas": 15.3,
-   "tela": "alta",
-   "usd": 1479,
-   "com_imposto": 1619.5,
-   "rs": 8780,
-   "rs_com_pente": 10204,
-   "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0H992GJ6X",
-   "vendedor": "EA Tech LLC",
-   "direto": false,
-   "estoque": true,
-   "visto": "2026-10-31T12:57:21.332Z",
-   "fonte": "pagina",
-   "antes": null,
-   "suspeito": false,
-   "outras": [],
-   "menor_visto": 1479,
-   "promo": null,
-   "etiquetas": [
-    "acima do teto",
-    "em avaliação",
-    "conferir",
-    "não confirmado"
-   ],
-   "conferir": [
-    "junção entre lojas não confirmada"
-   ],
-   "ssd2": "não confirmado",
-   "memoria": null,
-   "placa": null,
-   "watts": null,
-   "ruido": null,
-   "topo": null,
-   "tela_ficha": null,
-   "peso": null,
-   "cinebench": {
-    "um": 1770,
-    "varios": 17211
-   },
-   "pos": 50
-  },
-  {
-   "chave": "pn:ANV15-52-73D8:16gb",
-   "nome": "Acer Nitro V 15 · i7-13620H · RTX 5060 · 16 GB · 1TB",
-   "titulo": "Acer Nitro V 15.6in Gaming Laptop 16GB RAM 1TB SSD RTX 5060 165Hz ANV15-52-73D8, Black, Intel Core i7-13620H, FHD IPS display, Windows 11, backlit keyboard, WiFi 6",
-   "marca": "Acer",
+   "chave": "sp:msi|cyborg 15|i7-13620h|5070|16gb|1tb|fhd",
+   "nome": "MSI Cyborg 15 · i7-13620H · RTX 5070 · 16 GB · 1TB",
+   "titulo": "msi Cyborg 15.6\" AI Gaming Laptop, NVIDIA GeForce RTX 5070, Intel 10-Core 7-240H Series 2(Upto 5.2GHz, >i7-13620H), 144Hz FHD IPS, 16GB DDR5, 1TB SSD, Backlit KB, Wi-Fi 6E, Win 11 Home, w/Res Cooler",
+   "marca": "MSI",
    "cpu": "i7-13620H",
-   "gpu": "5060",
+   "gpu": "5070",
    "ram": 16,
    "ssd": "1TB",
    "polegadas": 15.6,
    "tela": "fhd",
+   "usd": 1469,
+   "com_imposto": 1608.56,
+   "rs": 8720,
+   "rs_com_pente": 10145,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H1M6HN9F",
+   "vendedor": "FutureTech Electronics",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:47:11.842Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1469,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto"
+   ],
+   "conferir": [],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": {
+    "um": 1833,
+    "varios": 15176
+   },
+   "pos": 53
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B084JF4BFG",
+   "nome": "MSI Cyborg 15 · Core 7 240H · RTX 5070 · 16 GB · 1TB",
+   "titulo": "msi Cyborg 15.6\" RTX 5070 Gaming Laptop, Intel 10-Core 7 240H(Up to 5.2GHz), 16GB DDR5, 1TB SSD+1TB External Hard Drive, NVIDIA GeForce RTX 5070, 4-Zone RGB Backlit, Cooler Boost, RJ45, Win 11 Home",
+   "marca": "MSI",
+   "cpu": "Core 7 240H",
+   "gpu": "5070",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": null,
    "usd": 1479.99,
    "com_imposto": 1620.59,
    "rs": 8786,
    "rs_com_pente": 10210,
+   "excecao16": false,
    "loja": "Amazon",
-   "url": "https://www.amazon.com/dp/B0FRNMJGJR",
-   "vendedor": "Emma's Market",
+   "url": "https://www.amazon.com/dp/B084JF4BFG",
+   "vendedor": "Prime Distributor Global",
    "direto": false,
    "estoque": true,
-   "visto": "2026-10-31T12:47:11.842Z",
+   "visto": "2026-10-31T12:57:21.332Z",
    "fonte": "pagina",
    "antes": null,
    "suspeito": false,
@@ -2626,23 +2741,116 @@
    "promo": null,
    "etiquetas": [
     "acima do teto",
-    "em avaliação",
-    "não confirmado"
+    "conferir"
+   ],
+   "conferir": [
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": {
+    "um": 1715,
+    "varios": 15225
+   },
+   "pos": 54
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B084JTFYFT",
+   "nome": "MSI Cyborg 15 · Core 7 240H · RTX 5070 · 16 GB · 1TB",
+   "titulo": "msi Cyborg 15.6\" RTX 5070 Gaming Laptop, Intel 10-Core 7 240H(Up to 5.2GHz), 16GB DDR5, 1TB SSD+1TB External Hard Drive, NVIDIA GeForce RTX 5070, 4-Zone RGB Backlit, Cooler Boost, RJ45, Win 11 Pro",
+   "marca": "MSI",
+   "cpu": "Core 7 240H",
+   "gpu": "5070",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": null,
+   "usd": 1489.99,
+   "com_imposto": 1631.54,
+   "rs": 8845,
+   "rs_com_pente": 10270,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B084JTFYFT",
+   "vendedor": "Prime Distributor Global",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:57:21.332Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1489.99,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto",
+    "conferir"
+   ],
+   "conferir": [
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": {
+    "um": 1715,
+    "varios": 15225
+   },
+   "pos": 55
+  },
+  {
+   "chave": "sp:msi|cyborg 15|core 7 240h|5070|16gb|1tb|fhd",
+   "nome": "MSI Cyborg 15 · core 7 240H · RTX 5070 · 16 GB · 1TB",
+   "titulo": "iCarp Customized Laptop Made with MSI Cyborg 15 Gaming Laptop 15.6\" FHD 144Hz Intel 10-core 7 240H (>Ultra 7 268V) 16GB/32GB/64GB RAM 1TB/2TB/4TB SSD GeForce RTX 5070 798 AI Tops RGB Backlit Win11",
+   "marca": "MSI",
+   "cpu": "core 7 240H",
+   "gpu": "5070",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": "fhd",
+   "usd": 1499,
+   "com_imposto": 1641.4,
+   "rs": 8898,
+   "rs_com_pente": 10323,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H6VG2L69",
+   "vendedor": "Cardinal Pro Electronics",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:47:11.842Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1499,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto"
    ],
    "conferir": [],
-   "ssd2": "não confirmado",
-   "memoria": null,
-   "placa": null,
-   "watts": null,
-   "ruido": null,
-   "topo": null,
-   "tela_ficha": null,
-   "peso": null,
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
    "cinebench": {
-    "um": 1833,
-    "varios": 15176
+    "um": 1715,
+    "varios": 15225
    },
-   "pos": 51
+   "pos": 56
   },
   {
    "chave": "sp:lenovo|legion 5|ryzen 7 260|5060|16gb|512gb|alta",
@@ -2659,6 +2867,7 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/17103273135",
    "vendedor": "antonline.com",
@@ -2701,12 +2910,244 @@
    "ruido": "sem medição",
    "topo": "sem medição",
    "tela_ficha": "sem PWM (LM)",
-   "peso": "não levantado",
    "cinebench": {
     "um": 1770,
     "varios": 17211
    },
-   "pos": 52
+   "pos": 57
+  },
+  {
+   "chave": "sp:dell|alienware 15|ryzen 7 260|5060|16gb|1tb|fhd",
+   "nome": "Dell Alienware 15 · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "Dell Alienware 15 AI Gaming Laptop 15.3\" WUXGA 165Hz FreeSync AMD 8-core Ryzen 7 260 16GB DDR5 1TB SSD GeForce RTX 5060 8GB GDDR7 (572 AI Tops) Backlit WiFi 6 Win11 Pro",
+   "marca": "Dell",
+   "cpu": "Ryzen 7 260",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.3,
+   "tela": "fhd",
+   "usd": 1449,
+   "com_imposto": 1586.65,
+   "rs": 8602,
+   "rs_com_pente": 10026,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HJZDPGT4",
+   "vendedor": "Cardinal Pro Electronics",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:57:21.332Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1449,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto",
+    "em avaliação"
+   ],
+   "conferir": [],
+   "ssd2": "não confirmado",
+   "memoria": null,
+   "placa": null,
+   "watts": null,
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "cinebench": {
+    "um": 1770,
+    "varios": 17211
+   },
+   "pos": 58
+  },
+  {
+   "chave": "sp:asus|tuf gaming a18|ryzen 7 260|5060|16gb|1tb|fhd",
+   "nome": "ASUS Tuf Gaming A18 · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "ASUS TUF Gaming A18 AI Laptop 18\" WUXGA IPS 144Hz (100% sRGB, GSYNC) AMD 8-core Ryzen 7 260 16GB RAM 1TB SSD GeForce RTX 5060 GDDR7 (Up to 572 AI Tops) RGB Backlit USB4 Win11 ICP Acc",
+   "marca": "ASUS",
+   "cpu": "Ryzen 7 260",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 18,
+   "tela": "fhd",
+   "usd": 1475,
+   "com_imposto": 1615.13,
+   "rs": 8756,
+   "rs_com_pente": 10181,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H8R7TBRX",
+   "vendedor": "Cardinal Pro Electronics",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T13:04:44.219Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1475,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto",
+    "em avaliação"
+   ],
+   "conferir": [],
+   "ssd2": "não confirmado",
+   "memoria": null,
+   "placa": null,
+   "watts": null,
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "cinebench": {
+    "um": 1770,
+    "varios": 17211
+   },
+   "pos": 59
+  },
+  {
+   "chave": "sp:asus|tuf a18|ryzen 7 260|5060|16gb|1tb|fhd",
+   "nome": "ASUS Tuf A18 · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "ASUS TUF A18 Gaming Laptop, 18\" FHD+ 144Hz Display, AMD Ryzen 7 260(>i7-14650HX), NVIDIA GeForce RTX 5060, 16GB D5 RAM, 1TB SSD, Backlit Keyboard, Wi-Fi 6E, FHD Camera, Win 11 Pro, w/BWE Accessories",
+   "marca": "ASUS",
+   "cpu": "Ryzen 7 260",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 18,
+   "tela": "fhd",
+   "usd": 1479,
+   "com_imposto": 1619.5,
+   "rs": 8780,
+   "rs_com_pente": 10204,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0GPVLLTF9",
+   "vendedor": "FutureTech Electronics",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-30T22:58:47.115Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1479,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto",
+    "em avaliação"
+   ],
+   "conferir": [],
+   "ssd2": "não confirmado",
+   "memoria": null,
+   "placa": null,
+   "watts": null,
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "cinebench": {
+    "um": 1770,
+    "varios": 17211
+   },
+   "pos": 60
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B0H992GJ6X",
+   "nome": "HP · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "HP HyperX OMEN Gaming Laptop, 15.3\" 2.5K WQXGA Display 180Hz, AMD Ryzen 7 260, AMD Radeon 780M Graphics, NVIDIA GeForce RTX 5060, 16GB DDR5 RAM, 1TB SSD, Wi-Fi 7, Backlit Keyboard, Win 11 Home, Cloth",
+   "marca": "HP",
+   "cpu": "Ryzen 7 260",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.3,
+   "tela": "alta",
+   "usd": 1479,
+   "com_imposto": 1619.5,
+   "rs": 8780,
+   "rs_com_pente": 10204,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H992GJ6X",
+   "vendedor": "EA Tech LLC",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:57:21.332Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1479,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto",
+    "em avaliação",
+    "conferir"
+   ],
+   "conferir": [
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não confirmado",
+   "memoria": null,
+   "placa": null,
+   "watts": null,
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "cinebench": {
+    "um": 1770,
+    "varios": 17211
+   },
+   "pos": 61
+  },
+  {
+   "chave": "pn:ANV15-52-73D8:16gb",
+   "nome": "Acer Nitro V 15 · i7-13620H · RTX 5060 · 16 GB · 1TB",
+   "titulo": "Acer Nitro V 15.6in Gaming Laptop 16GB RAM 1TB SSD RTX 5060 165Hz ANV15-52-73D8, Black, Intel Core i7-13620H, FHD IPS display, Windows 11, backlit keyboard, WiFi 6",
+   "marca": "Acer",
+   "cpu": "i7-13620H",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": "fhd",
+   "usd": 1479.99,
+   "com_imposto": 1620.59,
+   "rs": 8786,
+   "rs_com_pente": 10210,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FRNMJGJR",
+   "vendedor": "Emma's Market",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:47:11.842Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1479.99,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto",
+    "em avaliação"
+   ],
+   "conferir": [],
+   "ssd2": "não confirmado",
+   "memoria": null,
+   "placa": null,
+   "watts": null,
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "cinebench": {
+    "um": 1833,
+    "varios": 15176
+   },
+   "pos": 62
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0HKVZ7WBZ",
@@ -2723,6 +3164,7 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HKVZ7WBZ",
    "vendedor": "Prime Distributor Global",
@@ -2751,12 +3193,11 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": {
     "um": 1770,
     "varios": 17211
    },
-   "pos": 53
+   "pos": 63
   },
   {
    "chave": "sp:lenovo|legion 5i|ultra 7 251hx|5060|16gb|1tb|alta",
@@ -2773,6 +3214,7 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "excecao16": false,
    "loja": "Target",
    "url": "https://www.target.com/p/lenovo-legion-5i-15-3-oled-wqxga-165hz-gaming-notebook-intel-core-ultra-7-251hx-16gb-ram-1tb-ssd-nvidia-geforce-rtx-5060-eclipse-black/-/A-1012761040",
    "vendedor": null,
@@ -2807,9 +3249,8 @@
    "ruido": "24–28,3 / 39,6–50,1 dB (aprox., 5070)",
    "topo": "29,4 °C / até 41,6 °C",
    "tela_ficha": "2560×1600, sem PWM (LM)",
-   "peso": "1,9 kg",
    "cinebench": null,
-   "pos": 54
+   "pos": 64
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0FRNMC7G1",
@@ -2826,6 +3267,7 @@
    "com_imposto": 1620.59,
    "rs": 8786,
    "rs_com_pente": 10210,
+   "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNMC7G1",
    "vendedor": "Primie Sales",
@@ -2852,9 +3294,50 @@
    "ruido": "\"silencioso no escritório\"; 62 dBA em estresse",
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
-   "peso": "não levantado",
    "cinebench": null,
-   "pos": 55
+   "pos": 65
+  },
+  {
+   "chave": "sp:msi|cyborg 15|ryzen 9 270|5060|16gb|1tb|fhd",
+   "nome": "MSI Cyborg 15 · Ryzen 9 270 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "msi Cyborg 15 Gaming AI Laptop | 15.6\" FHD IPS 144Hz | AMD 8-core Ryzen 9 270 (>i9-12950HX) | 16GB DDR5 1TB SSD | GeForce RTX 5060 GDDR7 Up to 572 Tops | 4-Zone RGB Backlit Win11Pro w/DLCA Accessory",
+   "marca": "MSI",
+   "cpu": "Ryzen 9 270",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": "fhd",
+   "usd": 1449.99,
+   "com_imposto": 1587.74,
+   "rs": 8607,
+   "rs_com_pente": 10032,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H4VKFF2S",
+   "vendedor": "FutureTech Electronics",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-10-31T12:57:21.332Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1449.99,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto"
+   ],
+   "conferir": [],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": null,
+   "pos": 66
   },
   {
    "chave": "solo:https://www.walmart.com/ip/20785416889",
@@ -2871,6 +3354,7 @@
    "com_imposto": 1593.22,
    "rs": 8637,
    "rs_com_pente": 10062,
+   "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20785416889",
    "vendedor": "Velztorm PC",
@@ -2899,9 +3383,8 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": null,
-   "pos": 56
+   "pos": 67
   },
   {
    "chave": "solo:https://www.costco.com/p/-/msi-cyborg-173-gaming-laptop--amd-ryzen-7-260--nvidia-geforce-rtx-5060--1920x1080-fhd-display--16gb-ram--1tb-ssd--windows-11/4201008289",
@@ -2918,6 +3401,7 @@
    "com_imposto": 1642.49,
    "rs": 8904,
    "rs_com_pente": 10329,
+   "excecao16": false,
    "loja": "Costco",
    "url": "https://www.costco.com/p/-/msi-cyborg-173-gaming-laptop--amd-ryzen-7-260--nvidia-geforce-rtx-5060--1920x1080-fhd-display--16gb-ram--1tb-ssd--windows-11/4201008289",
    "vendedor": "Costco",
@@ -2933,8 +3417,7 @@
    "etiquetas": [
     "acima do teto",
     "em avaliação",
-    "conferir",
-    "não confirmado"
+    "conferir"
    ],
    "conferir": [
     "preço lido pelo Claude no Chrome, com data; o script não abre esta loja",
@@ -2947,13 +3430,12 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "peso": null,
    "cinebench": {
     "um": 1770,
     "varios": 17211
    },
-   "pos": 57
+   "pos": 68
   }
  ],
- "varredura_em": "2026-10-31T13:05:52.769Z"
+ "varredura_em": "2026-10-31T13:08:19.369Z"
 }

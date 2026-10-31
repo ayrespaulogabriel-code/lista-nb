@@ -40,9 +40,9 @@ table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left
 .velho{color:var(--aviso);font-weight:600}
 .cob{background:var(--cartao);border:1px solid var(--linha);border-radius:10px;padding:10px 12px;margin-bottom:12px}
 .cob summary{color:var(--texto);font-weight:600}.cob .ruim{color:var(--ruim);font-weight:600}
-#tabela{display:none}
-#tabela td,#tabela th{font-size:.82rem}
-@media (min-width:1000px){#cartoes{display:none}#tabela{display:block}}
+#tabela,#exc-t{display:none}
+#tabela td,#tabela th,#exc-t td,#exc-t th{font-size:.82rem}
+@media (min-width:1000px){#cartoes,#exc-c{display:none}#tabela,#exc-t{display:block}}
 </style>
 </head>
 <body>
@@ -58,7 +58,6 @@ table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left
     <details class="cob" id="cob"></details>
     <div class="filtros">
       <label>Preço final até<select id="f-preco"><option value="">qualquer</option><option>7000</option><option>7500</option><option>8000</option><option>8500</option></select></label>
-      <label>Memória<select id="f-ram"><option value="">todas</option><option value="32">32 GB</option><option value="16">16 GB</option></select></label>
       <label>Placa de vídeo<select id="f-gpu"><option value="">todas</option><option value="5060">RTX 5060</option><option value="5070">RTX 5070 ou superior</option></select></label>
       <label>Tamanho<select id="f-tam"><option value="">todos</option><option value="15">até 15,6"</option><option value="16">16"</option><option value="17">17" ou mais</option></select></label>
       <label>Estoque<select id="f-est"><option value="">todos</option><option value="1">só com estoque</option></select></label>
@@ -66,6 +65,12 @@ table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left
     <p class="cont" id="cont"></p>
     <div class="cartoes" id="cartoes"></div>
     <div class="rolar" id="tabela"></div>
+    <div id="exc" hidden>
+      <h2>Exceções de 16 GB</h2>
+      <p class="sub" id="exc-sub"></p>
+      <div class="cartoes" id="exc-c"></div>
+      <div class="rolar" id="exc-t"></div>
+    </div>
   </section>
   <section id="ana" hidden><div class="ana" id="ana-c"></div></section>
 </div>
@@ -101,7 +106,7 @@ function cartao(m){
   return `<article class="c"><h3>${m.pos}. ${esc(m.nome)}</h3>
   <div class="et">${et.join('')}</div>
   <div class="preco">${rs(m.rs)} <small>${us(m.usd)} na etiqueta</small></div>
-  ${m.rs_com_pente?`<div class="sub">Com pente de memória até 32 GB: cerca de ${rs(m.rs_com_pente)}</div>`:''}
+  ${m.sem_pente?`<div class="sub">Já soma o pente de 16 GB (US$ 240). Sem ele: ${rs(m.sem_pente)}</div>`:''}
   ${antes}
   <a class="botao" href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">Ver na ${esc(m.loja)}</a>
   <div class="sub">${m.direto?'Venda direta':'Vendedor: '+esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>
@@ -112,21 +117,24 @@ function cartao(m){
    <dt>Ruído</dt><dd>${esc(m.ruido||'sem medição achada')}</dd>
    <dt>Teclado</dt><dd>${esc(m.topo||'sem medição achada')}</dd>
    <dt>Tela</dt><dd>${esc(m.tela_ficha||'não levantada')}</dd>
-   <dt>Peso</dt><dd>${esc(m.peso||'não levantado')}</dd>
   </dl>
   ${out?`<details><summary>Outras lojas (${m.outras.length})</summary><ul class="outras">${out}</ul></details>`:''}
   <details><summary>Descrição da loja</summary>${esc(m.titulo)}</details>
   </article>`;
 }
 function etq(m){return m.etiquetas.concat(m.estoque===false?['esgotado']:[],m.promo?['caiu '+m.promo.queda_pct+'%']:[]).join(' · ');}
-function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div></td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)} · ${idade(o.visto)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td><td>${esc(m.peso||'não levantado')}</td></tr>`;}
+function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div></td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}${m.sem_pente?' · já soma o pente; sem ele '+rs(m.sem_pente):''}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)} · ${idade(o.visto)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td></tr>`;}
 function desenhar(){
-  const p=+$('f-preco').value,r=$('f-ram').value,g=$('f-gpu').value,t=$('f-tam').value,e=$('f-est').value;
-  const v=D.modelos.filter(m=>(!p||m.rs<=p)&&(!r||String(m.ram)===r)&&(!g||(g==='5060'?/^5060/.test(m.gpu):!/^5060/.test(m.gpu)))&&
-    (!t||(t==='15'?m.polegadas&&m.polegadas<16:t==='16'?m.polegadas>=16&&m.polegadas<17:m.polegadas>=17))&&(!e||m.estoque!==false));
-  $('cont').textContent=v.length+' de '+D.modelos.length+' notebooks. Ordem do ranking: 32 GB primeiro.';
+  const p=+$('f-preco').value,g=$('f-gpu').value,t=$('f-tam').value,e=$('f-est').value;
+  const bate=m=>(!p||m.rs<=p)&&(!g||(g==='5060'?/^5060/.test(m.gpu):!/^5060/.test(m.gpu)))&&
+    (!t||(t==='15'?m.polegadas&&m.polegadas<16:t==='16'?m.polegadas>=16&&m.polegadas<17:m.polegadas>=17))&&(!e||m.estoque!==false);
+  const base=D.modelos.filter(m=>m.ram!==16),v=base.filter(bate),x=D.modelos.filter(m=>m.excecao16).map(m=>({...m,rs:m.rs_com_pente,sem_pente:m.rs})).filter(bate);
+  $('cont').textContent=v.length+' de '+base.length+' notebooks de 32 GB. SSD de 512 GB precisa de 2ª entrada; com 1 TB ou mais ela é só ponto a favor.';
   $('cartoes').innerHTML=v.map(cartao).join('')||'<p>Nenhum notebook com esses filtros.</p>';
-  $('tabela').innerHTML=v.length?`<table><tr><th>#</th><th>Notebook</th><th>Preço</th><th>Loja</th><th>Processador (1 núcleo / vários)</th><th>Placa de vídeo</th><th>Ampliar</th><th>Ruído</th><th>Teclado</th><th>Tela</th><th>Peso</th></tr>${v.map(linhaT).join('')}</table>`:'<p>Nenhum notebook com esses filtros.</p>';
+  const cab=`<tr><th>#</th><th>Notebook</th><th>Preço</th><th>Loja</th><th>Processador (1 núcleo / vários)</th><th>Placa de vídeo</th><th>Ampliar</th><th>Ruído</th><th>Teclado</th><th>Tela</th></tr>`;
+  $('tabela').innerHTML=v.length?`<table>${cab}${v.map(linhaT).join('')}</table>`:'<p>Nenhum notebook com esses filtros.</p>';
+  $('exc').hidden=!x.length;$('exc-sub').textContent='16 GB só entra aqui se a máquina for muito superior: RTX 5070 ou acima, ou processador bem mais forte com placa na potência máxima, e total com o pente até R$ 9.000. Preço já com o pente.';
+  $('exc-c').innerHTML=x.map(cartao).join('');$('exc-t').innerHTML=x.length?`<table>${cab}${x.map(linhaT).join('')}</table>`:'';
 }
 function analise(a){
   if(!a){$('ana-c').innerHTML='<p>Análise ainda não escrita.</p>';return;}
@@ -136,7 +144,7 @@ function analise(a){
 }
 function aba(q){const l=q==='lista';$('lista').hidden=!l;$('ana').hidden=l;$('b-lista').setAttribute('aria-selected',l);$('b-ana').setAttribute('aria-selected',!l);}
 $('b-lista').onclick=()=>aba('lista');$('b-ana').onclick=()=>aba('ana');
-['f-preco','f-ram','f-gpu','f-tam','f-est'].forEach(i=>$(i).onchange=desenhar);
+['f-preco','f-gpu','f-tam','f-est'].forEach(i=>$(i).onchange=desenhar);
 (async()=>{
   try{D=await(await fetch('dados.json',{cache:'no-store'})).json();}catch(e){$('idade').textContent='não consegui carregar os dados';return;}
   $('idade').textContent='atualizado '+quando(D.gerado);
