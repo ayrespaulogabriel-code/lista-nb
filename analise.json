@@ -1,8 +1,8 @@
 {
- "data": "2026-10-30",
+ "data": "2026-10-31",
  "secoes": [
   { "titulo": "Melhor opção", "itens": [
-    { "nome": "Gigabyte Aero X16 · RTX 5060 · 32 GB", "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT", "texto": "Best Buy direto, US$ 1.299,99, R$ 7.717. Ponto fraco: placa de vídeo limitada (85 W medidos na versão 5070; na 5060 o valor não está provado)." }
+    { "nome": "Gigabyte Aero X16 · RTX 5060 · 32 GB", "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT", "texto": "Best Buy direto, US$ 1.299,99, R$ 7.717. Atenção em 31/10: a ficha apareceu sem botão de compra, com retirada e envio indisponíveis; pode ser só o endereço configurado ou falta de estoque, conferir antes de contar com ele. Ponto fraco: placa de vídeo limitada (85 W medidos na versão 5070; na 5060 o valor não está provado)." }
   ]},
   { "titulo": "Os dois finalistas", "itens": [
     { "nome": "1º Gigabyte Aero X16 · RTX 5060 · 32 GB", "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT", "texto": "O mais barato dos bons, com a melhor tela, silêncio medido, 1,97 kg e memória até 64 GB. Abre mão de: placa de vídeo limitada e 2ª entrada de SSD mais lenta. As medições vêm da unidade com RTX 5070." },
@@ -19,6 +19,6 @@
     ["Core i7-13620H", "Hasee S8, Gaming A16", "10", "1.833", "15.176"],
     ["Ryzen 7 250", "LOQ", "8", "1.715", "14.676"]
   ]},
-  { "titulo": "Promoções", "paragrafos": ["Em 30/10, nenhuma promoção mudou o placar: a maioria dos descontos anunciados é preço que já estava assim. O \"antes\" é da loja; a queda real vem do nosso histórico."] }
+  { "titulo": "Promoções", "paragrafos": ["Em 31/10, nenhuma promoção mudou o placar: nenhum preço de 32 GB dentro do teto caiu em relação a 30/10. O \"antes\" é da loja; a queda real vem do nosso histórico. O novo Gaming A16 de 32 GB (Walmart, US$ 1.500) fica acima do teto. O Acer da Walmart em avaliação é o mesmo Nitro V 16, 85 W no título da loja."] }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-31T13:05:21.475Z",
+ "gerado": "2026-10-31T13:05:52.769Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -39,7 +39,7 @@
     "estado": "parcial",
     "motivo": "só a ficha do Aero: os outros dois primeiros do resumo não têm endereço na Best Buy",
     "link": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT",
-    "em": "2026-10-31T13:10:00.000Z"
+    "em": "2026-10-31T12:43:00.000Z"
    },
    "obrigatoria": true
   },
@@ -58,7 +58,7 @@
     "estado": "ok",
     "motivo": "nenhum notebook RTX 5060+ de 32 GB até US$ 1.516",
     "link": "o ROG Strix G18 mostrou só o desconto de US$ 600, preço não lido",
-    "em": "2026-10-31T13:10:00.000Z"
+    "em": "2026-10-31T12:43:00.000Z"
    },
    "obrigatoria": true
   },
@@ -77,7 +77,7 @@
     "estado": "ok",
     "motivo": "páginas 1 e 2 de RTX 5060 e página 1 de RTX 5070",
     "link": "vendedor só dos itens já conhecidos",
-    "em": "2026-10-31T13:10:00.000Z"
+    "em": "2026-10-31T12:43:00.000Z"
    },
    "obrigatoria": true
   },
@@ -96,7 +96,7 @@
     "estado": "ok",
     "motivo": "página 1 de RTX 5060 e RTX 5070, nada de 32 GB até o limite",
     "link": null,
-    "em": "2026-10-31T13:10:00.000Z"
+    "em": "2026-10-31T12:43:00.000Z"
    },
    "obrigatoria": true
   },
@@ -115,7 +115,7 @@
     "estado": "ok",
     "motivo": "páginas 1 e 2 de RTX 5060 e RTX 5070",
     "link": null,
-    "em": "2026-10-31T13:10:00.000Z"
+    "em": "2026-10-31T12:43:00.000Z"
    },
    "obrigatoria": true
   },
@@ -145,7 +145,7 @@
     "estado": "ok",
     "motivo": "página 1 de RTX 5060, nada de 32 GB até o limite",
     "link": null,
-    "em": "2026-10-31T13:10:00.000Z"
+    "em": "2026-10-31T12:43:00.000Z"
    },
    "obrigatoria": true
   },
@@ -164,7 +164,7 @@
     "estado": "ok",
     "motivo": "página 1 de RTX 5060, nada de 32 GB até o limite",
     "link": null,
-    "em": "2026-10-31T13:10:00.000Z"
+    "em": "2026-10-31T12:43:00.000Z"
    },
    "obrigatoria": false
   },
@@ -205,7 +205,7 @@
     "estado": "ok",
     "motivo": "notebooks RTX 5060 só com 16 GB e acima de R$ 12.343",
     "link": "nenhum dentro do limite",
-    "em": "2026-10-31T13:10:00.000Z"
+    "em": "2026-10-31T12:43:00.000Z"
    },
    "obrigatoria": false
   },
@@ -1212,11 +1212,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1319.98,
-   "promo": {
-    "queda_usd": 8,
-    "queda_pct": 0.6,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [],
    "conferir": [],
    "ssd2": "provável",
@@ -2079,11 +2075,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1289.99,
-   "promo": {
-    "queda_usd": 2.63,
-    "queda_pct": 0.2,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "não confirmado"
@@ -2963,5 +2955,5 @@
    "pos": 57
   }
  ],
- "varredura_em": "2026-10-31T13:05:21.475Z"
+ "varredura_em": "2026-10-31T13:05:52.769Z"
 }
