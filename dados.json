@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-31T00:13:11.134Z",
+ "gerado": "2026-10-31T00:14:01.610Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -56,8 +56,8 @@
     "itens": 25,
     "paginas": 3,
     "estado": "ok",
-    "motivo": "nenhum notebook RTX 5060+ de 32 GB abaixo de US$ 1.999",
-    "link": "a 1ª busca voltou vazia",
+    "motivo": "nenhum notebook RTX 5060+ de 32 GB abaixo de US$ 1.999, a 1ª busca voltou vazia",
+    "link": null,
     "em": "2026-10-30T23:05:00.000Z"
    },
    "obrigatoria": true
@@ -75,8 +75,8 @@
     "itens": 137,
     "paginas": 3,
     "estado": "parcial",
-    "motivo": "pediu verificação de robô na 4ª busca",
-    "link": "parei",
+    "motivo": "pediu verificação de robô na 4ª busca, parei",
+    "link": "https://www.walmart.com/search?q=gaming%20laptop%2032gb&min_price=700&max_price=1700",
     "em": "2026-10-31T00:10:00.000Z"
    },
    "obrigatoria": true
@@ -113,8 +113,8 @@
     "itens": 208,
     "paginas": 7,
     "estado": "ok",
-    "motivo": "5 páginas de busca e 2 fichas",
-    "link": "a 3ª página só trouxe caixa aberta",
+    "motivo": "5 páginas de busca e 2 fichas, a 3ª página só trouxe caixa aberta",
+    "link": null,
     "em": "2026-10-31T00:10:00.000Z"
    },
    "obrigatoria": true
@@ -162,8 +162,8 @@
     "itens": 5,
     "paginas": 1,
     "estado": "parcial",
-    "motivo": "só a 1ª busca",
-    "link": "a 2ª barrada, parei",
+    "motivo": "só a 1ª busca, a 2ª barrada, parei",
+    "link": "https://www.adorama.com/l/?searchinfo=rtx%205070%20laptop",
     "em": "2026-10-31T00:10:00.000Z"
    },
    "obrigatoria": false
@@ -2818,5 +2818,5 @@
    "pos": 55
   }
  ],
- "varredura_em": "2026-10-31T00:13:11.134Z"
+ "varredura_em": "2026-10-31T00:14:01.610Z"
 }
