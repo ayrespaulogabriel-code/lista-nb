@@ -71,6 +71,7 @@ table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left
       <div class="cartoes" id="exc-c"></div>
       <div class="rolar" id="exc-t"></div>
     </div>
+    <div id="fora"></div>
   </section>
   <section id="ana" hidden><div class="ana" id="ana-c"></div></section>
 </div>
@@ -95,7 +96,7 @@ function quadro(){
   $('cob').innerHTML=`<summary>Cobertura: ${ob.length-sem.length} de ${ob.length} lojas obrigatórias com leitura${sem.length?' · sem leitura: '+esc(sem.map(c=>c.loja).join(', ')):''}</summary><div class="rolar"><table><tr><th>Loja</th><th>Script</th><th>Chrome</th><th>Situação</th></tr>${q.map(linha).join('')}</table></div>`;
   $('cob').open=sem.length>0;
 }
-let D;
+let D,AV={},FORA=[];
 function cartao(m){
   const et=[...m.etiquetas.map(e=>`<span class="${e==='acima do teto'?'ruim':''}" title="${esc(e==='conferir'?(m.conferir||[]).join('; '):'')}">${esc(e)}</span>`)];
   if(m.promo)et.unshift(`<span class="bom">caiu ${esc(m.promo.queda_pct)}%${m.promo.menor_ja_visto?' · menor já visto':''}</span>`);
@@ -118,22 +119,30 @@ function cartao(m){
    <dt>Tela</dt><dd>${esc(m.tela_ficha||'não levantada')}</dd>
   </dl>
   ${out?`<details><summary>Outras lojas (${m.outras.length})</summary><ul class="outras">${out}</ul></details>`:''}
+  ${porque(m)}
   <details><summary>Descrição da loja</summary>${esc(m.titulo)}</details>
   </article>`;
 }
+function porque(m){
+  const a=AV[m.chave];
+  if(!a)return '<details><summary>Por que está aqui</summary><p class="sub">Ainda sem avaliação.</p></details>';
+  const l=x=>`<ul>${x.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
+  return `<details><summary>Por que está aqui: ${esc(a.veredito)}</summary><p>${esc(a.por_que)}</p><b>Pontos fortes</b>${l(a.fortes)}<b>Pontos fracos</b>${l(a.fracos)}</details>`;
+}
 function etq(m){return m.etiquetas.concat(m.estoque===false?['esgotado']:[],m.promo?['caiu '+m.promo.queda_pct+'%']:[]).join(' · ');}
-function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div></td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)} · ${idade(o.visto)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td></tr>`;}
+function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div>${porque(m)}</td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)} · ${idade(o.visto)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td></tr>`;}
 function desenhar(){
   const p=+$('f-preco').value,g=$('f-gpu').value,t=$('f-tam').value,e=$('f-est').value;
   const bate=m=>(!p||m.rs<=p)&&(!g||(g==='5060'?/^5060/.test(m.gpu):!/^5060/.test(m.gpu)))&&
     (!t||(t==='15'?m.polegadas&&m.polegadas<16:t==='16'?m.polegadas>=16&&m.polegadas<17:m.polegadas>=17))&&(!e||m.estoque!==false);
-  const base=D.modelos.filter(m=>m.ram!==16),v=base.filter(bate),x=D.modelos.filter(m=>m.excecao16).filter(bate);
+  const num=(m,i)=>({...m,pos:i+1}),base=D.modelos.filter(m=>m.ram!==16),v=base.filter(bate).map(num),x=D.modelos.filter(m=>m.excecao16).filter(bate).sort((a,b)=>a.rs-b.rs).map(num);
   $('cont').textContent=v.length+' de '+base.length+' notebooks de 32 GB. SSD de 512 GB precisa de 2ª entrada; com 1 TB ou mais ela é só ponto a favor.';
   $('cartoes').innerHTML=v.map(cartao).join('')||'<p>Nenhum notebook com esses filtros.</p>';
   const cab=`<tr><th>#</th><th>Notebook</th><th>Preço</th><th>Loja</th><th>Processador (1 núcleo / vários)</th><th>Placa de vídeo</th><th>Ampliar</th><th>Ruído</th><th>Teclado</th><th>Tela</th></tr>`;
   $('tabela').innerHTML=v.length?`<table>${cab}${v.map(linhaT).join('')}</table>`:'<p>Nenhum notebook com esses filtros.</p>';
-  $('exc').hidden=!x.length;$('exc-sub').textContent='16 GB só entra aqui se a máquina for muito superior: RTX 5070 ou acima, ou processador bem mais forte com placa na potência máxima, e total com a memória até R$ 9.000. Preço já com a memória.';
+  $('exc').hidden=!x.length;$('exc-sub').textContent='16 GB só entra aqui se a máquina for muito superior: RTX 5070 ou acima, ou processador bem mais forte com placa na potência máxima, e preço até R$ 9.000. Sem comprar memória.';
   $('exc-c').innerHTML=x.map(cartao).join('');$('exc-t').innerHTML=x.length?`<table>${cab}${x.map(linhaT).join('')}</table>`:'';
+  $('fora').innerHTML=FORA.length?`<details><summary>Tirados da lista (${FORA.length})</summary><ul>${FORA.map(f=>`<li><a href="${seguro(f.url)}" rel="noopener noreferrer" target="_blank">${esc(f.nome)}</a>: ${esc(f.motivo)}</li>`).join('')}</ul></details>`:'';
 }
 function analise(a){
   if(!a){$('ana-c').innerHTML='<p>Análise ainda não escrita.</p>';return;}
@@ -149,8 +158,11 @@ $('b-lista').onclick=()=>aba('lista');$('b-ana').onclick=()=>aba('ana');
   $('idade').textContent='atualizado '+quando(D.gerado);
   $('cambio').textContent=`Câmbio ${D.cambio.valor.toLocaleString('pt-BR',{minimumFractionDigits:4})} (${D.cambio.fonte}, ${dataBR(D.cambio.data)}). Preço final = etiqueta × 1,095 × câmbio. Teto: US$ ${D.teto_usd.toLocaleString('pt-BR')}. A página da loja é sempre a palavra final.`;
   if((Date.now()-new Date(D.gerado))/36e5>36)$('alerta').innerHTML='<div class="alerta">Dados com mais de 36 horas. Os preços podem estar velhos.</div>';
-  quadro();desenhar();
-  analise(await fetch('analise.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>null));
+  const an=await fetch('analise.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>null);
+  AV=an?.avaliacoes||{};FORA=an?.fora||[];
+  const tirados=new Set(FORA.map(f=>f.chave));
+  D.modelos=D.modelos.filter(m=>!tirados.has(m.chave)).map(m=>AV[m.chave]?.ram?{...m,ram:AV[m.chave].ram,excecao16:true}:m);
+  quadro();desenhar();analise(an);
 })();
 </script>
 </body>

@@ -1,24 +1,330 @@
 {
  "data": "2026-10-31",
  "secoes": [
-  { "titulo": "Melhor opção", "itens": [
-    { "nome": "Gigabyte Aero X16 · RTX 5060 · 32 GB", "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT", "texto": "Best Buy direto, US$ 1.299,99, R$ 7.717. Em 31/10, com loja na Flórida, a ficha tem botão de compra e envio grátis para 04/11; com loja em Porto Rico aparece indisponível. Ponto fraco: placa de vídeo limitada (85 W medidos na versão 5070; na 5060 o valor não está provado)." }
-  ]},
-  { "titulo": "Os dois finalistas", "itens": [
-    { "nome": "1º Gigabyte Aero X16 · RTX 5060 · 32 GB", "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT", "texto": "O mais barato dos bons, com a melhor tela, silêncio medido e memória até 64 GB. Abre mão de: placa de vídeo limitada e 2ª entrada de SSD mais lenta. As medições vêm da unidade com RTX 5070." },
-    { "nome": "2º Acer Nitro V 16S AI ANV16S-41-R2AJ · 32 GB · 1 TB", "url": "https://www.amazon.com/dp/B0F195W823", "texto": "R$ 8.311, Amazon direto. Mesmo tamanho de SSD e memória ampliável, processador equivalente. Abre mão de: R$ 594 a mais, tela Full HD sem brilho informado, sem medição de ruído em uso leve nem de teclado." }
-  ], "paragrafos": ["Por que não os outros: o Nitro V 16 custa menos que o 16S, mas tem 512 GB, processador mais fraco e memória no máximo. O Hasee S8 traz a 5070, mas é marketplace, sem garantia no Brasil e sem teste independente. O Strix G16 não aparece nesta rodada dentro do limite de preço.", "Compra agora ou espera? O Aero já esteve a US$ 1.199,99 em 15–17/10, então a Black Friday tem espaço para cair."] },
-  { "titulo": "Processadores", "paragrafos": ["Regra: specs e preço, não o ano. Cinebench R23, médias da lista da Notebookcheck lida em 28/10. \"1 núcleo\" é o que deixa o dia a dia rápido; \"vários\" só importa em trabalho pesado."], "tabela": [
-    ["Processador", "Máquinas", "Núcleos", "1 núcleo", "Vários"],
-    ["Ryzen 9 8940HX", "OMEN 16", "16", "1.917", "32.521"],
-    ["Core i7-14700HX", "Hasee T8 Pro, Legion 5i", "20", "2.103", "24.595"],
-    ["Core i7-14650HX", "Crosshair 16, Aurora 16X", "16", "1.963", "24.455"],
-    ["Ryzen 7 260", "Nitro V 16S", "8", "1.770", "17.211"],
-    ["Ryzen AI 7 350", "Aero X16", "8", "1.958", "16.014"],
-    ["Core 7 240H", "Nitro V 16", "10", "1.715", "15.225"],
-    ["Core i7-13620H", "Hasee S8, Gaming A16", "10", "1.833", "15.176"],
-    ["Ryzen 7 250", "LOQ", "8", "1.715", "14.676"]
-  ]},
-  { "titulo": "Promoções", "paragrafos": ["Em 31/10, nenhuma promoção mudou o placar: nenhum preço de 32 GB dentro do teto caiu em relação a 30/10. O \"antes\" é da loja; a queda real vem do nosso histórico. O novo Gaming A16 de 32 GB (Walmart, US$ 1.500) fica acima do teto. O Acer da Walmart em avaliação é o mesmo Nitro V 16, 85 W no título da loja."] }
+  {
+   "titulo": "Melhor opção",
+   "itens": [
+    {
+     "nome": "Gigabyte Aero X16 · RTX 5060 · 32 GB",
+     "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT",
+     "texto": "Best Buy direto, US$ 1.299,99, R$ 7.717. Em 31/10, com loja na Flórida, a ficha tem botão de compra e envio grátis para 04/11; com loja em Porto Rico aparece indisponível. Ponto fraco: placa de vídeo limitada (85 W medidos na versão 5070; na 5060 o valor não está provado)."
+    }
+   ]
+  },
+  {
+   "titulo": "Os dois finalistas",
+   "itens": [
+    {
+     "nome": "1º Gigabyte Aero X16 · RTX 5060 · 32 GB",
+     "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT",
+     "texto": "O mais barato dos bons, com a melhor tela, silêncio medido e memória até 64 GB. Abre mão de: placa de vídeo limitada e 2ª entrada de SSD mais lenta. As medições vêm da unidade com RTX 5070."
+    },
+    {
+     "nome": "2º Acer Nitro V 16S AI ANV16S-41-R2AJ · 32 GB · 1 TB",
+     "url": "https://www.amazon.com/dp/B0F195W823",
+     "texto": "R$ 8.311, Amazon direto. Mesmo tamanho de SSD e memória ampliável, processador equivalente. Abre mão de: R$ 594 a mais, tela Full HD sem brilho informado, sem medição de ruído em uso leve nem de teclado."
+    }
+   ],
+   "paragrafos": [
+    "Por que não os outros: cada opção tem o motivo no botão \"Por que está aqui\"; as que perderam para outra estão em \"Tirados da lista\".",
+    "Compra agora ou espera? O Aero já esteve a US$ 1.199,99 em 15–17/10, então a Black Friday tem espaço para cair."
+   ]
+  },
+  {
+   "titulo": "Processadores",
+   "paragrafos": [
+    "Regra: specs e preço, não o ano. Cinebench R23, médias da lista da Notebookcheck lida em 28/10. \"1 núcleo\" é o que deixa o dia a dia rápido; \"vários\" só importa em trabalho pesado."
+   ],
+   "tabela": [
+    [
+     "Processador",
+     "Máquinas",
+     "Núcleos",
+     "1 núcleo",
+     "Vários"
+    ],
+    [
+     "Ryzen 9 8940HX",
+     "OMEN 16",
+     "16",
+     "1.917",
+     "32.521"
+    ],
+    [
+     "Core i7-14700HX",
+     "Hasee T8 Pro, Legion 5i",
+     "20",
+     "2.103",
+     "24.595"
+    ],
+    [
+     "Core i7-14650HX",
+     "Crosshair 16, Aurora 16X",
+     "16",
+     "1.963",
+     "24.455"
+    ],
+    [
+     "Ryzen 7 260",
+     "Nitro V 16S",
+     "8",
+     "1.770",
+     "17.211"
+    ],
+    [
+     "Ryzen AI 7 350",
+     "Aero X16",
+     "8",
+     "1.958",
+     "16.014"
+    ],
+    [
+     "Core 7 240H",
+     "Nitro V 16",
+     "10",
+     "1.715",
+     "15.225"
+    ],
+    [
+     "Core i7-13620H",
+     "Hasee S8, Gaming A16",
+     "10",
+     "1.833",
+     "15.176"
+    ],
+    [
+     "Ryzen 7 250",
+     "LOQ",
+     "8",
+     "1.715",
+     "14.676"
+    ]
+   ]
+  },
+  {
+   "titulo": "Promoções",
+   "paragrafos": [
+    "Em 31/10, nenhuma promoção mudou o placar: nenhum preço de 32 GB dentro do teto caiu em relação a 30/10. O \"antes\" é da loja; a queda real vem do nosso histórico."
+   ]
+  }
+ ],
+ "avaliacoes": {
+  "pn:1VH93USC64AH:32gb": {
+   "veredito": "Melhor opção",
+   "por_que": "É o mais barato dos 32 GB com testes reais: reúne preço, tela, silêncio e venda direta.",
+   "fortes": [
+    "Tela 2560×1600, 403 nits, 96% sRGB, sem piscar (medida na versão 5070)",
+    "Silencioso parado (23,9 dB) e teclado frio (26,6 °C)",
+    "1 TB, venda direta da Best Buy e 1,97 kg"
+   ],
+   "fracos": [
+    "Placa limitada: 85 W medidos na versão 5070; na 5060 o valor não está provado",
+    "Processador forte no dia a dia, mas mediano em trabalho pesado",
+    "2ª entrada de SSD mais lenta",
+    "Você não é fã do modelo"
+   ]
+  },
+  "pn:ANV16S-41-R2AJ:32gb": {
+   "veredito": "Melhor Nitro de 32 GB",
+   "por_que": "É a alternativa ao Aero com 32 GB e 1 TB de fábrica, em venda direta. Ganhou do Nitro V 16 e o tirou da lista.",
+   "fortes": [
+    "32 GB e 1 TB por R$ 297 a mais que o Nitro V 16 com 512 GB",
+    "Processador melhor que o do Nitro V 16 (17.211 contra 15.225 em vários núcleos)",
+    "Amazon direto"
+   ],
+   "fracos": [
+    "Placa limitada a 85 W",
+    "Tela 1920×1200 sem brilho medido",
+    "Sem medição de ruído em uso leve nem de teclado",
+    "Carregador de 135 W; comentários relatam gasto de bateria em jogo, sem medição"
+   ]
+  },
+  "sp:hasee|hasee t8 pro|i7-14700hx|5060|32gb|1tb|alta": {
+   "veredito": "Mais potência com 32 GB",
+   "por_que": "Reúne processador forte, placa no máximo e tela 2,5K com 32 GB, mas é a opção de maior risco.",
+   "fortes": [
+    "i7-14700HX: 24.595 pontos, bem acima do Aero",
+    "RTX 5060 a 115 W (análise chinesa)",
+    "Tela 2560×1600 180 Hz, 100% sRGB pelo anúncio"
+   ],
+   "fracos": [
+    "Vendedor de terceiros, sem garantia no Brasil",
+    "Sem teste independente de ruído, teclado ou tela",
+    "2,6 kg",
+    "R$ 107 acima do teto"
+   ]
+  },
+  "solo:https://www.newegg.com/hasee-s8-15-6-nvidia-geforce-rtx-5070-laptop-gpu-intel-core-i7-13620h-fhd-32gb-memory-1tb-ssd/p/2WC-004U-00064": {
+   "veredito": "Única 5070 de 32 GB perto do teto",
+   "por_que": "Está aqui pela placa: RTX 5070 a 115 W com 32 GB. Só vale se jogo pesar mais que o resto.",
+   "fortes": [
+    "RTX 5070 a 115 W, segundo o anúncio",
+    "32 GB e 1 TB"
+   ],
+   "fracos": [
+    "Vendedor de terceiros, sem garantia no Brasil",
+    "Nenhum teste independente",
+    "Tela 1920×1080, 15,6\"",
+    "Processador comum (15.176 pontos)",
+    "R$ 48 acima do teto"
+   ]
+  },
+  "solo:https://www.newegg.com/msi-16/p/2WC-000C-0JUC1": {
+   "veredito": "Crosshair já com 32 GB",
+   "por_que": "É o visual que você gostou, sem comprar memória. O preço só existe porque um revendedor trocou a memória.",
+   "fortes": [
+    "i7-14650HX e RTX 5060 a 115 W",
+    "Tela 2560×1600 240 Hz",
+    "32 GB e 1 TB"
+   ],
+   "fracos": [
+    "Provável upgrade do revendedor: pode afetar a garantia de fábrica",
+    "Vendedor de terceiros",
+    "Ventoinha alta nas análises, sem medição",
+    "R$ 297 acima do teto"
+   ]
+  },
+  "pn:E14WFK-036US:16gb": {
+   "veredito": "Melhor preço entre os 16 GB",
+   "por_que": "Processador bem superior e placa no máximo por quase R$ 1.100 abaixo do teto, em venda direta.",
+   "fortes": [
+    "i7-14650HX: 24.455 pontos",
+    "RTX 5060 a 115 W pela ficha da MSI",
+    "Tela 2560×1600 240 Hz",
+    "Walmart direto"
+   ],
+   "fracos": [
+    "16 GB em 2×8, e subir para 32 GB custa cerca de R$ 2.850",
+    "SSD de 512 GB; 2ª entrada ainda como provável",
+    "Ventoinha alta nas análises, tela sem medição"
+   ]
+  },
+  "sp:acer|nitro 16s ai|ryzen ai 7 350|5060|16gb|1tb|fhd": {
+   "veredito": "Melhor Nitro em potência",
+   "por_que": "Entrou a seu pedido: placa no máximo, 1 TB e bateria longa. Não confundir com os Nitro V, mais fracos.",
+   "fortes": [
+    "RTX 5060 a 115 W (tabela Acer)",
+    "Tela 1920×1200, 400 nits, 100% sRGB pelo anúncio",
+    "Bateria de cerca de 6 h no vídeo do ThinkView",
+    "Venda direta da Amazon a R$ 8.546, quando há estoque"
+   ],
+   "fracos": [
+    "16 GB",
+    "Processador mediano em trabalho pesado",
+    "Barulhento com ventoinha no máximo (ThinkView)",
+    "O menor preço é de vendedor de terceiros"
+   ]
+  },
+  "solo:https://www.adorama.com/msi-katana-15-hx-b14wgk-293us-gaming-laptop/p/msikhxb14293": {
+   "veredito": "Melhor placa entre os 16 GB",
+   "por_que": "Nenhuma outra opção junta RTX 5070 a 115 W, processador forte e tela 2,5K sem piscar neste preço. Estava marcada errado como 32 GB.",
+   "fortes": [
+    "RTX 5070 a 115 W (Notebookcheck)",
+    "i7-14650HX: 24.455 pontos",
+    "Tela 2560×1440 165 Hz, 100% DCI-P3, sem piscar (LaptopMedia)",
+    "1 TB, venda direta da Adorama"
+   ],
+   "fracos": [
+    "16 GB",
+    "Só 1 entrada de SSD; com 1 TB, atende ao critério",
+    "15,6\" e 2,4 kg",
+    "Sem medição de ruído ou teclado achada",
+    "R$ 398 acima do teto"
+   ],
+   "ram": 16
+  },
+  "sp:lenovo|legion 5i|i7-14700hx|5060|16gb|1tb|alta": {
+   "veredito": "Mais equilibrado entre os 16 GB",
+   "por_que": "É o de 16 GB com mais medições boas, e venda direta. Tirou o OMEN 16 da lista pelo mesmo preço.",
+   "fortes": [
+    "i7-14700HX: 24.595 pontos",
+    "RTX 5060 a 115 W (medido na versão 5070)",
+    "Parado 24–28 dB; teclado 29,4 °C parado",
+    "Tela 2560×1600 sem piscar, 1,9 kg, 2ª entrada de SSD livre",
+    "Walmart direto"
+   ],
+   "fracos": [
+    "16 GB",
+    "15,1\"",
+    "R$ 398 acima do teto"
+   ]
+  },
+  "solo:https://www.amazon.com/dp/B0FRNMC7G1": {
+   "veredito": "5070 mais barata em tela 2,5K",
+   "por_que": "Está aqui pela tela 2560×1600 e pela RTX 5070, mas perde em potência para o Katana.",
+   "fortes": [
+    "RTX 5070",
+    "Tela 2560×1600 180 Hz pelo título",
+    "Fica dentro do limite de preço"
+   ],
+   "fracos": [
+    "Placa limitada a 85 W",
+    "16 GB e 512 GB",
+    "Vendedor de terceiros",
+    "R$ 286 acima do teto"
+   ]
+  }
+ },
+ "fora": [
+  {
+   "chave": "sp:acer|nitro v 16|core 7 240h|5060|32gb|512gb|fhd",
+   "nome": "Acer Nitro V16 · Core 7 240H · RTX 5060 · 32 GB · 512GB",
+   "url": "https://www.newegg.com/p/N82E16834360411",
+   "motivo": "Mesma placa e 32 GB do Nitro V 16S, com 512 GB e processador mais fraco, por R$ 297 a menos. O V 16S compensa."
+  },
+  {
+   "chave": "solo:https://www.bestbuy.com/product/acer-nitro-v-16-16-inch-180hz-gaming-laptop-core-7-240h-rtx-5060-32gb-512gb-ssd-obsidian-black/JJ8V8HGP24",
+   "nome": "Acer Nitro V 16 · Core 7 240H · RTX 5060 · 32 GB · 512GB",
+   "url": "https://www.bestbuy.com/product/acer-nitro-v-16-16-inch-180hz-gaming-laptop-core-7-240h-rtx-5060-32gb-512gb-ssd-obsidian-black/JJ8V8HGP24",
+   "motivo": "O mesmo Nitro V 16, mais caro."
+  },
+  {
+   "chave": "pn:ANV16-72-72ZY:16gb",
+   "nome": "Acer Nitro V 16 · Core 7 240H · RTX 5070 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0FRNL6NQ7",
+   "motivo": "Nitro V 16 com RTX 5070, 16 GB e 512 GB: o Katana entrega placa no máximo pelo mesmo preço."
+  },
+  {
+   "chave": "sp:gigabyte|gaming a16|i7-13620h|5060|32gb|1tb|fhd",
+   "nome": "Gigabyte Gaming A16 · i7-13620H · RTX 5060 · 32 GB · 1TB",
+   "url": "https://www.walmart.com/ip/21288504227",
+   "motivo": "Você pediu para tirar: desempenho pior que o Aero X16."
+  },
+  {
+   "chave": "sp:gigabyte|gaming a16|i7-13620h|5070|16gb|1tb|fhd",
+   "nome": "Gigabyte Gaming A16 · i7-13620H · RTX 5070 · 16 GB · 1TB",
+   "url": "https://www.amazon.com/dp/B0FDMF1CVP",
+   "motivo": "Você pediu para tirar: mesma linha do Gaming A16."
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/20457558355",
+   "nome": "Lenovo Loq 15 · Ryzen 7 250 · RTX 5060 · 32 GB",
+   "url": "https://www.walmart.com/ip/20457558355",
+   "motivo": "Esgotado, provável upgrade do revendedor e processador mais fraco."
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/21140362103",
+   "nome": "Acer · RTX 5060 · 512GB",
+   "url": "https://www.walmart.com/ip/21140362103",
+   "motivo": "Provável Nitro V 16 com upgrade do revendedor; o Nitro V 16S é melhor."
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/16625005777",
+   "nome": "MSI Katana 15 · RTX 5070 · 1TB",
+   "url": "https://www.walmart.com/ip/16625005777",
+   "motivo": "Mesmo Katana: esgotado no Walmart, disponível na Adorama."
+  },
+  {
+   "chave": "sp:hp|omen 16|ryzen 9 8940hx|5060|16gb|512gb|fhd",
+   "nome": "HP Omen 16 · Ryzen 9 8940HX · RTX 5060 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0FSS4VX72",
+   "motivo": "Pelo mesmo preço, o Legion 5i tem tela melhor, 1 TB e venda direta. O OMEN 16 tem 512 GB, tela de 62% sRGB e vendedor de terceiros."
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B0HKVZ7WBZ",
+   "nome": "Gigabyte · Ryzen 7 260 · RTX 5070 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0HKVZ7WBZ",
+   "motivo": "É um A18 sem ficha nem teste, vendido por terceiros."
+  }
  ]
 }
