@@ -1,5 +1,5 @@
 {
- "data": "2026-10-31",
+ "data": "2026-11-01",
  "secoes": [
   {
    "titulo": "Melhor opção",
@@ -104,7 +104,7 @@
   {
    "titulo": "Promoções",
    "paragrafos": [
-    "Em 31/10, nenhuma promoção mudou o placar: nenhum preço de 32 GB dentro do teto caiu em relação a 30/10. O \"antes\" é da loja; a queda real vem do nosso histórico."
+    "Em 01/11, nenhum preço de 32 GB dentro do teto mudou. Entre os de 16 GB, o Nitro V 16S AI com RTX 5070 caiu de US$ 1.479,99 para US$ 1.429 (vendedor de terceiros). O \"antes\" é da loja; a queda real vem do nosso histórico."
    ]
   }
  ],
@@ -153,7 +153,7 @@
     "Vendedor de terceiros, sem garantia no Brasil",
     "Sem teste independente de ruído, teclado ou tela",
     "2,6 kg",
-    "R$ 107 acima do teto"
+    "R$ 102 acima do teto"
    ],
    "ordem": 4
   },
@@ -245,13 +245,12 @@
    "fortes": [
     "RTX 5070",
     "Tela 2560×1600 180 Hz pelo título",
-    "Fica dentro do limite de preço"
+    "Caiu para R$ 8.483, dentro do teto"
    ],
    "fracos": [
     "Placa limitada a 85 W",
     "16 GB e 512 GB",
-    "Vendedor de terceiros",
-    "R$ 286 acima do teto"
+    "Vendedor de terceiros (SPTT LLC), 1 unidade em 01/11"
    ]
   }
  },
@@ -321,6 +320,12 @@
    "nome": "MSI Katana 15 · RTX 5070 · 1 TB (Walmart)",
    "url": "https://www.walmart.com/ip/16625005777",
    "motivo": "Esgotado no Walmart."
+  },
+  {
+   "chave": "sp:lenovo|legion pro 7i|ultra 9 275hx|5080|64gb|4tb|alta",
+   "nome": "Lenovo Legion Pro 7i · RTX 5080 · 64 GB · 4 TB",
+   "url": "https://www.amazon.com/dp/B096M4V5Q3",
+   "motivo": "Preço suspeito: US$ 1.299 por uma máquina que só em memória custaria mais que isso, vendida por terceiro (Delca Electronics) num anúncio antigo reaproveitado. Não comprar."
   }
  ]
 }

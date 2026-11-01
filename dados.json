@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-01T15:32:39.672Z",
+ "gerado": "2026-11-01T15:33:53.920Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -222,7 +222,7 @@
  ],
  "modelos": [
   {
-   "chave": "pn:1VH93USC64AH:32gb",
+   "chave": "sp:gigabyte|aero x16|ryzen ai 7 350|5060|32gb|1tb|alta",
    "nome": "Gigabyte Aero X16 · Ryzen AI 7 350 · RTX 5060 · 32 GB · 1TB",
    "titulo": "Gigabyte Aero X16 Copilot+ PC 16\" 2560x1600 WQXGA Ryzen AI 7 350 1TB SSD 32GB DDR5 RTX RTX 5060 laptop laptop",
    "marca": "Gigabyte",
@@ -250,8 +250,8 @@
      "loja": "Walmart",
      "usd": 1497.98,
      "url": "https://www.walmart.com/ip/18371266890",
-     "vendedor": "Velztorm PC",
-     "visto": "2026-11-01T15:10:58.153Z"
+     "vendedor": "não lido",
+     "visto": "2026-11-01T15:30:00.000Z"
     },
     {
      "loja": "Amazon",
@@ -312,8 +312,8 @@
      "loja": "Walmart",
      "usd": 1349.99,
      "url": "https://www.walmart.com/ip/17815365872",
-     "vendedor": "Newegg Inc.",
-     "visto": "2026-11-01T15:10:58.153Z",
+     "vendedor": "não lido",
+     "visto": "2026-11-01T15:30:00.000Z",
      "estoque": true
     }
    ],
@@ -415,11 +415,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1449,
-   "promo": {
-    "queda_usd": 0.99,
-    "queda_pct": 0.1,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto",
     "conferir"
@@ -1636,11 +1632,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1429,
-   "promo": {
-    "queda_usd": 50.99,
-    "queda_pct": 3.4,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "conferir"
    ],
@@ -2331,11 +2323,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1500,
-   "promo": {
-    "queda_usd": 19.99,
-    "queda_pct": 1.3,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto",
     "em avaliação"
@@ -3109,5 +3097,5 @@
    "pos": 62
   }
  ],
- "varredura_em": "2026-11-01T15:32:39.672Z"
+ "varredura_em": "2026-11-01T15:33:53.920Z"
 }
