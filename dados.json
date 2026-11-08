@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-08T14:40:39.306Z",
+ "gerado": "2026-11-08T14:42:29.536Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -263,11 +263,7 @@
     }
    ],
    "menor_visto": 1224.99,
-   "promo": {
-    "queda_usd": 75,
-    "queda_pct": 5.8,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "conferir"
    ],
@@ -766,11 +762,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1304.99,
-   "promo": {
-    "queda_usd": 23,
-    "queda_pct": 1.7,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "conferir"
    ],
@@ -952,11 +944,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1399.99,
-   "promo": {
-    "queda_usd": 100,
-    "queda_pct": 6.7,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "conferir",
@@ -1145,11 +1133,7 @@
     }
    ],
    "menor_visto": 1349,
-   "promo": {
-    "queda_usd": 50,
-    "queda_pct": 3.6,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "conferir"
    ],
@@ -1888,11 +1872,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1349.99,
-   "promo": {
-    "queda_usd": 50,
-    "queda_pct": 3.6,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "conferir",
@@ -2032,11 +2012,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1419.99,
-   "promo": {
-    "queda_usd": 4.01,
-    "queda_pct": 0.3,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto"
    ],
@@ -2080,11 +2056,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1474.49,
-   "promo": {
-    "queda_usd": 5.5,
-    "queda_pct": 0.4,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto",
     "conferir"
@@ -2222,11 +2194,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1445,
-   "promo": {
-    "queda_usd": 30,
-    "queda_pct": 2,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto",
     "em avaliação"
@@ -2316,11 +2284,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1478,
-   "promo": {
-    "queda_usd": 1,
-    "queda_pct": 0.1,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto",
     "em avaliação"
@@ -2525,5 +2489,5 @@
    "pos": 49
   }
  ],
- "varredura_em": "2026-11-08T14:40:39.306Z"
+ "varredura_em": "2026-11-08T14:42:29.536Z"
 }

@@ -1,5 +1,5 @@
 {
- "data": "2026-11-01",
+ "data": "2026-11-08",
  "secoes": [
   {
    "titulo": "Melhor opção",
@@ -7,7 +7,7 @@
     {
      "nome": "Gigabyte Aero X16 · RTX 5060 · 32 GB",
      "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT",
-     "texto": "Best Buy direto, US$ 1.299,99, R$ 7.717. Em 31/10, com loja na Flórida, a ficha tem botão de compra e envio grátis para 04/11; com loja em Porto Rico aparece indisponível. Ponto fraco: placa de vídeo limitada (85 W medidos na versão 5070; na 5060 o valor não está provado)."
+     "texto": "Best Buy direto, US$ 1.224,99 (caiu de US$ 1.299,99), R$ 7.379. Estoque não conferido em 08/11: a Best Buy barrou a leitura pelo navegador interno e o Chrome está com loja de Porto Rico. Ponto fraco: placa de vídeo limitada (85 W medidos na versão 5070; na 5060 o valor não está provado)."
     }
    ]
   },
@@ -17,17 +17,17 @@
     {
      "nome": "1º Gigabyte Aero X16 · RTX 5060 · 32 GB",
      "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT",
-     "texto": "O mais barato dos bons, com a melhor tela, silêncio medido e memória até 64 GB. Abre mão de: placa de vídeo limitada e 2ª entrada de SSD mais lenta. As medições vêm da unidade com RTX 5070."
+     "texto": "O mais barato dos bons, agora a R$ 7.379, com a melhor tela, silêncio medido e memória até 64 GB. Abre mão de: placa de vídeo limitada e 2ª entrada de SSD mais lenta. As medições vêm da unidade com RTX 5070."
     },
     {
      "nome": "2º Acer Nitro V 16S AI ANV16S-41-R2AJ · 32 GB · 1 TB",
      "url": "https://www.amazon.com/dp/B0F195W823",
-     "texto": "R$ 8.311, Amazon direto. Mesmo tamanho de SSD e memória ampliável, processador equivalente. Abre mão de: R$ 594 a mais, tela Full HD sem brilho informado, sem medição de ruído em uso leve nem de teclado."
+     "texto": "R$ 8.433, Amazon direto. Mesmo tamanho de SSD e memória ampliável, processador equivalente. Abre mão de: R$ 1.054 a mais, tela Full HD sem brilho informado, sem medição de ruído em uso leve nem de teclado."
     }
    ],
    "paragrafos": [
     "Por que não os outros: cada opção tem o motivo no botão \"Por que está aqui\"; as que perderam para outra estão em \"Tirados da lista\".",
-    "Compra agora ou espera? O Aero já esteve a US$ 1.199,99 em 15–17/10, então a Black Friday tem espaço para cair."
+    "Compra agora ou espera? O Aero caiu para US$ 1.224,99 em 08/11 e já esteve a US$ 1.199,99 em 15–17/10; a Black Friday ainda pode baixar mais um pouco."
    ]
   },
   {
@@ -104,7 +104,8 @@
   {
    "titulo": "Promoções",
    "paragrafos": [
-    "Em 01/11, nenhum preço de 32 GB dentro do teto mudou. Entre os de 16 GB, o Nitro V 16S AI com RTX 5070 caiu de US$ 1.479,99 para US$ 1.429 (vendedor de terceiros). O \"antes\" é da loja; a queda real vem do nosso histórico."
+    "Em 08/11: o Aero X16 de 32 GB na Best Buy caiu de US$ 1.299,99 para US$ 1.224,99 (R$ 7.379). O Nitro V 16S de 32 GB segue em US$ 1.399,99, mas o dólar oficial subiu (5,42 para 5,50): em reais foi de R$ 8.311 para R$ 8.433, e o teto em dólar caiu para US$ 1.411.",
+    "Não apareceram nos dados de 08/11: Crosshair 16 (16 e 32 GB), Legion 5i, Hasee S8 e o Nitro V 16S com RTX 5070. A Newegg barrou o script e a leitura no Chrome não os achou abaixo de US$ 1.516; isso não prova falta de estoque, por isso as avaliações ficam."
    ]
   }
  ],
@@ -113,6 +114,7 @@
    "veredito": "Melhor opção",
    "por_que": "É o mais barato dos 32 GB com testes reais: reúne preço, tela, silêncio e venda direta.",
    "fortes": [
+    "Caiu para US$ 1.224,99 (R$ 7.379) em 08/11",
     "Tela 2560×1600, 403 nits, 96% sRGB, sem piscar (medida na versão 5070)",
     "Silencioso parado (23,9 dB) e teclado frio (26,6 °C)",
     "1 TB, venda direta da Best Buy e 1,97 kg"
@@ -129,7 +131,7 @@
    "veredito": "Melhor Nitro de 32 GB",
    "por_que": "É a alternativa ao Aero com 32 GB e 1 TB de fábrica, em venda direta. Ganhou do Nitro V 16 e o tirou da lista.",
    "fortes": [
-    "32 GB e 1 TB por R$ 297 a mais que o Nitro V 16 com 512 GB",
+    "32 GB e 1 TB por R$ 301 a mais que o Nitro V 16 com 512 GB",
     "Processador melhor que o do Nitro V 16 (17.211 contra 15.225 em vários núcleos)",
     "Amazon direto"
    ],
@@ -153,7 +155,7 @@
     "Vendedor de terceiros, sem garantia no Brasil",
     "Sem teste independente de ruído, teclado ou tela",
     "2,6 kg",
-    "R$ 102 acima do teto"
+    "R$ 235 acima do teto (o dólar subiu)"
    ],
    "ordem": 4
   },
@@ -220,7 +222,8 @@
     "16 GB",
     "Processador mediano em trabalho pesado",
     "Barulhento com ventoinha no máximo (ThinkView)",
-    "O menor preço é de vendedor de terceiros"
+    "O menor preço é de vendedor de terceiros",
+    "Em 08/11, R$ 54 acima do teto (MadBargainz)"
    ]
   },
   "sp:lenovo|legion 5i|i7-14700hx|5060|16gb|1tb|alta": {
@@ -259,7 +262,7 @@
    "chave": "sp:acer|nitro v 16|core 7 240h|5060|32gb|512gb|fhd",
    "nome": "Acer Nitro V16 · Core 7 240H · RTX 5060 · 32 GB · 512GB",
    "url": "https://www.newegg.com/p/N82E16834360411",
-   "motivo": "Mesma placa e 32 GB do Nitro V 16S, com 512 GB e processador mais fraco, por R$ 297 a menos. O V 16S compensa."
+   "motivo": "Mesma placa e 32 GB do Nitro V 16S, com 512 GB e processador mais fraco, por R$ 301 a menos. O V 16S compensa."
   },
   {
    "chave": "solo:https://www.bestbuy.com/product/acer-nitro-v-16-16-inch-180hz-gaming-laptop-core-7-240h-rtx-5060-32gb-512gb-ssd-obsidian-black/JJ8V8HGP24",
@@ -326,6 +329,30 @@
    "nome": "Lenovo Legion Pro 7i · RTX 5080 · 64 GB · 4 TB",
    "url": "https://www.amazon.com/dp/B096M4V5Q3",
    "motivo": "Preço suspeito: US$ 1.299 por uma máquina que só em memória custaria mais que isso, vendida por terceiro (Delca Electronics) num anúncio antigo reaproveitado. Não comprar."
+  },
+  {
+   "chave": "pn:FA608UMI-NB73:16gb",
+   "nome": "ASUS TUF A16 FA608UMI · Ryzen 7 260 · RTX 5060 · 16 GB · 512GB",
+   "url": "https://www.walmart.com/ip/6001434674",
+   "motivo": "Mesmo processador e mesmo preço (US$ 1.399,99) do Nitro V 16S, que tem 32 GB e 1 TB em venda direta; este tem metade dos dois e vem de terceiro (Newegg)."
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B0FRNHHLZ5",
+   "nome": "Acer Nitro V 17 · RTX 5060 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0FRNHHLZ5",
+   "motivo": "Barato (R$ 6.807), mas 16 GB, 512 GB e processador não informado no anúncio. 16 GB só entra se a máquina for muito superior, e esta não é."
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B0GT6WK6PM",
+   "nome": "MSI Cyborg 17 · Core 5 210H · RTX 5060 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0GT6WK6PM",
+   "motivo": "Processador de entrada (Core 5), 16 GB e 512 GB, vendido por terceiro (GS Electronics). Perde para o Aero em memória, SSD, tela e processador, e custa US$ 25 a mais."
+  },
+  {
+   "chave": "sp:lenovo|loq 15|i7-13650hx|5060|16gb|512gb|fhd",
+   "nome": "Lenovo LOQ 15 · i7-13650HX · RTX 5060 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0HJGPYQXK",
+   "motivo": "Acima do teto (R$ 8.691) com 16 GB e 512 GB, vendido por terceiro (ProPrime). Em 01/11 o Legion 5i tinha 1 TB, tela melhor e venda direta por cerca de R$ 200 a mais."
   }
  ]
 }
