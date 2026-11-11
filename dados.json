@@ -1,15 +1,15 @@
 {
- "gerado": "2026-11-11T13:51:40.162Z",
+ "gerado": "2026-11-11T18:42:03.501Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
-  "valor": 5.584,
-  "data": "2026-11-10",
+  "valor": 5.5606,
+  "data": "2026-11-11",
   "fonte": "PTAX venda, Banco Central"
  },
  "imposto": 1.095,
- "teto_usd": 1390,
- "limite_usd": 1471,
+ "teto_usd": 1395,
+ "limite_usd": 1478,
  "teto_rs": 8500,
  "limite_rs": 9000,
  "cobertura": [
@@ -234,7 +234,7 @@
    "tela": "fhd",
    "usd": 1349.99,
    "com_imposto": 1478.24,
-   "rs": 8254,
+   "rs": 8220,
    "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/acer-america-nitro-v-16-0-geforce-rtx-5060-laptop-gpu-up-to-5-20-ghz-wuxga-32gb-memory-512gb-pcie-gen-4-ssd-ssd/p/N82E16834360411",
@@ -279,7 +279,7 @@
    "tela": "fhd",
    "usd": 1350,
    "com_imposto": 1478.25,
-   "rs": 8255,
+   "rs": 8220,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/17815365872",
@@ -327,7 +327,7 @@
    "tela": "alta",
    "usd": 1449.99,
    "com_imposto": 1587.74,
-   "rs": 8866,
+   "rs": 8829,
    "excecao16": false,
    "loja": "Newegg",
    "url": "https://www.newegg.com/hasee-t8pro-16-0-geforce-rtx-5060-laptop-gpu-i7-14700hx-qhd-32gb-memory-1-tb-ssd/p/2WC-004U-00065",
@@ -374,7 +374,7 @@
    "tela": "fhd",
    "usd": 1399.99,
    "com_imposto": 1532.99,
-   "rs": 8560,
+   "rs": 8524,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0F195W823",
@@ -418,7 +418,7 @@
    "tela": "alta",
    "usd": 1199.99,
    "com_imposto": 1313.99,
-   "rs": 7337,
+   "rs": 7307,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H7BJW482",
@@ -462,7 +462,7 @@
    "tela": "alta",
    "usd": 1349.99,
    "com_imposto": 1478.24,
-   "rs": 8254,
+   "rs": 8220,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H7BBK1LC",
@@ -504,7 +504,7 @@
    "tela": "alta",
    "usd": 1239,
    "com_imposto": 1356.7,
-   "rs": 7576,
+   "rs": 7544,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HPT7FDGD",
@@ -546,7 +546,7 @@
    "tela": "alta",
    "usd": 1289.49,
    "com_imposto": 1411.99,
-   "rs": 7885,
+   "rs": 7852,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FDM8D8HQ",
@@ -588,7 +588,7 @@
    "tela": null,
    "usd": 1339.99,
    "com_imposto": 1467.29,
-   "rs": 8193,
+   "rs": 8159,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/17228810720",
@@ -633,7 +633,7 @@
    "tela": null,
    "usd": 1349.99,
    "com_imposto": 1478.24,
-   "rs": 8254,
+   "rs": 8220,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSMKGKVH",
@@ -679,7 +679,7 @@
    "tela": null,
    "usd": 1304.99,
    "com_imposto": 1428.96,
-   "rs": 7979,
+   "rs": 7946,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/21074302857",
@@ -725,7 +725,7 @@
    "tela": null,
    "usd": 1329,
    "com_imposto": 1455.25,
-   "rs": 8126,
+   "rs": 8092,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20566065108",
@@ -771,7 +771,7 @@
    "tela": "fhd",
    "usd": 1316.88,
    "com_imposto": 1441.98,
-   "rs": 8052,
+   "rs": 8018,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FLRWF779",
@@ -815,7 +815,7 @@
    "tela": "fhd",
    "usd": 1199.99,
    "com_imposto": 1313.99,
-   "rs": 7337,
+   "rs": 7307,
    "excecao16": false,
    "loja": "Best Buy",
    "url": "https://www.bestbuy.com/product/lenovo-loq-15-3-wuxga-ips-165hz-ai-powered-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd-nvidia-geforce-rtx-5060-luna-grey/JJGH3RXTSH",
@@ -886,7 +886,7 @@
    "tela": "fhd",
    "usd": 1299,
    "com_imposto": 1422.4,
-   "rs": 7943,
+   "rs": 7909,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/18314365162",
@@ -934,7 +934,7 @@
    "tela": "fhd",
    "usd": 1247,
    "com_imposto": 1365.46,
-   "rs": 7625,
+   "rs": 7593,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FTGC4JT4",
@@ -973,7 +973,7 @@
    "tela": "fhd",
    "usd": 1249,
    "com_imposto": 1367.65,
-   "rs": 7637,
+   "rs": 7605,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/18804722370",
@@ -1016,7 +1016,7 @@
    "tela": "fhd",
    "usd": 1300,
    "com_imposto": 1423.5,
-   "rs": 7949,
+   "rs": 7916,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0G6KCV7ZX",
@@ -1059,7 +1059,7 @@
    "tela": null,
    "usd": 1299,
    "com_imposto": 1422.4,
-   "rs": 7943,
+   "rs": 7909,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/18103172799",
@@ -1102,7 +1102,7 @@
    "tela": "fhd",
    "usd": 1299.99,
    "com_imposto": 1423.49,
-   "rs": 7949,
+   "rs": 7915,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0GMZPV4YJ",
@@ -1145,7 +1145,7 @@
    "tela": "fhd",
    "usd": 1349.99,
    "com_imposto": 1478.24,
-   "rs": 8254,
+   "rs": 8220,
    "excecao16": false,
    "loja": "Lojas oficiais",
    "url": "https://us-store.msi.com/Laptops/Gaming-Series/Cyborg-A15-AI-B2HWFKG-006US",
@@ -1188,7 +1188,7 @@
    "tela": null,
    "usd": 1199,
    "com_imposto": 1312.9,
-   "rs": 7331,
+   "rs": 7301,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20106954575",
@@ -1231,7 +1231,7 @@
    "tela": "fhd",
    "usd": 1199,
    "com_imposto": 1312.9,
-   "rs": 7331,
+   "rs": 7301,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/HyperX-OMEN-15-inch-Gaming-Laptop-PC-15-gb0070wm/20106954575",
@@ -1275,7 +1275,7 @@
    "tela": null,
    "usd": 1249,
    "com_imposto": 1367.65,
-   "rs": 7637,
+   "rs": 7605,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20054074481",
@@ -1318,7 +1318,7 @@
    "tela": "alta",
    "usd": 1349,
    "com_imposto": 1477.15,
-   "rs": 8248,
+   "rs": 8214,
    "excecao16": false,
    "loja": "B&H",
    "url": "https://www.bhphotovideo.com/c/product/1985625-REG/lenovo_83q70068us_legion_5a_r7_250_16gb_512gb_rtx_5060_wifi7_w11h_15_3.html",
@@ -1357,7 +1357,7 @@
    "tela": "fhd",
    "usd": 1079.99,
    "com_imposto": 1182.59,
-   "rs": 6604,
+   "rs": 6576,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FRNHHLZ5",
@@ -1402,7 +1402,7 @@
    "tela": "fhd",
    "usd": 1249.99,
    "com_imposto": 1368.74,
-   "rs": 7643,
+   "rs": 7611,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0GT6WK6PM",
@@ -1447,7 +1447,7 @@
    "tela": "fhd",
    "usd": 1289.99,
    "com_imposto": 1412.54,
-   "rs": 7888,
+   "rs": 7855,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FS8BZDQ9",
@@ -1489,7 +1489,7 @@
    "tela": "fhd",
    "usd": 1349.99,
    "com_imposto": 1478.24,
-   "rs": 8254,
+   "rs": 8220,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HMGYKX26",
@@ -1534,7 +1534,7 @@
    "tela": "fhd",
    "usd": 1079.99,
    "com_imposto": 1182.59,
-   "rs": 6604,
+   "rs": 6576,
    "excecao16": false,
    "loja": "Target",
    "url": "https://www.target.com/p/acer-nitro-v-17-3-fhd-ips-gaming-laptop-anv17-41-r8ml-nvidia-geforce-rtx-5060-16gb-ram-512gb-storage/-/A-1006150952",
@@ -1580,7 +1580,7 @@
    "tela": "fhd",
    "usd": 1399,
    "com_imposto": 1531.9,
-   "rs": 8554,
+   "rs": 8518,
    "excecao16": false,
    "loja": "Sam's Club",
    "url": "https://www.samsclub.com/ip/ASUS-TUF-F16-Gaming-Laptop-16-FHD-165Hz-1-Intel-Core-i7-14650HX-NVIDIA-GeForce-RTX-5060-16GB-DDR5-RAM-512GB-SSD-Windows-11-Home/17831471448",
@@ -1632,7 +1632,7 @@
    "tela": "fhd",
    "usd": 1419.99,
    "com_imposto": 1554.89,
-   "rs": 8683,
+   "rs": 8646,
    "excecao16": true,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FS861DH8",
@@ -1676,7 +1676,7 @@
    "tela": "fhd",
    "usd": 1399.99,
    "com_imposto": 1532.99,
-   "rs": 8560,
+   "rs": 8524,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H4G559VC",
@@ -1720,7 +1720,7 @@
    "tela": "fhd",
    "usd": 1469,
    "com_imposto": 1608.56,
-   "rs": 8982,
+   "rs": 8945,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H1M6HN9F",
@@ -1752,6 +1752,53 @@
    "pos": 34
   },
   {
+   "chave": "solo:https://www.amazon.com/dp/B084JF4BFG",
+   "nome": "MSI Cyborg 15 · Core 7 240H · RTX 5070 · 16 GB · 1TB",
+   "titulo": "msi Cyborg 15.6\" RTX 5070 Gaming Laptop, Intel 10-Core 7 240H(Up to 5.2GHz), 16GB DDR5, 1TB SSD+1TB External Hard Drive, NVIDIA GeForce RTX 5070, 4-Zone RGB Backlit, Cooler Boost, RJ45, Win 11 Home",
+   "marca": "MSI",
+   "cpu": "Core 7 240H",
+   "gpu": "5070",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 15.6,
+   "tela": null,
+   "usd": 1474.49,
+   "com_imposto": 1614.57,
+   "rs": 8978,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B084JF4BFG",
+   "vendedor": "BatzmaruEbiz",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-11-11T13:43:38.504Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1474.49,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto",
+    "conferir"
+   ],
+   "conferir": [
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não",
+   "memoria": "2 entradas, até 96 GB (MSI)",
+   "placa": "limitada: 55 W (B13W, B2RW), 70 W (C2W); RTX 5070 a 60 W (B13W, B2RW, B2HW)",
+   "watts": 55,
+   "ruido": "sem medição",
+   "topo": "sem medição",
+   "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
+   "cinebench": {
+    "um": 1715,
+    "varios": 15225
+   },
+   "pos": 35
+  },
+  {
    "chave": "sp:dell|alienware 15|ryzen 7 260|5060|16gb|512gb|fhd",
    "nome": "Dell Alienware 15 · Ryzen 7 260 · RTX 5060 · 16 GB · 512GB",
    "titulo": "Dell Alienware 15 AI Gaming Laptop 15.3\" WUXGA 165Hz FreeSync AMD 8-core Ryzen 7 260 16GB RAM 512GB SSD GeForce RTX 5060 8GB GDDR7 DLSS 4 (Up to 572 AI Tops) Backlit WiFi 6 Type-C Win11 Pro",
@@ -1764,7 +1811,7 @@
    "tela": "fhd",
    "usd": 1399,
    "com_imposto": 1531.9,
-   "rs": 8554,
+   "rs": 8518,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HLCYXNT5",
@@ -1795,7 +1842,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 35
+   "pos": 36
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0HKVZ7WBZ",
@@ -1810,7 +1857,7 @@
    "tela": "alta",
    "usd": 1399.99,
    "com_imposto": 1532.99,
-   "rs": 8560,
+   "rs": 8524,
    "excecao16": true,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HKVZ7WBZ",
@@ -1844,7 +1891,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 36
+   "pos": 37
   },
   {
    "chave": "pn:FA608UMI-NB73:16gb",
@@ -1859,7 +1906,7 @@
    "tela": "fhd",
    "usd": 1399.99,
    "com_imposto": 1532.99,
-   "rs": 8560,
+   "rs": 8524,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/6001434674",
@@ -1900,7 +1947,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 37
+   "pos": 38
   },
   {
    "chave": "sp:asus|tuf gaming a18|ryzen 7 260|5060|16gb|1tb|fhd",
@@ -1915,7 +1962,7 @@
    "tela": "fhd",
    "usd": 1435,
    "com_imposto": 1571.33,
-   "rs": 8774,
+   "rs": 8738,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0H8R7TBRX",
@@ -1945,7 +1992,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 38
+   "pos": 39
   },
   {
    "chave": "sp:dell|alienware 15|ryzen 7 260|5060|16gb|1tb|fhd",
@@ -1960,7 +2007,7 @@
    "tela": "fhd",
    "usd": 1449,
    "com_imposto": 1586.65,
-   "rs": 8860,
+   "rs": 8823,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HLD7JGF5",
@@ -1990,7 +2037,55 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 39
+   "pos": 40
+  },
+  {
+   "chave": "sp:asus|tuf a18|ryzen 7 260|5060|16gb|1tb|fhd",
+   "nome": "ASUS Tuf A18 · Ryzen 7 260 · RTX 5060 · 16 GB · 1TB",
+   "titulo": "ASUS TUF A18 Gaming Laptop, 18\" FHD+ 144Hz Display, AMD Ryzen 7 260(>i7-14650HX), NVIDIA GeForce RTX 5060, 16GB D5 RAM, 1TB SSD, Backlit Keyboard, Wi-Fi 6E, FHD Camera, Win 11 Pro, w/BWE Accessories",
+   "marca": "ASUS",
+   "cpu": "Ryzen 7 260",
+   "gpu": "5060",
+   "ram": 16,
+   "ssd": "1TB",
+   "polegadas": 18,
+   "tela": "fhd",
+   "usd": 1478,
+   "com_imposto": 1618.41,
+   "rs": 8999,
+   "excecao16": false,
+   "loja": "Amazon",
+   "url": "https://www.amazon.com/dp/B0GPVLLTF9",
+   "vendedor": "Snow Bell",
+   "direto": false,
+   "estoque": true,
+   "visto": "2026-11-08T14:40:12.352Z",
+   "fonte": "pagina",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1478,
+   "promo": null,
+   "etiquetas": [
+    "acima do teto",
+    "em avaliação",
+    "conferir"
+   ],
+   "conferir": [
+    "preço de 3 dias atrás"
+   ],
+   "ssd2": "não confirmado",
+   "memoria": null,
+   "placa": null,
+   "watts": null,
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "cinebench": {
+    "um": 1770,
+    "varios": 17211
+   },
+   "pos": 41
   },
   {
    "chave": "sp:lenovo|legion 5|ryzen 7 250|5060|16gb|512gb|alta",
@@ -2005,7 +2100,7 @@
    "tela": "alta",
    "usd": 1399.99,
    "com_imposto": 1532.99,
-   "rs": 8560,
+   "rs": 8524,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20267864161",
@@ -2045,7 +2140,7 @@
     "um": 1715,
     "varios": 14676
    },
-   "pos": 40
+   "pos": 42
   },
   {
    "chave": "sp:asus|strix g16|ryzen 9 9955hx|5060|16gb|1tb|fhd",
@@ -2060,7 +2155,7 @@
    "tela": "fhd",
    "usd": 1399,
    "com_imposto": 1531.9,
-   "rs": 8554,
+   "rs": 8518,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/13567365941",
@@ -2094,7 +2189,7 @@
    "topo": "25,8 °C / até 39,6 °C (aprox.)",
    "tela_ficha": "1920×1200 165 Hz, 100% sRGB, brilho não publicado",
    "cinebench": null,
-   "pos": 41
+   "pos": 43
   },
   {
    "chave": "sp:lenovo|legion 5i|ultra 7 251hx|5060|16gb|512gb|alta",
@@ -2109,7 +2204,7 @@
    "tela": "alta",
    "usd": 1399,
    "com_imposto": 1531.9,
-   "rs": 8554,
+   "rs": 8518,
    "excecao16": false,
    "loja": "B&H",
    "url": "https://www.bhphotovideo.com/c/product/1998991-REG/lenovo_83vk002dus_15_3_legion_5_laptop.html",
@@ -2139,7 +2234,7 @@
    "topo": "29,4 °C / até 41,6 °C",
    "tela_ficha": "2560×1600, sem PWM (LM)",
    "cinebench": null,
-   "pos": 42
+   "pos": 44
   },
   {
    "chave": "sp:lenovo|loq 15|i7-13650hx|5060|16gb|512gb|fhd",
@@ -2154,7 +2249,7 @@
    "tela": "fhd",
    "usd": 1442.74,
    "com_imposto": 1579.8,
-   "rs": 8822,
+   "rs": 8785,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0HJGPYQXK",
@@ -2173,7 +2268,7 @@
     "conferir"
    ],
    "conferir": [
-    "preço de 2 dias atrás"
+    "preço de 3 dias atrás"
    ],
    "ssd2": "sim",
    "memoria": "2 pentes, máx. oficial 32 GB (de fábrica 16 GB)",
@@ -2183,7 +2278,7 @@
    "topo": "29,8 °C / até 49 °C",
    "tela_ficha": "1920×1080, 300 nits, ~100% sRGB, sem PWM",
    "cinebench": null,
-   "pos": 43
+   "pos": 45
   },
   {
    "chave": "pn:B2HWFKG-030US:16gb",
@@ -2198,7 +2293,7 @@
    "tela": "fhd",
    "usd": 1399.99,
    "com_imposto": 1532.99,
-   "rs": 8560,
+   "rs": 8524,
    "excecao16": false,
    "loja": "Lojas oficiais",
    "url": "https://us-store.msi.com/Laptops/Gaming-Series/Cyborg-A15-AI-B2HWFKG-030US",
@@ -2227,7 +2322,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
    "cinebench": null,
-   "pos": 44
+   "pos": 46
   },
   {
    "chave": "pn:B2RWFKG-074US:16gb",
@@ -2242,7 +2337,7 @@
    "tela": "fhd",
    "usd": 1399,
    "com_imposto": 1531.9,
-   "rs": 8554,
+   "rs": 8518,
    "excecao16": false,
    "loja": "Amazon",
    "url": "https://www.amazon.com/dp/B0FSGJZDNT",
@@ -2277,7 +2372,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 45
+   "pos": 47
   },
   {
    "chave": "solo:https://www.walmart.com/ip/20785416889",
@@ -2292,7 +2387,7 @@
    "tela": null,
    "usd": 1444.75,
    "com_imposto": 1582,
-   "rs": 8834,
+   "rs": 8797,
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/20785416889",
@@ -2323,8 +2418,8 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 46
+   "pos": 48
   }
  ],
- "varredura_em": "2026-11-11T13:51:40.162Z"
+ "varredura_em": "2026-11-11T18:42:03.501Z"
 }
