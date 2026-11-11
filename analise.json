@@ -1,13 +1,13 @@
 {
- "data": "2026-11-08",
+ "data": "2026-11-11",
  "secoes": [
   {
    "titulo": "Melhor opção",
    "itens": [
     {
-     "nome": "Gigabyte Aero X16 · RTX 5060 · 32 GB",
-     "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT",
-     "texto": "Best Buy direto, US$ 1.224,99 (caiu de US$ 1.299,99), R$ 7.379. Estoque não conferido em 08/11: a Best Buy barrou a leitura pelo navegador interno e o Chrome está com loja de Porto Rico. Ponto fraco: placa de vídeo limitada (85 W medidos na versão 5070; na 5060 o valor não está provado)."
+     "nome": "Acer Nitro V 16S AI ANV16S-41-R2AJ · 32 GB · 1 TB",
+     "url": "https://www.amazon.com/dp/B0F195W823",
+     "texto": "Amazon direto, US$ 1.399,99, R$ 8.560 (R$ 60 acima do teto de R$ 8.500, só porque o dólar subiu para 5,584). Estoque não conferido nesta rodada. Ponto fraco: placa de vídeo limitada a 85 W e tela Full HD sem brilho informado. O Aero X16 de 32 GB saiu: a oferta direta da Best Buy acabou e agora custa US$ 1.549 num vendedor de terceiros."
     }
    ]
   },
@@ -15,19 +15,19 @@
    "titulo": "Os dois finalistas",
    "itens": [
     {
-     "nome": "1º Gigabyte Aero X16 · RTX 5060 · 32 GB",
-     "url": "https://www.bestbuy.com/product/gigabyte-aero-x16-copilot-pc-16-25601600-wqxga-amd-ryzen-al-7-350-1tb-ssd-32gb-ddr5-ram-geforce-rtx-5060-space-gray/J3GWPQCXYT",
-     "texto": "O mais barato dos bons, agora a R$ 7.379, com a melhor tela, silêncio medido e memória até 64 GB. Abre mão de: placa de vídeo limitada e 2ª entrada de SSD mais lenta. As medições vêm da unidade com RTX 5070."
+     "nome": "1º Acer Nitro V 16S AI · 32 GB · 1 TB",
+     "url": "https://www.amazon.com/dp/B0F195W823",
+     "texto": "R$ 8.560, Amazon direto. 32 GB e 1 TB de fábrica, 2ª entrada de SSD livre, processador Ryzen 7 260 (17.211 pontos em vários núcleos). Abre mão de: placa limitada a 85 W, tela Full HD sem brilho medido."
     },
     {
-     "nome": "2º Acer Nitro V 16S AI ANV16S-41-R2AJ · 32 GB · 1 TB",
-     "url": "https://www.amazon.com/dp/B0F195W823",
-     "texto": "R$ 8.433, Amazon direto. Mesmo tamanho de SSD e memória ampliável, processador equivalente. Abre mão de: R$ 1.054 a mais, tela Full HD sem brilho informado, sem medição de ruído em uso leve nem de teclado."
+     "nome": "2º Acer Nitro V 16 ANV16-72-73C7 · 32 GB · 512 GB",
+     "url": "https://www.newegg.com/acer-america-nitro-v-16-0-geforce-rtx-5060-laptop-gpu-up-to-5-20-ghz-wuxga-32gb-memory-512gb-pcie-gen-4-ssd-ssd/p/N82E16834360411",
+     "texto": "R$ 8.254, o único de 32 GB dentro do teto. Mesma placa (85 W) e memória do V 16S, com 2ª entrada de SSD livre e vazia. Abre mão de: metade do SSD e processador mais fraco (15.225 pontos), por R$ 306 a menos. Newegg, vendedor não lido."
     }
    ],
    "paragrafos": [
     "Por que não os outros: cada opção tem o motivo no botão \"Por que está aqui\"; as que perderam para outra estão em \"Tirados da lista\".",
-    "Compra agora ou espera? O Aero caiu para US$ 1.224,99 em 08/11 e já esteve a US$ 1.199,99 em 15–17/10; a Black Friday ainda pode baixar mais um pouco."
+    "Compra agora ou espera? O Aero de 32 GB, que era o melhor, subiu; o dólar oficial também subiu (5,50 para 5,58) e derrubou o teto para US$ 1.390. A Black Friday (27/11) ainda pode trazer o Aero de volta perto de US$ 1.200."
    ]
   },
   {
@@ -104,17 +104,19 @@
   {
    "titulo": "Promoções",
    "paragrafos": [
-    "Em 08/11: o Aero X16 de 32 GB na Best Buy caiu de US$ 1.299,99 para US$ 1.224,99 (R$ 7.379). O Nitro V 16S de 32 GB segue em US$ 1.399,99, mas o dólar oficial subiu (5,42 para 5,50): em reais foi de R$ 8.311 para R$ 8.433, e o teto em dólar caiu para US$ 1.411.",
-    "Não apareceram nos dados de 08/11: Crosshair 16 (16 e 32 GB), Legion 5i, Hasee S8 e o Nitro V 16S com RTX 5070. A Newegg barrou o script e a leitura no Chrome não os achou abaixo de US$ 1.516; isso não prova falta de estoque, por isso as avaliações ficam."
+    "Em 11/11: o Aero X16 de 32 GB na Best Buy subiu de US$ 1.224,99 (direto) para US$ 1.549 (PC Heaven, terceiro), acima do limite; na Newegg e no Walmart está a US$ 1.482 e US$ 1.487, também acima. O dólar oficial subiu para 5,584: teto US$ 1.390, limite US$ 1.471.",
+    "Apareceram: ASUS ROG Strix G16 com Ryzen 9 9955HX e placa a 115 W, US$ 1.399 no Walmart direto (16 GB, 1 TB); Legion 5i com Ultra 7 251HX a US$ 1.399 na B&H (16 GB, 512 GB).",
+    "Suspeitos, não comprar: Legion Y9000P de 32 GB no AliExpress a R$ 4.791 (preço impossível para a máquina) e Predator Triton 14 recondicionado \"Fair\" a US$ 780 no Walmart, cuja ficha contradiz o título (diz tela 16\" e gráficos Intel Arc).",
+    "Não apareceram nos dados de 11/11: Crosshair 16 (16 e 32 GB), Legion 5i com i7-14700HX, Hasee S8 e o Nitro de RTX 5070 com tela 2,5K. Isso não prova falta de estoque, por isso as avaliações ficam."
    ]
   }
  ],
  "avaliacoes": {
   "pn:1VH93USC64AH:32gb": {
-   "veredito": "Melhor opção",
-   "por_que": "É o mais barato dos 32 GB com testes reais: reúne preço, tela, silêncio e venda direta.",
+   "veredito": "Era a melhor opção",
+   "por_que": "Saiu do topo em 11/11: a Best Buy não vende mais direto e o preço passou do limite.",
    "fortes": [
-    "Caiu para US$ 1.224,99 (R$ 7.379) em 08/11",
+    "Chegou a US$ 1.224,99 em 08/11; em 11/11 está a US$ 1.482–1.549",
     "Tela 2560×1600, 403 nits, 96% sRGB, sem piscar (medida na versão 5070)",
     "Silencioso parado (23,9 dB) e teclado frio (26,6 °C)",
     "1 TB, venda direta da Best Buy e 1,97 kg"
@@ -124,12 +126,11 @@
     "Processador forte no dia a dia, mas mediano em trabalho pesado",
     "2ª entrada de SSD mais lenta",
     "Você não é fã do modelo"
-   ],
-   "ordem": 1
+   ]
   },
   "pn:ANV16S-41-R2AJ:32gb": {
-   "veredito": "Melhor Nitro de 32 GB",
-   "por_que": "É a alternativa ao Aero com 32 GB e 1 TB de fábrica, em venda direta. Ganhou do Nitro V 16 e o tirou da lista.",
+   "veredito": "Melhor opção",
+   "por_que": "Com o Aero de 32 GB fora, é o 32 GB com 1 TB de fábrica em venda direta mais barato.",
    "fortes": [
     "32 GB e 1 TB por R$ 301 a mais que o Nitro V 16 com 512 GB",
     "Processador melhor que o do Nitro V 16 (17.211 contra 15.225 em vários núcleos)",
@@ -139,9 +140,10 @@
     "Placa limitada a 85 W",
     "Tela 1920×1200 sem brilho medido",
     "Sem medição de ruído em uso leve nem de teclado",
-    "Carregador de 135 W; comentários relatam gasto de bateria em jogo, sem medição"
+    "Carregador de 135 W; comentários relatam gasto de bateria em jogo, sem medição",
+    "R$ 60 acima do teto em 11/11 (dólar a 5,584)"
    ],
-   "ordem": 2
+   "ordem": 1
   },
   "sp:hasee|hasee t8 pro|i7-14700hx|5060|32gb|1tb|alta": {
    "veredito": "Mais potência com 32 GB",
@@ -155,9 +157,9 @@
     "Vendedor de terceiros, sem garantia no Brasil",
     "Sem teste independente de ruído, teclado ou tela",
     "2,6 kg",
-    "R$ 235 acima do teto (o dólar subiu)"
+    "R$ 366 acima do teto (o dólar subiu)"
    ],
-   "ordem": 4
+   "ordem": 3
   },
   "solo:https://www.newegg.com/hasee-s8-15-6-nvidia-geforce-rtx-5070-laptop-gpu-intel-core-i7-13620h-fhd-32gb-memory-1tb-ssd/p/2WC-004U-00064": {
    "veredito": "Única 5070 de 32 GB perto do teto",
@@ -255,15 +257,81 @@
     "16 GB e 512 GB",
     "Vendedor de terceiros (SPTT LLC), 1 unidade em 01/11"
    ]
+  },
+  "pn:ANV16-72-73C7:32gb": {
+   "veredito": "Único 32 GB dentro do teto",
+   "por_que": "Voltou à lista com a saída do Aero: é o 32 GB mais barato, com 2ª entrada de SSD livre para compensar os 512 GB.",
+   "fortes": [
+    "R$ 8.254, dentro do teto",
+    "32 GB de fábrica em 2 pentes",
+    "2ª entrada de SSD livre e vazia",
+    "Mesma placa do Nitro V 16S"
+   ],
+   "fracos": [
+    "SSD de 512 GB",
+    "Processador mais fraco (15.225 pontos em vários núcleos)",
+    "Placa limitada a 85 W",
+    "Tela 1920×1200 sem brilho medido",
+    "Vendido pela Newegg (no Walmart, também via Newegg)"
+   ],
+   "ordem": 2
+  },
+  "sp:acer|nitro v 16|core 7 240h|5060|32gb|512gb|fhd": {
+   "veredito": "Mesmo Nitro V 16 (ANV16-72-73C7) no Walmart",
+   "por_que": "É o mesmo modelo do 2º finalista (o título no Walmart traz ANV16-72-73C7), US$ 0,01 mais caro e vendido pela Newegg dentro do Walmart.",
+   "fortes": [
+    "R$ 8.254, dentro do teto",
+    "32 GB de fábrica em 2 pentes",
+    "2ª entrada de SSD livre e vazia",
+    "Mesma placa do Nitro V 16S"
+   ],
+   "fracos": [
+    "SSD de 512 GB",
+    "Processador mais fraco (15.225 pontos em vários núcleos)",
+    "Placa limitada a 85 W",
+    "Tela 1920×1200 sem brilho medido",
+    "Vendido pela Newegg (no Walmart, também via Newegg)"
+   ],
+   "ordem": 2
+  },
+  "sp:asus|strix g16|ryzen 9 9955hx|5060|16gb|1tb|fhd": {
+   "veredito": "Mais potência entre os 16 GB",
+   "por_que": "Exceção de 16 GB: placa no máximo e o processador mais forte da lista, em venda direta, por US$ 1.399.",
+   "fortes": [
+    "RTX 5060 a 115 W (ASUS EUA), contra 85 W dos Nitro e do Aero",
+    "Ryzen 9 9955HX, 16 núcleos",
+    "1 TB e 2ª entrada de SSD (ficha ASUS)",
+    "Memória até 64 GB, 2 entradas",
+    "Walmart direto"
+   ],
+   "fracos": [
+    "16 GB num pente só",
+    "R$ 54 acima do teto",
+    "Tela 1920×1200 sem brilho publicado",
+    "2,50 kg",
+    "Ruído só aproximado (outra versão, 41–54 dB em carga)",
+    "Estoque não conferido"
+   ]
+  },
+  "sp:lenovo|legion 5i|ultra 7 251hx|5060|16gb|512gb|alta": {
+   "veredito": "Legion 5i novo, só 16 GB e 512 GB",
+   "por_que": "Exceção de 16 GB pela placa a 115 W e pela tela medida; perde para o Strix G16 em SSD pelo mesmo preço.",
+   "fortes": [
+    "RTX 5060 a 115 W (medido na versão 5070)",
+    "Tela 2560×1600 sem piscar",
+    "Parado 24–28 dB",
+    "2ª entrada de SSD livre",
+    "1,9 kg"
+   ],
+   "fracos": [
+    "16 GB e 512 GB",
+    "R$ 54 acima do teto",
+    "B&H, vendedor não lido",
+    "Estoque não conferido"
+   ]
   }
  },
  "fora": [
-  {
-   "chave": "sp:acer|nitro v 16|core 7 240h|5060|32gb|512gb|fhd",
-   "nome": "Acer Nitro V16 · Core 7 240H · RTX 5060 · 32 GB · 512GB",
-   "url": "https://www.newegg.com/p/N82E16834360411",
-   "motivo": "Mesma placa e 32 GB do Nitro V 16S, com 512 GB e processador mais fraco, por R$ 301 a menos. O V 16S compensa."
-  },
   {
    "chave": "solo:https://www.bestbuy.com/product/acer-nitro-v-16-16-inch-180hz-gaming-laptop-core-7-240h-rtx-5060-32gb-512gb-ssd-obsidian-black/JJ8V8HGP24",
    "nome": "Acer Nitro V 16 · Core 7 240H · RTX 5060 · 32 GB · 512GB",
@@ -353,6 +421,78 @@
    "nome": "Lenovo LOQ 15 · i7-13650HX · RTX 5060 · 16 GB · 512GB",
    "url": "https://www.amazon.com/dp/B0HJGPYQXK",
    "motivo": "Acima do teto (R$ 8.691) com 16 GB e 512 GB, vendido por terceiro (ProPrime). Em 01/11 o Legion 5i tinha 1 TB, tela melhor e venda direta por cerca de R$ 200 a mais."
+  },
+  {
+   "chave": "sp:gigabyte|aero x16|ryzen ai 7 350|5060|16gb|512gb|alta",
+   "nome": "Gigabyte Aero X16 · RTX 5060 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0HPT7FDGD",
+   "motivo": "O mesmo Aero com 1 TB custa só US$ 50 a mais (GS Electronics, US$ 1.289,49). 16 GB e placa de 85 W: não é a máquina muito superior que justifica 16 GB."
+  },
+  {
+   "chave": "pn:1VH93USC94AH:16gb",
+   "nome": "Gigabyte Aero X16 · RTX 5060 · 16 GB · 1TB (Walmart)",
+   "url": "https://www.walmart.com/ip/17228810720",
+   "motivo": "O mesmo Aero de 16 GB e 1 TB, US$ 50 mais caro que na Amazon."
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/18314365162",
+   "nome": "Lenovo · Ryzen 7 250 · RTX 5060 · 16 GB · 512GB (Walmart)",
+   "url": "https://www.walmart.com/ip/18314365162",
+   "motivo": "Anúncio sem o modelo, de terceiro; Ryzen 7 250 é o processador mais fraco da tabela. O LOQ 15 com a mesma configuração custa US$ 100 a menos na Best Buy."
+  },
+  {
+   "chave": "sp:hp|victus 15|ryzen ai 7 350|5060|16gb|1tb|fhd",
+   "nome": "HP Victus 15 · Ryzen AI 7 350 · RTX 5060 · 16 GB · 1TB",
+   "url": "https://www.amazon.com/dp/B0FLRWF779",
+   "motivo": "Mesmo processador e memória do Aero de 16 GB e 1 TB, que custa US$ 27 a menos e tem tela 2560×1600."
+  },
+  {
+   "chave": "pn:ANV17-41-R8ML:16gb",
+   "nome": "Acer Nitro V 17 · RTX 5060 · 16 GB · 512GB (Target)",
+   "url": "https://www.target.com/p/acer-nitro-v-17-3-fhd-ips-gaming-laptop-anv17-41-r8ml-nvidia-geforce-rtx-5060-16gb-ram-512gb-storage/-/A-1006150952",
+   "motivo": "O mesmo Nitro V 17 já tirado na Amazon: 16 GB, 512 GB e não é muito superior."
+  },
+  {
+   "chave": "pn:ANV16-72-70F4:16gb",
+   "nome": "Acer Nitro V 16 · Core 7 240H · RTX 5060 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0FS8BZDQ9",
+   "motivo": "O mesmo Nitro V 16 com metade da memória, só US$ 60 abaixo da versão de 32 GB."
+  },
+  {
+   "chave": "solo:https://www.amazon.com/dp/B0HMGYKX26",
+   "nome": "HP · Ryzen 7 8745HX · RTX 5060 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0HMGYKX26",
+   "motivo": "O HyperX OMEN 15 com o mesmo processador, 16 GB e 1 TB custa US$ 1.199 no Walmart direto, US$ 151 a menos."
+  },
+  {
+   "chave": "sp:dell|alienware 15|ryzen 7 260|5060|16gb|512gb|fhd",
+   "nome": "Dell Alienware 15 · Ryzen 7 260 · 16 GB · 512GB",
+   "url": "https://www.amazon.com/dp/B0HLCYXNT5",
+   "motivo": "Mesmo processador do Nitro V 16S, que tem 32 GB e 1 TB em venda direta pelo mesmo preço; este é de terceiro."
+  },
+  {
+   "chave": "sp:dell|alienware 15|ryzen 7 260|5060|16gb|1tb|fhd",
+   "nome": "Dell Alienware 15 · Ryzen 7 260 · 16 GB · 1TB",
+   "url": "https://www.amazon.com/dp/B0HLD7JGF5",
+   "motivo": "Mais caro que o Nitro V 16S (32 GB, 1 TB, venda direta), com o mesmo processador e metade da memória."
+  },
+  {
+   "chave": "sp:asus|tuf gaming a18|ryzen 7 260|5060|16gb|1tb|fhd",
+   "nome": "ASUS TUF A18 · Ryzen 7 260 · 16 GB · 1TB",
+   "url": "https://www.amazon.com/dp/B0H8R7TBRX",
+   "motivo": "Mais caro que o Nitro V 16S, com o mesmo processador e metade da memória, de terceiro (Montana Joe)."
+  },
+  {
+   "chave": "pn:B2RWFKG-074US:16gb",
+   "nome": "MSI Cyborg 15 · RTX 5060 · 16 GB · 1TB (GS Electronics)",
+   "url": "https://www.amazon.com/dp/B0FSGJZDNT",
+   "motivo": "O mesmo Cyborg 15 sai por US$ 1.304,99 no Walmart; sem 2ª entrada de SSD."
+  },
+  {
+   "chave": "solo:https://www.walmart.com/ip/20785416889",
+   "nome": "Lenovo · i7-13650HX · RTX 5060 · 16 GB · 512GB (Walmart)",
+   "url": "https://www.walmart.com/ip/20785416889",
+   "motivo": "Provável LOQ 15, já tirado: acima do teto com 16 GB e 512 GB, de terceiro (Velztorm PC)."
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-11T13:49:16.829Z",
+ "gerado": "2026-11-11T13:51:40.162Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -268,10 +268,10 @@
   },
   {
    "chave": "sp:acer|nitro v 16|core 7 240h|5060|32gb|512gb|fhd",
-   "nome": "Acer · RTX 5060 · 32 GB · 512GB",
-   "titulo": "Acer Nitro V ANV16-72-73C7, 16.0\" WUXGA (1920 x 1200) IPS 180Hz Display, Intel Core 7 processor 240H, NVIDIA GeForce RTX 5060 Laptop GPU (MGP 85W), 32GB DDR5, 512GB PCIe Gen 4 S (ANV16-72-73C7)",
+   "nome": "Acer · Core 7 240H · RTX 5060 · 32 GB · 512GB",
+   "titulo": "Acer Nitro V ANV16-72-73C7 16.0\" WUXGA 180Hz Core 7 240H GeForce RTX RTX 5060 32GB DDR5 512GB PCIe Gen 4 SSD laptop",
    "marca": "Acer",
-   "cpu": null,
+   "cpu": "Core 7 240H",
    "gpu": "5060",
    "ram": 32,
    "ssd": "512GB",
@@ -283,10 +283,10 @@
    "excecao16": false,
    "loja": "Walmart",
    "url": "https://www.walmart.com/ip/17815365872",
-   "vendedor": "Newegg Inc.",
+   "vendedor": "não lido",
    "direto": false,
    "estoque": true,
-   "visto": "2026-11-11T13:31:37.906Z",
+   "visto": "2026-11-11T13:45:00.000Z",
    "fonte": "claude",
    "antes": null,
    "suspeito": false,
@@ -308,7 +308,10 @@
    "ruido": null,
    "topo": null,
    "tela_ficha": null,
-   "cinebench": null,
+   "cinebench": {
+    "um": 1715,
+    "varios": 15225
+   },
    "pos": 2
   },
   {
@@ -428,11 +431,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1199.99,
-   "promo": {
-    "queda_usd": 50,
-    "queda_pct": 4,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "não confirmado"
    ],
@@ -560,11 +559,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1289.49,
-   "promo": {
-    "queda_usd": 5,
-    "queda_pct": 0.4,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [],
    "conferir": [],
    "ssd2": "sim",
@@ -1375,11 +1370,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1079.99,
-   "promo": {
-    "queda_usd": 50,
-    "queda_pct": 4.4,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "conferir",
@@ -1556,11 +1547,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1079.99,
-   "promo": {
-    "queda_usd": 120,
-    "queda_pct": 10,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "conferir",
@@ -1746,11 +1733,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1469,
-   "promo": {
-    "queda_usd": 10,
-    "queda_pct": 0.7,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto"
    ],
@@ -1945,11 +1928,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1435,
-   "promo": {
-    "queda_usd": 10,
-    "queda_pct": 0.7,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto",
     "em avaliação"
@@ -2325,11 +2304,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1444.75,
-   "promo": {
-    "queda_usd": 10.25,
-    "queda_pct": 0.7,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto",
     "em avaliação",
@@ -2351,5 +2326,5 @@
    "pos": 46
   }
  ],
- "varredura_em": "2026-11-11T13:49:16.829Z"
+ "varredura_em": "2026-11-11T13:51:40.162Z"
 }
