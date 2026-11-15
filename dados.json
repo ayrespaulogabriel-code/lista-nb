@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-15T23:44:10.517Z",
+ "gerado": "2026-11-15T23:45:54.597Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -247,11 +247,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 888.64,
-   "promo": {
-    "queda_usd": 0.28,
-    "queda_pct": 0,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "conferir"
@@ -1474,11 +1470,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1183,
-   "promo": {
-    "queda_usd": 63,
-    "queda_pct": 5.1,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "conferir"
    ],
@@ -2902,5 +2894,5 @@
    "pos": 57
   }
  ],
- "varredura_em": "2026-11-15T23:44:10.517Z"
+ "varredura_em": "2026-11-15T23:45:54.597Z"
 }
