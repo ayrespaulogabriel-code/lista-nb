@@ -24,22 +24,22 @@
      "texto": "R$ 7.609 (US$ 1.179,99; com 9,5% US$ 1.292,09), Amazon direto, em estoque. Mais potência por real da lista; silencioso parado (24–30 dB) e teclado frio (25,8 °C), medidos em outra versão do mesmo chassi. Abre mão de: peso (2,5 kg), tela 1920×1200 sem brilho publicado e barulho em jogo (até 54 dB)."
     },
     {
-     "nome": "2º Legion 5a 15AHP11 · Ryzen 7 250 · OLED · 512 GB",
+     "nome": "2º HyperX OMEN 15 · Ryzen 7 8745HX · 1 TB",
+     "url": "https://www.walmart.com/ip/20106954575",
+     "texto": "R$ 7.732 (US$ 1.199; com 9,5% US$ 1.312,91), Walmart direto. Placa a 115 W (ficha oficial HP da série 15-gb0000 com o mesmo processador), silencioso parado (25 dB) e teclado frio (até 33,8 °C) medidos no mesmo corpo, 1 TB e 2ª entrada de SSD, design que o Paulo gostou. Abre mão de: tela com cores pálidas (62,5% sRGB, 300 nits) e peso (2,27 a 2,42 kg)."
+    },
+    {
+     "nome": "3º Legion 5a 15AHP11 · Ryzen 7 250 · OLED · 512 GB",
      "url": "https://www.bhphotovideo.com/c/product/1985625-REG/lenovo_83q70068us_legion_5a_r7_250_16gb_512gb_rtx_5060_wifi7_w11h_15_3.html",
      "texto": "R$ 8.060 (US$ 1.249,99; com 9,5% US$ 1.368,74), B&H, \"In Stock\" lido na página hoje. Ficha da Lenovo: placa a 115 W, 2 entradas de memória e 2 de SSD, OLED 2560×1600 de 500 nits, 1,87 kg (o mais leve). Abre mão de: a tela OLED pisca (656 Hz, de 50% de brilho para baixo, medido pela Notebookcheck no irmão 15AGP11) e isso pesa para quem é sensível; barulhento em jogo; processador mediano (14.676)."
     },
     {
-     "nome": "HyperX OMEN 15 · Ryzen 7 8745HX · 1 TB",
-     "url": "https://www.walmart.com/ip/20106954575",
-     "texto": "R$ 7.732 (US$ 1.199; com 9,5% US$ 1.312,91), Walmart direto. Silencioso e frio (medido no mesmo corpo), 1 TB, processador bom. Reprova na tela: 62,5% sRGB e 300 nits (ficha HP). Potência da placa não confirmada."
-    },
-    {
-     "nome": "3º Lenovo LOQ 15 15AHP10 · Ryzen 7 250 · 512 GB",
+     "nome": "4º Lenovo LOQ 15 15AHP10 · Ryzen 7 250 · 512 GB",
      "url": "https://www.walmart.com/ip/5335805068",
      "texto": "R$ 7.416 (US$ 1.149,99; com 9,5% US$ 1.259,24), mesmo preço em Walmart (antonline), Amazon, Target e Best Buy. Placa a 115 W, tela sem piscar, 2ª entrada de SSD. Abre mão de: ruído alto mesmo parado no modo Desempenho (43–48 dB), teclado quente em jogo (até 49 °C), 2,4 kg e tela de 300 nits."
     },
     {
-     "nome": "4º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
+     "nome": "5º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
      "url": "https://www.amazon.com/dp/B0HPT7FDGD",
      "texto": "R$ 7.990 (US$ 1.239; com 9,5% US$ 1.356,70), Amazon, terceiro. Voltou da lista de tirados: perde em potência (placa a 85 W), mas é o mais leve depois do Legion 5a (1,97 kg), tem a melhor tela sem piscar e é silencioso. Versão de 1 TB no Walmart a US$ 1.279,99 (vendedor não lido)."
     },
@@ -379,7 +379,7 @@
   },
   "pn:83Q70068US:16gb": {
    "veredito": "Mais leve e melhor tela, mas pisca",
-   "ordem16": 2,
+   "ordem16": 3,
    "por_que": "Potência máxima e OLED num corpo de 1,87 kg; a tela pisca em brilho baixo.",
    "fortes": [
     "US$ 1.249,99, R$ 8.060, B&H em estoque",
@@ -397,7 +397,7 @@
   },
   "sp:lenovo|loq 15|ryzen 7 250|5060|16gb|512gb|fhd": {
    "veredito": "Potência máxima mais barata, em 4 lojas",
-   "ordem16": 3,
+   "ordem16": 4,
    "por_que": "115 W por R$ 7.416, mas é barulhento e quente.",
    "fortes": [
     "US$ 1.149,99 em Walmart, Amazon, Target e Best Buy",
@@ -414,7 +414,7 @@
   },
   "sp:lenovo|legion 5i|ultra 7 245hx|5060|16gb|512gb|alta": {
    "veredito": "Vigiar: ainda não está à venda",
-   "ordem16": 5,
+   "ordem16": 6,
    "por_que": "A Best Buy mostra US$ 1.199,99 em \"coming soon\".",
    "fortes": [
     "R$ 7.738",
@@ -429,7 +429,7 @@
   },
   "sp:gigabyte|aero x16|ryzen ai 7 350|5060|16gb|512gb|alta": {
    "veredito": "Alternativa leve, silenciosa e com tela melhor",
-   "ordem16": 4,
+   "ordem16": 5,
    "por_que": "Rejulgado em 19/11: perde em potência para o Strix, mas ganha em peso, tela e ruído; tela sem piscar.",
    "fortes": [
     "US$ 1.239, R$ 7.990",
@@ -445,10 +445,11 @@
    ]
   },
   "solo:https://www.walmart.com/ip/20106954575": {
-   "veredito": "Bom em quase tudo, falha na tela",
-   "ordem16": 3,
-   "por_que": "Critérios objetivos (19/11): passa em preço, processador, silêncio, teclado, SSD e vendedor; reprova na cor da tela (62,5% sRGB); potência da placa não confirmada.",
+   "veredito": "Passa em tudo, menos na cor da tela",
+   "ordem16": 2,
+   "por_que": "Critérios objetivos (19/11): placa a 115 W confirmada na ficha oficial da HP (série 15-gb0000 com Ryzen 7 8745HX), silencioso, frio, 1 TB, venda direta. Só reprova na cor da tela (62,5% sRGB), que o Paulo aceita se gostar muito do design.",
    "fortes": [
+    "RTX 5060 a 115 W (ficha HP Japão, mesma série e processador)",
     "US$ 1.199, R$ 7.732, Walmart direto",
     "1 TB e 2ª entrada de SSD; 2 entradas de memória",
     "Parado 25 dB; teclado até 33,8 °C em carga (NBC, versão 5070)",
@@ -457,7 +458,6 @@
    ],
    "fracos": [
     "Tela 1920×1200 com 62,5% sRGB e 300 nits (ficha HP): cores pálidas",
-    "Potência da placa não publicada; só um site diz 115 W",
     "2,27–2,42 kg",
     "Só 14 avaliações no Walmart, várias com brinde"
    ]
