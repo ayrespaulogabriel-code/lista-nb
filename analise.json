@@ -34,12 +34,7 @@
      "texto": "R$ 7.416 (US$ 1.149,99; com 9,5% US$ 1.259,24), mesmo preço em Walmart (antonline), Amazon, Target e Best Buy. Placa a 115 W, tela sem piscar, 2ª entrada de SSD. Abre mão de: ruído alto mesmo parado no modo Desempenho (43–48 dB), teclado quente em jogo (até 49 °C), 2,4 kg e tela de 300 nits."
     },
     {
-     "nome": "4º ASUS TUF A16 · Ryzen 7 8745HX · 512 GB",
-     "url": "https://www.walmart.com/ip/High-Performance-Laptop-Computer-for-Everyday-Use/20135016910",
-     "texto": "R$ 7.087 (US$ 1.099), Walmart, o mais barato com placa a 115 W, mas o preço é de 15/11 e o vendedor não foi lido: conferir. Teclado frio (25 °C parado, ~40 °C em jogo) e 2ª entrada de SSD; ruído em jogo até 57 dB (medido na versão 5070)."
-    },
-    {
-     "nome": "5º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
+     "nome": "4º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
      "url": "https://www.amazon.com/dp/B0HPT7FDGD",
      "texto": "R$ 7.990 (US$ 1.239; com 9,5% US$ 1.356,70), Amazon, terceiro. Voltou da lista de tirados: perde em potência (placa a 85 W), mas é o mais leve depois do Legion 5a (1,97 kg), tem a melhor tela sem piscar e é silencioso. Versão de 1 TB no Walmart a US$ 1.279,99 (vendedor não lido)."
     },
@@ -411,23 +406,6 @@
     "512 GB"
    ]
   },
-  "sp:asus|tuf a16|ryzen 7 8745hx|5060|16gb|512gb|fhd": {
-   "veredito": "Mais barato com 115 W, preço a conferir",
-   "ordem16": 4,
-   "por_que": "US$ 1.099 visto em 15/11, vendedor não lido.",
-   "fortes": [
-    "R$ 7.087",
-    "RTX 5060 a 115 W",
-    "Teclado frio",
-    "2ª entrada de SSD, memória até 64 GB"
-   ],
-   "fracos": [
-    "Preço de 15/11, não relido",
-    "Vendedor não lido",
-    "Até 57 dB em jogo (versão 5070)",
-    "512 GB"
-   ]
-  },
   "sp:lenovo|legion 5i|ultra 7 245hx|5060|16gb|512gb|alta": {
    "veredito": "Vigiar: ainda não está à venda",
    "ordem16": 5,
@@ -445,7 +423,7 @@
   },
   "sp:gigabyte|aero x16|ryzen ai 7 350|5060|16gb|512gb|alta": {
    "veredito": "Alternativa leve, silenciosa e com tela melhor",
-   "ordem16": 5,
+   "ordem16": 4,
    "por_que": "Rejulgado em 19/11: perde em potência para o Strix, mas ganha em peso, tela e ruído; tela sem piscar.",
    "fortes": [
     "US$ 1.239, R$ 7.990",
@@ -719,6 +697,12 @@
    "nome": "MSI Cyborg A15 · RTX 5060 · 16 GB · 1TB",
    "url": "https://us-store.msi.com/Laptops/Gaming-Series/Cyborg-A15-AI-B2HWFKG-006US",
    "motivo": "Placa a 55 W e mais caro que o Strix G16."
+  },
+  {
+   "chave": "sp:asus|tuf a16|ryzen 7 8745hx|5060|16gb|512gb|fhd",
+   "nome": "ASUS TUF A16 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 512GB",
+   "url": "https://www.walmart.com/ip/High-Performance-Laptop-Computer-for-Everyday-Use/20135016910",
+   "motivo": "Conferido em 19/11: o US$ 1.099 de 15/11 acabou; agora US$ 1.499,99 por terceiro (Value Tech), acima do limite."
   }
  ]
 }
