@@ -66,7 +66,7 @@ table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left
     <div class="cartoes" id="cartoes"></div>
     <div class="rolar" id="tabela"></div>
     <div id="exc" hidden>
-      <h2>Exceções de 16 GB</h2>
+      <h2>Melhores de 16 GB</h2>
       <p class="sub" id="exc-sub"></p>
       <div class="cartoes" id="exc-c"></div>
       <div class="rolar" id="exc-t"></div>
@@ -135,12 +135,12 @@ function desenhar(){
   const p=+$('f-preco').value,g=$('f-gpu').value,t=$('f-tam').value,e=$('f-est').value;
   const bate=m=>(!p||m.rs<=p)&&(!g||(g==='5060'?/^5060/.test(m.gpu):!/^5060/.test(m.gpu)))&&
     (!t||(t==='15'?m.polegadas&&m.polegadas<16:t==='16'?m.polegadas>=16&&m.polegadas<17:m.polegadas>=17))&&(!e||m.estoque!==false);
-  const num=(m,i)=>({...m,pos:i+1}),base=D.modelos.filter(m=>m.ram!==16),v=base.filter(bate).sort((a,b)=>(AV[a.chave]?.ordem||99)-(AV[b.chave]?.ordem||99)).map(num),x=D.modelos.filter(m=>m.excecao16).filter(bate).sort((a,b)=>a.rs-b.rs).map(num);
+  const num=(m,i)=>({...m,pos:i+1}),base=D.modelos.filter(m=>m.ram!==16),v=base.filter(bate).sort((a,b)=>(AV[a.chave]?.ordem||99)-(AV[b.chave]?.ordem||99)).map(num),x=D.modelos.filter(m=>m.ram===16&&(m.excecao16||AV[m.chave]?.ordem16)).filter(bate).sort((a,b)=>(AV[a.chave]?.ordem16||99)-(AV[b.chave]?.ordem16||99)||a.rs-b.rs).map(num);
   $('cont').textContent=v.length+' de '+base.length+' notebooks de 32 GB. SSD de 512 GB precisa de 2ª entrada; com 1 TB ou mais ela é só ponto a favor.';
   $('cartoes').innerHTML=v.map(cartao).join('')||'<p>Nenhum notebook com esses filtros.</p>';
   const cab=`<tr><th>#</th><th>Notebook</th><th>Preço</th><th>Loja</th><th>Processador (1 núcleo / vários)</th><th>Placa de vídeo</th><th>Ampliar</th><th>Ruído</th><th>Teclado</th><th>Tela</th></tr>`;
   $('tabela').innerHTML=v.length?`<table>${cab}${v.map(linhaT).join('')}</table>`:'<p>Nenhum notebook com esses filtros.</p>';
-  $('exc').hidden=!x.length;$('exc-sub').textContent='16 GB só entra aqui se a máquina for muito superior: RTX 5070 ou acima, ou processador bem mais forte com placa na potência máxima, e preço até R$ 9.000. Sem comprar memória.';
+  $('exc').hidden=!x.length;$('exc-sub').textContent='Desde 19/11 (pedido do Paulo: dólar subindo e 32 GB sumindo da faixa) os melhores de 16 GB entram aqui, avaliados e em ordem, até R$ 9.000. Preço só do notebook, sem somar memória; entrada livre para mais memória conta como ponto a favor.';
   $('exc-c').innerHTML=x.map(cartao).join('');$('exc-t').innerHTML=x.length?`<table>${cab}${x.map(linhaT).join('')}</table>`:'';
   $('fora').innerHTML=FORA.length?`<details><summary>Tirados da lista (${FORA.length})</summary><ul>${FORA.map(f=>`<li><a href="${seguro(f.url)}" rel="noopener noreferrer" target="_blank">${esc(f.nome)}</a>: ${esc(f.motivo)}</li>`).join('')}</ul></details>`:'';
 }
