@@ -29,6 +29,11 @@
      "texto": "R$ 8.060 (US$ 1.249,99; com 9,5% US$ 1.368,74), B&H, \"In Stock\" lido na página hoje. Ficha da Lenovo: placa a 115 W, 2 entradas de memória e 2 de SSD, OLED 2560×1600 de 500 nits, 1,87 kg (o mais leve). Abre mão de: a tela OLED pisca (656 Hz, de 50% de brilho para baixo, medido pela Notebookcheck no irmão 15AGP11) e isso pesa para quem é sensível; barulhento em jogo; processador mediano (14.676)."
     },
     {
+     "nome": "HyperX OMEN 15 · Ryzen 7 8745HX · 1 TB",
+     "url": "https://www.walmart.com/ip/20106954575",
+     "texto": "R$ 7.732 (US$ 1.199; com 9,5% US$ 1.312,91), Walmart direto. Silencioso e frio (medido no mesmo corpo), 1 TB, processador bom. Reprova na tela: 62,5% sRGB e 300 nits (ficha HP). Potência da placa não confirmada."
+    },
+    {
      "nome": "3º Lenovo LOQ 15 15AHP10 · Ryzen 7 250 · 512 GB",
      "url": "https://www.walmart.com/ip/5335805068",
      "texto": "R$ 7.416 (US$ 1.149,99; com 9,5% US$ 1.259,24), mesmo preço em Walmart (antonline), Amazon, Target e Best Buy. Placa a 115 W, tela sem piscar, 2ª entrada de SSD. Abre mão de: ruído alto mesmo parado no modo Desempenho (43–48 dB), teclado quente em jogo (até 49 °C), 2,4 kg e tela de 300 nits."
@@ -368,7 +373,8 @@
    "fracos": [
     "2,5 kg",
     "Tela 1920×1200, brilho não publicado",
-    "Até 54 dB em jogo"
+    "Até 54 dB em jogo",
+    "Avaliações na Amazon (19/11): 4,4/5 em 654, 10% com 1–2 estrelas; relatos repetidos de placa-mãe morta (sem ligar), superaquecimento, Wi-Fi/Bluetooth que somem, travamento com som, e suporte da ASUS lento. Garantia é nos EUA."
    ]
   },
   "pn:83Q70068US:16gb": {
@@ -436,6 +442,24 @@
     "Placa limitada: 85 W medidos na versão 5070",
     "512 GB (a 2ª entrada é mais lenta, PCIe 4.0 x2)",
     "Vendedor de terceiros na Amazon (Prime Distributor Global)"
+   ]
+  },
+  "solo:https://www.walmart.com/ip/20106954575": {
+   "veredito": "Bom em quase tudo, falha na tela",
+   "ordem16": 3,
+   "por_que": "Critérios objetivos (19/11): passa em preço, processador, silêncio, teclado, SSD e vendedor; reprova na cor da tela (62,5% sRGB); potência da placa não confirmada.",
+   "fortes": [
+    "US$ 1.199, R$ 7.732, Walmart direto",
+    "1 TB e 2ª entrada de SSD; 2 entradas de memória",
+    "Parado 25 dB; teclado até 33,8 °C em carga (NBC, versão 5070)",
+    "Ryzen 7 8745HX ~18.450 pontos (estimativa NBC)",
+    "Design que o Paulo gostou"
+   ],
+   "fracos": [
+    "Tela 1920×1200 com 62,5% sRGB e 300 nits (ficha HP): cores pálidas",
+    "Potência da placa não publicada; só um site diz 115 W",
+    "2,27–2,42 kg",
+    "Só 14 avaliações no Walmart, várias com brinde"
    ]
   }
  },
