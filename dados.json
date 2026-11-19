@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-19T19:48:05.202Z",
+ "gerado": "2026-11-19T19:48:35.358Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -37,9 +37,9 @@
     "itens": 1,
     "paginas": 1,
     "estado": "ok",
-    "motivo": "ficha do Aero X16 32 GB no Chrome (navegador interno do app indisponível nesta sessão): a oferta da própria Best Buy (US$ 1.299,99) sumiu",
-    "link": "agora US$ 1.529,00, \"Sold & shipped by PC Heaven\" (marketplace), \"Unavailable\" (loja de Porto Rico no Chrome, então isso não prova falta de estoque nos EUA)",
-    "em": "2026-11-15T15:00:00.000Z"
+    "motivo": "ficha do Aero X16 32 GB no Chrome (navegador interno do app indisponível): US$ 1.519,00, \"Sold & shipped by PC Heaven\", \"Unavailable\" (Chrome com loja de Porto Rico",
+    "link": "não prova falta de estoque nos EUA)",
+    "em": "2026-11-19T14:30:00.000Z"
    },
    "obrigatoria": true
   },
@@ -53,12 +53,12 @@
    "ok_em": null,
    "link": "https://www.costco.com/s?keyword=rtx%205070%20laptop",
    "claude": {
-    "itens": 30,
-    "paginas": 2,
-    "estado": "ok",
-    "motivo": "página 1 de RTX 5060 e RTX 5070 carregaram desta vez",
-    "link": "nenhum notebook de 32 GB até o limite (só o desktop MSI Codex R2)",
-    "em": "2026-11-15T15:00:00.000Z"
+    "itens": 0,
+    "paginas": 1,
+    "estado": "não verificado",
+    "motivo": "a busca de RTX 5060 ficou presa em \"Loading\" por 27 s (0 cartões)",
+    "link": "RTX 5070 não aberta (regra: parar na loja)",
+    "em": "2026-11-19T14:30:00.000Z"
    },
    "obrigatoria": true
   },
@@ -72,12 +72,12 @@
    "ok_em": "2026-11-19T19:48:05.202Z",
    "link": "https://www.walmart.com/search?q=rtx%205060%20laptop&min_price=700&max_price=1700&page=2",
    "claude": {
-    "itens": 139,
+    "itens": 140,
     "paginas": 3,
     "estado": "ok",
-    "motivo": "páginas 1 e 2 de RTX 5060 e página 1 de RTX 5070 (placas de vídeo avulsas ignoradas)",
-    "link": "36 de 16 GB",
-    "em": "2026-11-15T15:00:00.000Z"
+    "motivo": "páginas 1 e 2 de RTX 5060 e página 1 de RTX 5070 (placas de vídeo avulsas e desktops ignorados)",
+    "link": "2 de 32 GB (Aero X16 1.474, Gaming A16 1.496,99)",
+    "em": "2026-11-19T14:30:00.000Z"
    },
    "obrigatoria": true
   },
@@ -91,12 +91,12 @@
    "ok_em": null,
    "link": "https://www.bhphotovideo.com/c/search?q=rtx%205070%20laptop",
    "claude": {
-    "itens": 25,
+    "itens": 26,
     "paginas": 2,
     "estado": "ok",
-    "motivo": "página 1 de RTX 5060 (8 cartões) e RTX 5070 (17)",
-    "link": "nada de 32 GB até o limite (Helios Neo 16 AI 32 GB a US$ 1.899)",
-    "em": "2026-11-15T15:00:00.000Z"
+    "motivo": "página 1 de RTX 5060 (8 cartões) e RTX 5070 (18)",
+    "link": "32 GB só acima do limite (Helios Neo 16 AI US$ 1.799",
+    "em": "2026-11-19T14:30:00.000Z"
    },
    "obrigatoria": true
   },
@@ -110,12 +110,12 @@
    "ok_em": "2026-11-19T19:48:05.202Z",
    "link": null,
    "claude": {
-    "itens": 165,
+    "itens": 163,
     "paginas": 4,
     "estado": "ok",
-    "motivo": "páginas 1 e 2 de RTX 5060 e RTX 5070",
-    "link": "22 de 16 GB",
-    "em": "2026-11-15T15:00:00.000Z"
+    "motivo": "páginas 1 e 2 de RTX 5060 e RTX 5070 (44+37+44+38 cartões)",
+    "link": "até o limite: 21 itens, 20 de 16 GB e 1 de 32 GB (Gaming A16 i7-13620H a 1.500, excluído pelo Paulo)",
+    "em": "2026-11-19T14:30:00.000Z"
    },
    "obrigatoria": true
   },
@@ -144,8 +144,8 @@
     "paginas": 1,
     "estado": "ok",
     "motivo": "página 1 de RTX 5060",
-    "link": "só 1 com RTX 5060, de 16 GB",
-    "em": "2026-11-15T15:00:00.000Z"
+    "link": "só 1 com RTX 5060, de 16 GB (Cyborg 15, 1.399)",
+    "em": "2026-11-19T14:30:00.000Z"
    },
    "obrigatoria": true
   },
@@ -159,12 +159,12 @@
    "ok_em": null,
    "link": "https://www.adorama.com/l/?searchinfo=rtx%205060%20laptop",
    "claude": {
-    "itens": 8,
+    "itens": 7,
     "paginas": 1,
     "estado": "ok",
-    "motivo": "página 1 de RTX 5060 abriu desta vez",
-    "link": "5 de 16 GB",
-    "em": "2026-11-15T15:00:00.000Z"
+    "motivo": "página 1 de RTX 5060",
+    "link": "32 GB só acima do limite (Cyborg 15 32 GB US$ 1.549",
+    "em": "2026-11-19T14:30:00.000Z"
    },
    "obrigatoria": false
   },
@@ -203,9 +203,9 @@
     "itens": 12,
     "paginas": 1,
     "estado": "ok",
-    "motivo": "de novo o Legion Y9000P (Ultra 9 275HX, RTX 5060, 32 GB, 1 TB, OLED) a R$ 5.022,41 = preço irreal, anúncio suspeito",
-    "link": null,
-    "em": "2026-11-15T15:00:00.000Z"
+    "motivo": "de novo o Y9000P 32 GB a preço irreal (anúncio suspeito)",
+    "link": "Tianxuan 6 Pro 16 GB a R$ 14.734,99 (acima)",
+    "em": "2026-11-19T14:30:00.000Z"
    },
    "obrigatoria": false
   },
@@ -247,11 +247,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 798.89,
-   "promo": {
-    "queda_usd": 89.75,
-    "queda_pct": 10.1,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "conferir"
@@ -452,6 +448,54 @@
    "pos": 5
   },
   {
+   "chave": "solo:https://www.walmart.com/ip/20906950993",
+   "nome": "MSI · Core 7 240H · RTX 5070 · 16 GB",
+   "titulo": "MSI Cyborg Max 15.6\" 144Hz Core 7 240H RTX RTX 5070 16GB laptop",
+   "marca": "MSI",
+   "cpu": "Core 7 240H",
+   "gpu": "5070",
+   "ram": 16,
+   "ssd": null,
+   "polegadas": 15.6,
+   "tela": null,
+   "usd": 1299,
+   "com_imposto": 1422.4,
+   "rs": 8376,
+   "excecao16": true,
+   "loja": "Walmart",
+   "url": "https://www.walmart.com/ip/20906950993",
+   "vendedor": "não lido",
+   "direto": false,
+   "visto": "2026-11-19T14:30:00.000Z",
+   "fonte": "claude",
+   "antes": null,
+   "suspeito": false,
+   "outras": [],
+   "menor_visto": 1299,
+   "promo": null,
+   "etiquetas": [
+    "em avaliação",
+    "conferir",
+    "não confirmado"
+   ],
+   "conferir": [
+    "preço lido pelo Claude no Chrome, com data; o script não abre esta loja",
+    "junção entre lojas não confirmada"
+   ],
+   "ssd2": "não confirmado",
+   "memoria": null,
+   "placa": null,
+   "watts": null,
+   "ruido": null,
+   "topo": null,
+   "tela_ficha": null,
+   "cinebench": {
+    "um": 1715,
+    "varios": 15225
+   },
+   "pos": 6
+  },
+  {
    "chave": "sp:hp|victus 15|ryzen ai 7 350|5060|16gb|1tb|fhd",
    "nome": "HP Victus 15 · Ryzen AI 7 350 · RTX 5060 · 16 GB · 1TB",
    "titulo": "HP Victus 15.6\" FHD IPS 144Hz Display Gaming Laptop, AMD Ryzen AI 7 350 2.0GHz; NVIDIA GeForce RTX 5060 8GB GDDR7; 16GB DDR5-5600 RAM; 1TB NVMe SSD; WiFi+LAN",
@@ -493,7 +537,7 @@
     "um": 1958,
     "varios": 16014
    },
-   "pos": 6
+   "pos": 7
   },
   {
    "chave": "sp:lenovo|loq 15|ryzen 7 250|5060|16gb|512gb|fhd",
@@ -563,7 +607,7 @@
     "um": 1715,
     "varios": 14676
    },
-   "pos": 7
+   "pos": 8
   },
   {
    "chave": "sp:lenovo|legion 5|ryzen 7 250|5060|16gb|512gb|alta",
@@ -627,7 +671,7 @@
     "um": 1715,
     "varios": 14676
    },
-   "pos": 8
+   "pos": 9
   },
   {
    "chave": "solo:https://www.walmart.com/ip/18314365162",
@@ -675,7 +719,7 @@
     "um": 1715,
     "varios": 14676
    },
-   "pos": 9
+   "pos": 10
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0DZZWMB2L",
@@ -718,7 +762,7 @@
    "topo": "25,8 °C / até 39,6 °C (aprox.)",
    "tela_ficha": "1920×1200 165 Hz, 100% sRGB, brilho não publicado",
    "cinebench": null,
-   "pos": 10
+   "pos": 11
   },
   {
    "chave": "sp:lenovo|legion 5i|ultra 7 245hx|5060|16gb|512gb|alta",
@@ -762,7 +806,7 @@
    "topo": "29,4 °C / até 41,6 °C",
    "tela_ficha": "2560×1600, sem PWM (LM)",
    "cinebench": null,
-   "pos": 11
+   "pos": 12
   },
   {
    "chave": "sp:asus|tuf a16|ryzen 7 8745hx|5060|16gb|512gb|fhd",
@@ -807,7 +851,7 @@
    "topo": "25 °C / ~40 °C",
    "tela_ficha": "1920×1200 165 Hz, não medida",
    "cinebench": null,
-   "pos": 12
+   "pos": 13
   },
   {
    "chave": "pn:ANV16-61-R2QY:16gb",
@@ -854,7 +898,7 @@
    "topo": "<30 °C / até ~45 °C",
    "tela_ficha": "~370 nits, ~60% sRGB, sem PWM",
    "cinebench": null,
-   "pos": 13
+   "pos": 14
   },
   {
    "chave": "solo:https://www.walmart.com/ip/18804722370",
@@ -897,7 +941,7 @@
    "topo": "<30 °C / até ~45 °C",
    "tela_ficha": "~370 nits, ~60% sRGB, sem PWM",
    "cinebench": null,
-   "pos": 14
+   "pos": 15
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0G6KCV7ZX",
@@ -940,7 +984,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
    "cinebench": null,
-   "pos": 15
+   "pos": 16
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0G4V6ZFP2",
@@ -983,7 +1027,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1200 180 Hz, brilho não informado",
    "cinebench": null,
-   "pos": 16
+   "pos": 17
   },
   {
    "chave": "solo:https://www.walmart.com/ip/18103172799",
@@ -1026,7 +1070,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
    "cinebench": null,
-   "pos": 17
+   "pos": 18
   },
   {
    "chave": "sp:asus|tuf f16|i5-14450hx|5060|16gb|512gb|fhd",
@@ -1071,7 +1115,7 @@
    "topo": "sem medição",
    "tela_ficha": "—",
    "cinebench": null,
-   "pos": 18
+   "pos": 19
   },
   {
    "chave": "solo:https://www.walmart.com/ip/20106954575",
@@ -1114,7 +1158,7 @@
    "topo": "sem medição nestes modelos",
    "tela_ficha": "1920×1200 165 Hz (Walmart); brilho e cobertura de cor do painel não confirmados (ver nota)",
    "cinebench": null,
-   "pos": 19
+   "pos": 20
   },
   {
    "chave": "sp:hp|hyperx omen 15|ryzen 7 8745hx|5060|16gb|1tb|fhd",
@@ -1158,7 +1202,7 @@
    "topo": "sem medição nestes modelos",
    "tela_ficha": "1920×1200 165 Hz (Walmart); brilho e cobertura de cor do painel não confirmados (ver nota)",
    "cinebench": null,
-   "pos": 20
+   "pos": 21
   },
   {
    "chave": "solo:https://www.walmart.com/ip/20054074481",
@@ -1201,7 +1245,7 @@
    "topo": "sem medição nestes modelos",
    "tela_ficha": "1920×1200 165 Hz (Walmart); brilho e cobertura de cor do painel não confirmados (ver nota)",
    "cinebench": null,
-   "pos": 21
+   "pos": 22
   },
   {
    "chave": "pn:83Q70068US:16gb",
@@ -1229,11 +1273,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1249.99,
-   "promo": {
-    "queda_usd": 99.01,
-    "queda_pct": 7.3,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [],
    "conferir": [],
    "ssd2": "sim",
@@ -1244,7 +1284,7 @@
    "topo": "sem medição",
    "tela_ficha": "sem PWM (LM)",
    "cinebench": null,
-   "pos": 22
+   "pos": 23
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0FRNHHLZ5",
@@ -1272,11 +1312,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1049.99,
-   "promo": {
-    "queda_usd": 30,
-    "queda_pct": 2.8,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "conferir",
@@ -1293,7 +1329,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 23
+   "pos": 24
   },
   {
    "chave": "sp:hp|victus 15|ryzen 7 7445hs|5090|16gb|512gb|fhd",
@@ -1338,7 +1374,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 24
+   "pos": 25
   },
   {
    "chave": "solo:https://www.newegg.com/hasee-t8pro-16-0-geforce-rtx-5080-laptop-gpu-qhd-32gb-memory-2-tb-ssd/p/2WC-004U-00072",
@@ -1366,11 +1402,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1209.99,
-   "promo": {
-    "queda_usd": 20,
-    "queda_pct": 1.6,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "conferir",
@@ -1387,7 +1419,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 25
+   "pos": 26
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0GT6WK6PM",
@@ -1433,7 +1465,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 26
+   "pos": 27
   },
   {
    "chave": "solo:https://www.newegg.com/msi-15-0/p/1TS-0016-05F44",
@@ -1478,7 +1510,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 27
+   "pos": 28
   },
   {
    "chave": "solo:https://www.newegg.com/msi-cyborg-17-3-geforce-rtx-5060-laptop-gpu-intel-core-5-210h-fhd-16gb-ddr5-memory-512gb-ssd/p/2WC-000C-0JPK1",
@@ -1523,7 +1555,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 28
+   "pos": 29
   },
   {
    "chave": "pn:ANV16-72-70F4:16gb",
@@ -1565,7 +1597,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 29
+   "pos": 30
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0GKQFF6K7",
@@ -1610,7 +1642,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 30
+   "pos": 31
   },
   {
    "chave": "pn:ANV17-41-R8ML:16gb",
@@ -1656,7 +1688,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 31
+   "pos": 32
   },
   {
    "chave": "sp:mechrevo|aurora 16x|i7-14650hx|5060|16gb|1tb|alta",
@@ -1700,7 +1732,7 @@
     "um": 1963,
     "varios": 24455
    },
-   "pos": 32
+   "pos": 33
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0FSMKGKVH",
@@ -1748,7 +1780,7 @@
     "um": 1958,
     "varios": 16014
    },
-   "pos": 33
+   "pos": 34
   },
   {
    "chave": "sp:acer|nitro v 16s|ryzen 7 260|5060|16gb|512gb|fhd",
@@ -1800,7 +1832,7 @@
     "um": 1770,
     "varios": 17211
    },
-   "pos": 34
+   "pos": 35
   },
   {
    "chave": "solo:https://www.walmart.com/ip/20566065108",
@@ -1847,7 +1879,7 @@
     "um": 1715,
     "varios": 15225
    },
-   "pos": 35
+   "pos": 36
   },
   {
    "chave": "sp:dell|alienware 16|core 7 240h|5060|16gb|1tb|alta",
@@ -1892,7 +1924,7 @@
     "um": 1715,
     "varios": 15225
    },
-   "pos": 36
+   "pos": 37
   },
   {
    "chave": "solo:https://www.newegg.com/lenovo-15-6-geforce-rtx-5060-laptop-gpu-intel-core-i7-13650hx-fhd-16gb-memory-512-gb-ssd/p/2WC-000J-03FY5",
@@ -1936,7 +1968,7 @@
    "topo": "29,8 °C / até 49 °C",
    "tela_ficha": "1920×1080, 300 nits, ~100% sRGB, sem PWM",
    "cinebench": null,
-   "pos": 37
+   "pos": 38
   },
   {
    "chave": "solo:https://www.newegg.com/lenovo-15-6-geforce-rtx-5060-laptop-gpu-intel-core-i7-13650hx-fhd-16gb-memory-512-gb-ssd/p/2WC-000J-03G04",
@@ -1980,7 +2012,7 @@
    "topo": "29,8 °C / até 49 °C",
    "tela_ficha": "1920×1080, 300 nits, ~100% sRGB, sem PWM",
    "cinebench": null,
-   "pos": 38
+   "pos": 39
   },
   {
    "chave": "solo:https://www.newegg.com/lenovo-15-6-geforce-rtx-5060-laptop-gpu-intel-core-i7-13650hx-fhd-16gb-memory-512-gb-ssd/p/2WC-000J-03FZ9",
@@ -2024,7 +2056,7 @@
    "topo": "29,8 °C / até 49 °C",
    "tela_ficha": "1920×1080, 300 nits, ~100% sRGB, sem PWM",
    "cinebench": null,
-   "pos": 39
+   "pos": 40
   },
   {
    "chave": "pn:B2HWFKG-006US:16gb",
@@ -2076,7 +2108,7 @@
    "topo": "sem medição",
    "tela_ficha": "1920×1080 144 Hz, 296 nits, 57% sRGB (versão base, LM); há opção 2560×1440 165 Hz",
    "cinebench": null,
-   "pos": 40
+   "pos": 41
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0HMGYKX26",
@@ -2122,7 +2154,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 41
+   "pos": 42
   },
   {
    "chave": "solo:https://www.newegg.com/lenovo-15-6-rtx-5060-i7-13650hx-16gb-memory-512gb-ssd/p/2WC-000J-03FE5",
@@ -2168,7 +2200,7 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 42
+   "pos": 43
   },
   {
    "chave": "solo:https://www.target.com/p/hp-hyperx-omen-gaming-laptop-15-6-165hz-2k-display-intel-core-ultra-7-255h-16gb-ram-1tb-ssd-geforce-rtx-5060-8gb-win-11-black/-/A-1015401767",
@@ -2214,8 +2246,8 @@
    "topo": null,
    "tela_ficha": null,
    "cinebench": null,
-   "pos": 43
+   "pos": 44
   }
  ],
- "varredura_em": "2026-11-19T19:48:05.202Z"
+ "varredura_em": "2026-11-19T19:48:35.358Z"
 }
