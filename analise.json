@@ -14,7 +14,8 @@
   {
    "titulo": "Melhores de 16 GB",
    "paragrafos": [
-    "Pedido do Paulo em 19/11: com o dólar subindo, ver os melhores de 16 GB. Preço só do notebook (sem somar memória). Todos abaixo têm 2 entradas de memória, então dá para chegar a 32 GB depois, se um dia valer a pena."
+    "Pedido do Paulo em 19/11: com o dólar subindo, ver os melhores de 16 GB. Preço só do notebook (sem somar memória). Todos abaixo têm 2 entradas de memória, então dá para chegar a 32 GB depois, se um dia valer a pena.",
+    "Em 19/11 os 16 GB tirados pela regra antiga foram rejulgados contra o Strix G16: só o Aero X16 voltou; os outros perdem para um dos cinco acima por preço, potência ou processador."
    ],
    "itens": [
     {
@@ -36,6 +37,11 @@
      "nome": "4º ASUS TUF A16 · Ryzen 7 8745HX · 512 GB",
      "url": "https://www.walmart.com/ip/High-Performance-Laptop-Computer-for-Everyday-Use/20135016910",
      "texto": "R$ 7.087 (US$ 1.099), Walmart, o mais barato com placa a 115 W, mas o preço é de 15/11 e o vendedor não foi lido: conferir. Teclado frio (25 °C parado, ~40 °C em jogo) e 2ª entrada de SSD; ruído em jogo até 57 dB (medido na versão 5070)."
+    },
+    {
+     "nome": "5º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
+     "url": "https://www.amazon.com/dp/B0HPT7FDGD",
+     "texto": "R$ 7.990 (US$ 1.239; com 9,5% US$ 1.356,70), Amazon, terceiro. Voltou da lista de tirados: perde em potência (placa a 85 W), mas é o mais leve depois do Legion 5a (1,97 kg), tem a melhor tela sem piscar e é silencioso. Versão de 1 TB no Walmart a US$ 1.279,99 (vendedor não lido)."
     },
     {
      "nome": "Vigiar: Legion 5i 15,3\" · Core 7 245HX · 512 GB",
@@ -436,6 +442,23 @@
     "512 GB",
     "Medições são da geração anterior"
    ]
+  },
+  "sp:gigabyte|aero x16|ryzen ai 7 350|5060|16gb|512gb|alta": {
+   "veredito": "Alternativa leve, silenciosa e com tela melhor",
+   "ordem16": 5,
+   "por_que": "Rejulgado em 19/11: perde em potência para o Strix, mas ganha em peso, tela e ruído; tela sem piscar.",
+   "fortes": [
+    "US$ 1.239, R$ 7.990",
+    "1,97 kg (Strix 2,5 kg)",
+    "Tela 2560×1600, 403 nits, 96% sRGB, sem piscar (versão 5070)",
+    "Parado 23,9 dB e teclado 26,6 °C",
+    "2 entradas de memória e 2ª de SSD"
+   ],
+   "fracos": [
+    "Placa limitada: 85 W medidos na versão 5070",
+    "512 GB (a 2ª entrada é mais lenta, PCIe 4.0 x2)",
+    "Vendedor de terceiros na Amazon (Prime Distributor Global)"
+   ]
   }
  },
  "fora": [
@@ -515,7 +538,7 @@
    "chave": "solo:https://www.amazon.com/dp/B0FRNHHLZ5",
    "nome": "Acer Nitro V 17 · RTX 5060 · 16 GB · 512GB",
    "url": "https://www.amazon.com/dp/B0FRNHHLZ5",
-   "motivo": "Barato (R$ 6.807), mas 16 GB, 512 GB e processador não informado no anúncio. 16 GB só entra se a máquina for muito superior, e esta não é."
+   "motivo": "Rejulgado em 19/11 (16 GB agora entra): o mais barato (US$ 1.049,99), mas Ryzen 5, tela 1920×1080 de 17\", potência da placa não informada e 512 GB. Perde para o LOQ 15 (US$ 100 a mais, placa a 115 W)."
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0GT6WK6PM",
@@ -528,12 +551,6 @@
    "nome": "Lenovo LOQ 15 · i7-13650HX · RTX 5060 · 16 GB · 512GB",
    "url": "https://www.amazon.com/dp/B0HJGPYQXK",
    "motivo": "Acima do teto (R$ 8.691) com 16 GB e 512 GB, vendido por terceiro (ProPrime). Em 01/11 o Legion 5i tinha 1 TB, tela melhor e venda direta por cerca de R$ 200 a mais."
-  },
-  {
-   "chave": "sp:gigabyte|aero x16|ryzen ai 7 350|5060|16gb|512gb|alta",
-   "nome": "Gigabyte Aero X16 · RTX 5060 · 16 GB · 512GB",
-   "url": "https://www.amazon.com/dp/B0HPT7FDGD",
-   "motivo": "O mesmo Aero com 1 TB custa só US$ 50 a mais (GS Electronics, US$ 1.289,49). 16 GB e placa de 85 W: não é a máquina muito superior que justifica 16 GB."
   },
   {
    "chave": "pn:1VH93USC94AH:16gb",
@@ -557,7 +574,7 @@
    "chave": "pn:ANV17-41-R8ML:16gb",
    "nome": "Acer Nitro V 17 · RTX 5060 · 16 GB · 512GB (Target)",
    "url": "https://www.target.com/p/acer-nitro-v-17-3-fhd-ips-gaming-laptop-anv17-41-r8ml-nvidia-geforce-rtx-5060-16gb-ram-512gb-storage/-/A-1006150952",
-   "motivo": "O mesmo Nitro V 17 já tirado na Amazon: 16 GB, 512 GB e não é muito superior."
+   "motivo": "Rejulgado em 19/11: o mesmo Nitro V 17 (Ryzen 5) mais caro que na Amazon e esgotado na Target."
   },
   {
    "chave": "pn:ANV16-72-70F4:16gb",
@@ -623,7 +640,7 @@
    "chave": "solo:https://www.newegg.com/msi-15-0/p/1TS-0016-05F44",
    "nome": "MSI · RTX 5060 · 16 GB · 512GB (Newegg)",
    "url": "https://www.newegg.com/msi-15-0/p/1TS-0016-05F44",
-   "motivo": "Anúncio sem o modelo, de terceiro, 16 GB e 512 GB: não é a máquina muito superior que justifica 16 GB."
+   "motivo": "Rejulgado em 19/11: anúncio sem o modelo, de terceiro; mais caro que o Strix G16 sem nada a mais."
   },
   {
    "chave": "solo:https://www.amazon.com/dp/B0GKQFF6K7",
@@ -659,7 +676,7 @@
    "chave": "sp:mechrevo|aurora 16x|i7-14650hx|5060|16gb|512gb|alta",
    "nome": "MECHREVO Aurora 16x · i7-14650HX · RTX 5060 · 16 GB · 512GB (Amazon, CyberGamers)",
    "url": "https://www.amazon.com/dp/B0H7BJW482",
-   "motivo": "16 GB e 512 GB de marca chinesa vendida por terceiro, potência da placa não informada e 2ª entrada de SSD não confirmada: não é a máquina muito superior que justifica 16 GB. O Strix G16 tem placa a 115 W provada e venda direta."
+   "motivo": "Rejulgado em 19/11: mesmo processador do Strix G16, mas US$ 20 mais caro, metade do SSD, potência da placa não informada, marca sem garantia aqui e vendedor de terceiros."
   },
   {
    "chave": "sp:mechrevo|aurora 16x|i7-14650hx|5060|16gb|1tb|alta",
