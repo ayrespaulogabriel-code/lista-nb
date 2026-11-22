@@ -1,65 +1,60 @@
 {
- "data": "2026-11-19",
+ "data": "2026-11-22",
  "secoes": [
   {
    "titulo": "Melhor opção",
    "itens": [
     {
-     "nome": "ROG Strix G16 · i7-14650HX · RTX 5060 · 16 GB · 1 TB",
-     "url": "https://www.amazon.com/dp/B0DZZWMB2L",
-     "texto": "Com o dólar a 5,8889 (+4,2% desde 13/11) o teto caiu para US$ 1.318 e nenhum 32 GB confiável cabe nele (o único é o Y9000P suspeito do AliExpress). A melhor compra hoje é de 16 GB: US$ 1.179,99 vendido e entregue pela própria Amazon, R$ 7.609 com o imposto, R$ 891 abaixo do teto. Placa na potência máxima (115 W), processador forte (24.455 pontos), 1 TB, 2ª entrada de SSD e memória ampliável (vem 1×16 GB, 2 entradas). Preço lido pelo script hoje às 16h45; reabrir a página antes de comprar."
+     "nome": "HyperX OMEN 15 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 1 TB",
+     "url": "https://www.walmart.com/ip/20106954575",
+     "texto": "O Strix G16, 1º lugar em 19/11, subiu de US$ 1.179,99 para US$ 1.578,95 na Amazon e saiu da faixa. O novo 1º é o HyperX OMEN 15: US$ 1.199 vendido pelo próprio Walmart (lido pelo script hoje), R$ 7.732 com o imposto, R$ 768 abaixo do teto. Placa a 115 W (ficha oficial da HP), 1 TB, 2ª entrada de SSD, 2 entradas de memória, silencioso parado e teclado frio. Única reprovação: cores pálidas da tela (62,5% sRGB). Nenhum 32 GB confiável cabe no limite hoje. Reabrir a página antes de comprar."
     }
    ]
   },
   {
    "titulo": "Melhores de 16 GB",
    "paragrafos": [
-    "Pedido do Paulo em 19/11: com o dólar subindo, ver os melhores de 16 GB. Preço só do notebook (sem somar memória). Todos abaixo têm 2 entradas de memória, então dá para chegar a 32 GB depois, se um dia valer a pena.",
-    "Em 19/11 os 16 GB tirados pela regra antiga foram rejulgados contra o Strix G16: só o Aero X16 voltou; os outros perdem para um dos cinco acima por preço, potência ou processador."
+    "Preço só do notebook (sem somar memória). Dólar oficial 5,8889 (19/11).",
+    "Saiu: ROG Strix G16 (US$ 1.578,95 na Amazon em 22/11, R$ 10.182, acima do limite). Se voltar a ~US$ 1.180, volta ao 1º lugar."
    ],
    "itens": [
     {
-     "nome": "1º ROG Strix G16 G615JMR · i7-14650HX · 1 TB",
-     "url": "https://www.amazon.com/dp/B0DZZWMB2L",
-     "texto": "R$ 7.609 (US$ 1.179,99; com 9,5% US$ 1.292,09), Amazon direto, em estoque. Mais potência por real da lista; silencioso parado (24–30 dB) e teclado frio (25,8 °C), medidos em outra versão do mesmo chassi. Abre mão de: peso (2,5 kg), tela 1920×1200 sem brilho publicado e barulho em jogo (até 54 dB)."
-    },
-    {
-     "nome": "2º HyperX OMEN 15 · Ryzen 7 8745HX · 1 TB",
+     "nome": "1º HyperX OMEN 15 · Ryzen 7 8745HX · 1 TB",
      "url": "https://www.walmart.com/ip/20106954575",
-     "texto": "R$ 7.732 (US$ 1.199; com 9,5% US$ 1.312,91), Walmart direto. Placa a 115 W (ficha oficial HP da série 15-gb0000 com o mesmo processador), silencioso parado (25 dB) e teclado frio (até 33,8 °C) medidos no mesmo corpo, 1 TB e 2ª entrada de SSD, design que o Paulo gostou. Abre mão de: tela com cores pálidas (62,5% sRGB, 300 nits) e peso (2,27 a 2,42 kg)."
+     "texto": "R$ 7.732 (US$ 1.199; com 9,5% US$ 1.312,91), Walmart direto. 115 W, silencioso (25 dB parado), teclado até 33,8 °C, 1 TB. Abre mão de: cor da tela (62,5% sRGB, 300 nits), 2,3–2,4 kg, poucas avaliações na loja."
     },
     {
-     "nome": "3º Legion 5a 15AHP11 · Ryzen 7 250 · OLED · 512 GB",
+     "nome": "2º Legion 5a 15AHP11 · Ryzen 7 250 · OLED · 512 GB",
      "url": "https://www.bhphotovideo.com/c/product/1985625-REG/lenovo_83q70068us_legion_5a_r7_250_16gb_512gb_rtx_5060_wifi7_w11h_15_3.html",
-     "texto": "R$ 8.060 (US$ 1.249,99; com 9,5% US$ 1.368,74), B&H, \"In Stock\" lido na página hoje. Ficha da Lenovo: placa a 115 W, 2 entradas de memória e 2 de SSD, OLED 2560×1600 de 500 nits, 1,87 kg (o mais leve). Abre mão de: a tela OLED pisca (656 Hz, de 50% de brilho para baixo, medido pela Notebookcheck no irmão 15AGP11) e isso pesa para quem é sensível; barulhento em jogo; processador mediano (14.676)."
+     "texto": "R$ 8.060 (US$ 1.249,99; com 9,5% US$ 1.368,74), B&H. 115 W, OLED 2560×1600 de 500 nits, 1,87 kg, 2 entradas de memória e de SSD. Abre mão de: a tela pisca (656 Hz, de 50% de brilho para baixo, Notebookcheck no 15AGP11), barulho em jogo, processador mediano."
     },
     {
-     "nome": "4º Lenovo LOQ 15 15AHP10 · Ryzen 7 250 · 512 GB",
+     "nome": "3º Lenovo LOQ 15 15AHP10 · Ryzen 7 250 · 512 GB",
      "url": "https://www.walmart.com/ip/5335805068",
-     "texto": "R$ 7.416 (US$ 1.149,99; com 9,5% US$ 1.259,24), mesmo preço em Walmart (antonline), Amazon, Target e Best Buy. Placa a 115 W, tela sem piscar, 2ª entrada de SSD. Abre mão de: ruído alto mesmo parado no modo Desempenho (43–48 dB), teclado quente em jogo (até 49 °C), 2,4 kg e tela de 300 nits."
+     "texto": "R$ 7.416 (US$ 1.149,99; com 9,5% US$ 1.259,24), Walmart (antonline) e outras lojas. 115 W, tela sem piscar, 2ª entrada de SSD. Abre mão de: barulho mesmo parado (43–48 dB no modo Desempenho), teclado até 49 °C em jogo, 2,4 kg, 300 nits."
     },
     {
-     "nome": "5º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
+     "nome": "4º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
      "url": "https://www.amazon.com/dp/B0HPT7FDGD",
-     "texto": "R$ 7.990 (US$ 1.239; com 9,5% US$ 1.356,70), Amazon, terceiro. Voltou da lista de tirados: perde em potência (placa a 85 W), mas é o mais leve depois do Legion 5a (1,97 kg), tem a melhor tela sem piscar e é silencioso. Versão de 1 TB no Walmart a US$ 1.279,99 (vendedor não lido)."
+     "texto": "R$ 7.990 (US$ 1.239), Amazon por terceiro (Prime Distributor Global). Leve (1,97 kg), silencioso, tela 2560×1600 sem piscar. Abre mão de: placa limitada (85 W medidos na versão 5070), 512 GB."
+    },
+    {
+     "nome": "5º (novo) Alienware 15 · Ryzen 7 260 · 1 TB",
+     "url": "https://www.costco.com/p/-/alienware-153-wuxga-gaming-laptop---amd-ryzen-7-260---16gb-ram---1tb-ssd---nvidia-geforce-rtx-5060---windows-11-home/4201015412",
+     "texto": "R$ 7.093 (US$ 1.099,99; com 9,5% US$ 1.204,49), Costco, ficha lida hoje: \"In Stock\", preço de Black Friday até 30/11, só para sócio da Costco (limite 2 por sócio). O mais barato com 1 TB, mas a potência da placa não foi achada (Dell não publica; a versão RTX 5050 roda a 95 W, Gizbot). Contra: memória em pente único (1×16 GB, ficha Dell; a TechRadar aponta isso no título), tela de 300 nits, 2,2 kg, processador abaixo do esperado (Windows Central). Entradas de SSD não confirmadas."
     },
     {
      "nome": "Vigiar: Legion 5i 15,3\" · Core 7 245HX · 512 GB",
      "url": "https://www.bestbuy.com/product/lenovo-legion-5i-15-3-3k-gaming-laptop-intel-core-ultra-7-245hx-2025-16gb-ram-nvidia-geforce-rtx-5060-512gb-storage-glacier-white/JJGH3V7KPG",
-     "texto": "US$ 1.199,99 (R$ 7.738) na Best Buy, mas a página diz \"coming soon\": ainda não dá para comprar. Provável oferta de Black Friday (27/11); se abrir, briga com o Strix pelo 1º lugar."
-    },
-    {
-     "nome": "Vigiar: MSI Crosshair 16 HX · i7-14650HX · RTX 5060 · 16 GB · 512 GB",
-     "url": "https://www.walmart.com/ip/20587468399",
-     "texto": "O de visual que o Paulo gostou (31/10, US$ 1.249 Walmart direto). Em 19/11: esgotado, só terceiro a US$ 1.799 (R$ 11.600); Newegg e Amazon sem essa versão. A versão RTX 5070 está a US$ 1.499 no Walmart (R$ 9.666). Entra na briga se voltar a ~US$ 1.300 na Black Friday."
+     "texto": "US$ 1.199,99 (R$ 7.738) na Best Buy segundo o GamingLaptop.Deals hoje, que o marca em estoque; em 19/11 a página dizia \"coming soon\". Não lido na loja nesta rodada (o Chrome abre a Best Buy de Porto Rico). Se estiver comprável, briga com o OMEN pelo 1º lugar."
     }
    ]
   },
   {
    "titulo": "32 GB: o mais perto do teto",
    "paragrafos": [
-    "Aero X16 32 GB: US$ 1.474 no Walmart (R$ 9.505) e US$ 1.519 na Best Buy por terceiro (PC Heaven). Acima do limite de R$ 9.000.",
-    "Lidas hoje e sem 32 GB até o limite: Newegg (só o Gaming A16, excluído), B&H, Adorama, Sam's Club. Costco não carregou (não verificada)."
+    "Aero X16 32 GB: US$ 1.499,99 no Walmart (R$ 9.673) e US$ 1.539 na Best Buy por terceiro (PC Heaven, \"Unavailable\" no Chrome de Porto Rico). Acima do limite de R$ 9.000.",
+    "Lidas hoje e sem 32 GB até o limite: Newegg e Walmart (só o Gaming A16, excluído), B&H, Adorama (Cyborg 15 32 GB a US$ 1.549), Sam's Club, Costco."
    ]
   },
   {
@@ -98,7 +93,7 @@
     ],
     [
      "Ryzen 7 260",
-     "Nitro V 16S",
+     "Nitro V 16S, Alienware 15",
      "8",
      "1.770",
      "17.211"
@@ -136,9 +131,10 @@
   {
    "titulo": "Promoções",
    "paragrafos": [
-    "Em 19/11: dólar oficial 5,8889 (era 5,6518 em 13/11): teto US$ 1.318, limite US$ 1.395.",
-    "Legion 5a OLED 16 GB caiu para US$ 1.249,99 na B&H (de US$ 1.799,99). Na Best Buy, Legion 5i e Legion 5a aparecem com preço de oferta, mas em \"coming soon\".",
-    "Suspeito, não comprar: Legion Y9000P de 32 GB no AliExpress a cerca de R$ 5.000."
+    "Semana da Black Friday. Dólar oficial 5,8889 (19/11): teto US$ 1.318, limite US$ 1.395.",
+    "Costco: Alienware 15 RTX 5060 16 GB/1 TB a US$ 1.099,99 (era US$ 1.699,99) até 30/11, só para sócio.",
+    "Subiu: Strix G16 de US$ 1.179,99 para US$ 1.578,95 na Amazon.",
+    "Suspeito, não comprar: Legion Y9000P de 32 GB no AliExpress a cerca de R$ 4.700."
    ]
   }
  ],
@@ -360,9 +356,8 @@
    "ordem": 1
   },
   "solo:https://www.amazon.com/dp/B0DZZWMB2L": {
-   "veredito": "Melhor dos 16 GB",
-   "ordem16": 1,
-   "por_que": "Placa a 115 W, processador forte e 1 TB pelo menor preço entre os de potência máxima, vendido pela Amazon.",
+   "veredito": "Saiu da faixa em 22/11",
+   "por_que": "Subiu para US$ 1.578,95 na Amazon (era US$ 1.179,99). Volta ao 1º lugar se o preço voltar.",
    "fortes": [
     "US$ 1.179,99, R$ 7.609, Amazon direto",
     "RTX 5060 a 115 W (ASUS EUA)",
@@ -379,7 +374,7 @@
   },
   "pn:83Q70068US:16gb": {
    "veredito": "Mais leve e melhor tela, mas pisca",
-   "ordem16": 3,
+   "ordem16": 2,
    "por_que": "Potência máxima e OLED num corpo de 1,87 kg; a tela pisca em brilho baixo.",
    "fortes": [
     "US$ 1.249,99, R$ 8.060, B&H em estoque",
@@ -397,7 +392,7 @@
   },
   "sp:lenovo|loq 15|ryzen 7 250|5060|16gb|512gb|fhd": {
    "veredito": "Potência máxima mais barata, em 4 lojas",
-   "ordem16": 4,
+   "ordem16": 3,
    "por_que": "115 W por R$ 7.416, mas é barulhento e quente.",
    "fortes": [
     "US$ 1.149,99 em Walmart, Amazon, Target e Best Buy",
@@ -429,8 +424,8 @@
   },
   "sp:gigabyte|aero x16|ryzen ai 7 350|5060|16gb|512gb|alta": {
    "veredito": "Alternativa leve, silenciosa e com tela melhor",
-   "ordem16": 5,
-   "por_que": "Rejulgado em 19/11: perde em potência para o Strix, mas ganha em peso, tela e ruído; tela sem piscar.",
+   "ordem16": 4,
+   "por_que": "Perde em potência para os de 115 W, mas ganha em peso, tela e ruído; tela sem piscar.",
    "fortes": [
     "US$ 1.239, R$ 7.990",
     "1,97 kg (Strix 2,5 kg)",
@@ -445,8 +440,8 @@
    ]
   },
   "solo:https://www.walmart.com/ip/20106954575": {
-   "veredito": "Passa em tudo, menos na cor da tela",
-   "ordem16": 2,
+   "veredito": "Melhor dos 16 GB",
+   "ordem16": 1,
    "por_que": "Critérios objetivos (19/11): placa a 115 W confirmada na ficha oficial da HP (série 15-gb0000 com Ryzen 7 8745HX), silencioso, frio, 1 TB, venda direta. Só reprova na cor da tela (62,5% sRGB), que o Paulo aceita se gostar muito do design.",
    "fortes": [
     "RTX 5060 a 115 W (ficha HP Japão, mesma série e processador)",
@@ -460,6 +455,39 @@
     "Tela 1920×1200 com 62,5% sRGB e 300 nits (ficha HP): cores pálidas",
     "2,27–2,42 kg",
     "Só 14 avaliações no Walmart, várias com brinde"
+   ]
+  },
+  "sp:dell|alienware 15.3\"|ryzen 7 260|5060|16gb|1tb|fhd": {
+   "veredito": "Mais barato com 1 TB, potência desconhecida",
+   "ordem16": 5,
+   "por_que": "US$ 1.099,99 na Costco (Black Friday, só sócio), mas a potência da placa não foi achada e a memória vem em pente único.",
+   "fortes": [
+    "US$ 1.099,99, R$ 7.093, Costco direto, \"In Stock\" (ficha lida 22/11)",
+    "1 TB",
+    "Ryzen 7 260, ~17.211 pontos"
+   ],
+   "fracos": [
+    "Potência da RTX 5060 não publicada (a 5050 roda a 95 W)",
+    "Memória 1×16 GB, pente único (ficha Dell)",
+    "Tela 1920×1200, 300 nits",
+    "2,2 kg",
+    "Exige ser sócio da Costco; preço até 30/11",
+    "Entradas de SSD não confirmadas"
+   ]
+  },
+  "sp:lenovo|legion 5i|core 7 245hx|5060|16gb|512gb|alta": {
+   "veredito": "Vigiar: conferir se já está à venda",
+   "ordem16": 6,
+   "por_que": "US$ 1.199,99 na Best Buy pelo GamingLaptop.Deals (22/11); não lido na loja.",
+   "fortes": [
+    "R$ 7.738",
+    "RTX 5060 a 115 W",
+    "Chassi Legion 5i: silencioso parado, teclado frio (medido na geração 10)"
+   ],
+   "fracos": [
+    "Não dá para comprar hoje",
+    "512 GB",
+    "Medições são da geração anterior"
    ]
   }
  },
