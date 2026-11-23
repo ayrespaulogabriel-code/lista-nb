@@ -15,7 +15,8 @@
    "titulo": "Melhores de 16 GB",
    "paragrafos": [
     "Preço só do notebook (sem somar memória). Dólar oficial 5,8889 (19/11).",
-    "Saiu: ROG Strix G16 (US$ 1.578,95 na Amazon em 22/11, R$ 10.182, acima do limite). Se voltar a ~US$ 1.180, volta ao 1º lugar."
+    "Saiu: ROG Strix G16 (US$ 1.578,95 na Amazon em 22/11, R$ 10.182, acima do limite). Se voltar a ~US$ 1.180, volta ao 1º lugar.",
+    "23/11: Legion conferidos na ficha oficial da Lenovo (PSREF). Os Legion 5i de 2026 (15IAX11) usam o corpo do Legion 5a, só com tela OLED; as medições antigas de ruído e de tela sem piscar eram do Legion 5i 15IRX10 e não valem para eles."
    ],
    "itens": [
     {
@@ -26,27 +27,32 @@
     {
      "nome": "2º Legion 5a 15AHP11 · Ryzen 7 250 · OLED · 512 GB",
      "url": "https://www.bhphotovideo.com/c/product/1985625-REG/lenovo_83q70068us_legion_5a_r7_250_16gb_512gb_rtx_5060_wifi7_w11h_15_3.html",
-     "texto": "R$ 8.060 (US$ 1.249,99; com 9,5% US$ 1.368,74), B&H. 115 W, OLED 2560×1600 de 500 nits, 1,87 kg, 2 entradas de memória e de SSD. Abre mão de: a tela pisca (656 Hz, de 50% de brilho para baixo, Notebookcheck no 15AGP11), barulho em jogo, processador mediano."
+     "texto": "R$ 8.060 (US$ 1.249,99; com 9,5% US$ 1.368,74), B&H. Ficha oficial Lenovo (15AHP11): placa a 115 W, 2 entradas de memória (até 32 GB) e 2 de SSD, OLED 2560×1600 de 500 nits, 1,87 kg. Abre mão de: a tela pisca (656 Hz, de 50% de brilho para baixo, Notebookcheck no 15AGP11), apesar do selo \"Flicker Free\" da ficha; barulho em jogo; processador mediano."
     },
     {
-     "nome": "3º Lenovo LOQ 15 15AHP10 · Ryzen 7 250 · 512 GB",
+     "nome": "3º Legion 5i 15IAX11 · Core Ultra 7 251HX · OLED · 512 GB",
+     "url": "https://www.bhphotovideo.com/c/product/1998991-REG/lenovo_83vk002dus_15_3_legion_5_laptop.html",
+     "texto": "R$ 8.705 (US$ 1.349,99; com 9,5% US$ 1.478,24), B&H. Ficha oficial Lenovo: o mesmo corpo do Legion 5a, com processador de 18 núcleos, placa a 115 W, 2 entradas de memória e 2 de SSD, OLED 2560×1600 de 500 nits, 1,93 kg. Abre mão de: preço (R$ 973 acima do 1º), 512 GB, piscar da tela, ruído e temperatura não medidos neste modelo."
+    },
+    {
+     "nome": "4º Lenovo LOQ 15 15AHP10 · Ryzen 7 250 · 512 GB",
      "url": "https://www.walmart.com/ip/5335805068",
      "texto": "R$ 7.416 (US$ 1.149,99; com 9,5% US$ 1.259,24), Walmart (antonline) e outras lojas. 115 W, tela sem piscar, 2ª entrada de SSD. Abre mão de: barulho mesmo parado (43–48 dB no modo Desempenho), teclado até 49 °C em jogo, 2,4 kg, 300 nits."
     },
     {
-     "nome": "4º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
+     "nome": "5º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
      "url": "https://www.amazon.com/dp/B0HPT7FDGD",
      "texto": "R$ 7.990 (US$ 1.239), Amazon por terceiro (Prime Distributor Global). Leve (1,97 kg), silencioso, tela 2560×1600 sem piscar. Abre mão de: placa limitada (85 W medidos na versão 5070), 512 GB."
     },
     {
-     "nome": "5º (novo) Alienware 15 · Ryzen 7 260 · 1 TB",
+     "nome": "6º (novo) Alienware 15 · Ryzen 7 260 · 1 TB",
      "url": "https://www.costco.com/p/-/alienware-153-wuxga-gaming-laptop---amd-ryzen-7-260---16gb-ram---1tb-ssd---nvidia-geforce-rtx-5060---windows-11-home/4201015412",
      "texto": "R$ 7.093 (US$ 1.099,99; com 9,5% US$ 1.204,49), Costco, ficha lida hoje: \"In Stock\", preço de Black Friday até 30/11, só para sócio da Costco (limite 2 por sócio). O mais barato com 1 TB, mas a potência da placa não foi achada (Dell não publica; a versão RTX 5050 roda a 95 W, Gizbot). Contra: memória em pente único (1×16 GB, ficha Dell; a TechRadar aponta isso no título), tela de 300 nits, 2,2 kg, processador abaixo do esperado (Windows Central). Entradas de SSD não confirmadas."
     },
     {
-     "nome": "Vigiar: Legion 5i 15,3\" · Core 7 245HX · 512 GB",
+     "nome": "Vigiar: Legion 5i 15IAX11 · Core 7 245HX · OLED · 512 GB",
      "url": "https://www.bestbuy.com/product/lenovo-legion-5i-15-3-3k-gaming-laptop-intel-core-ultra-7-245hx-2025-16gb-ram-nvidia-geforce-rtx-5060-512gb-storage-glacier-white/JJGH3V7KPG",
-     "texto": "US$ 1.199,99 (R$ 7.738) na Best Buy segundo o GamingLaptop.Deals hoje, que o marca em estoque; em 19/11 a página dizia \"coming soon\". Não lido na loja nesta rodada (o Chrome abre a Best Buy de Porto Rico). Se estiver comprável, briga com o OMEN pelo 1º lugar."
+     "texto": "US$ 1.199,99 (R$ 7.738) na Best Buy, modelo 83VK0068US, era US$ 1.889,99. Página lida em 23/11: ainda \"coming soon\" (o agregador de ofertas o dava como em estoque). Ficha oficial: 115 W, 14 núcleos, 2 entradas de memória e 2 de SSD, OLED. Se abrir a venda, briga com o OMEN pelo 1º lugar."
     }
    ]
   },
@@ -323,20 +329,22 @@
    ]
   },
   "sp:lenovo|legion 5i|ultra 7 251hx|5060|16gb|512gb|alta": {
-   "veredito": "Legion 5i novo, só 16 GB e 512 GB",
-   "por_que": "Exceção de 16 GB pela placa a 115 W e pela tela medida; perde para o Strix G16 em SSD pelo mesmo preço.",
+   "veredito": "O mais forte dos 16 GB, R$ 973 acima do 1º",
+   "ordem16": 3,
+   "por_que": "Mesmo corpo do Legion 5a (ficha oficial), placa a 115 W e processador de 18 núcleos; custa US$ 1.349,99 na B&H (R$ 8.705), dentro do limite.",
    "fortes": [
-    "RTX 5060 a 115 W (medido na versão 5070)",
-    "Tela 2560×1600 sem piscar",
-    "Parado 24–28 dB",
-    "2ª entrada de SSD livre",
-    "1,9 kg"
+    "Core Ultra 7 251HX, 18 núcleos (ficha oficial)",
+    "RTX 5060 a 115 W (ficha oficial, 15IAX11)",
+    "2 entradas de memória (máx. oficial 32 GB) e 2 de SSD (M.2 2242 PCIe 5.0 + M.2 2280 PCIe 4.0)",
+    "OLED 2560×1600, 500 nits",
+    "1,93 kg",
+    "B&H direto"
    ],
    "fracos": [
-    "16 GB e 512 GB",
-    "R$ 158 acima do teto (US$ 1.399)",
-    "B&H, vendedor não lido",
-    "Estoque não conferido"
+    "Tela OLED: piscar não medido neste modelo; a do Legion 5a pisca a 656 Hz",
+    "Ruído e temperatura não medidos (corpo novo; as medições antigas eram do Legion 5i 15IRX10, outro corpo)",
+    "512 GB",
+    "R$ 8.705, acima do teto de R$ 8.500"
    ]
   },
   "sp:acer|nitro v 16|core 7 240h|5060|32gb|512gb|fhd": {
@@ -377,22 +385,23 @@
    "ordem16": 2,
    "por_que": "Potência máxima e OLED num corpo de 1,87 kg; a tela pisca em brilho baixo.",
    "fortes": [
-    "US$ 1.249,99, R$ 8.060, B&H em estoque",
-    "RTX 5060 a 115 W (ficha Lenovo)",
-    "OLED 2560×1600, 500 nits",
-    "2 entradas de memória e 2 de SSD (ficha Lenovo)",
-    "1,87 kg"
+    "US$ 1.249,99, R$ 8.060, B&H",
+    "RTX 5060 a 115 W (ficha oficial Lenovo, 15AHP11)",
+    "OLED 2560×1600 165 Hz, 500 nits, 100% DCI-P3",
+    "2 entradas de memória (máx. oficial 32 GB) e 2 de SSD M.2 2280 PCIe 4.0 (ficha oficial)",
+    "1,87 kg",
+    "Fonte de 245 W, bateria 80 Wh"
    ],
    "fracos": [
-    "Tela pisca a 656 Hz de 50% de brilho para baixo (Notebookcheck, 15AGP11)",
+    "Tela pisca a 656 Hz de 50% de brilho para baixo (Notebookcheck, 15AGP11), apesar do selo \"Flicker Free\" da ficha",
     "Barulhento em jogo",
-    "Ryzen 7 250 mediano (14.676)",
+    "Ryzen 7 250 mediano (8 núcleos, 14.676)",
     "512 GB"
    ]
   },
   "sp:lenovo|loq 15|ryzen 7 250|5060|16gb|512gb|fhd": {
    "veredito": "Potência máxima mais barata, em 4 lojas",
-   "ordem16": 3,
+   "ordem16": 4,
    "por_que": "115 W por R$ 7.416, mas é barulhento e quente.",
    "fortes": [
     "US$ 1.149,99 em Walmart, Amazon, Target e Best Buy",
@@ -407,24 +416,9 @@
     "512 GB"
    ]
   },
-  "sp:lenovo|legion 5i|ultra 7 245hx|5060|16gb|512gb|alta": {
-   "veredito": "Vigiar: ainda não está à venda",
-   "ordem16": 6,
-   "por_que": "A Best Buy mostra US$ 1.199,99 em \"coming soon\".",
-   "fortes": [
-    "R$ 7.738",
-    "RTX 5060 a 115 W",
-    "Chassi Legion 5i: silencioso parado, teclado frio (medido na geração 10)"
-   ],
-   "fracos": [
-    "Não dá para comprar hoje",
-    "512 GB",
-    "Medições são da geração anterior"
-   ]
-  },
   "sp:gigabyte|aero x16|ryzen ai 7 350|5060|16gb|512gb|alta": {
    "veredito": "Alternativa leve, silenciosa e com tela melhor",
-   "ordem16": 4,
+   "ordem16": 5,
    "por_que": "Perde em potência para os de 115 W, mas ganha em peso, tela e ruído; tela sem piscar.",
    "fortes": [
     "US$ 1.239, R$ 7.990",
@@ -459,7 +453,7 @@
   },
   "sp:dell|alienware 15.3\"|ryzen 7 260|5060|16gb|1tb|fhd": {
    "veredito": "Mais barato com 1 TB, potência desconhecida",
-   "ordem16": 5,
+   "ordem16": 6,
    "por_que": "US$ 1.099,99 na Costco (Black Friday, só sócio), mas a potência da placa não foi achada e a memória vem em pente único.",
    "fortes": [
     "US$ 1.099,99, R$ 7.093, Costco direto, \"In Stock\" (ficha lida 22/11)",
@@ -476,18 +470,22 @@
    ]
   },
   "sp:lenovo|legion 5i|core 7 245hx|5060|16gb|512gb|alta": {
-   "veredito": "Vigiar: conferir se já está à venda",
-   "ordem16": 6,
-   "por_que": "US$ 1.199,99 na Best Buy pelo GamingLaptop.Deals (22/11); não lido na loja.",
+   "veredito": "Vigiar: ainda \"coming soon\"",
+   "ordem16": 7,
+   "por_que": "Página da Best Buy lida em 23/11: US$ 1.199,99 (era US$ 1.889,99), modelo 83VK0068US, ainda \"coming soon\".",
    "fortes": [
-    "R$ 7.738",
-    "RTX 5060 a 115 W",
-    "Chassi Legion 5i: silencioso parado, teclado frio (medido na geração 10)"
+    "US$ 1.199,99, R$ 7.738",
+    "RTX 5060 a 115 W (ficha oficial, 15IAX11)",
+    "Core 7 245HX, 14 núcleos (ficha oficial)",
+    "2 entradas de memória e 2 de SSD",
+    "OLED 2560×1600, 1,93 kg"
    ],
    "fracos": [
     "Não dá para comprar hoje",
+    "Processador mais fraco que o 251HX (14 × 18 núcleos)",
+    "Tela OLED: piscar não medido",
     "512 GB",
-    "Medições são da geração anterior"
+    "Ruído e temperatura não medidos"
    ]
   }
  },

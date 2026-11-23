@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-22T23:07:25.211Z",
+ "gerado": "2026-11-23T10:35:50.511Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -855,7 +855,7 @@
    "conferir": [
     "preço do GamingLaptop.Deals, com data; conferir na loja antes de comprar",
     "vendedor não lido",
-    "preço de 6 dias atrás"
+    "preço de 7 dias atrás"
    ],
    "ssd2": "sim",
    "memoria": "2 pentes, até 64 GB",
@@ -1128,7 +1128,7 @@
    "conferir": [
     "preço do GamingLaptop.Deals, com data; conferir na loja antes de comprar",
     "vendedor não lido",
-    "preço de 6 dias atrás"
+    "preço de 7 dias atrás"
    ],
    "ssd2": "sim",
    "memoria": "2 pentes, até 64 GB",
@@ -1440,7 +1440,7 @@
    ],
    "conferir": [
     "junção entre lojas não confirmada",
-    "preço de 6 dias atrás"
+    "preço de 7 dias atrás"
    ],
    "ssd2": "não confirmado",
    "memoria": null,
@@ -1617,7 +1617,7 @@
    ],
    "conferir": [
     "junção entre lojas não confirmada",
-    "preço de 6 dias atrás"
+    "preço de 7 dias atrás"
    ],
    "ssd2": "não confirmado",
    "memoria": null,
@@ -1706,7 +1706,7 @@
    ],
    "conferir": [
     "junção entre lojas não confirmada",
-    "preço de 6 dias atrás"
+    "preço de 7 dias atrás"
    ],
    "ssd2": "sim",
    "memoria": "2 pentes, até 64 GB (análise); Amazon diz máx. 32 GB",
@@ -2323,5 +2323,5 @@
    "pos": 45
   }
  ],
- "varredura_em": "2026-11-22T23:07:25.211Z"
+ "varredura_em": "2026-11-23T10:35:50.511Z"
 }
