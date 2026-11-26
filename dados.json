@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-26T19:39:12.058Z",
+ "gerado": "2026-11-26T19:41:26.735Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -1112,11 +1112,7 @@
     }
    ],
    "menor_visto": 1149.98,
-   "promo": {
-    "queda_usd": 0.01,
-    "queda_pct": 0,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "conferir"
    ],
@@ -1710,7 +1706,7 @@
    ],
    "conferir": [
     "junção entre lojas não confirmada",
-    "preço de 6 dias atrás"
+    "preço de 7 dias atrás"
    ],
    "ssd2": "sim",
    "memoria": "2 pentes, até 64 GB (análise); Amazon diz máx. 32 GB",
@@ -2204,11 +2200,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1279.99,
-   "promo": {
-    "queda_usd": 10,
-    "queda_pct": 0.8,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "em avaliação",
     "não confirmado"
@@ -2974,11 +2966,7 @@
    "suspeito": false,
    "outras": [],
    "menor_visto": 1419.99,
-   "promo": {
-    "queda_usd": 10,
-    "queda_pct": 0.7,
-    "menor_ja_visto": true
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto"
    ],
@@ -3296,11 +3284,7 @@
     }
    ],
    "menor_visto": 1369,
-   "promo": {
-    "queda_usd": 3,
-    "queda_pct": 0.2,
-    "menor_ja_visto": false
-   },
+   "promo": null,
    "etiquetas": [
     "acima do teto",
     "em avaliação",
@@ -3458,5 +3442,5 @@
    "pos": 68
   }
  ],
- "varredura_em": "2026-11-26T19:39:12.058Z"
+ "varredura_em": "2026-11-26T19:41:26.735Z"
 }
