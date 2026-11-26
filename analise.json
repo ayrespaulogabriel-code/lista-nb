@@ -1,66 +1,150 @@
 {
- "data": "2026-11-22",
+ "data": "2026-11-26",
  "secoes": [
   {
    "titulo": "Melhor opção",
    "itens": [
     {
-     "nome": "HyperX OMEN 15 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 1 TB",
-     "url": "https://www.walmart.com/ip/20106954575",
-     "texto": "O Strix G16, 1º lugar em 19/11, subiu de US$ 1.179,99 para US$ 1.578,95 na Amazon e saiu da faixa. O novo 1º é o HyperX OMEN 15: US$ 1.199 vendido pelo próprio Walmart (lido pelo script hoje), R$ 7.732 com o imposto, R$ 768 abaixo do teto. Placa a 115 W (ficha oficial da HP), 1 TB, 2ª entrada de SSD, 2 entradas de memória, silencioso parado e teclado frio. Única reprovação: cores pálidas da tela (62,5% sRGB). Nenhum 32 GB confiável cabe no limite hoje. Reabrir a página antes de comprar."
+     "nome": "MSI Crosshair 16 (A16 HX) · Ryzen 7 8840HX · RTX 5060 115 W · 16 GB · 1 TB",
+     "url": "https://www.walmart.com/ip/20881124433",
+     "texto": "US$ 1.199 no Walmart direto, em estoque na ficha (26/11): R$ 7.542 com o imposto, R$ 958 abaixo do teto. Mesmo preço do OMEN 15, com tela muito melhor (100% sRGB, ~520 nits) e medida sem piscar (versão Intel do mesmo corpo). Ponto fraco: ventoinha alta e superfície quente quando joga. Se silêncio pesar mais que tela, o OMEN 15, também a US$ 1.199. Nenhum 32 GB cabe no limite hoje."
     }
    ]
   },
   {
-   "titulo": "Melhores de 16 GB",
+   "titulo": "OMEN × Legion: quem ganha em quê",
    "paragrafos": [
-    "Preço só do notebook (sem somar memória). Dólar oficial 5,8889 (19/11).",
-    "Saiu: ROG Strix G16 (US$ 1.578,95 na Amazon em 22/11, R$ 10.182, acima do limite). Se voltar a ~US$ 1.180, volta ao 1º lugar.",
-    "23/11: Legion conferidos na ficha oficial da Lenovo (PSREF). Os Legion 5i de 2026 (15IAX11) usam o corpo do Legion 5a, só com tela OLED; as medições antigas de ruído e de tela sem piscar eram do Legion 5i 15IRX10 e não valem para eles."
+    "Os quatro que você gostou, mais o MSI. Todos com RTX 5060 a 115 W e 16 GB. Preço final com 9,5% e dólar 5,7446 (26/11).",
+    "Piscar da tela pesa aqui porque você é sensível: os três Legion têm OLED que pisca; o Crosshair foi medido sem piscar; o OMEN não tem medição.",
+    "O branco é o Legion 5i 83VK0068US da Best Buy (US$ 1.199,99). Na ficha de hoje: \"Unavailable\" no Chrome (loja de Porto Rico, não prova falta nos EUA) e \"Reviews coming soon\". Abrir na Best Buy antes de decidir."
    ],
+   "tabela": [
+    [
+     "",
+     "Crosshair 16",
+     "OMEN 15",
+     "Legion 5i branco",
+     "Legion 5i 251HX",
+     "Legion 5a"
+    ],
+    [
+     "Preço final",
+     "R$ 7.542",
+     "R$ 7.542",
+     "R$ 7.548",
+     "R$ 8.492",
+     "R$ 7.863"
+    ],
+    [
+     "Loja",
+     "Walmart direto, em estoque",
+     "Walmart direto, em estoque",
+     "Best Buy, compra não confirmada",
+     "B&H direto, em estoque",
+     "B&H direto, em estoque"
+    ],
+    [
+     "Processador",
+     "12 núcleos",
+     "8 núcleos, ~18.450",
+     "14 núcleos",
+     "18 núcleos, 26.001",
+     "8 núcleos, 14.676"
+    ],
+    [
+     "Tela",
+     "16\" IPS 240 Hz, 100% sRGB, ~520 nits",
+     "15,3\" IPS, 62,5% sRGB, 300 nits",
+     "15,3\" OLED, 100% sRGB, ~500 nits",
+     "igual ao branco",
+     "15,3\" OLED, 500 nits"
+    ],
+    [
+     "Piscar",
+     "não (medido na versão Intel)",
+     "sem medição",
+     "sim, sempre, 1.298 Hz",
+     "sim, sempre, 1.298 Hz",
+     "abaixo de 50%, 656 Hz"
+    ],
+    [
+     "Ruído em jogo",
+     "53,6 dB (Desempenho)",
+     "baixo a alto, sem medição em dB",
+     "52 dB (Desempenho)",
+     "52 dB",
+     "alto"
+    ],
+    [
+     "Calor",
+     "quente: 42 °C em cima",
+     "o mais frio: teclado 33,8 °C",
+     "42 °C em cima",
+     "42 °C em cima",
+     "sem medição"
+    ],
+    [
+     "Peso",
+     "2,23 kg",
+     "2,27–2,42 kg",
+     "1,95 kg",
+     "1,95 kg",
+     "1,87 kg"
+    ],
+    [
+     "SSD",
+     "1 TB + 2ª entrada",
+     "1 TB + 2ª entrada",
+     "512 GB + 2ª (curta)",
+     "512 GB + 2ª (curta)",
+     "512 GB + 2ª"
+    ],
+    [
+     "Cor",
+     "cinza escuro",
+     "preto iridescente",
+     "branco",
+     "preto (provável)",
+     "preto"
+    ],
+    [
+     "Ganha em",
+     "tela e piscar",
+     "silêncio e frio",
+     "leveza e cor",
+     "processador",
+     "leveza e preço entre os Legion"
+    ]
+   ]
+  },
+  {
+   "titulo": "MSI: o que há até o limite",
    "itens": [
     {
-     "nome": "1º HyperX OMEN 15 · Ryzen 7 8745HX · 1 TB",
-     "url": "https://www.walmart.com/ip/20106954575",
-     "texto": "R$ 7.732 (US$ 1.199; com 9,5% US$ 1.312,91), Walmart direto. 115 W, silencioso (25 dB parado), teclado até 33,8 °C, 1 TB. Abre mão de: cor da tela (62,5% sRGB, 300 nits), 2,3–2,4 kg, poucas avaliações na loja."
+     "nome": "Crosshair 16 (A16 HX) · 8840HX · 1 TB, US$ 1.199",
+     "url": "https://www.walmart.com/ip/20881124433",
+     "texto": "O melhor MSI e o 1º dos 16 GB (acima)."
     },
     {
-     "nome": "2º Legion 5a 15AHP11 · Ryzen 7 250 · OLED · 512 GB",
-     "url": "https://www.bhphotovideo.com/c/product/1985625-REG/lenovo_83q70068us_legion_5a_r7_250_16gb_512gb_rtx_5060_wifi7_w11h_15_3.html",
-     "texto": "R$ 8.060 (US$ 1.249,99; com 9,5% US$ 1.368,74), B&H. Ficha oficial Lenovo (15AHP11): placa a 115 W, 2 entradas de memória (até 32 GB) e 2 de SSD, OLED 2560×1600 de 500 nits, 1,87 kg. Abre mão de: a tela pisca (656 Hz, de 50% de brilho para baixo, Notebookcheck no 15AGP11), apesar do selo \"Flicker Free\" da ficha; barulho em jogo; processador mediano."
+     "nome": "Crosshair Max 16 · Core Ultra 7 255HX · 1 TB, US$ 1.399",
+     "url": "https://www.walmart.com/ip/20881124432",
+     "texto": "R$ 8.800, R$ 300 acima do teto; potência não levantada. Só se o processador pesar muito."
     },
     {
-     "nome": "3º Legion 5i 15IAX11 · Core Ultra 7 251HX · OLED · 512 GB",
-     "url": "https://www.bhphotovideo.com/c/product/1998991-REG/lenovo_83vk002dus_15_3_legion_5_laptop.html",
-     "texto": "R$ 8.705 (US$ 1.349,99; com 9,5% US$ 1.478,24), B&H. Ficha oficial Lenovo: o mesmo corpo do Legion 5a, com processador de 18 núcleos, placa a 115 W, 2 entradas de memória e 2 de SSD, OLED 2560×1600 de 500 nits, 1,93 kg. Abre mão de: preço (R$ 973 acima do 1º), 512 GB, piscar da tela, ruído e temperatura não medidos neste modelo."
+     "nome": "Cyborg 15, Cyborg 17, Cyborg A15 (US$ 1.179–1.399)",
+     "texto": "Fora: placa presa a 55–70 W (fichas MSI), menos da metade dos outros."
     },
     {
-     "nome": "4º Lenovo LOQ 15 15AHP10 · Ryzen 7 250 · 512 GB",
-     "url": "https://www.walmart.com/ip/5335805068",
-     "texto": "R$ 7.416 (US$ 1.149,99; com 9,5% US$ 1.259,24), Walmart (antonline) e outras lojas. 115 W, tela sem piscar, 2ª entrada de SSD. Abre mão de: barulho mesmo parado (43–48 dB no modo Desempenho), teclado até 49 °C em jogo, 2,4 kg, 300 nits."
-    },
-    {
-     "nome": "5º Gigabyte Aero X16 · Ryzen AI 7 350 · 512 GB",
-     "url": "https://www.amazon.com/dp/B0HPT7FDGD",
-     "texto": "R$ 7.990 (US$ 1.239), Amazon por terceiro (Prime Distributor Global). Leve (1,97 kg), silencioso, tela 2560×1600 sem piscar. Abre mão de: placa limitada (85 W medidos na versão 5070), 512 GB."
-    },
-    {
-     "nome": "6º (novo) Alienware 15 · Ryzen 7 260 · 1 TB",
-     "url": "https://www.costco.com/p/-/alienware-153-wuxga-gaming-laptop---amd-ryzen-7-260---16gb-ram---1tb-ssd---nvidia-geforce-rtx-5060---windows-11-home/4201015412",
-     "texto": "R$ 7.093 (US$ 1.099,99; com 9,5% US$ 1.204,49), Costco, ficha lida hoje: \"In Stock\", preço de Black Friday até 30/11, só para sócio da Costco (limite 2 por sócio). O mais barato com 1 TB, mas a potência da placa não foi achada (Dell não publica; a versão RTX 5050 roda a 95 W, Gizbot). Contra: memória em pente único (1×16 GB, ficha Dell; a TechRadar aponta isso no título), tela de 300 nits, 2,2 kg, processador abaixo do esperado (Windows Central). Entradas de SSD não confirmadas."
-    },
-    {
-     "nome": "Vigiar: Legion 5i 15IAX11 · Core 7 245HX · OLED · 512 GB",
-     "url": "https://www.bestbuy.com/product/lenovo-legion-5i-15-3-3k-gaming-laptop-intel-core-ultra-7-245hx-2025-16gb-ram-nvidia-geforce-rtx-5060-512gb-storage-glacier-white/JJGH3V7KPG",
-     "texto": "US$ 1.199,99 (R$ 7.738) na Best Buy, modelo 83VK0068US, era US$ 1.889,99. Página lida em 23/11: ainda \"coming soon\" (o agregador de ofertas o dava como em estoque). Ficha oficial: 115 W, 14 núcleos, 2 entradas de memória e 2 de SSD, OLED. Se abrir a venda, briga com o OMEN pelo 1º lugar."
+     "nome": "Katana 15 HX",
+     "texto": "Fora: em encomenda na Adorama (previsão 12/2026)."
     }
    ]
   },
   {
-   "titulo": "32 GB: o mais perto do teto",
+   "titulo": "Aero X16 32 GB: não voltou",
    "paragrafos": [
-    "Aero X16 32 GB: US$ 1.499,99 no Walmart (R$ 9.673) e US$ 1.539 na Best Buy por terceiro (PC Heaven, \"Unavailable\" no Chrome de Porto Rico). Acima do limite de R$ 9.000.",
-    "Lidas hoje e sem 32 GB até o limite: Newegg e Walmart (só o Gaming A16, excluído), B&H, Adorama (Cyborg 15 32 GB a US$ 1.549), Sam's Club, Costco."
+    "Walmart: US$ 1.879,99 (ficha lida 26/11). Best Buy: US$ 1.799 por terceiro, \"Unavailable\" no Chrome. Era US$ 1.299,99 até 15/11. Acima do limite de US$ 1.430; continua vigiado.",
+    "Nenhum 32 GB confiável cabe no limite hoje. O mais perto: Nitro V 16 32 GB/512 GB a US$ 1.419,99 no Walmart (R$ 8.932, kit com mouse), placa limitada a 85 W."
    ]
   },
   {
@@ -137,10 +221,15 @@
   {
    "titulo": "Promoções",
    "paragrafos": [
-    "Semana da Black Friday. Dólar oficial 5,8889 (19/11): teto US$ 1.318, limite US$ 1.395.",
-    "Costco: Alienware 15 RTX 5060 16 GB/1 TB a US$ 1.099,99 (era US$ 1.699,99) até 30/11, só para sócio.",
-    "Subiu: Strix G16 de US$ 1.179,99 para US$ 1.578,95 na Amazon.",
-    "Suspeito, não comprar: Legion Y9000P de 32 GB no AliExpress a cerca de R$ 4.700."
+    "Véspera da Black Friday. Dólar oficial 5,7446 (26/11): teto US$ 1.351, limite US$ 1.430.",
+    "Costco: Alienware 15.3 RTX 5060 16 GB/1 TB a US$ 1.099,99 até 30/11, só para sócio; potência da placa não publicada.",
+    "Suspeito, não comprar: Legion Y9000P de 32 GB no AliExpress a R$ 4.607."
+   ]
+  },
+  {
+   "titulo": "Custo desta atualização",
+   "paragrafos": [
+    "26/11/2026: janela de 5 h de 2% para 13% (+11 pontos); semanal de 33% para 34% (+1). Tempo total 34 min (16:09–16:43): Chrome 9 min, script 23 min (em paralelo com a pesquisa), análise e publicação 5 min. Custou mais que o normal na janela de 5 h por causa da pesquisa nova (análises da Notebookcheck do Legion 5i e do Crosshair). O número do /usage é inteiro e da conta toda."
    ]
   }
  ],
@@ -311,7 +400,7 @@
   },
   "sp:asus|strix g16|ryzen 9 9955hx|5060|16gb|1tb|fhd": {
    "veredito": "Mais potência entre os 16 GB",
-   "por_que": "Exceção de 16 GB: placa no máximo e o processador mais forte da lista, em venda direta, por US$ 1.399.",
+   "por_que": "US$ 1.399 no Walmart direto (R$ 8.800, R$ 300 acima do teto): processador de 16 núcleos e 115 W, mas 2,5 kg e tela sem medição. Só se o processador pesar muito.",
    "fortes": [
     "RTX 5060 a 115 W (ASUS EUA), contra 85 W dos Nitro e do Aero",
     "Ryzen 9 9955HX, 16 núcleos",
@@ -326,26 +415,8 @@
     "2,50 kg",
     "Ruído só aproximado (outra versão, 41–54 dB em carga)",
     "Estoque não conferido"
-   ]
-  },
-  "sp:lenovo|legion 5i|ultra 7 251hx|5060|16gb|512gb|alta": {
-   "veredito": "O mais forte dos 16 GB, R$ 973 acima do 1º",
-   "ordem16": 3,
-   "por_que": "Mesmo corpo do Legion 5a (ficha oficial), placa a 115 W e processador de 18 núcleos; custa US$ 1.349,99 na B&H (R$ 8.705), dentro do limite.",
-   "fortes": [
-    "Core Ultra 7 251HX, 18 núcleos (ficha oficial)",
-    "RTX 5060 a 115 W (ficha oficial, 15IAX11)",
-    "2 entradas de memória (máx. oficial 32 GB) e 2 de SSD (M.2 2242 PCIe 5.0 + M.2 2280 PCIe 4.0)",
-    "OLED 2560×1600, 500 nits",
-    "1,93 kg",
-    "B&H direto"
    ],
-   "fracos": [
-    "Tela OLED: piscar não medido neste modelo; a do Legion 5a pisca a 656 Hz",
-    "Ruído e temperatura não medidos (corpo novo; as medições antigas eram do Legion 5i 15IRX10, outro corpo)",
-    "512 GB",
-    "R$ 8.705, acima do teto de R$ 8.500"
-   ]
+   "ordem16": 9
   },
   "sp:acer|nitro v 16|core 7 240h|5060|32gb|512gb|fhd": {
    "veredito": "32 GB mais barato (acima do teto)",
@@ -381,8 +452,8 @@
    ]
   },
   "pn:83Q70068US:16gb": {
-   "veredito": "Mais leve e melhor tela, mas pisca",
-   "ordem16": 2,
+   "veredito": "Legion mais barato em estoque; pisca menos vezes, mas mais devagar",
+   "ordem16": 5,
    "por_que": "Potência máxima e OLED num corpo de 1,87 kg; a tela pisca em brilho baixo.",
    "fortes": [
     "US$ 1.249,99, R$ 8.060, B&H",
@@ -397,11 +468,30 @@
     "Barulhento em jogo",
     "Ryzen 7 250 mediano (8 núcleos, 14.676)",
     "512 GB"
+   ],
+   "bom_para": "quem quer Legion leve, em estoque, e usa a tela acima de 50% de brilho",
+   "ficha": {
+    "Preço": "US$ 1.249,99 · com 9,5% US$ 1.368,74 · R$ 7.863, B&H direto, \"In Stock\" (ficha lida 26/11)",
+    "Processador": "Ryzen 7 250, 8 núcleos, 14.676 pontos: o mais fraco dos três Legion",
+    "Placa de vídeo": "RTX 5060 a 115 W (ficha Lenovo 15AHP11)",
+    "Tela": "OLED 15,3\" 2560×1600 165 Hz, 500 nits, 100% DCI-P3",
+    "Piscar da tela": "Pisca a 656 Hz de 50% de brilho para baixo (Notebookcheck, 15AGP11), apesar do selo \"Flicker Free\"",
+    "Ruído": "Barulhento em jogo (Notebookcheck)",
+    "Calor": "Não medido neste modelo",
+    "Bateria": "80 Wh",
+    "Peso": "1,87 kg + carregador de 245 W",
+    "Ampliar": "2 entradas de memória (máx. 32 GB) e 2 de SSD M.2 2280 (ficha Lenovo)",
+    "Cor": "Preto (Eclipse Black)",
+    "Loja e garantia": "B&H direto; garantia Lenovo nos EUA"
+   },
+   "comparado": "Contra os Legion 5i: mesmo corpo; mais barato e mais leve, processador bem mais fraco. A tela pisca só abaixo de 50%, mas em frequência mais baixa (656 × 1.298 Hz), o que costuma incomodar mais quem é sensível.",
+   "fontes": [
+    "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_5_15IAX11/Legion_5_15IAX11_Spec.pdf"
    ]
   },
   "sp:lenovo|loq 15|ryzen 7 250|5060|16gb|512gb|fhd": {
    "veredito": "Potência máxima mais barata, em 4 lojas",
-   "ordem16": 4,
+   "ordem16": 6,
    "por_que": "115 W por R$ 7.416, mas é barulhento e quente.",
    "fortes": [
     "US$ 1.149,99 em Walmart, Amazon, Target e Best Buy",
@@ -418,7 +508,7 @@
   },
   "sp:gigabyte|aero x16|ryzen ai 7 350|5060|16gb|512gb|alta": {
    "veredito": "Alternativa leve, silenciosa e com tela melhor",
-   "ordem16": 5,
+   "ordem16": 7,
    "por_que": "Perde em potência para os de 115 W, mas ganha em peso, tela e ruído; tela sem piscar.",
    "fortes": [
     "US$ 1.239, R$ 7.990",
@@ -434,26 +524,47 @@
    ]
   },
   "solo:https://www.walmart.com/ip/20106954575": {
-   "veredito": "Melhor dos 16 GB",
-   "ordem16": 1,
-   "por_que": "Critérios objetivos (19/11): placa a 115 W confirmada na ficha oficial da HP (série 15-gb0000 com Ryzen 7 8745HX), silencioso, frio, 1 TB, venda direta. Só reprova na cor da tela (62,5% sRGB), que o Paulo aceita se gostar muito do design.",
+   "veredito": "O mais silencioso e frio pelo mesmo preço; tela fraca",
+   "ordem16": 2,
+   "por_que": "O design que você gostou, com placa a 115 W, 1 TB e venda direta a US$ 1.199. Fica atrás do Crosshair só pela tela: cores pálidas e pouco brilho.",
+   "bom_para": "quem prioriza silêncio e teclado frio e não liga muito para cor de tela",
+   "ficha": {
+    "Preço": "US$ 1.199 · com 9,5% US$ 1.312,91 · R$ 7.542, Walmart direto (\"IN_STOCK\" lido na ficha hoje)",
+    "Processador": "Ryzen 7 8745HX, 8 núcleos; ~18.450 pontos no Cinebench R23 (estimativa Notebookcheck)",
+    "Placa de vídeo": "RTX 5060 a 115 W (ficha HP Japão, mesma série 15-gb0000 e processador)",
+    "Tela": "15,3\" 1920×1200 (vendido como \"2K\"), 165 Hz, 300 nits, 62,5% sRGB (ficha HP): cores pálidas",
+    "Piscar da tela": "Não medido nesta tela (IPS; não achei teste). Risco desconhecido",
+    "Ruído": "Parado 25 dB (Notebookcheck, versão RTX 5070 do mesmo corpo); em jogo as análises divergem: \"baixo e grave\" (HotHardware) × \"alto\" (Tom's Guide)",
+    "Calor": "Teclado até 33,8 °C em carga (Notebookcheck, versão 5070): o mais frio da lista",
+    "Bateria": "70 Wh; ~16 h de vídeo na versão 5070 (HotHardware); Tom's Guide reclamou da bateria em outra versão",
+    "Peso": "2,27–2,42 kg (ficha HP)",
+    "Ampliar": "2 entradas de memória e 2ª entrada de SSD",
+    "Cor": "Preto iridescente (título do Walmart); não há branco",
+    "Loja e garantia": "Walmart direto; garantia HP nos EUA; só 14 avaliações no Walmart"
+   },
+   "comparado": "Contra o Crosshair (mesmo preço): mais silencioso e frio, design que você gostou; perde feio em tela e em processador. Contra o Legion 5i branco (US$ 1 a mais): o Legion é mais leve e tem tela muito melhor, mas OLED que pisca e 512 GB.",
    "fortes": [
-    "RTX 5060 a 115 W (ficha HP Japão, mesma série e processador)",
-    "US$ 1.199, R$ 7.732, Walmart direto",
-    "1 TB e 2ª entrada de SSD; 2 entradas de memória",
-    "Parado 25 dB; teclado até 33,8 °C em carga (NBC, versão 5070)",
-    "Ryzen 7 8745HX ~18.450 pontos (estimativa NBC)",
-    "Design que o Paulo gostou"
+    "RTX 5060 a 115 W (ficha HP)",
+    "Parado 25 dB, teclado até 33,8 °C",
+    "1 TB e 2ª entrada de SSD",
+    "Walmart direto",
+    "Design que você gostou"
    ],
    "fracos": [
-    "Tela 1920×1200 com 62,5% sRGB e 300 nits (ficha HP): cores pálidas",
-    "2,27–2,42 kg",
-    "Só 14 avaliações no Walmart, várias com brinde"
+    "Tela 62,5% sRGB e 300 nits",
+    "Piscar da tela não medido",
+    "Processador de 8 núcleos",
+    "2,3–2,4 kg"
+   ],
+   "fontes": [
+    "https://www.notebookcheck.net/HP-HyperX-Omen-15-ga0000-Reviews-and-Specs.1390281.0.html",
+    "https://hothardware.com/reviews/hp-hyperx-omen-15-gaming-laptop-review?page=3",
+    "https://www.tomsguide.com/computing/gaming-laptops/hyperx-omen-15-review"
    ]
   },
   "sp:dell|alienware 15.3\"|ryzen 7 260|5060|16gb|1tb|fhd": {
    "veredito": "Mais barato com 1 TB, potência desconhecida",
-   "ordem16": 6,
+   "ordem16": 8,
    "por_que": "US$ 1.099,99 na Costco (Black Friday, só sócio), mas a potência da placa não foi achada e a memória vem em pente único.",
    "fortes": [
     "US$ 1.099,99, R$ 7.093, Costco direto, \"In Stock\" (ficha lida 22/11)",
@@ -470,22 +581,155 @@
    ]
   },
   "sp:lenovo|legion 5i|core 7 245hx|5060|16gb|512gb|alta": {
-   "veredito": "Vigiar: ainda \"coming soon\"",
-   "ordem16": 7,
-   "por_que": "Página da Best Buy lida em 23/11: US$ 1.199,99 (era US$ 1.889,99), modelo 83VK0068US, ainda \"coming soon\".",
+   "veredito": "O branco: mais leve e bonito, mas a tela pisca",
+   "ordem16": 3,
+   "por_que": "É o Legion branco (Glacier White) que você viu: US$ 1.199,99 na Best Buy, modelo 83VK0068US. Potência máxima, OLED e 1,95 kg. Em 26/11 a ficha mostra \"Unavailable\" no Chrome (loja de Porto Rico, não prova falta nos EUA) e \"Reviews coming soon\": conferir na Best Buy antes.",
+   "bom_para": "quem quer o notebook mais leve e bonito, e tolera tela que pisca",
+   "ficha": {
+    "Preço": "US$ 1.199,99 · com 9,5% US$ 1.313,99 · R$ 7.548, Best Buy",
+    "Processador": "Core 7 245HX, 14 núcleos (ficha Lenovo); mais fraco que o 251HX de 18",
+    "Placa de vídeo": "RTX 5060 a 115 W (ficha Lenovo 15IAX11)",
+    "Tela": "OLED 15,3\" 2560×1600 165 Hz; medida: 495 nits de média, 100% sRGB, HDR até 1.076 nits; muito reflexiva",
+    "Piscar da tela": "Pisca em todos os níveis de brilho: 1.298 Hz, 25% de amplitude (Notebookcheck, Legion 5 15IAX11). Para quem é sensível, é o ponto fraco principal",
+    "Ruído": "Parado 22,8–26,6 dB; jogando 52 dB no modo Desempenho (Notebookcheck, versão RTX 5070)",
+    "Calor": "Em carga, parte de cima até 42,2 °C, embaixo 49 °C (versão 5070)",
+    "Bateria": "80 Wh; \"autonomia longa\" com a placa integrada (Notebookcheck, sem número de horas)",
+    "Peso": "1,95 kg + carregador de 245 W (664 g)",
+    "Ampliar": "2 entradas de memória e 2 de SSD (uma só aceita SSD curto, 42 mm)",
+    "Cor": "Branco Glacier White (pintura especial, ficha Lenovo)",
+    "Loja e garantia": "Best Buy; vendedor não confirmado; garantia Lenovo nos EUA"
+   },
+   "comparado": "Contra o Legion 5i 251HX (US$ 150 a mais, preto): mesmo corpo e tela; o 251HX tem processador mais forte e está em estoque na B&H. Contra o Legion 5a (US$ 50 a mais): o 5a só pisca abaixo de 50% de brilho, mas a 656 Hz; tem processador mais fraco (8 núcleos).",
    "fortes": [
-    "US$ 1.199,99, R$ 7.738",
-    "RTX 5060 a 115 W (ficha oficial, 15IAX11)",
-    "Core 7 245HX, 14 núcleos (ficha oficial)",
-    "2 entradas de memória e 2 de SSD",
-    "OLED 2560×1600, 1,93 kg"
+    "Branco",
+    "1,95 kg, o mais leve dos de 115 W",
+    "OLED 100% sRGB, ~500 nits",
+    "115 W",
+    "2 entradas de memória e de SSD"
    ],
    "fracos": [
-    "Não dá para comprar hoje",
-    "Processador mais fraco que o 251HX (14 × 18 núcleos)",
-    "Tela OLED: piscar não medido",
+    "Tela pisca em todos os níveis (1.298 Hz)",
     "512 GB",
-    "Ruído e temperatura não medidos"
+    "Compra não confirmada hoje (\"Unavailable\" no Chrome, sem avaliações)",
+    "Ventoinha alta no modo Desempenho",
+    "Tela muito reflexiva"
+   ],
+   "fontes": [
+    "https://www.notebookcheck.net/Lenovo-Legion-5-15IAX11-review-Optimized-for-1440p-gaming.1380978.0.html",
+    "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_5_15IAX11/Legion_5_15IAX11_Spec.pdf"
+   ]
+  },
+  "sp:msi|crosshair 16|ryzen 7 8840hx|5060|16gb|1tb|alta": {
+   "veredito": "Melhor dos 16 GB: tela boa e sem piscar",
+   "ordem16": 1,
+   "por_que": "Mesmo preço do OMEN (US$ 1.199, Walmart direto, \"IN_STOCK\" lido na ficha hoje), com a mesma potência de placa e 1 TB, mas com tela muito melhor e medida sem piscar. Perde para o OMEN em barulho e calor no jogo.",
+   "bom_para": "quem quer a melhor tela sem piscar pelo menor preço e aceita ventoinha alta quando joga",
+   "ficha": {
+    "Preço": "US$ 1.199 · com 9,5% US$ 1.312,91 · R$ 7.542 (dólar 5,7446 de 26/11), R$ 958 abaixo do teto",
+    "Processador": "Ryzen 7 8840HX, 12 núcleos / 24 linhas, até 5,1 GHz (ficha MSI E8WFK-053US)",
+    "Placa de vídeo": "RTX 5060 a 115 W (ficha MSI); a versão Intel do mesmo corpo usou ~112 W em jogo no modo Desempenho (Notebookcheck)",
+    "Tela": "16\" 2560×1600, 240 Hz, 100% DCI-P3 (ficha MSI); na versão Intel medida: 523 nits de média, 100% sRGB, contraste 886:1",
+    "Piscar da tela": "Não detectado na versão Intel do mesmo corpo (Notebookcheck, painel MNG007DA6-1). Neste modelo AMD não há medição: a ficha traz a mesma especificação de tela",
+    "Ruído": "Parado 26 dB; jogando 49,9 dB (Equilibrado), 53,6 dB (Desempenho), 58,6 dB no máximo (versão Intel)",
+    "Calor": "Em jogo, parte de cima até 42,4 °C (média 34,5 °C); apoio das mãos até 29,6 °C (versão Intel)",
+    "Bateria": "80 Wh; cerca de 6 h navegando no Wi-Fi com a placa integrada (versão Intel)",
+    "Peso": "2,23 kg + carregador de 240 W (725 g)",
+    "Ampliar": "2 entradas de memória (vem 2×8 GB) e 2 entradas de SSD M.2 2280 (versão Intel do corpo; nesta, \"provável\")",
+    "Cor": "Cinza escuro (Cosmo Gray nas fichas da linha); não há branco",
+    "Loja e garantia": "Walmart direto; garantia MSI nos EUA"
+   },
+   "comparado": "Contra o OMEN 15 (mesmo preço): ganha em tela (100% sRGB e ~520 nits contra 62,5% sRGB e 300 nits) e em processador (12 × 8 núcleos); perde em silêncio e calor no jogo e pesa quase o mesmo. Contra os Legion: telas IPS sem piscar contra OLED que pisca; os Legion são mais leves (1,87–1,95 kg).",
+   "fortes": [
+    "RTX 5060 a 115 W",
+    "Tela 2560×1600 240 Hz, 100% sRGB, sem piscar (medida na versão Intel)",
+    "1 TB, 2 entradas de memória e de SSD",
+    "Walmart direto, em estoque na ficha"
+   ],
+   "fracos": [
+    "Barulhento em jogo (até 53,6 dB no modo Desempenho)",
+    "Superfície quente em jogo (42 °C em cima)",
+    "Bateria mediana (~6 h)",
+    "Plástico que marca dedo",
+    "Medições são da versão Intel do mesmo corpo"
+   ],
+   "fontes": [
+    "https://storage-asset.msi.com/specSheet/us/nb/Crosshair%20A16%20HX%20E8WFK-053US.pdf",
+    "https://www.notebookcheck.net/MSI-Crosshair-16-HX-E14WFK-laptop-review-Core-gaming-without-the-extras.1433424.0.html"
+   ]
+  },
+  "sp:hp|hyperx omen 15|ryzen 7 8745hx|5060|16gb|1tb|fhd": {
+   "veredito": "Mesmo OMEN 15, outra página do Walmart",
+   "por_que": "O design que você gostou, com placa a 115 W, 1 TB e venda direta a US$ 1.199. Fica atrás do Crosshair só pela tela: cores pálidas e pouco brilho.",
+   "bom_para": "quem prioriza silêncio e teclado frio e não liga muito para cor de tela",
+   "ficha": {
+    "Preço": "US$ 1.199 · com 9,5% US$ 1.312,91 · R$ 7.542, Walmart direto (\"IN_STOCK\" lido na ficha hoje)",
+    "Processador": "Ryzen 7 8745HX, 8 núcleos; ~18.450 pontos no Cinebench R23 (estimativa Notebookcheck)",
+    "Placa de vídeo": "RTX 5060 a 115 W (ficha HP Japão, mesma série 15-gb0000 e processador)",
+    "Tela": "15,3\" 1920×1200 (vendido como \"2K\"), 165 Hz, 300 nits, 62,5% sRGB (ficha HP): cores pálidas",
+    "Piscar da tela": "Não medido nesta tela (IPS; não achei teste). Risco desconhecido",
+    "Ruído": "Parado 25 dB (Notebookcheck, versão RTX 5070 do mesmo corpo); em jogo as análises divergem: \"baixo e grave\" (HotHardware) × \"alto\" (Tom's Guide)",
+    "Calor": "Teclado até 33,8 °C em carga (Notebookcheck, versão 5070): o mais frio da lista",
+    "Bateria": "70 Wh; ~16 h de vídeo na versão 5070 (HotHardware); Tom's Guide reclamou da bateria em outra versão",
+    "Peso": "2,27–2,42 kg (ficha HP)",
+    "Ampliar": "2 entradas de memória e 2ª entrada de SSD",
+    "Cor": "Preto iridescente (título do Walmart); não há branco",
+    "Loja e garantia": "Walmart direto; garantia HP nos EUA; só 14 avaliações no Walmart"
+   },
+   "comparado": "Contra o Crosshair (mesmo preço): mais silencioso e frio, design que você gostou; perde feio em tela e em processador. Contra o Legion 5i branco (US$ 1 a mais): o Legion é mais leve e tem tela muito melhor, mas OLED que pisca e 512 GB.",
+   "fortes": [
+    "RTX 5060 a 115 W (ficha HP)",
+    "Parado 25 dB, teclado até 33,8 °C",
+    "1 TB e 2ª entrada de SSD",
+    "Walmart direto",
+    "Design que você gostou"
+   ],
+   "fracos": [
+    "Tela 62,5% sRGB e 300 nits",
+    "Piscar da tela não medido",
+    "Processador de 8 núcleos",
+    "2,3–2,4 kg"
+   ],
+   "fontes": [
+    "https://www.notebookcheck.net/HP-HyperX-Omen-15-ga0000-Reviews-and-Specs.1390281.0.html",
+    "https://hothardware.com/reviews/hp-hyperx-omen-15-gaming-laptop-review?page=3",
+    "https://www.tomsguide.com/computing/gaming-laptops/hyperx-omen-15-review"
+   ]
+  },
+  "solo:https://www.bhphotovideo.com/c/product/1998991-REG/lenovo_83vk002dus_15_3_legion_5_laptop.html": {
+   "veredito": "O Legion mais forte, em estoque",
+   "ordem16": 4,
+   "por_que": "Mesmo corpo do Legion branco, com processador de 18 núcleos (o mais forte dos 16 GB até o limite), em estoque na B&H. Tela OLED que pisca.",
+   "bom_para": "quem quer o processador mais forte num corpo leve e tolera tela que pisca",
+   "ficha": {
+    "Preço": "US$ 1.349,99 · com 9,5% US$ 1.478,24 · R$ 8.492, B&H direto, \"In Stock\" (ficha lida 26/11), R$ 8 abaixo do teto",
+    "Processador": "Core Ultra 7 251HX, 18 núcleos; 26.001 pontos no Cinebench R23 (Notebookcheck): o maior da lista",
+    "Placa de vídeo": "RTX 5060 a 115 W (ficha Lenovo 15IAX11)",
+    "Tela": "OLED 15,3\" 2560×1600 165 Hz; 495 nits, 100% sRGB, HDR até 1.076 nits; muito reflexiva",
+    "Piscar da tela": "Pisca em todos os níveis de brilho: 1.298 Hz, 25% de amplitude (Notebookcheck, Legion 5 15IAX11). Para quem é sensível, é o ponto fraco principal",
+    "Ruído": "Parado 22,8–26,6 dB; jogando 52 dB no modo Desempenho (versão 5070)",
+    "Calor": "Em cima até 42,2 °C, embaixo 49 °C em carga",
+    "Bateria": "80 Wh; \"autonomia longa\" com a placa integrada",
+    "Peso": "1,95 kg + carregador de 245 W",
+    "Ampliar": "2 entradas de memória e 2 de SSD (uma de 42 mm)",
+    "Cor": "Não informada na B&H (provável preto)",
+    "Loja e garantia": "B&H direto; garantia Lenovo nos EUA"
+   },
+   "comparado": "Contra o branco (US$ 150 a menos): só ganha em processador (18 × 14 núcleos) e em estar em estoque. Contra o Crosshair (US$ 151 a menos): processador mais forte, 300 g mais leve e mais silencioso parado; perde em tela (pisca) e em SSD (512 GB × 1 TB).",
+   "fortes": [
+    "Processador mais forte da lista (26.001 pontos)",
+    "115 W",
+    "1,95 kg",
+    "B&H direto, em estoque"
+   ],
+   "fracos": [
+    "Tela pisca em todos os níveis",
+    "512 GB",
+    "R$ 8.492, no limite do teto",
+    "Ventoinha alta no modo Desempenho"
+   ],
+   "fontes": [
+    "https://www.notebookcheck.net/Lenovo-Legion-5-15IAX11-review-Optimized-for-1440p-gaming.1380978.0.html",
+    "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_5_15IAX11/Legion_5_15IAX11_Spec.pdf"
    ]
   }
  },
@@ -711,12 +955,6 @@
    "nome": "MECHREVO Aurora 16x · i7-14650HX · RTX 5060 · 16 GB · 1TB (Amazon, CyberGamers)",
    "url": "https://www.amazon.com/dp/B0H7BBK1LC",
    "motivo": "Acima do teto (US$ 1.349,99) com 16 GB, de terceiro e potência da placa não informada; o Strix G16 custa US$ 49 a mais com processador e placa provadamente superiores, em venda direta."
-  },
-  {
-   "chave": "solo:https://www.bhphotovideo.com/c/product/1998991-REG/lenovo_83vk002dus_15_3_legion_5_laptop.html",
-   "nome": "Lenovo Legion 5i · RTX 5060 · 16 GB · 512GB (B&H)",
-   "url": "https://www.bhphotovideo.com/c/product/1998991-REG/lenovo_83vk002dus_15_3_legion_5_laptop.html",
-   "motivo": "Mesmo preço (US$ 1.399) do Strix G16 em venda direta, que tem 1 TB e o processador mais forte da lista; com 16 GB e 512 GB, perde para ele."
   },
   {
    "chave": "solo:https://www.walmart.com/ip/20906950993",
