@@ -98,25 +98,26 @@ function quadro(){
 }
 let D,AV={},FORA=[];
 function cartao(m){
+  const F=AV[m.chave]?.ficha||{};
   const et=[...m.etiquetas.map(e=>`<span class="${e==='acima do teto'?'ruim':''}" title="${esc(e==='conferir'?(m.conferir||[]).join('; '):'')}">${esc(e)}</span>`)];
   if(m.promo)et.unshift(`<span class="bom">caiu ${esc(m.promo.queda_pct)}%${m.promo.menor_ja_visto?' · menor já visto':''}</span>`);
   else if(m.usd<=m.menor_visto&&D.bf)et.unshift('<span class="bom">menor já visto</span>');
   if(m.estoque===false)et.unshift('<span class="ruim">esgotado</span>');
   const antes=m.antes?`<div class="sub">"Antes" segundo a loja: ${us(m.antes)} · menor que já vimos: ${us(m.menor_visto)}</div>`:`<div class="sub">Menor que já vimos: ${us(m.menor_visto)}</div>`;
   const out=(m.outras||[]).map(o=>`<li><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)}${o.vendedor?' · '+esc(o.vendedor):''} · ${idade(o.visto)}</li>`).join('');
-  return `<article class="c"><h3>${m.pos}. ${esc(m.nome)}</h3>
+  return `<article class="c"><h3>${m.pos}. ${esc(AV[m.chave]?.nome||m.nome)}</h3>
   <div class="et">${et.join('')}</div>
   <div class="preco">${rs(m.rs)} <small>${us(m.usd)} na etiqueta</small></div>
   ${antes}
   <a class="botao" href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">Ver na ${esc(m.loja)}</a>
   <div class="sub">${m.direto?'Venda direta':'Vendedor: '+esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>
   <dl>
-   <dt>Processador</dt><dd>${esc(m.cpu||'não lido')}${m.cinebench?` · ${m.cinebench.um.toLocaleString('pt-BR')} / ${m.cinebench.varios.toLocaleString('pt-BR')}`:''}</dd>
-   <dt>Placa</dt><dd>${esc(m.placa||'RTX '+(m.gpu||'?'))}</dd>
-   <dt>Ampliar</dt><dd>Memória: ${esc(m.memoria||'não informado')} · 2º SSD: ${esc(m.ssd2)}</dd>
-   <dt>Ruído</dt><dd>${esc(m.ruido||'sem medição achada')}</dd>
-   <dt>Teclado</dt><dd>${esc(m.topo||'sem medição achada')}</dd>
-   <dt>Tela</dt><dd>${esc(m.tela_ficha||'não levantada')}</dd>
+   <dt>Processador</dt><dd>${esc(F['Processador']||m.cpu||'não lido')}${!F['Processador']&&m.cinebench?` · ${m.cinebench.um.toLocaleString('pt-BR')} / ${m.cinebench.varios.toLocaleString('pt-BR')}`:''}</dd>
+   <dt>Placa</dt><dd>${esc(F['Placa de vídeo']||m.placa||'RTX '+(m.gpu||'?'))}</dd>
+   <dt>Ampliar</dt><dd>${F['Ampliar']?esc(F['Ampliar']):`Memória: ${esc(m.memoria||'não informado')} · 2º SSD: ${esc(m.ssd2)}`}</dd>
+   <dt>Ruído</dt><dd>${esc(F['Ruído']||m.ruido||'sem medição achada')}</dd>
+   <dt>Teclado</dt><dd>${esc(F['Calor']||m.topo||'sem medição achada')}</dd>
+   <dt>Tela</dt><dd>${esc(F['Tela']||m.tela_ficha||'não levantada')}${F['Piscar da tela']?' · Piscar: '+esc(F['Piscar da tela']):''}</dd>
   </dl>
   ${out?`<details><summary>Outras lojas (${m.outras.length})</summary><ul class="outras">${out}</ul></details>`:''}
   ${porque(m)}
@@ -132,12 +133,12 @@ function porque(m){
   return `<details><summary>Por que está aqui: ${esc(a.veredito)}</summary><p>${esc(a.por_que)}</p>${a.bom_para?`<p><b>Bom para:</b> ${esc(a.bom_para)}</p>`:''}${f}${cp}<b>Pontos fortes</b>${l(a.fortes)}<b>Pontos fracos</b>${l(a.fracos)}${a.fontes?`<div class="sub">Fontes: ${a.fontes.map(u=>`<a href="${seguro(u)}" rel="noopener noreferrer" target="_blank">${esc(u.replace(/^https:\/\/(www\.)?/,'').split('/')[0])}</a>`).join(' · ')}</div>`:''}</details>`;
 }
 function etq(m){return m.etiquetas.concat(m.estoque===false?['esgotado']:[],m.promo?['caiu '+m.promo.queda_pct+'%']:[]).join(' · ');}
-function linhaT(m){return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.nome)}</a><div class="sub">${esc(etq(m))}</div>${porque(m)}</td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)} · ${idade(o.visto)}</div>`).join('')}</td><td>${m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(m.placa||'não informado')}</td><td>${esc(m.memoria||'não informado')}<div class="sub">2º SSD: ${esc(m.ssd2)}</div></td><td>${esc(m.ruido||'sem medição')}</td><td>${esc(m.topo||'sem medição')}</td><td>${esc(m.tela_ficha||'não levantada')}</td></tr>`;}
+function linhaT(m){const F=AV[m.chave]?.ficha||{};return `<tr><td>${m.pos}</td><td><a href="${seguro(m.url)}" rel="noopener noreferrer" target="_blank">${esc(AV[m.chave]?.nome||m.nome)}</a><div class="sub">${esc(etq(m))}</div>${porque(m)}</td><td><b>${rs(m.rs)}</b><div class="sub">${us(m.usd)}</div></td><td>${esc(m.loja)}<div class="sub">${m.direto?'direto':esc(m.vendedor||'não lido')} · ${idade(m.visto)}${origem(m)}</div>${(m.outras||[]).map(o=>`<div class="sub"><a href="${seguro(o.url)}" rel="noopener noreferrer" target="_blank">${esc(o.loja)}</a> ${us(o.usd)} · ${idade(o.visto)}</div>`).join('')}</td><td>${F['Processador']?esc(F['Processador']):m.cinebench?m.cinebench.um.toLocaleString('pt-BR')+' / '+m.cinebench.varios.toLocaleString('pt-BR'):'sem dado'}</td><td>${esc(F['Placa de vídeo']||m.placa||'não informado')}</td><td>${F['Ampliar']?esc(F['Ampliar']):esc(m.memoria||'não informado')+`<div class="sub">2º SSD: ${esc(m.ssd2)}</div>`}</td><td>${esc(F['Ruído']||m.ruido||'sem medição')}</td><td>${esc(F['Calor']||m.topo||'sem medição')}</td><td>${esc(F['Tela']||m.tela_ficha||'não levantada')}${F['Piscar da tela']?`<div class="sub">Piscar: ${esc(F['Piscar da tela'])}</div>`:''}</td></tr>`;}
 function desenhar(){
   const p=+$('f-preco').value,g=$('f-gpu').value,t=$('f-tam').value,e=$('f-est').value;
   const bate=m=>(!p||m.rs<=p)&&(!g||(g==='5060'?/^5060/.test(m.gpu):!/^5060/.test(m.gpu)))&&
     (!t||(t==='15'?m.polegadas&&m.polegadas<16:t==='16'?m.polegadas>=16&&m.polegadas<17:m.polegadas>=17))&&(!e||m.estoque!==false);
-  const num=(m,i)=>({...m,pos:i+1}),base=D.modelos.filter(m=>m.ram!==16),v=base.filter(bate).sort((a,b)=>(AV[a.chave]?.ordem||99)-(AV[b.chave]?.ordem||99)).map(num),x=D.modelos.filter(m=>m.ram===16&&(m.excecao16||AV[m.chave]?.ordem16)).filter(bate).sort((a,b)=>(AV[a.chave]?.ordem16||99)-(AV[b.chave]?.ordem16||99)||a.rs-b.rs).map(num);
+  const RAM=m=>AV[m.chave]?.ram_real??m.ram,num=(m,i)=>({...m,pos:i+1}),base=D.modelos.filter(m=>RAM(m)!==16),v=base.filter(bate).sort((a,b)=>(AV[a.chave]?.ordem||99)-(AV[b.chave]?.ordem||99)).map(num),x=D.modelos.filter(m=>RAM(m)===16&&(m.excecao16||AV[m.chave]?.ordem16)).filter(bate).sort((a,b)=>(AV[a.chave]?.ordem16||99)-(AV[b.chave]?.ordem16||99)||a.rs-b.rs).map(num);
   $('cont').textContent=v.length+' de '+base.length+' notebooks de 32 GB. SSD de 512 GB precisa de 2ª entrada; com 1 TB ou mais ela é só ponto a favor.';
   $('cartoes').innerHTML=v.map(cartao).join('')||'<p>Nenhum notebook com esses filtros.</p>';
   const cab=`<tr><th>#</th><th>Notebook</th><th>Preço</th><th>Loja</th><th>Processador (1 núcleo / vários)</th><th>Placa de vídeo</th><th>Ampliar</th><th>Ruído</th><th>Teclado</th><th>Tela</th></tr>`;
