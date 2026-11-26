@@ -428,7 +428,25 @@
     "Ruído só aproximado (outra versão, 41–54 dB em carga)",
     "Estoque não conferido"
    ],
-   "ordem16": 10
+   "ordem16": 10,
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=Qd-SXvTEjbk",
+     "titulo": "ASUS Strix G16 (2025) Review - Intel or AMD? Don't Choose Wrong!",
+     "canal": "Jarrod'sTech",
+     "data": "20/10/2025",
+     "duracao": "30:08",
+     "obs": "em inglês"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=fjfXtXJMsvY",
+     "titulo": "A RTX 5060 do ROG STRIX G16 2025 superou a RTX 4070 nos NOTEBOOKS GAMERS?",
+     "canal": "Lucas Ishii",
+     "data": "16/07/2025",
+     "duracao": "38:34",
+     "obs": "em português"
+    }
+   ]
   },
   "sp:acer|nitro v 16|core 7 240h|5060|32gb|512gb|fhd": {
    "veredito": "32 GB mais barato (acima do teto)",
@@ -499,6 +517,16 @@
    "comparado": "Contra os Legion 5i: mesmo corpo; mais barato e mais leve, processador bem mais fraco. A tela pisca só abaixo de 50%, mas em frequência mais baixa (656 × 1.298 Hz), o que costuma incomodar mais quem é sensível.",
    "fontes": [
     "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_5_15IAX11/Legion_5_15IAX11_Spec.pdf"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=tpGsxyqR794",
+     "titulo": "Lenovo Legion 5a (2026) Gen 11 REVIEW - A Great All-Round Gaming Laptop! (With some flaws...)",
+     "canal": "Crimson Tech",
+     "data": "11/03/2026",
+     "duracao": "14:38",
+     "obs": "em inglês; mesmo modelo"
+    }
    ]
   },
   "sp:lenovo|loq 15|ryzen 7 250|5060|16gb|512gb|fhd": {
@@ -516,6 +544,16 @@
     "Teclado até 49 °C em jogo",
     "2,4 kg, tela de 300 nits",
     "512 GB"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=JcUQZQFTWhA",
+     "titulo": "LOQ 15 Review - A HUGE Late 2025 Update w/ RTX 5060",
+     "canal": "Hardware Canucks",
+     "data": "16/11/2025",
+     "duracao": "18:19",
+     "obs": "em inglês"
+    }
    ]
   },
   "sp:gigabyte|aero x16|ryzen ai 7 350|5060|16gb|512gb|alta": {
@@ -533,6 +571,16 @@
     "Placa limitada: 85 W medidos na versão 5070",
     "512 GB (a 2ª entrada é mais lenta, PCIe 4.0 x2)",
     "Vendedor de terceiros na Amazon (Prime Distributor Global)"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=de2hDaZqfKI",
+     "titulo": "Gigabyte Aero X16 (2025) Review - The Stealthy Option",
+     "canal": "Jarrod'sTech",
+     "data": "01/07/2025",
+     "duracao": "16:48",
+     "obs": "em inglês"
+    }
    ]
   },
   "solo:https://www.walmart.com/ip/20106954575": {
@@ -572,6 +620,16 @@
     "https://www.notebookcheck.net/HP-HyperX-Omen-15-ga0000-Reviews-and-Specs.1390281.0.html",
     "https://hothardware.com/reviews/hp-hyperx-omen-15-gaming-laptop-review?page=3",
     "https://www.tomsguide.com/computing/gaming-laptops/hyperx-omen-15-review"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=G_bOz8dhsu0",
+     "titulo": "HP HyperX Omen 15 (2026) Review - Cool & Quiet, at a Cost",
+     "canal": "Jarrod'sTech",
+     "data": "21/08/2026",
+     "duracao": "25:10",
+     "obs": "em inglês; mesmo corpo, testes de ruído e calor"
+    }
    ]
   },
   "sp:dell|alienware 15.3\"|ryzen 7 260|5060|16gb|1tb|fhd": {
@@ -590,6 +648,16 @@
     "2,2 kg",
     "Exige ser sócio da Costco; preço até 30/11",
     "Entradas de SSD não confirmadas"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=-5mcKMtkUuA",
+     "titulo": "Alienware's Cheapest Gaming Laptop - Alienware 15 (2026) Review",
+     "canal": "Jarrod'sTech",
+     "data": "24/06/2026",
+     "duracao": "20:39",
+     "obs": "em inglês"
+    }
    ]
   },
   "sp:lenovo|legion 5i|core 7 245hx|5060|16gb|512gb|alta": {
@@ -629,6 +697,16 @@
    "fontes": [
     "https://www.notebookcheck.net/Lenovo-Legion-5-15IAX11-review-Optimized-for-1440p-gaming.1380978.0.html",
     "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_5_15IAX11/Legion_5_15IAX11_Spec.pdf"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=FVCFh9ci4vc",
+     "titulo": "The Legion 5 got Better and Worse in 2026 - Choose Carefully",
+     "canal": "Jarrod'sTech",
+     "data": "11/09/2026",
+     "duracao": "22:50",
+     "obs": "em inglês; Legion 5i de 2026, mesmo corpo"
+    }
    ]
   },
   "sp:msi|crosshair 16|ryzen 7 8840hx|5060|16gb|1tb|alta": {
@@ -667,6 +745,24 @@
    "fontes": [
     "https://storage-asset.msi.com/specSheet/us/nb/Crosshair%20A16%20HX%20E8WFK-053US.pdf",
     "https://www.notebookcheck.net/MSI-Crosshair-16-HX-E14WFK-laptop-review-Core-gaming-without-the-extras.1433424.0.html"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=OyGUY7g8mHs",
+     "titulo": "MSI Crosshair A16 HX Hands On Review - This 16 Core RYZEN Laptop Is FAST",
+     "canal": "ETA PRIME",
+     "data": "12/09/2026",
+     "duracao": "10:43",
+     "obs": "em inglês; mesmo corpo com Ryzen 9 8940HX; patrocinado por MSI e AMD"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=WumTdFOV5n4",
+     "titulo": "I Spent Time With the MSI Crosshair A16 HX - Here's My Verdict",
+     "canal": "Tyron Tech",
+     "data": "16/11/2026",
+     "duracao": "7:02",
+     "obs": "em inglês; mesmo modelo, canal pequeno"
+    }
    ]
   },
   "sp:hp|hyperx omen 15|ryzen 7 8745hx|5060|16gb|1tb|fhd": {
@@ -742,6 +838,24 @@
    "fontes": [
     "https://www.notebookcheck.net/Lenovo-Legion-5-15IAX11-review-Optimized-for-1440p-gaming.1380978.0.html",
     "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_5_15IAX11/Legion_5_15IAX11_Spec.pdf"
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=FVCFh9ci4vc",
+     "titulo": "The Legion 5 got Better and Worse in 2026 - Choose Carefully",
+     "canal": "Jarrod'sTech",
+     "data": "11/09/2026",
+     "duracao": "22:50",
+     "obs": "em inglês; Legion 5i de 2026, mesmo corpo"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=TwKx12wBn8g",
+     "titulo": "Legion 5 2026 Review: Don't Buy the Wrong One!",
+     "canal": "Just Josh",
+     "data": "02/05/2026",
+     "duracao": "14:43",
+     "obs": "em inglês; compara as versões de 2026"
+    }
    ]
   },
   "solo:https://www.amazon.com/dp/B0HS48L27B": {
@@ -780,7 +894,17 @@
    ],
    "ram_real": 16,
    "ordem16": 11,
-   "nome": "ASUS TUF A16 · Ryzen 7 8745HX · RTX 5060 115 W · 16 GB"
+   "nome": "ASUS TUF A16 · Ryzen 7 8745HX · RTX 5060 115 W · 16 GB",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=A0Qui0XNn7Q",
+     "titulo": "Asus TUF A16 (2025) REVIEW - The CHEAPEST 2025 Gaming Laptop! (Budget)",
+     "canal": "Crimson Tech",
+     "data": "16/07/2025",
+     "duracao": "11:36",
+     "obs": "em inglês; mesmo corpo FA608, outro processador"
+    }
+   ]
   },
   "solo:https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-series/lenovo-legion-5-gen-10-15-inch-amd/83m00002us": {
    "veredito": "O Legion com OLED que não pisca (medido na versão Intel)",
@@ -820,7 +944,25 @@
    ],
    "ram_real": 16,
    "ordem16": 3,
-   "nome": "Lenovo Legion 5 Gen 10 (2025) · Ryzen 7 260 · RTX 5060 115 W · 16 GB · 1 TB · OLED 15,1\""
+   "nome": "Lenovo Legion 5 Gen 10 (2025) · Ryzen 7 260 · RTX 5060 115 W · 16 GB · 1 TB · OLED 15,1\"",
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=PBu4J1Y8-Go",
+     "titulo": "Lenovo Legion 5 - already the best RTX 5060 laptop?",
+     "canal": "Notebookcheck",
+     "data": "21/07/2025",
+     "duracao": "13:30",
+     "obs": "em inglês; Legion 5 de 2025"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=TuPBAgJDokQ",
+     "titulo": "O LEGION FINALMENTE SUPEROU os CONCORRENTES?! Lenovo Legion 5i Gen10 com TELA OLED e uma RTX 5060",
+     "canal": "Lucas Ishii",
+     "data": "18/11/2025",
+     "duracao": "40:16",
+     "obs": "em português; versão Intel do mesmo corpo"
+    }
+   ]
   }
  },
  "fora": [
