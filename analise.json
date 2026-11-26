@@ -731,6 +731,78 @@
     "https://www.notebookcheck.net/Lenovo-Legion-5-15IAX11-review-Optimized-for-1440p-gaming.1380978.0.html",
     "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_5_15IAX11/Legion_5_15IAX11_Spec.pdf"
    ]
+  },
+  "solo:https://www.amazon.com/dp/B0HS48L27B": {
+   "veredito": "É de 16 GB, não 32; perde para o Crosshair",
+   "por_que": "Aparece entre os de 32 GB só porque o título da Amazon não diz a memória; a ficha da página diz 16 GB. Hoje custa US$ 1.359,99 (lido 26/11), mais caro que o Crosshair 16, que tem a mesma potência, tela melhor e venda direta.",
+   "bom_para": "só se aparecer bem abaixo do Crosshair (já custou US$ 1.099 no Walmart, em 15/11)",
+   "ficha": {
+    "Preço": "US$ 1.359,99 · com 9,5% US$ 1.489,19 · R$ 8.555 (lido na Amazon 26/11; o script tinha lido US$ 1.399,99), R$ 55 acima do teto",
+    "Processador": "Ryzen 7 8745HX, 8 núcleos / 16 linhas, até 5,1 GHz (anúncio); ~18.450 pontos no Cinebench R23 (estimativa Notebookcheck)",
+    "Placa de vídeo": "RTX 5060 a 115 W (ASUS), com chave para ligar a placa direto na tela (MUX)",
+    "Tela": "16\" 1920×1200 165 Hz; o anúncio diz 100% sRGB, sem medição independente",
+    "Piscar da tela": "Não medido nesta tela",
+    "Ruído": "Parado 32,2 dB; 38–57 dB em carga (Notebookcheck, análise 1122766, versão RTX 5070 do mesmo corpo FA608): mais barulhento parado que Crosshair e OMEN",
+    "Calor": "Parado 25 °C; ~40 °C em carga (mesma versão)",
+    "Bateria": "Não levantada",
+    "Peso": "2,21 kg",
+    "Ampliar": "2 entradas de memória (até 64 GB) e 2ª entrada de SSD",
+    "Cor": "Cinza (ficha da Amazon)",
+    "Loja e garantia": "Amazon, anúncio de revendedor que monta o próprio pacote (\"CyberGeek Customed\"); a ficha diz \"Windows 10 Home\", provável erro do anúncio; a troca de peça pelo revendedor pode complicar a garantia ASUS. Pelo Chrome (loja de Porto Rico) não entrega aqui, o que não prova nada nos EUA. SSD não informado na ficha lida"
+   },
+   "comparado": "Contra o Crosshair 16 (US$ 161 a menos, Walmart direto): mesma potência de placa, processador mais fraco (8 × 12 núcleos), tela inferior (1920×1200 sem medição × 2560×1600 medida sem piscar), mais barulho parado e vendedor de terceiro. Contra o OMEN 15 (US$ 161 a menos): mesmo processador, OMEN mais silencioso e com 1 TB confirmado.",
+   "fortes": [
+    "RTX 5060 a 115 W",
+    "2 entradas de memória (até 64 GB) e de SSD",
+    "Parado frio (25 °C)"
+   ],
+   "fracos": [
+    "16 GB (o título não diz)",
+    "US$ 161 mais caro que o Crosshair e o OMEN",
+    "Revendedor que monta o pacote; garantia incerta",
+    "SSD não informado",
+    "Tela sem medição"
+   ],
+   "fontes": [
+    "https://www.amazon.com/dp/B0HS48L27B"
+   ]
+  },
+  "solo:https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-series/lenovo-legion-5-gen-10-15-inch-amd/83m00002us": {
+   "veredito": "É de 16 GB; o único Legion com OLED medido sem piscar",
+   "por_que": "Aparece entre os de 32 GB porque o título não diz a memória; a ficha oficial (PSREF) diz 1×16 GB. É o Legion de 2025 (15,1\"), outro corpo dos Legion de 2026: a versão Intel desse corpo foi medida sem piscar. Custa US$ 1.419,99 hoje na Lenovo; a página avisa que cai para US$ 1.399,99 à meia-noite (horário de Nova York) da Black Friday.",
+   "bom_para": "quem quer um Legion com tela OLED sem piscar e aceita pagar ~R$ 1.300 a mais que o Crosshair",
+   "ficha": {
+    "Preço": "US$ 1.419,99 hoje (US$ 1.399,99 na Black Friday) · com 9,5% US$ 1.554,89 · R$ 8.932 (R$ 8.806 a US$ 1.399,99), acima do teto de R$ 8.500",
+    "Processador": "Ryzen 7 260, 8 núcleos / 16 linhas, até 5,1 GHz (PSREF); ~17.211 pontos",
+    "Placa de vídeo": "RTX 5060 a 115 W (PSREF)",
+    "Tela": "OLED 15,1\" 2560×1600 165 Hz, 500 nits (1.000 de pico), 100% DCI-P3, brilhante (PSREF)",
+    "Piscar da tela": "Sem piscar na versão Intel do mesmo corpo (Legion 5i 15IRX10, LaptopMedia); nesta versão AMD, não medido",
+    "Ruído": "Parado 24–28 dB; 39,6–50,1 dB em carga (versão Intel do mesmo corpo, aproximado)",
+    "Calor": "Teclado 29,4 °C parado, até 41,6 °C em carga (versão Intel)",
+    "Bateria": "80 Wh; carregador de 245 W (PSREF)",
+    "Peso": "a partir de 1,9 kg (PSREF)",
+    "Ampliar": "Vem com 1 pente de 16 GB; 2 entradas, máx. oficial 32 GB. SSD de 1 TB e 2 entradas M.2 (PSREF)",
+    "Cor": "Preto (Eclipse Black), teclado com luz em 24 zonas",
+    "Loja e garantia": "Lenovo EUA direto (\"Add To Cart\" na página; estoque não confirmado)"
+   },
+   "comparado": "Contra os Legion de 2026 (5i branco, 5i 251HX, 5a): o único com OLED medido sem piscar e com 1 TB; processador de 8 núcleos e mais caro. Contra o Crosshair (US$ 221 mais barato): ganha em peso (1,9 × 2,23 kg) e silêncio, perde em preço; ambos medidos sem piscar.",
+   "fortes": [
+    "OLED sem piscar (versão Intel do mesmo corpo)",
+    "115 W",
+    "1 TB e 2 entradas de SSD",
+    "1,9 kg",
+    "Lenovo direto"
+   ],
+   "fracos": [
+    "16 GB num pente só (memória mais lenta até pôr o 2º)",
+    "R$ 8.806–8.932, acima do teto",
+    "Processador de 8 núcleos",
+    "Piscar não medido nesta versão AMD"
+   ],
+   "fontes": [
+    "https://psref.lenovo.com/Detail/Legion/Legion_5_15AHP10?M=83M00002US",
+    "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-series/lenovo-legion-5-gen-10-15-inch-amd/83m00002us"
+   ]
   }
  },
  "fora": [
@@ -991,6 +1063,24 @@
    "nome": "ASUS TUF A16 · Ryzen 7 8745HX · RTX 5060 · 16 GB · 512GB",
    "url": "https://www.walmart.com/ip/High-Performance-Laptop-Computer-for-Everyday-Use/20135016910",
    "motivo": "Conferido em 19/11: o US$ 1.099 de 15/11 acabou; agora US$ 1.499,99 por terceiro (Value Tech), acima do limite."
+  },
+  {
+   "chave": "solo:https://www.newegg.com/hasee-s8-15-6-nvidia-geforce-rtx-5060-laptop-gpu-intel-core-i7-13620h-fhd-16gb-memory-1tb-ssd/p/2WC-004U-00057",
+   "nome": "Hasee S8 · i7-13620H · RTX 5060 · 16 GB · 1 TB (Newegg)",
+   "url": "https://www.newegg.com/hasee-s8-15-6-nvidia-geforce-rtx-5060-laptop-gpu-intel-core-i7-13620h-fhd-16gb-memory-1tb-ssd/p/2WC-004U-00057",
+   "motivo": "É de 16 GB (título diz \"16G\"). US$ 1.189,99, só US$ 9 abaixo do Crosshair 16, que é venda direta, tem processador mais forte (12 × 10 núcleos), tela 2560×1600 medida sem piscar e teste independente; este é de terceiro, com tela 1920×1080 e nenhum teste."
+  },
+  {
+   "chave": "solo:https://www.newegg.com/hasee-s8-15-6-nvidia-geforce-rtx-5060-laptop-gpu-intel-core-i7-13620h-fhd-16gb-memory-1tb-ssd/p/2WC-004U-00074",
+   "nome": "Hasee S8 · i7-13620H · RTX 5060 · 16 GB · 1 TB (Newegg, 2º anúncio)",
+   "url": "https://www.newegg.com/hasee-s8-15-6-nvidia-geforce-rtx-5060-laptop-gpu-intel-core-i7-13620h-fhd-16gb-memory-1tb-ssd/p/2WC-004U-00074",
+   "motivo": "É de 16 GB (título diz \"16G\"). US$ 1.189,99, só US$ 9 abaixo do Crosshair 16, que é venda direta, tem processador mais forte (12 × 10 núcleos), tela 2560×1600 medida sem piscar e teste independente; este é de terceiro, com tela 1920×1080 e nenhum teste."
+  },
+  {
+   "chave": "solo:https://www.bhphotovideo.com/c/product/1911070-REG/acer_anv16s_71_71bs_16_nitro_16s_gaming.html",
+   "nome": "Acer Nitro V 16S · Core 7 240H · RTX 5070 · 16 GB · 1 TB (B&H)",
+   "url": "https://www.bhphotovideo.com/c/product/1911070-REG/acer_anv16s_71_71bs_16_nitro_16s_gaming.html",
+   "motivo": "RTX 5070 presa a 85 W (tabela Acer), na prática perto de uma 5060 a 115 W; custa US$ 1.399 (R$ 8.800), US$ 200 a mais que o Crosshair 16, que tem tela melhor e o mesmo 1 TB."
   }
  ]
 }

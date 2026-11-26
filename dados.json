@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-26T19:41:36.433Z",
+ "gerado": "2026-11-26T21:00:22.281Z",
  "modo": "varredura",
  "bf": false,
  "cambio": {
@@ -1576,7 +1576,7 @@
     "conferir"
    ],
    "conferir": [
-    "preço de 6 dias atrás"
+    "preço de 7 dias atrás"
    ],
    "ssd2": "sim",
    "memoria": "2 pentes, até 64 GB",
@@ -3147,7 +3147,7 @@
    "conferir": [
     "vendedor não lido",
     "junção entre lojas não confirmada",
-    "preço de 6 dias atrás"
+    "preço de 7 dias atrás"
    ],
    "ssd2": "não confirmado",
    "memoria": null,
@@ -3442,5 +3442,5 @@
    "pos": 68
   }
  ],
- "varredura_em": "2026-11-26T19:41:36.433Z"
+ "varredura_em": "2026-11-26T21:00:22.281Z"
 }
